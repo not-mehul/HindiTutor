@@ -11,7 +11,9 @@ import {
   Trophy,
   Heart,
   RotateCcw,
-  Send
+  Send,
+  Mic,
+  MicOff
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useApp } from '../context/AppContext';
@@ -48,6 +50,12 @@ export const LessonRunner: React.FC = () => {
   const [rapidTimer, setRapidTimer] = useState<number>(3);
   const [rapidActive, setRapidActive] = useState<boolean>(false);
 
+  // Speech Recognition & Oral Repetition State
+  const [isListening, setIsListening] = useState<boolean>(false);
+  const [speechTranscript, setSpeechTranscript] = useState<string>('');
+  const [speechError, setSpeechError] = useState<string | null>(null);
+  const [speechSupported, setSpeechSupported] = useState<boolean>(true);
+
   // Interactive Turn-by-Turn Roleplay State
   const roleplayTurns = selectedDay.simulationRoleplay.turns;
   const [roleplayStep, setRoleplayStep] = useState<number>(0);
@@ -77,6 +85,21 @@ export const LessonRunner: React.FC = () => {
       setRapidActive(false);
     }
   }, [currentExercise, stage]);
+
+  // Detect speech recognition support
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const hasSpeech = !!((window as any).SpeechRecognition || (window as any).webkitSpeechRecognition);
+      setSpeechSupported(hasSpeech);
+    }
+  }, []);
+
+  // Reset speech state when exercise changes
+  useEffect(() => {
+    setIsListening(false);
+    setSpeechTranscript('');
+    setSpeechError(null);
+  }, [exerciseIndex, stage]);
 
   // Countdown timer for rapid oral challenge
   useEffect(() => {
@@ -133,6 +156,76 @@ export const LessonRunner: React.FC = () => {
     setSelectedChips((prev) => prev.filter((_, i) => i !== idx));
   };
 
+  // Microphone Speech Recognition Handler
+  const handleToggleMic = () => {
+    const SpeechRecognitionClass =
+      (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+
+    if (!SpeechRecognitionClass) {
+      setSpeechSupported(false);
+      return;
+    }
+
+    if (isListening) {
+      setIsListening(false);
+      return;
+    }
+
+    try {
+      const recognition = new SpeechRecognitionClass();
+      recognition.lang = 'hi-IN';
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 3;
+
+      recognition.onstart = () => {
+        setIsListening(true);
+        setSpeechError(null);
+      };
+
+      recognition.onresult = (event: any) => {
+        const transcript = event.results[0]?.[0]?.transcript || '';
+        setSpeechTranscript(transcript);
+        setIsListening(false);
+        if (soundEnabled) sfx.playSuccess();
+        setFeedback('correct');
+      };
+
+      recognition.onerror = (event: any) => {
+        setIsListening(false);
+        if (event.error === 'not-allowed') {
+          setSpeechError(
+            uiLanguage === 'ru'
+              ? 'Доступ к микрофону заблокирован в настройках браузера'
+              : 'Microphone access denied in browser settings'
+          );
+        } else if (event.error === 'no-speech') {
+          setSpeechError(
+            uiLanguage === 'ru'
+              ? 'Звук не распознан. Попробуйте еще раз или подтвердите кнопкой ниже'
+              : 'No speech heard. Try again or tap confirm below'
+          );
+        } else {
+          setSpeechError(event.error);
+        }
+      };
+
+      recognition.onend = () => {
+        setIsListening(false);
+      };
+
+      recognition.start();
+    } catch (err: any) {
+      setIsListening(false);
+      setSpeechError(err?.message || 'Error initializing microphone');
+    }
+  };
+
+  // Oral Repetition Manual Confirmation Handler
+  const handleOralRepetitionConfirmed = () => {
+    if (soundEnabled) sfx.playSuccess();
+    setFeedback('correct');
+  };
+
   // Check Answer Handler
   const handleCheckAnswer = () => {
     if (!currentExercise || feedback !== 'idle') return;
@@ -146,6 +239,8 @@ export const LessonRunner: React.FC = () => {
       } else {
         isCorrect = selectedChips.join(' ') === targetAns;
       }
+    } else if (currentExercise.type === 'listen_and_repeat') {
+      isCorrect = true;
     } else {
       isCorrect = selectedOption === currentExercise.correctAnswer;
     }
@@ -438,9 +533,11 @@ export const LessonRunner: React.FC = () => {
             {/* Exercise Header */}
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <span className="text-xs font-extrabold bg-amber-100 text-amber-800 px-3 py-1 rounded-full uppercase tracking-wider">
-                {uiLanguage === 'ru' ? 'Упражнение' : 'Exercise'} {exerciseIndex + 1} / 4
+                {uiLanguage === 'ru' ? 'Упражнение' : 'Exercise'} {exerciseIndex + 1} / {selectedDay.exercises.length}
               </span>
-              <span className="text-xs text-slate-400 font-medium">11:00 - 17:00</span>
+              <span className="text-xs text-slate-400 font-medium">
+                {uiLanguage === 'ru' ? 'Фаза 3 (11:00–17:00)' : 'Phase 3 (11:00–17:00)'}
+              </span>
             </div>
 
             {/* Instruction */}
@@ -547,6 +644,114 @@ export const LessonRunner: React.FC = () => {
                     </button>
                   );
                 })}
+              </div>
+            )}
+
+            {/* TYPE 3: LISTEN AND REPEAT / ORAL SHADOWING (Microphone + Dual Audio + Self-Verification) */}
+            {currentExercise.type === 'listen_and_repeat' && (
+              <div className="mt-6 space-y-4">
+                {/* Target Hindi Pronunciation Display Card */}
+                <div className="bg-gradient-to-br from-emerald-50 to-teal-50/50 border-2 border-emerald-200 rounded-3xl p-6 text-center shadow-xs">
+                  <span className="text-[11px] font-black uppercase tracking-wider text-emerald-700 bg-white/80 px-3 py-1 rounded-full border border-emerald-200 inline-block mb-3">
+                    {uiLanguage === 'ru' ? '🎯 Целевое произношение (Шейдоуинг)' : '🎯 Target Oral Pronunciation'}
+                  </span>
+
+                  <div className="text-2xl sm:text-3xl font-black text-slate-900 tracking-wide">
+                    {currentExercise.transliterationIsoTarget || currentExercise.correctAnswer}
+                  </div>
+
+                  {currentExercise.phoneticCyrillicTarget && (
+                    <div className="text-sm font-semibold text-emerald-800 mt-2 font-mono">
+                      [{currentExercise.phoneticCyrillicTarget}]
+                    </div>
+                  )}
+
+                  {/* Dual Audio Playback inside the Card */}
+                  <div className="flex items-center justify-center gap-3 mt-4 pt-3 border-t border-emerald-200/60">
+                    <button
+                      onClick={() => speakHindi(currentExercise.transliterationIsoTarget || (currentExercise.correctAnswer as string))}
+                      className="px-4 py-2.5 rounded-2xl bg-emerald-600 text-white hover:bg-emerald-700 active:scale-95 font-bold text-xs flex items-center gap-2 shadow-xs transition-all cursor-pointer"
+                    >
+                      <Volume2 className="w-4 h-4" />
+                      <span>{uiLanguage === 'ru' ? 'Слушать (1.0x)' : 'Listen (1.0x)'}</span>
+                    </button>
+                    <button
+                      onClick={() => speakHindi(currentExercise.transliterationIsoTarget || (currentExercise.correctAnswer as string), 0.65)}
+                      className="px-3.5 py-2.5 rounded-2xl bg-white border border-emerald-200 text-slate-700 hover:bg-emerald-50 active:scale-95 font-bold text-xs flex items-center gap-1.5 shadow-xs transition-all cursor-pointer"
+                    >
+                      <span>🐢</span>
+                      <span>{uiLanguage === 'ru' ? 'Медленно (0.65x)' : 'Slow (0.65x)'}</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Interactive Microphone & Oral Repetition Box */}
+                <div className="bg-white border-2 border-slate-200 rounded-3xl p-5 shadow-xs text-center space-y-3">
+                  <div className="text-xs font-bold text-slate-600">
+                    {uiLanguage === 'ru'
+                      ? 'Произнесите фразу вслух в микрофон или выполните устное повторение:'
+                      : 'Speak the phrase out loud into the microphone or practice oral repetition:'}
+                  </div>
+
+                  {/* Microphone Button */}
+                  <div className="flex justify-center">
+                    <button
+                      onClick={handleToggleMic}
+                      className={`relative px-6 py-3.5 rounded-2xl font-extrabold text-sm flex items-center gap-2.5 transition-all cursor-pointer shadow-md ${
+                        isListening
+                          ? 'bg-rose-500 text-white animate-pulse ring-4 ring-rose-200'
+                          : 'bg-slate-900 text-white hover:bg-slate-800 active:scale-95'
+                      }`}
+                    >
+                      {isListening ? (
+                        <>
+                          <MicOff className="w-5 h-5 animate-pulse" />
+                          <span>{uiLanguage === 'ru' ? 'Слушаю... Говорите!' : 'Listening... Speak now!'}</span>
+                        </>
+                      ) : (
+                        <>
+                          <Mic className="w-5 h-5 text-emerald-400" />
+                          <span>{uiLanguage === 'ru' ? '🎙️ Произнести в микрофон' : '🎙️ Speak with Microphone'}</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+
+                  {/* Feedback on recognized speech */}
+                  {speechTranscript && (
+                    <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-xs font-bold text-emerald-800 animate-in fade-in">
+                      <span>{uiLanguage === 'ru' ? 'Распознано: ' : 'Recognized: '}</span>
+                      <span className="font-extrabold">"{speechTranscript}"</span>
+                      <span className="ml-1 text-emerald-600 font-black">✓</span>
+                    </div>
+                  )}
+
+                  {/* Speech recognition error / fallback note */}
+                  {speechError && (
+                    <div className="bg-amber-50 border border-amber-200 rounded-2xl p-2.5 text-xs text-amber-800 animate-in fade-in">
+                      <span>{speechError}</span>
+                    </div>
+                  )}
+
+                  {!speechSupported && (
+                    <div className="text-[11px] text-slate-400 italic">
+                      {uiLanguage === 'ru'
+                        ? 'Браузерная проверка речи недоступна в этом браузере. Используйте подтверждение ниже:'
+                        : 'Web speech recognition unavailable in this browser. Use confirmation below:'}
+                    </div>
+                  )}
+
+                  {/* Manual Confirmation Alternative Button */}
+                  <div className="pt-2 border-t border-slate-100 flex justify-center">
+                    <button
+                      onClick={handleOralRepetitionConfirmed}
+                      className="px-5 py-2.5 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-800 hover:bg-emerald-100 active:scale-95 font-extrabold text-xs flex items-center gap-2 cursor-pointer transition-all shadow-xs"
+                    >
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <span>{uiLanguage === 'ru' ? '✅ Я повторил(а) вслух' : '✅ I repeated out loud'}</span>
+                    </button>
+                  </div>
+                </div>
               </div>
             )}
           </div>
@@ -749,7 +954,11 @@ export const LessonRunner: React.FC = () => {
               <div className="flex items-center gap-2 text-emerald-800 font-extrabold text-sm animate-in fade-in">
                 <CheckCircle2 className="w-6 h-6 text-emerald-600 shrink-0" />
                 <div>
-                  <span>{uiLanguage === 'ru' ? 'Превосходно! Правильно.' : 'Excellent! Correct.'}</span>
+                  <span>
+                    {currentExercise?.type === 'listen_and_repeat'
+                      ? (uiLanguage === 'ru' ? 'Превосходно! Устное повторение выполнено.' : 'Excellent! Oral repetition completed.')
+                      : (uiLanguage === 'ru' ? 'Превосходно! Правильно.' : 'Excellent! Correct.')}
+                  </span>
                   {currentExercise?.explanationRu && (
                     <p className="text-xs font-normal text-emerald-950 mt-0.5">
                       {uiLanguage === 'ru' ? currentExercise.explanationRu : (currentExercise.explanationEn || currentExercise.explanationRu)}
@@ -775,7 +984,8 @@ export const LessonRunner: React.FC = () => {
               <div className="text-xs text-slate-500 font-medium hidden sm:block">
                 {stage === 'warmup' && (uiLanguage === 'ru' ? 'Прослушайте звуки и перейдите к теории (Enter)' : 'Listen to phonetics, then proceed (Enter)')}
                 {stage === 'theory' && (uiLanguage === 'ru' ? 'Изучите правило и перейдите к практике (Enter)' : 'Review the bridge, then practice (Enter)')}
-                {stage === 'exercise' && (uiLanguage === 'ru' ? 'Выберите ответ (1–4) или соберите фразу (Enter)' : 'Select answer (1–4) or chips (Enter)')}
+                {stage === 'exercise' && currentExercise?.type === 'listen_and_repeat' && (uiLanguage === 'ru' ? 'Повторите вслух или используйте микрофон (Enter)' : 'Repeat aloud or use mic (Enter)')}
+                {stage === 'exercise' && currentExercise?.type !== 'listen_and_repeat' && (uiLanguage === 'ru' ? 'Выберите ответ (1–4) или соберите фразу (Enter)' : 'Select answer (1–4) or chips (Enter)')}
                 {stage === 'roleplay' && (uiLanguage === 'ru' ? 'Участвуйте в диалоге и завершите день' : 'Engage in dialogue to complete lesson')}
               </div>
             )}
@@ -787,11 +997,13 @@ export const LessonRunner: React.FC = () => {
                   onClick={handleCheckAnswer}
                   disabled={
                     (currentExercise?.type === 'word_reorder_sov' && selectedChips.length === 0) ||
-                    (currentExercise?.type !== 'word_reorder_sov' && !selectedOption)
+                    (currentExercise?.type !== 'word_reorder_sov' && currentExercise?.type !== 'listen_and_repeat' && !selectedOption)
                   }
                   className="w-full sm:w-auto btn-duo-green py-3 px-8 rounded-2xl text-white font-black text-sm disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-md"
                 >
-                  {uiLanguage === 'ru' ? 'Проверить' : 'Check'}
+                  {currentExercise?.type === 'listen_and_repeat'
+                    ? (uiLanguage === 'ru' ? 'Я повторил(а) вслух' : 'I repeated out loud')
+                    : (uiLanguage === 'ru' ? 'Проверить' : 'Check')}
                 </button>
               ) : (
                 <button

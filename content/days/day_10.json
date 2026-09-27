@@ -1,0 +1,285 @@
+{
+  "day": 10,
+  "phase": 2,
+  "title": {
+    "en": "Inessive and Adessive Postpositions (Mẽ and Par)",
+    "ru": "Локативные послелоги: Mẽ (В) и Par (На/У)"
+  },
+  "theme": "Локализация в пространстве: в отеле (hotel mẽ), на станции (station par), в машине (gāṛī mẽ)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Назализация /ẽ/ в mẽ vs твердый губной p в par)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Концепция послелога: русские предлоги В и НА ставятся ПОСЛЕ слова)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Трансформация: в машине, на столе, на вокзале, в комнате)",
+    "phase4SimulationMinutes": "17:00–20:00 (Поиск оставленных вещей в гостинице и машине)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Shift prepositions 'in' and 'on' into postpositions mẽ and par",
+      "Express spatial containment using mẽ (gāṛī mẽ, room mẽ)",
+      "Express surface contact and transport hubs using par (station par, mēz par)"
+    ],
+    "ru": [
+      "Превратить русские предлоги 'В' и 'НА' в послелоги mẽ и par, ставя их строго ПОСЛЕ существительного",
+      "Обозначать нахождение внутри объекта с помощью 'mẽ' (hotel mẽ = в отеле, gāṛī mẽ = в машине)",
+      "Обозначать нахождение на поверхности или объекте с помощью 'par' (station par = на вокзале, mēz par = на столе)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Носовой гласный /ẽ/ в послелоге mẽ (में)",
+    "articulatoryMechanism": "Широкий гласный [э] направляется в носовую полость. На конце не должно быть согласного звука 'н'.",
+    "russianInterferenceWarning": "Не путать с русским местоимением 'мне'! В хинди mẽ звучит как [мэⁿ].",
+    "drills": [
+      {
+        "prompt": "Отработка послелогов места",
+        "contrastPair": "mẽ (внутри) vs par (на поверхности)",
+        "instructionsRu": "Hotel mẽ (в отеле) — Station par (на вокзале)."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Послелоги вместо предлогов (Postpositions)",
+    "russianParallel": "В русском языке предлоги стоят ПЕРЕД словом (В отеле, НА столе). В хинди они стоят ПОСЛЕ слова (Hotel mẽ, Mēz par). Семантически они абсолютно точно соответствуют русскому предложному падежу (в чём? на чём?).",
+    "syntacticFormula": "[Существительное / Место] + [mẽ (в) / par (на)] + [hai]",
+    "explanationRu": "Это ключевое открытие для русскоязычного студента: категория предложного падежа уже есть в вашем мозгу, нужно лишь механически переставить предлог за существительное.",
+    "pieCognateConnection": {
+      "root": "*per- / *pro-",
+      "russian": "через / при / перед",
+      "hindi": "par (на / при)",
+      "meaning": "Индоевропейский локативно-поверхностный корень"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 10: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d10_v01",
+      "devanagari": "में",
+      "transliterationIso": "Mẽ",
+      "phoneticCyrillic": "Мэⁿ",
+      "translationRu": "в / внутри (послелог)",
+      "translationEn": "in / inside",
+      "partOfSpeech": "postposition",
+      "gender": "n/a",
+      "audioHint": "Носовое [мэⁿ]."
+    },
+    {
+      "id": "d10_v02",
+      "devanagari": "पर",
+      "transliterationIso": "Par",
+      "phoneticCyrillic": "Пар",
+      "translationRu": "на / у / при (послелог)",
+      "translationEn": "on / at",
+      "partOfSpeech": "postposition",
+      "gender": "n/a",
+      "audioHint": "Непридыхательный 'п', раскатистый 'р'."
+    },
+    {
+      "id": "d10_v03",
+      "devanagari": "गाड़ी",
+      "transliterationIso": "Gāṛī",
+      "phoneticCyrillic": "Гаар͟ии",
+      "translationRu": "Машина / Автомобиль / Поезд",
+      "translationEn": "Car / Vehicle / Train",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Ретрофлексный flap [р͟]."
+    },
+    {
+      "id": "d10_v04",
+      "devanagari": "मेज़",
+      "transliterationIso": "Mēz",
+      "phoneticCyrillic": "Мэз",
+      "translationRu": "Стол",
+      "translationEn": "Table",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Звонкий [з]."
+    },
+    {
+      "id": "d10_v05",
+      "devanagari": "कमरा",
+      "transliterationIso": "Kamrā",
+      "phoneticCyrillic": "Камраа",
+      "translationRu": "Комната / Номер",
+      "translationEn": "Room",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгое 'аа' на конце."
+    },
+    {
+      "id": "d10_v06",
+      "devanagari": "रास्ता",
+      "transliterationIso": "Rāstā",
+      "phoneticCyrillic": "Раастаа",
+      "translationRu": "Дорога / Путь",
+      "translationEn": "Road / Path / Way",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгие гласные 'аа' в обоих слогах."
+    },
+    {
+      "id": "d10_v07",
+      "devanagari": "हवाई अड्डा",
+      "transliterationIso": "Havāī aḍḍā",
+      "phoneticCyrillic": "Хавааии аддаа",
+      "translationRu": "Аэропорт",
+      "translationEn": "Airport",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный удвоенный [д͟д͟] с загнутым языком."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d10_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите предложение 'Багаж в машине' (Багаж + машине в + есть)",
+      "prompt": "Багаж в машине",
+      "wordChips": [
+        "Luggage",
+        "gāṛī",
+        "mẽ",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Luggage",
+        "gāṛī",
+        "mẽ",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Лаггидж гаар͟ии мэⁿ хэ",
+      "explanationRu": "Послелог mẽ ставится строго после слова gāṛī: gāṛī mẽ.",
+      "instructionEn": "Exercise instruction: Соберите предложение 'Багаж в машине' (Багаж + машине в + есть)",
+      "explanationEn": "Послелог mẽ ставится строго после слова gāṛī: gāṛī mẽ."
+    },
+    {
+      "id": "d10_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Скажите, что паспорт лежит на столе",
+      "prompt": "Passport mēz _____ hai.",
+      "options": [
+        "par",
+        "mẽ",
+        "sē"
+      ],
+      "correctAnswer": "par",
+      "transliterationIsoTarget": "Passport mēz par hai",
+      "explanationRu": "Для нахождения на поверхности используется послелог par (на столе = mēz par).",
+      "instructionEn": "Exercise instruction: Скажите, что паспорт лежит на столе",
+      "explanationEn": "Для нахождения на поверхности используется послелог par (на столе = mēz par)."
+    },
+    {
+      "id": "d10_ex03",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите: 'Водитель в машине?'",
+      "prompt": "Kyā driver gāṛī _____ hai?",
+      "options": [
+        "mẽ",
+        "par",
+        "sē"
+      ],
+      "correctAnswer": "mẽ",
+      "transliterationIsoTarget": "Kyā driver gāṛī mẽ hai?",
+      "explanationRu": "Внутри машины — gāṛī mẽ.",
+      "instructionEn": "Exercise instruction: Спросите: 'Водитель в машине?'",
+      "explanationEn": "Внутри машины — gāṛī mẽ."
+    },
+    {
+      "id": "d10_ex04",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам звонят и спрашивают, где вы. Ответьте за 3 секунды: 'Я в гостинице!'",
+      "prompt": "Āp kahā̃ haiñ?",
+      "options": [
+        "Main hotel mẽ hū̃!",
+        "Main station par hū̃!",
+        "Yeh hotel hai!"
+      ],
+      "correctAnswer": "Main hotel mẽ hū̃!",
+      "phoneticCyrillicTarget": "Мэⁿ хотел мэⁿ хууⁿ!",
+      "explanationRu": "Main (Я) + hotel mẽ (в отеле) + hū̃ (есмь).",
+      "instructionEn": "Exercise instruction: Вам звонят и спрашивают, где вы. Ответьте за 3 секунды: 'Я в гостинице!'",
+      "explanationEn": "Main (Я) + hotel mẽ (в отеле) + hū̃ (есмь)."
+    },
+    {
+      "id": "d10_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'в / внутри (послелог)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'in / inside' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «в / внутри (послелог)»?",
+      "options": [
+        "Mẽ!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Mẽ!",
+      "phoneticCyrillicTarget": "Мэⁿ!",
+      "transliterationIsoTarget": "Mẽ!",
+      "explanationRu": "Правильный и уверенный устный ответ: Mẽ!",
+      "explanationEn": "Correct and confident verbal response: Mẽ!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Поиск забытого телефона в машине",
+    "setting": "У входа в отель сразу после высадки из такси",
+    "partnerRoleRu": "Водитель такси",
+    "learnerRoleRu": "Пассажирка",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Брат, подождите пожалуйста! Мой телефон в машине.",
+        "speechIso": "Bhaiyā, rukiye! Mērā phone gāṛī mẽ hai.",
+        "speechCyrillic": "Бхаййаа, рукие! Мераа фон гаар͟ии мэⁿ хэ.",
+        "learnerHintRu": "Скажите водителю притормозить и укажите на телефон в машине",
+        "speechEn": "Брат, подождите пожалуйста! Мой телефон в машине.",
+        "learnerHintEn": "Hint: Скажите водителю притормозить и укажите на телефон в машине"
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Телефон в машине? Где он лежит?",
+        "speechIso": "Phone gāṛī mẽ hai? Kahā̃ hai?",
+        "speechCyrillic": "Фон гаар͟ии мэⁿ хэ? Кахааⁿ хэ?",
+        "learnerHintRu": "Скажите: На сиденье! (Seat par hai)",
+        "speechEn": "Телефон в машине? Где он лежит?",
+        "learnerHintEn": "Hint: Скажите: На сиденье! (Seat par hai)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Он на сиденье.",
+        "speechIso": "Seat par hai.",
+        "speechCyrillic": "Сиит пар хэ.",
+        "acceptableResponsesIso": [
+          "Seat par hai",
+          "Vahā̃ seat par hai"
+        ],
+        "speechEn": "Он на сиденье."
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Да, вот он! Пожалуйста, возьмите.",
+        "speechIso": "Hā̃-jī, mil gayā! Lījiye.",
+        "speechCyrillic": "Хааⁿ-джии, мил гайаа! Лиджие.",
+        "learnerHintRu": "Поблагодарите от души: Bahut shukriyā jī!",
+        "speechEn": "Да, вот он! Пожалуйста, возьмите.",
+        "learnerHintEn": "Hint: Поблагодарите от души: Bahut shukriyā jī!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Inessive and Adessive Postpositions (Mẽ and Par)",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Локативы в индийской повседневности",
+    "pointsRu": [
+      "Слово 'Gāṛī' в Индии обозначает любое колесное транспортное средство: автомобиль, такси, поезд и даже тележку.",
+      "Когда вы говорите 'Main station par hū̃', это сразу локализует вас у здания вокзала.",
+      "Послелоги mẽ и par всегда произносятся слитно со словом, к которому относятся."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 10)",
+    "pointsEn": [
+      "Always negotiate or insist on meter usage ('Meter se chaliye') before boarding auto-rickshaws, or agree on a firm price upfront.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Послелоги mẽ и par всегда произносятся слитно со словом, к которому относятся."
+    ]
+  },
+  "themeEn": "Inessive and Adessive Postpositions (Mẽ and Par): Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

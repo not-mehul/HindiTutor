@@ -1,0 +1,307 @@
+{
+  "day": 8,
+  "phase": 1,
+  "title": {
+    "en": "Phase 1 Synthesis, Articulatory Review, and Introductory Simulation",
+    "ru": "Синтез Фазы 1: интеграционный диалог заселения и закрепление фонетики"
+  },
+  "theme": "Полная 20-минутная симуляция приезда: встреча, имя, страна, вопросы, ремонт",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетический аудит всех звуков: dental t vs retroflex ṭ, aspirate dh/ṭh, nasals)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Сборка структур: приветствие + имя + происхождение + вежливость)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Сквозной ролевой прогон без использования английского языка)",
+    "phase4SimulationMinutes": "17:00–20:00 (Экзаменационная ситуативная ролевая игра Фазы 1)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Integrate greetings, origin, questions, and comprehension repair into continuous speech",
+      "Execute the complete arrival dialogue without reverting to English",
+      "Ensure consistent dental vs retroflex distinction under conversational pressure"
+    ],
+    "ru": [
+      "Объединить приветствия, имя, страну происхождения и языковой ремонт в связную речь",
+      "Провести непрерывный диалог приезда без перехода на английский язык",
+      "Автоматизировать различие зубных и ретрофлексных звуков в спонтанном потоке речи"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Комплексный контроль: устранение палатализации и сохранение безударной долготы",
+    "articulatoryMechanism": "Держите долгие гласные (ā, ī, ū) в безударных позициях, не допуская русского аканья (например, в dhanyavād не превращать первый слог в [дхъньяват]).",
+    "russianInterferenceWarning": "Главная опасность — русская редукция. Все гласные должны звучать четко и полнозвучно!",
+    "drills": [
+      {
+        "prompt": "Сквозной фонетический марш",
+        "contrastPair": "Namastē -> Main ṭhīk hū̃ -> Russia sē -> Māf kījiye",
+        "instructionsRu": "Произнесите связку на одном дыхании с максимальной четкостью артикуляции."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Консолидация синтаксического ядра: SOV и связка hai/hū̃",
+    "russianParallel": "Закрепление фундамента: глагол всегда на конце предложения, уважительное Вы (Āp) требует окончания -ē или частицы jī, дативные переживания (Mujhē Hindī nahī̃ ātī).",
+    "syntacticFormula": "[Приветствие] + [Main ... hū̃] + [Āp kaisē/kaisī haiñ?] + [Вопрос / Запрос]",
+    "explanationRu": "Фаза 1 полностью сформировала ваш речевой аппарат и базовый этикет. Теперь вы способны выдержать первый контакт в Индии исключительно на разговорном хинди!",
+    "pieCognateConnection": {
+      "root": "*bʰrehtēr / *meh₂tēr / *dʰwer-",
+      "russian": "брат / мать / дверь",
+      "hindi": "bhāī / mātā / dvār",
+      "meaning": "Общий фонд индоевропейского словарного запаса"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 8: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d08_v01",
+      "devanagari": "नमस्ते जी",
+      "transliterationIso": "Namastē jī",
+      "phoneticCyrillic": "Намастэ джии",
+      "translationRu": "Здравствуйте (вежливо)",
+      "translationEn": "Greetings (respectful)",
+      "partOfSpeech": "interjection",
+      "gender": "n/a",
+      "audioHint": "Уважительная форма."
+    },
+    {
+      "id": "d08_v02",
+      "devanagari": "धन्यवाद जी",
+      "transliterationIso": "Dhanyavād jī",
+      "phoneticCyrillic": "Дханьяваад джии",
+      "translationRu": "Большое спасибо",
+      "translationEn": "Thank you very much",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгое 'аа'."
+    },
+    {
+      "id": "d08_v03",
+      "devanagari": "भाई",
+      "transliterationIso": "Bhāī",
+      "phoneticCyrillic": "Бхааии",
+      "translationRu": "Брат / Обращение к мужчине",
+      "translationEn": "Brother",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Когнат с русским 'брат'."
+    },
+    {
+      "id": "d08_v04",
+      "devanagari": "होटल",
+      "transliterationIso": "Hotel",
+      "phoneticCyrillic": "Хотел",
+      "translationRu": "Отель / Гостиница",
+      "translationEn": "Hotel",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Общеупотребительное слово."
+    },
+    {
+      "id": "d08_v05",
+      "devanagari": "शुभ यात्रा",
+      "transliterationIso": "Shubh yātrā",
+      "phoneticCyrillic": "Шубх йаатраа",
+      "translationRu": "Счастливого пути! / Приятной поездки!",
+      "translationEn": "Have a good journey / Bon voyage",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Придыхательный 'бх' + долгий 'аа'."
+    },
+    {
+      "id": "d08_v06",
+      "devanagari": "होटल",
+      "transliterationIso": "Hotel",
+      "phoneticCyrillic": "Хотел",
+      "translationRu": "Гостиница / Отель",
+      "translationEn": "Hotel",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Твердый 'т' без смягчения."
+    },
+    {
+      "id": "d08_v07",
+      "devanagari": "कमरा",
+      "transliterationIso": "Kamrā",
+      "phoneticCyrillic": "Камраа",
+      "translationRu": "Комната / Номер",
+      "translationEn": "Room",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгий гласный 'аа' на конце."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d08_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите комплексное предложение: 'Здравствуйте, меня зовут Анна, я из России'",
+      "prompt": "Здравствуйте, меня зовут Анна, я из России",
+      "wordChips": [
+        "Namastē jī,",
+        "mērā nām",
+        "Anna hai,",
+        "main Russia sē",
+        "hū̃"
+      ],
+      "correctAnswer": [
+        "Namastē jī,",
+        "mērā nām",
+        "Anna hai,",
+        "main Russia sē",
+        "hū̃"
+      ],
+      "phoneticCyrillicTarget": "Намастэ джии, мераа наам Анна хэ, мэⁿ Расийа сэ хууⁿ",
+      "explanationRu": "Полная цепочка самопрезентации первого контакта.",
+      "instructionEn": "Exercise instruction: Соберите комплексное предложение: 'Здравствуйте, меня зовут Анна, я из России'",
+      "explanationEn": "Полная цепочка самопрезентации первого контакта."
+    },
+    {
+      "id": "d08_ex02",
+      "type": "dialogue_roleplay",
+      "instructionRu": "Ответьте на вопрос о вашем самочувствии и спросите в ответ",
+      "prompt": "Хозяин: Āp kaisī haiñ?",
+      "options": [
+        "Main ṭhīk hū̃, dhanyavād! Aur āp?",
+        "Mērā nām Moscow hai!",
+        "Yeh station vahā̃ hai!"
+      ],
+      "correctAnswer": "Main ṭhīk hū̃, dhanyavād! Aur āp?",
+      "phoneticCyrillicTarget": "Мэⁿ т͟хиик хууⁿ, дханьяваад! Аур аап?",
+      "explanationRu": "Вежливый ответ с благодарностью и встречным вопросом.",
+      "instructionEn": "Exercise instruction: Ответьте на вопрос о вашем самочувствии и спросите в ответ",
+      "explanationEn": "Вежливый ответ с благодарностью и встречным вопросом."
+    },
+    {
+      "id": "d08_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Хозяин отеля говорит очень быстро. Попросите его говорить медленно.",
+      "prompt": "Хозяин тараторит условия проживания",
+      "options": [
+        "Māf kījiye, dhīrē bōliye!",
+        "Shukriyā, main acchā hū̃!",
+        "Nahī̃, yeh hotel hai!"
+      ],
+      "correctAnswer": "Māf kījiye, dhīrē bōliye!",
+      "phoneticCyrillicTarget": "Мааф кииджие, дхиирэ болие!",
+      "explanationRu": "Языковой тормоз: Извините, говорите помедленнее.",
+      "instructionEn": "Exercise instruction: Хозяин отеля говорит очень быстро. Попросите его говорить медленно.",
+      "explanationEn": "Языковой тормоз: Извините, говорите помедленнее."
+    },
+    {
+      "id": "d08_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Завершите фразу согласия: 'Да, все хорошо!'",
+      "prompt": "Hā̃-jī, _____ hai.",
+      "options": [
+        "ṭhīk",
+        "kahan",
+        "kaun"
+      ],
+      "correctAnswer": "ṭhīk",
+      "transliterationIsoTarget": "Hā̃-jī, ṭhīk hai",
+      "explanationRu": "Ṭhīk hai = все хорошо / в порядке.",
+      "instructionEn": "Exercise instruction: Завершите фразу согласия: 'Да, все хорошо!'",
+      "explanationEn": "Ṭhīk hai = все хорошо / в порядке."
+    },
+    {
+      "id": "d08_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Здравствуйте (вежливо)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Greetings (respectful)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Здравствуйте (вежливо)»?",
+      "options": [
+        "Namastē jī!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Namastē jī!",
+      "phoneticCyrillicTarget": "Намастэ джии!",
+      "transliterationIsoTarget": "Namastē jī!",
+      "explanationRu": "Правильный и уверенный устный ответ: Namastē jī!",
+      "explanationEn": "Correct and confident verbal response: Namastē jī!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Экзаменационная симуляция Фазы 1: Полное заселение",
+    "setting": "Холл семейного гестхауса в Варанаси или Джайпуре",
+    "partnerRoleRu": "Владелец гестхауса",
+    "learnerRoleRu": "Путешественница",
+    "turns": [
+      {
+        "speaker": "Владелец",
+        "speechRu": "Намастэ! Добро пожаловать! Как вас зовут?",
+        "speechIso": "Namastē jī! Welcome! Āpkā nām kyā hai?",
+        "speechCyrillic": "Намастэ джии! Вэлкам! Аапкаа наам кйаа хэ?",
+        "learnerHintRu": "Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai.",
+        "speechEn": "Намастэ! Добро пожаловать! Как вас зовут?",
+        "learnerHintEn": "Hint: Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai."
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Меня зовут Анна. Я из России.",
+        "speechIso": "Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
+        "speechCyrillic": "Намастэ джии! Мераа наам Анна хэ. Мэⁿ Расийа сэ хууⁿ.",
+        "acceptableResponsesIso": [
+          "Namastē jī! Mērā nām Anna hai.",
+          "Main Russia sē hū̃."
+        ],
+        "speechEn": "Здравствуйте! Меня зовут Анна. Я из России."
+      },
+      {
+        "speaker": "Владелец",
+        "speechRu": "Очень приятно! Как ваши дела? Все в порядке?",
+        "speechIso": "Bahut acchā! Āp kaisī haiñ? Sab ṭhīk?",
+        "speechCyrillic": "Бахут аччхаа! Аап кэсии хэⁿ? Саб т͟хиик?",
+        "learnerHintRu": "Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?",
+        "speechEn": "Очень приятно! Как ваши дела? Все в порядке?",
+        "learnerHintEn": "Hint: Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Я в порядке, спасибо! А как ваши дела?",
+        "speechIso": "Main ṭhīk hū̃, dhanyavād! Aur āp?",
+        "speechCyrillic": "Мэⁿ т͟хиик хууⁿ, дханьяваад! Аур аап?",
+        "acceptableResponsesIso": [
+          "Main ṭhīk hū̃, shukriyā!"
+        ],
+        "speechEn": "Я в порядке, спасибо! А как ваши дела?"
+      },
+      {
+        "speaker": "Владелец",
+        "speechRu": "Все отлично! Проходите, комната номер 3 направо.",
+        "speechIso": "Main bhī ṭhīk hū̃! Āiye jī, room number 3 vahā̃ hai.",
+        "speechCyrillic": "Мэⁿ бхии т͟хиик хууⁿ! Ааие джии, руум намбар 3 вахааⁿ хэ.",
+        "learnerHintRu": "Поблагодарите: Bahut shukriyā jī!",
+        "speechEn": "Все отлично! Проходите, комната номер 3 направо.",
+        "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā jī!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Большое спасибо!",
+        "speechIso": "Bahut shukriyā jī!",
+        "speechCyrillic": "Бахут шукрийа джии!",
+        "acceptableResponsesIso": [
+          "Dhanyavād jī!"
+        ],
+        "speechEn": "Большое спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Phase 1 Synthesis, Articulatory Review, and Introductory Simulation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Итоги Фазы 1: Преодоление первого речевого барьера",
+    "pointsRu": [
+      "Вы освоили главный ключ к вежливости в Индии: связку жеста Намастэ и частицы Джи.",
+      "Вы привыкли к тому, что глагол-связка hū̃/hai обязательно стоит на конце предложения.",
+      "Вы умеете управлять темпом беседы и не боитесь переспросить 'Dhīrē bōliye'."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 8)",
+    "pointsEn": [
+      "The Añjali Mudrā gesture (palms joined at chest level with a slight nod) conveys deep respect and replaces handshakes.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Phase 1 Synthesis, Articulatory Review, and Introductory Simulation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

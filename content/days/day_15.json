@@ -1,0 +1,282 @@
+{
+  "day": 15,
+  "phase": 2,
+  "title": {
+    "en": "Time Calculations and Transit Duration",
+    "ru": "Расчет времени в пути: глагол Lagnā (требоваться)"
+  },
+  "theme": "Сколько времени потребуется? (Kitnā time lagēgā?), 10 минут (das minute), следующая остановка",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетика будущего времени lagēgā / лагээгаа и числительного das)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Глагол lagnā как аналог русского 'уйдет / потребуется по времени')",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Шаблоны: 5 минут, 10 минут, полчаса, сколько времени)",
+    "phase4SimulationMinutes": "17:00–20:00 (Уточнение времени до прибытия в пробке)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Inquire about transit duration using 'Kitnā vaqt / time lagēgā?'",
+      "Master idiomatic experiential verb lagnā for elapsed time",
+      "Recognize time responses (Das minute, aglā stop)"
+    ],
+    "ru": [
+      "Спрашивать о времени в пути: 'Kitnā time lagēgā?' / 'Kitnā vaqt lagēgā?'",
+      "Усвоить глагол lagnā в значении затрат времени (русское 'уйдет 10 минут / потребуется')",
+      "Понимать ориентиры по времени (Das minute = десять минут, aglā stop = следующая остановка)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Зубной звук /d/ в слове das (दस) и гласный /ē/ в lagēgā",
+    "articulatoryMechanism": "Зубной [д] на резцах. В форме 'lagēgā' чистый звук [э] без русского призвука 'и' и долгое конечное [аа].",
+    "russianInterferenceWarning": "Не редуцируйте безударные гласные в слове 'lagēgā' [ла-гээ-гаа].",
+    "drills": [
+      {
+        "prompt": "Отработка вопроса времени в пути",
+        "contrastPair": "Kitnā time lagēgā? (Сколько времени уйдет?)",
+        "instructionsRu": "Произнесите слитную фразу с легким ударением на 'time'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Глагол Lagnā (Требоваться / Уходить по времени)",
+    "russianParallel": "В русском языке мы спрашиваем: 'Сколько времени потребуется?' или 'Сколько времени уйдёт?'. В хинди для этого служит универсальный глагол lagnā в будущем времени — lagēgā (потребуется).",
+    "syntacticFormula": "Kitnā [time / vaqt] + lagēgā?",
+    "explanationRu": "Ответ строится точно так же: [Количество минут] + lagēgā (Das minute lagēgā = Уйдет десять минут). Слово 'time' повсеместно используется наравне с хинди-словом 'vaqt'.",
+    "pieCognateConnection": {
+      "root": "*déḱm̥t",
+      "russian": "десять",
+      "hindi": "das",
+      "meaning": "Праиндоевропейское числительное 10"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 15: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d15_v01",
+      "devanagari": "कितना",
+      "transliterationIso": "Kitnā",
+      "phoneticCyrillic": "Китнаа",
+      "translationRu": "Сколько? (мужской род)",
+      "translationEn": "How much",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Долгое 'аа' на конце."
+    },
+    {
+      "id": "d15_v02",
+      "devanagari": "वक़्त",
+      "transliterationIso": "Vaqt / Time",
+      "phoneticCyrillic": "Вакт / Тайм",
+      "translationRu": "Время",
+      "translationEn": "Time",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Твердое 'к-т'."
+    },
+    {
+      "id": "d15_v03",
+      "devanagari": "लगेगा",
+      "transliterationIso": "Lagēgā",
+      "phoneticCyrillic": "Лагээгаа",
+      "translationRu": "Потребуется / Уйдет (по времени)",
+      "translationEn": "Will take (time)",
+      "partOfSpeech": "verb",
+      "gender": "m",
+      "audioHint": "Чистый гласный 'е', долгое 'аа'."
+    },
+    {
+      "id": "d15_v04",
+      "devanagari": "दस",
+      "transliterationIso": "Das",
+      "phoneticCyrillic": "Дас",
+      "translationRu": "Десять (10)",
+      "translationEn": "Ten (10)",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Когнат с русским словом 'десять'."
+    },
+    {
+      "id": "d15_v05",
+      "devanagari": "अगला",
+      "transliterationIso": "Aglā",
+      "phoneticCyrillic": "Аглаа",
+      "translationRu": "Следующий",
+      "translationEn": "Next",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Ударение на долгое 'аа'."
+    },
+    {
+      "id": "d15_v06",
+      "devanagari": "मिनट",
+      "transliterationIso": "Minaṭ",
+      "phoneticCyrillic": "Минат͟",
+      "translationRu": "Минута",
+      "translationEn": "Minute",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Конечный ретрофлексный щелкающий [т͟]."
+    },
+    {
+      "id": "d15_v07",
+      "devanagari": "घंटा",
+      "transliterationIso": "Ghaṇṭā",
+      "phoneticCyrillic": "Гхантаа",
+      "translationRu": "Час (времени)",
+      "translationEn": "Hour",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Звонкий придыхательный [гх] с легким придыханием."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d15_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вопрос: 'Сколько времени потребуется?'",
+      "prompt": "Сколько времени займет дорога?",
+      "wordChips": [
+        "Kitnā",
+        "time",
+        "lagēgā?"
+      ],
+      "correctAnswer": [
+        "Kitnā",
+        "time",
+        "lagēgā?"
+      ],
+      "phoneticCyrillicTarget": "Китнаа тайм лагээгаа?",
+      "explanationRu": "Kitnā time lagēgā? — стандартный вопрос о времени в пути.",
+      "instructionEn": "Exercise instruction: Соберите вопрос: 'Сколько времени потребуется?'",
+      "explanationEn": "Kitnā time lagēgā? — стандартный вопрос о времени в пути."
+    },
+    {
+      "id": "d15_ex02",
+      "type": "fill_in_blank",
+      "instructionRu": "Ответьте: 'Потребуется 10 минут'",
+      "prompt": "Das minute _____.",
+      "options": [
+        "lagēgā",
+        "hai",
+        "jānā"
+      ],
+      "correctAnswer": "lagēgā",
+      "transliterationIsoTarget": "Das minute lagēgā.",
+      "explanationRu": "Das minute lagēgā = Уйдет десять минут.",
+      "instructionEn": "Exercise instruction: Ответьте: 'Потребуется 10 минут'",
+      "explanationEn": "Das minute lagēgā = Уйдет десять минут."
+    },
+    {
+      "id": "d15_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вы стоите в пробке. Спросите водителя за 2 секунды, сколько времени потребуется.",
+      "prompt": "Машина застряла в заторе",
+      "options": [
+        "Bhaiyā, kitnā time lagēgā?",
+        "Bhaiyā, mīṭar chalāo!",
+        "Station kahā̃ hai?"
+      ],
+      "correctAnswer": "Bhaiyā, kitnā time lagēgā?",
+      "phoneticCyrillicTarget": "Бхаййаа, китнаа тайм лагээгаа?",
+      "explanationRu": "Вежливое обращение Bhaiyā + вопрос о времени.",
+      "instructionEn": "Exercise instruction: Вы стоите в пробке. Спросите водителя за 2 секунды, сколько времени потребуется.",
+      "explanationEn": "Вежливое обращение Bhaiyā + вопрос о времени."
+    },
+    {
+      "id": "d15_ex04",
+      "type": "substitution_drill",
+      "instructionRu": "Уточните: 'Следующая остановка — аэропорт?'",
+      "prompt": "_____ stop airport hai?",
+      "options": [
+        "Aglā",
+        "Kitnā",
+        "Das"
+      ],
+      "correctAnswer": "Aglā",
+      "transliterationIsoTarget": "Aglā stop airport hai?",
+      "explanationRu": "Aglā = следующий.",
+      "instructionEn": "Exercise instruction: Уточните: 'Следующая остановка — аэропорт?'",
+      "explanationEn": "Aglā = следующий."
+    },
+    {
+      "id": "d15_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Сколько? (мужской род)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'How much' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Сколько? (мужской род)»?",
+      "options": [
+        "Kitnā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Kitnā!",
+      "phoneticCyrillicTarget": "Китнаа!",
+      "transliterationIsoTarget": "Kitnā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Kitnā!",
+      "explanationEn": "Correct and confident verbal response: Kitnā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Контроль времени в пробке по пути в аэропорт",
+    "setting": "Такси, остановившееся в плотном трафике Дели",
+    "partnerRoleRu": "Водитель такси",
+    "learnerRoleRu": "Беспокоящаяся пассажирка",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Брат, здесь сильная пробка. Сколько времени потребуется до аэропорта?",
+        "speechIso": "Bhaiyā, traffic hai. Airport kitnā time lagēgā?",
+        "speechCyrillic": "Бхаййаа, трафик хэ. Эрпорт китнаа тайм лагээгаа?",
+        "learnerHintRu": "Задайте вопрос: Airport kitnā time lagēgā?",
+        "speechEn": "Брат, здесь сильная пробка. Сколько времени потребуется до аэропорта?",
+        "learnerHintEn": "Hint: Задайте вопрос: Airport kitnā time lagēgā?"
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Не волнуйтесь, мадам. Всего десять-пятнадцать минут потребуется.",
+        "speechIso": "Chintā mat kījiye madam. Das-pandrah minute lagēgā.",
+        "speechCyrillic": "Чинтаа мат кииджие мадам. Дас-панндрах минат лагээгаа.",
+        "learnerHintRu": "Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)",
+        "speechEn": "Не волнуйтесь, мадам. Всего десять-пятнадцать минут потребуется.",
+        "learnerHintEn": "Hint: Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Следующая остановка аэропорт?",
+        "speechIso": "Aglā stop airport hai?",
+        "speechCyrillic": "Аглаа стоп эрпорт хэ?",
+        "acceptableResponsesIso": [
+          "Aglā stop airport hai?"
+        ],
+        "speechEn": "Следующая остановка аэропорт?"
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Да, именно так! Скоро приедем.",
+        "speechIso": "Hā̃-jī, aglā stop airport hai.",
+        "speechCyrillic": "Хааⁿ-джии, аглаа стоп эрпорт хэ.",
+        "learnerHintRu": "Скажите с облегчением: Ṭhīk hai, shukriyā!",
+        "speechEn": "Да, именно так! Скоро приедем.",
+        "learnerHintEn": "Hint: Скажите с облегчением: Ṭhīk hai, shukriyā!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Time Calculations and Transit Duration",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Индийское восприятие времени ('Indian Stretchable Time')",
+    "pointsRu": [
+      "В Индии фраза 'Das minute lagēgā' (займет 10 минут) часто означает от 15 до 25 минут из-за трафика.",
+      "Вопрос 'Kitnā time lagēgā?' побуждает водителя выбрать объездной маршрут.",
+      "Слово 'Chintā mat kījiye' (не волнуйтесь) — любимая фраза индийцев для успокоения путешественников."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 15)",
+    "pointsEn": [
+      "Cultural insight: В Индии фраза 'Das minute lagēgā' (займет 10 минут) часто означает от 15 до 25 минут из-за трафика.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "The honorific suffix -jī attached to names (e.g. Anna-jī) or words (hā̃-jī) signals warmth, deference, and polite conversational posture."
+    ]
+  },
+  "themeEn": "Time Calculations and Transit Duration: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

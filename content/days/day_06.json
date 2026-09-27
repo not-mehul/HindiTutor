@@ -1,0 +1,288 @@
+{
+  "day": 6,
+  "phase": 1,
+  "title": {
+    "en": "Conversational Repair and Comprehension Boundaries",
+    "ru": "Языковой ремонт: управление непониманием и просьба говорить медленнее"
+  },
+  "theme": "Я не говорю на хинди, говорите медленнее, повторите еще раз",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция придыхательного dh в dhīrē / дхиирэ)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Дативная конструкция Mujhe Hindi nahĩ ati = Мне хинди не приходит)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Шейдоуинг защитных речевых фраз)",
+    "phase4SimulationMinutes": "17:00–20:00 (Отражение стремительной речи собеседника)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Decline fluent speech with dative experiencer 'Mujhē Hindī nahī̃ ātī'",
+      "Request slow speech using polite imperative 'Dhīrē bōliye'",
+      "Acknowledge non-comprehension with feminine past marker 'Main nahī̃ samjhī'"
+    ],
+    "ru": [
+      "Сообщать о незнании языка через дативную конструкцию 'Mujhē Hindī nahī̃ ātī' ('Мне хинди не приходит')",
+      "Просить говорить медленнее с помощью вежливой просьбы 'Dhīrē bōliye'",
+      "Заявлять о непонимании в женском роде 'Main nahī̃ samjhī' ('Я не поняла')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Звонкий придыхательный дентальный /dh/ (ध) в слове dhīrē",
+    "articulatoryMechanism": "Лопатка языка на резцах. Одновременно с голосом идет сильный выдох (шепотная фонация).",
+    "russianInterferenceWarning": "Не заменяйте на глухой звук 'т' или английский межзубный [th]. Это чистый звонкий русский [д] с глубоким выдохом [дх].",
+    "drills": [
+      {
+        "prompt": "Произнесение слова 'медленно'",
+        "contrastPair": "dīrē (без выдоха) vs dhīrē (с мощным теплым выдохом)",
+        "instructionsRu": "Почувствуйте теплое дыхание на ладони при слоге 'dhī'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Дативный субъект восприятия (Experiencer Subject)",
+    "russianParallel": "Прямое совпадение с русским дательным падежом: 'Мне не понятно' / 'Мне хинди не дается'. В хинди: Mujhē (Мне) + Hindī (хинди) + nahī̃ ātī (не приходит).",
+    "syntacticFormula": "Mujhē + [Язык] + nahī̃ ātī (hai)",
+    "explanationRu": "Знание языка в хинди мыслится как способность, которая 'приходит' к человеку (глагол ānā = приходить). Поэтому субъект стоит в дативе: Mujhē (мне). Для женщин 'я не поняла' звучит: Main nahī̃ samjhī (-ī указывает на женский род).",
+    "pieCognateConnection": {
+      "root": "*bʰel- / *bʰol-",
+      "russian": "болтать / баять",
+      "hindi": "bōlnā (bōliye)",
+      "meaning": "Говорить / звучать"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 6: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d06_v01",
+      "devanagari": "मुझे",
+      "transliterationIso": "Mujhē",
+      "phoneticCyrillic": "Муджхе",
+      "translationRu": "Мне (дательный падеж от 'я')",
+      "translationEn": "To me / Me (dative)",
+      "partOfSpeech": "pronoun",
+      "gender": "both",
+      "audioHint": "Звук [джх] с придыханием."
+    },
+    {
+      "id": "d06_v02",
+      "devanagari": "धीरे",
+      "transliterationIso": "Dhīrē",
+      "phoneticCyrillic": "Дхиирэ",
+      "translationRu": "Медленно / Спокойно",
+      "translationEn": "Slowly",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Придыхательное звонкое [дх]."
+    },
+    {
+      "id": "d06_v03",
+      "devanagari": "बोलिए",
+      "transliterationIso": "Bōliye",
+      "phoneticCyrillic": "Болие",
+      "translationRu": "Говорите / Скажите (вежливо)",
+      "translationEn": "Speak / Please say",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Чистый гласный 'о', суффикс -iye."
+    },
+    {
+      "id": "d06_v04",
+      "devanagari": "फिर से",
+      "transliterationIso": "Phir sē",
+      "phoneticCyrillic": "Пхир сэ",
+      "translationRu": "Снова / Еще раз",
+      "translationEn": "Again / Once more",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Придыхательное [пх], раскатистый [р]."
+    },
+    {
+      "id": "d06_v05",
+      "devanagari": "समझी",
+      "transliterationIso": "Samjhī",
+      "phoneticCyrillic": "Самджи",
+      "translationRu": "Поняла (женский род)",
+      "translationEn": "Understood (feminine)",
+      "partOfSpeech": "verb",
+      "gender": "f",
+      "audioHint": "Окончание -ī указывает на говорящую женщину."
+    },
+    {
+      "id": "d06_v06",
+      "devanagari": "फिर से",
+      "transliterationIso": "Phir sē",
+      "phoneticCyrillic": "Пхир сээ",
+      "translationRu": "Еще раз / Повторите",
+      "translationEn": "Once again / Repeat please",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Придыхательный 'пх' + послелог 'сээ'."
+    },
+    {
+      "id": "d06_v07",
+      "devanagari": "अंग्रेज़ी",
+      "transliterationIso": "Aṅgrēzī",
+      "phoneticCyrillic": "Ангреезии",
+      "translationRu": "Английский язык",
+      "translationEn": "English language",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Звук 'з' (с точкой нукта), долгий 'ии'."
+    },
+    {
+      "id": "d06_v08",
+      "devanagari": "रूसी भाषा",
+      "transliterationIso": "Rūsī bhāṣā",
+      "phoneticCyrillic": "Руусии бхаашаа",
+      "translationRu": "Русский язык",
+      "translationEn": "Russian language",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Придыхательный 'бх' + долгие гласные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d06_ex01",
+      "type": "substitution_drill",
+      "instructionRu": "Сформулируйте фразу: 'Я не говорю на хинди' (буквально: 'Мне хинди не приходит')",
+      "prompt": "_____ Hindī nahī̃ ātī.",
+      "options": [
+        "Mujhē",
+        "Main",
+        "Mērā"
+      ],
+      "correctAnswer": "Mujhē",
+      "transliterationIsoTarget": "Mujhē Hindī nahī̃ ātī",
+      "explanationRu": "В конструкциях владения языком используется дативный субъект Mujhē (мне).",
+      "instructionEn": "Exercise instruction: Сформулируйте фразу: 'Я не говорю на хинди' (буквально: 'Мне хинди не приходит')",
+      "explanationEn": "В конструкциях владения языком используется дативный субъект Mujhē (мне)."
+    },
+    {
+      "id": "d06_ex02",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вежливую просьбу говорить медленнее (Медленно + говорите)",
+      "prompt": "Говорите медленнее, пожалуйста",
+      "wordChips": [
+        "Dhīrē",
+        "bōliye"
+      ],
+      "correctAnswer": [
+        "Dhīrē",
+        "bōliye"
+      ],
+      "phoneticCyrillicTarget": "Дхиирэ болие",
+      "explanationRu": "Обстоятельство предшествует вежливому глаголу: Dhīrē bōliye.",
+      "instructionEn": "Exercise instruction: Соберите вежливую просьбу говорить медленнее (Медленно + говорите)",
+      "explanationEn": "Обстоятельство предшествует вежливому глаголу: Dhīrē bōliye."
+    },
+    {
+      "id": "d06_ex03",
+      "type": "listen_and_repeat",
+      "instructionRu": "Произнесите просьбу повторить еще раз",
+      "prompt": "Phir sē bōliye (Повторите еще раз)",
+      "phoneticCyrillicTarget": "Пхир сэ болие",
+      "transliterationIsoTarget": "Phir sē bōliye",
+      "correctAnswer": "Phir sē bōliye",
+      "explanationRu": "Phir sē (снова) + bōliye (скажите).",
+      "instructionEn": "Exercise instruction: Произнесите просьбу повторить еще раз",
+      "explanationEn": "Phir sē (снова) + bōliye (скажите)."
+    },
+    {
+      "id": "d06_ex04",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Собеседник говорит слишком быстро. Остановите его и попросите говорить медленно за 3 секунды.",
+      "prompt": "Собеседник говорит со скоростью пулемета",
+      "options": [
+        "Māf kījiye, dhīrē bōliye!",
+        "Bahut acchā, shukriyā!",
+        "Main Moscow sē hū̃!"
+      ],
+      "correctAnswer": "Māf kījiye, dhīrē bōliye!",
+      "phoneticCyrillicTarget": "Мааф кииджие, дхиирэ болие!",
+      "explanationRu": "Идеальная связка: Извините, говорите медленнее!",
+      "instructionEn": "Exercise instruction: Собеседник говорит слишком быстро. Остановите его и попросите говорить медленно за 3 секунды.",
+      "explanationEn": "Идеальная связка: Извините, говорите медленнее!"
+    },
+    {
+      "id": "d06_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Мне (дательный падеж от 'я')'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'To me / Me (dative)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Мне (дательный падеж от 'я')»?",
+      "options": [
+        "Mujhē!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Mujhē!",
+      "phoneticCyrillicTarget": "Муджхе!",
+      "transliterationIsoTarget": "Mujhē!",
+      "explanationRu": "Правильный и уверенный устный ответ: Mujhē!",
+      "explanationEn": "Correct and confident verbal response: Mujhē!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Преодоление языкового барьера с водителем",
+    "setting": "Остановка такси, водитель быстро сыплет вопросами",
+    "partnerRoleRu": "Эмоциональный таксист",
+    "learnerRoleRu": "Путешественница",
+    "turns": [
+      {
+        "speaker": "Таксист",
+        "speechRu": "Куда едем, мадам? В отель или на рынок? Быстро довезу!",
+        "speechIso": "Kahā̃ jānā hai, madam? Hotel ya market? Chalo chalo!",
+        "speechCyrillic": "Кахааⁿ джаанаа хэ, мадам? Хотел йа маркет? Чало чало!",
+        "learnerHintRu": "Скажите: Извините, я не знаю хинди. Говорите медленнее.",
+        "speechEn": "Куда едем, мадам? В отель или на рынок? Быстро довезу!",
+        "learnerHintEn": "Hint: Скажите: Извините, я не знаю хинди. Говорите медленнее."
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Извините, я не говорю на хинди. Пожалуйста, говорите медленно.",
+        "speechIso": "Māf kījiye, mujhē Hindī nahī̃ ātī. Dhīrē bōliye.",
+        "speechCyrillic": "Мааф кииджие, муджхе Хиндии нахииⁿ аатии. Дхиирэ болие.",
+        "acceptableResponsesIso": [
+          "Mujhē Hindī nahī̃ ātī. Dhīrē bōliye."
+        ],
+        "speechEn": "Извините, я не говорю на хинди. Пожалуйста, говорите медленно."
+      },
+      {
+        "speaker": "Таксист",
+        "speechRu": "А, хорошо, мадам. Вы говорите по-английски?",
+        "speechIso": "Acchā, acchā. Kyā āpkō English ātī hai?",
+        "speechCyrillic": "Аччхаа, аччхаа. Кйаа аапко инглиш аатии хэ?",
+        "learnerHintRu": "Ответьте: Да, я знаю английский (Hā̃-jī)",
+        "speechEn": "А, хорошо, мадам. Вы говорите по-английски?",
+        "learnerHintEn": "Hint: Ответьте: Да, я знаю английский (Hā̃-jī)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, английский знаю.",
+        "speechIso": "Hā̃-jī, English ātī hai.",
+        "speechCyrillic": "Хааⁿ-джии, инглиш аатии хэ.",
+        "acceptableResponsesIso": [
+          "Hā̃-jī"
+        ],
+        "speechEn": "Да, английский знаю."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Conversational Repair and Comprehension Boundaries",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Психологическая уверенность при непонимании",
+    "pointsRu": [
+      "Никогда не смущайтесь фразы 'Mujhē Hindī nahī̃ ātī' — индийцы мгновенно адаптируют темп речи.",
+      "Использование حتی нескольких слов на хинди вызывает колоссальное уважение местных жителей.",
+      "Спокойный тон и вежливая улыбка устраняют 99% недопониманий в путешествии."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 6)",
+    "pointsEn": [
+      "Cultural insight: Никогда не смущайтесь фразы 'Mujhē Hindī nahī̃ ātī' — индийцы мгновенно адаптируют темп речи.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Спокойный тон и вежливая улыбка устраняют 99% недопониманий в путешествии."
+    ]
+  },
+  "themeEn": "Conversational Repair and Comprehension Boundaries: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

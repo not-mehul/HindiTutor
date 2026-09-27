@@ -1,0 +1,285 @@
+{
+  "day": 36,
+  "phase": 5,
+  "title": {
+    "en": "Future Intentions and Temporal Sequencing",
+    "ru": "Планы на будущее и временные маркеры: Завтра (Kal) и «До свидания»"
+  },
+  "theme": "Завтра/вчера (kal), сегодня (āj), я поеду завтра (main kal jāūṅgī), мы снова встретимся / до свидания (hum phir milēṅgē)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция будущего окончания -ūṅgī / -уунгii и мягкого l в milēṅgē)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Специфика слова Kal: завтра и вчера; формула прощания Hum phir milẽge = До свидания)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Планы: поеду в Дели, встретимся вечером, сделаю завтра)",
+    "phase4SimulationMinutes": "17:00–20:00 (Теплое прощание с хозяевами гестхауса)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Express future movements using feminine future suffix -ūṅgī (Main jāūṅgī)",
+      "Navigate the dual meaning of temporal marker Kal (tomorrow / yesterday)",
+      "Master authentic farewell formula 'Hum phir milēṅgē' (We will meet again)"
+    ],
+    "ru": [
+      "Выражать планы на будущее с суффиксом женского рода -ūṅgī (Main kal jāūṅgī = Я завтра поеду)",
+      "Понять логику слова Kal (которое значит и 'завтра', и 'вчера' в зависимости от глагола)",
+      "Освоить красивую традиционную формулу прощания: 'Hum phir milēṅgē' ('Мы снова встретимся / До свидания')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Назализованный велярный /ṅg/ в будущем времени -ūṅgī (ऊँगी)",
+    "articulatoryMechanism": "Долгий [уу] с носовым призвуком переходит в мягкий звонкий [нг] с долгим [ии]: [джаа-уунгii].",
+    "russianInterferenceWarning": "Не оглушайте звук [г] на конце суффикса будущего времени.",
+    "drills": [
+      {
+        "prompt": "Отработка будущего времени",
+        "contrastPair": "Main kal jāūṅgī (Я завтра поеду)",
+        "instructionsRu": "Произнесите связку: Main kal jāūṅgī."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Будущее время и идиома прощания 'До свидания'",
+    "russianParallel": "Фраза 'Hum phir milēṅgē' буквально переводится: 'Мы снова встретимся' (Hum = мы, phir = снова, milēṅgē = встретимся). Это точнейший смысловой аналог русского 'До свидания' (до скорого свидания!).",
+    "syntacticFormula": "Main + [Время: Kal / Āj] + [Глагол + ūṅgī (ж.р.) / ūṅgā (м.р.)]",
+    "explanationRu": "Слово 'Kal' в индийской культуре обозначает 'день, не являющийся сегодняшним' (один шаг от сегодня). Если глагол в будущем — значит завтра; если в прошедшем — значит вчера! Очень удобно.",
+    "pieCognateConnection": {
+      "root": "*mel- / *mil-",
+      "russian": "милый / мелькать (соединение)",
+      "hindi": "milnā (встречаться / находить)",
+      "meaning": "Встреча и соединение"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 36: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d36_v01",
+      "devanagari": "कल",
+      "transliterationIso": "Kal",
+      "phoneticCyrillic": "Кал",
+      "translationRu": "Завтра / Вчера (один день от сегодня)",
+      "translationEn": "Tomorrow / Yesterday",
+      "partOfSpeech": "adverb",
+      "gender": "m",
+      "audioHint": "Краткое открытое [кал]."
+    },
+    {
+      "id": "d36_v02",
+      "devanagari": "आज",
+      "transliterationIso": "Āj",
+      "phoneticCyrillic": "Аадж",
+      "translationRu": "Сегодня",
+      "translationEn": "Today",
+      "partOfSpeech": "adverb",
+      "gender": "m",
+      "audioHint": "Долгое 'аа' + звонкое 'дж'."
+    },
+    {
+      "id": "d36_v03",
+      "devanagari": "जाऊँगी / जाऊँगा",
+      "transliterationIso": "Jāūṅgī (f) / Jāūṅgā (m)",
+      "phoneticCyrillic": "Джаауунгii / Джаауунгаа",
+      "translationRu": "Я поеду / пойду (будущее время)",
+      "translationEn": "I will go",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Будущее время первого лица."
+    },
+    {
+      "id": "d36_v04",
+      "devanagari": "फिर मिलेंगे",
+      "transliterationIso": "Phir milēṅgē",
+      "phoneticCyrillic": "Пхир милээнгээ",
+      "translationRu": "Мы снова встретимся / До свидания!",
+      "translationEn": "We will meet again / Goodbye",
+      "partOfSpeech": "phrase",
+      "gender": "both",
+      "audioHint": "Красивая формула прощания."
+    },
+    {
+      "id": "d36_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d36_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d36_v07",
+      "devanagari": "आऊँगी",
+      "transliterationIso": "Āū̃gī",
+      "phoneticCyrillic": "Ааууⁿгии",
+      "translationRu": "Я приду / вернусь (жен. будущее)",
+      "translationEn": "I will come (female future)",
+      "partOfSpeech": "verb",
+      "gender": "f",
+      "audioHint": "Носовой гласный + женское будущее окончание -gī."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d36_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите фразу: 'Я поеду в Дели завтра' (женский род)",
+      "prompt": "Я поеду в Дели завтра",
+      "wordChips": [
+        "Main",
+        "kal",
+        "Delhi",
+        "jāūṅgī"
+      ],
+      "correctAnswer": [
+        "Main",
+        "kal",
+        "Delhi",
+        "jāūṅgī"
+      ],
+      "phoneticCyrillicTarget": "Мэⁿ кал Дели джаауунгii",
+      "explanationRu": "Подлежащее + время + направление + глагол будущего времени.",
+      "instructionEn": "Exercise instruction: Соберите фразу: 'Я поеду в Дели завтра' (женский род)",
+      "explanationEn": "Подлежащее + время + направление + глагол будущего времени."
+    },
+    {
+      "id": "d36_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вы прощаетесь с добрыми хозяевами отеля. Скажите 'До свидания, мы снова встретимся!' за 2 секунды.",
+      "prompt": "Прощание при выезде",
+      "options": [
+        "Namastē jī, hum phir milēṅgē!",
+        "Main āj khānā khāūṅgī!",
+        "Station kitnē kā hai?"
+      ],
+      "correctAnswer": "Namastē jī, hum phir milēṅgē!",
+      "phoneticCyrillicTarget": "Намастэ джии, хум пхир милээнгээ!",
+      "explanationRu": "Hum phir milēṅgē — самая душевная фраза прощания в Индии.",
+      "instructionEn": "Exercise instruction: Вы прощаетесь с добрыми хозяевами отеля. Скажите 'До свидания, мы снова встретимся!' за 2 секунды.",
+      "explanationEn": "Hum phir milēṅgē — самая душевная фраза прощания в Индии."
+    },
+    {
+      "id": "d36_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Скажите, что вы уезжаете сегодня, а не завтра",
+      "prompt": "Main _____ jāūṅgī. (Сегодня поеду)",
+      "options": [
+        "āj",
+        "kal",
+        "roz"
+      ],
+      "correctAnswer": "āj",
+      "transliterationIsoTarget": "Main āj jāūṅgī.",
+      "explanationRu": "Āj = сегодня.",
+      "instructionEn": "Exercise instruction: Скажите, что вы уезжаете сегодня, а не завтра",
+      "explanationEn": "Āj = сегодня."
+    },
+    {
+      "id": "d36_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Назначьте встречу вечером: 'Встретимся вечером'",
+      "prompt": "Shām ko (вечером) _____! (Встретимся)",
+      "options": [
+        "milēṅgē",
+        "chāhiye",
+        "jānā"
+      ],
+      "correctAnswer": "milēṅgē",
+      "transliterationIsoTarget": "Shām ko milēṅgē!",
+      "explanationRu": "Milēṅgē = встретимся.",
+      "instructionEn": "Exercise instruction: Назначьте встречу вечером: 'Встретимся вечером'",
+      "explanationEn": "Milēṅgē = встретимся."
+    },
+    {
+      "id": "d36_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Завтра / Вчера (один день от сегодня)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Tomorrow / Yesterday' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Завтра / Вчера (один день от сегодня)»?",
+      "options": [
+        "Kal!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Kal!",
+      "phoneticCyrillicTarget": "Кал!",
+      "transliterationIsoTarget": "Kal!",
+      "explanationRu": "Правильный и уверенный устный ответ: Kal!",
+      "explanationEn": "Correct and confident verbal response: Kal!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Прощание с хозяевами дома перед отъездом",
+    "setting": "Крыльцо гестхауса, такси ждет у ворот",
+    "partnerRoleRu": "Радушный хозяин гестхауса",
+    "learnerRoleRu": "Благодарная гостья с чемоданом",
+    "turns": [
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Сестра, такси уже ждет. Вы сегодня едете в аэропорт?",
+        "speechIso": "Madam, taxi aa gayī. Āp āj jā rahī haiñ?",
+        "speechCyrillic": "Мадам, такси аа гайии. Аап аадж джаа рахии хэⁿ?",
+        "learnerHintRu": "Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)",
+        "speechEn": "Сестра, такси уже ждет. Вы сегодня едете в аэропорт?",
+        "learnerHintEn": "Hint: Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, я сегодня уезжаю в Дели. Большое спасибо за теплый прием!",
+        "speechIso": "Hā̃, main āj Delhi jāūṅgī. Bahut dhanyavād jī!",
+        "speechCyrillic": "Хааⁿ, мэⁿ аадж Дели джаауунгii. Бахут дханьяваад джии!",
+        "acceptableResponsesIso": [
+          "Main āj jāūṅgī. Bahut shukriyā!"
+        ],
+        "speechEn": "Да, я сегодня уезжаю в Дели. Большое спасибо за теплый прием!"
+      },
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Приезжайте к нам снова! Счастливого пути!",
+        "speechIso": "Phir āiye hamārē pās! Shubh yātrā!",
+        "speechCyrillic": "Пхир ааие хамааре паас! Шубх йаатраа!",
+        "learnerHintRu": "Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)",
+        "speechEn": "Приезжайте к нам снова! Счастливого пути!",
+        "learnerHintEn": "Hint: Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "До свидания! Мы обязательно снова встретимся.",
+        "speechIso": "Namastē jī, hum phir milēṅgē!",
+        "speechCyrillic": "Намастэ джии, хум пхир милээнгээ!",
+        "acceptableResponsesIso": [
+          "Hum phir milēṅgē!"
+        ],
+        "speechEn": "До свидания! Мы обязательно снова встретимся."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Future Intentions and Temporal Sequencing",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культура расставания в Индии",
+    "pointsRu": [
+      "В индийской традиции говорить человеку прямое 'Прощай' (Alvidā) считается плохой приметой (как будто вы больше никогда не увидитесь).",
+      "Вместо этого всегда говорят: 'Hum phir milēṅgē' (Мы снова увидимся / встретимся) или 'Main aatī hū̃' (Я еще вернусь).",
+      "Пожелание счастливого пути на санскрите/хинди: 'Shubh yātrā!'."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 36)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Вместо этого всегда говорят: 'Hum phir milēṅgē' (Мы снова увидимся / встретимся) или 'Main aatī hū̃' (Я еще вернусь).",
+      "Cultural insight: Пожелание счастливого пути на санскрите/хинди: 'Shubh yātrā!'."
+    ]
+  },
+  "themeEn": "Future Intentions and Temporal Sequencing: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

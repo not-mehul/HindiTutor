@@ -1,0 +1,352 @@
+{
+  "day": 40,
+  "phase": 5,
+  "title": {
+    "en": "Integrated Travel Immersion Capstone",
+    "ru": "Финальный интеграционный иммерсив: Большое 20-минутное путешествие по Индии"
+  },
+  "theme": "Итоговый экзамен из 5 сцен: 1) Такси из аэропорта, 2) Заселение в отель, 3) Заказ в дхабе, 4) Торг на базаре, 5) Прощание",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Полный фонетический аудит 40 дней: ретрофлексия, придыхания, носовые гласные)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Финальная сборка грамматики: SOV, датив состояния, императивы, времена)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Сквозная репетиция 5 сценариев без перевода)",
+    "phase4SimulationMinutes": "17:00–20:00 (Финальный 20-минутный иммерсивный диалог без единого слова по-английски!)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Complete uninterrupted 20-minute spoken travel simulation entirely in Hindi",
+      "Demonstrate spontaneous command of SOV word order, dative experiencers, and numbers",
+      "Transition seamlessly across transit, hospitality, dining, bargaining, and social rapport"
+    ],
+    "ru": [
+      "Провести непрерывную 20-минутную иммерсивную симуляцию путешествия строго на хинди",
+      "Продемонстрировать спонтанное владение порядком SOV, дативными субъектами (Mujhē chāhiye/pasand) и счетом",
+      "Легко переключаться между такси, отелем, рестораном, рыночным торгом и дружеской беседой"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Полная естественная беглость речи и акустическая аутентичность",
+    "articulatoryMechanism": "Чистый раскатистый альвеолярный [r], отсутствие редукции гласных (anti-akan'ye), точная ретрофлексия [ṭ, ḍ, ṛ] и взрывное легочное придыхание [kh, th, ph].",
+    "russianInterferenceWarning": "Вы говорите свободно! Не бойтесь мелких оговорок рода — коммуникативный успех и уверенность стоят на первом месте.",
+    "drills": [
+      {
+        "prompt": "Манифест разговорной свободы",
+        "contrastPair": "Main Hindī boltī hū̃! (Я говорю на хинди!)",
+        "instructionsRu": "Произнесите гордо и уверенно: Main Hindī boltī hū̃!"
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Триумф прикладной контрастивной лингвистики",
+    "russianParallel": "За 40 дней вы превратили общие индоевропейские корни, грамматический род и дативный падеж своего родного русского языка в мощный мотор разговорного хинди. Языковой барьер полностью сломан!",
+    "syntacticFormula": "40-Day Mastery: SOV + Dative Experiencers + Polite Directives + Numerical Scaling",
+    "explanationRu": "Вы начинали с нуля, а сегодня способны самостоятельно путешествовать по всей Индии, общаться с местными жителями и решать любые жизненные задачи без английского языка.",
+    "pieCognateConnection": {
+      "root": "*ǵneh₃- / *gʷeyh₃- / *es-",
+      "russian": "знать / жить / есмь",
+      "hindi": "jānnā / jīnā / hū̃",
+      "meaning": "Полное единство языка, жизни и познания"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 40: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d40_v01",
+      "devanagari": "यात्रा",
+      "transliterationIso": "Yātrā",
+      "phoneticCyrillic": "Йаатраа",
+      "translationRu": "Путешествие / Паломничество",
+      "translationEn": "Journey / Travel",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Санскритское благословенное слово."
+    },
+    {
+      "id": "d40_v02",
+      "devanagari": "शुभ यात्रा",
+      "transliterationIso": "Shubh yātrā",
+      "phoneticCyrillic": "Шубх йаатраа",
+      "translationRu": "Счастливого пути! (Доброго путешествия!)",
+      "translationEn": "Bon voyage! / Have a safe journey!",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Традиционное напутствие."
+    },
+    {
+      "id": "d40_v03",
+      "devanagari": "मित्र / दोस्त",
+      "transliterationIso": "Mitra / Dost",
+      "phoneticCyrillic": "Митра / Доост",
+      "translationRu": "Друг / Приятель",
+      "translationEn": "Friend",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Слово дружбы."
+    },
+    {
+      "id": "d40_v04",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d40_v05",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d40_v06",
+      "devanagari": "अलविदा",
+      "transliterationIso": "Alvidā",
+      "phoneticCyrillic": "Алвидаа",
+      "translationRu": "Прощайте / До свидания",
+      "translationEn": "Farewell / Goodbye",
+      "partOfSpeech": "interjection",
+      "gender": "n/a",
+      "audioHint": "Мягкий 'л' + зубной 'д' + долгий 'аа'."
+    },
+    {
+      "id": "d40_v07",
+      "devanagari": "बहुत बहुत धन्यवाद",
+      "transliterationIso": "Bahut bahut dhanyavād",
+      "phoneticCyrillic": "Бахут бахут дханьяваад",
+      "translationRu": "Огромное душевное спасибо!",
+      "translationEn": "Heartfelt thank you so much!",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Торжественная финальная благодарность."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d40_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите манифест выпускника курса: 'Я говорю на хинди и очень люблю Индию!'",
+      "prompt": "Я говорю на хинди и мне нравится Индия",
+      "wordChips": [
+        "Main",
+        "Hindī",
+        "boltī",
+        "hū̃,",
+        "mujhē",
+        "Bhārat",
+        "bahut",
+        "pasand",
+        "hai!"
+      ],
+      "correctAnswer": [
+        "Main",
+        "Hindī",
+        "boltī",
+        "hū̃,",
+        "mujhē",
+        "Bhārat",
+        "bahut",
+        "pasand",
+        "hai!"
+      ],
+      "phoneticCyrillicTarget": "Мэⁿ Хиндии болтии хууⁿ, муджхе Бхаарат бахут пасанд хэ!",
+      "explanationRu": "Вершина курса: свободное владение речевыми структурами.",
+      "instructionEn": "Exercise instruction: Соберите манифест выпускника курса: 'Я говорю на хинди и очень люблю Индию!'",
+      "explanationEn": "Вершина курса: свободное владение речевыми структурами."
+    },
+    {
+      "id": "d40_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Финальный экспресс-тест: таксист пытается завысить цену. Остановите его и потребуйте счетчик!",
+      "prompt": "Таксист называет двойную цену",
+      "options": [
+        "Bhaiyā nahī̃! Mīṭar chalāo! Sahī dām lagāiye!",
+        "Hā̃, lījiye paisē!",
+        "Khānā tīkhā hai!"
+      ],
+      "correctAnswer": "Bhaiyā nahī̃! Mīṭar chalāo! Sahī dām lagāiye!",
+      "phoneticCyrillicTarget": "Бхаййаа нахииⁿ! Миитар͟ чалаао! Сахии даам лагааие!",
+      "explanationRu": "Мгновенное применение речевых формул.",
+      "instructionEn": "Exercise instruction: Финальный экспресс-тест: таксист пытается завысить цену. Остановите его и потребуйте счетчик!",
+      "explanationEn": "Мгновенное применение речевых формул."
+    },
+    {
+      "id": "d40_ex03",
+      "type": "dialogue_roleplay",
+      "instructionRu": "Закажите в дхабе горячую еду без перца и закрытую воду",
+      "prompt": "Официант: Kyā chāhiye madam?",
+      "options": [
+        "Bisleri pānī aur garam dāl chāval, binā mirch kē!",
+        "Main hotel mẽ nahī̃ hū̃!",
+        "Station dūr hai!"
+      ],
+      "correctAnswer": "Bisleri pānī aur garam dāl chāval, binā mirch kē!",
+      "phoneticCyrillicTarget": "Бислери паании аур гарам даал чаавал, бинаа мирч ке!",
+      "explanationRu": "Безупречный заказ еды и воды.",
+      "instructionEn": "Exercise instruction: Закажите в дхабе горячую еду без перца и закрытую воду",
+      "explanationEn": "Безупречный заказ еды и воды."
+    },
+    {
+      "id": "d40_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Пожелайте друзьям счастливого пути!",
+      "prompt": "_____ yātrā! (Счастливого пути)",
+      "options": [
+        "Shubh",
+        "Kharāb",
+        "Tīkhā"
+      ],
+      "correctAnswer": "Shubh",
+      "transliterationIsoTarget": "Shubh yātrā!",
+      "explanationRu": "Shubh yātrā = Счастливого пути!",
+      "instructionEn": "Exercise instruction: Пожелайте друзьям счастливого пути!",
+      "explanationEn": "Shubh yātrā = Счастливого пути!"
+    },
+    {
+      "id": "d40_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Путешествие / Паломничество'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Journey / Travel' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Путешествие / Паломничество»?",
+      "options": [
+        "Yātrā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Yātrā!",
+      "phoneticCyrillicTarget": "Йаатраа!",
+      "transliterationIsoTarget": "Yātrā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Yātrā!",
+      "explanationEn": "Correct and confident verbal response: Yātrā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Экзаменационный супер-ролеплей: 5 ключевых ситуаций путешествия",
+    "setting": "Непрерывный маршрут: Такси -> Отель -> Дхаба -> Базар -> Прощание",
+    "partnerRoleRu": "Экзаменатор / Партнер по учебе (меняет роли)",
+    "learnerRoleRu": "Свободно говорящая выпускница курса",
+    "turns": [
+      {
+        "speaker": "Сцена 1: Таксист",
+        "speechRu": "Куда ехать, мадам?",
+        "speechIso": "Kahā̃ jānā hai madam?",
+        "speechCyrillic": "Кахааⁿ джаанаа хэ мадам?",
+        "learnerHintRu": "Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)",
+        "speechEn": "Куда ехать, мадам?",
+        "learnerHintEn": "Hint: Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Брат, мне нужно в отель Тадж. Включите счетчик, пожалуйста.",
+        "speechIso": "Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo, please.",
+        "speechCyrillic": "Бхаййаа, Тадж Хотел джаанаа хэ. Миитар͟ чалаао, плииз.",
+        "acceptableResponsesIso": [
+          "Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo."
+        ],
+        "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик, пожалуйста."
+      },
+      {
+        "speaker": "Сцена 2: Отель",
+        "speechRu": "Здравствуйте! Меня зовут Радж. Как ваше имя?",
+        "speechIso": "Namastē! Mērā nām Raj hai. Āpkā nām kyā hai?",
+        "speechCyrillic": "Намастэ! Мераа наам Радж хэ. Аапкаа наам кйаа хэ?",
+        "learnerHintRu": "Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
+        "speechEn": "Здравствуйте! Меня зовут Радж. Как ваше имя?",
+        "learnerHintEn": "Hint: Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃."
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Меня зовут Анна, я приехала из России.",
+        "speechIso": "Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
+        "speechCyrillic": "Намастэ джии! Мераа наам Анна хэ. Мэⁿ Расийа сэ хууⁿ.",
+        "acceptableResponsesIso": [
+          "Mērā nām Anna hai. Main Russia sē hū̃."
+        ],
+        "speechEn": "Здравствуйте! Меня зовут Анна, я приехала из России."
+      },
+      {
+        "speaker": "Сцена 3: Дхаба",
+        "speechRu": "Что будете кушать?",
+        "speechIso": "Khānē mẽ kyā chāhiye madam?",
+        "speechCyrillic": "Кхаанее мэⁿ кйаа чаахийе мадам?",
+        "learnerHintRu": "Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!",
+        "speechEn": "Что будете кушать?",
+        "learnerHintEn": "Hint: Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Дайте дал и рис, пожалуйста, совсем без перца! И бутылку воды Bisleri.",
+        "speechIso": "Dāl aur chāval dījiye, binā mirch kē. Aur ek Bisleri pānī!",
+        "speechCyrillic": "Даал аур чаавал дииджие, бинаа мирч ке. Аур эк Бислери паании!",
+        "acceptableResponsesIso": [
+          "Dāl chāval dījiye, binā mirch kē. Pānī chāhiye."
+        ],
+        "speechEn": "Дайте дал и рис, пожалуйста, совсем без перца! И бутылку воды Bisleri."
+      },
+      {
+        "speaker": "Сцена 4: Базар",
+        "speechRu": "Красивый сувенир, мадам! Всего восемьсот рупий.",
+        "speechIso": "800 rupayē madam, best price!",
+        "speechCyrillic": "800 рупае мадам, бэст прайс!",
+        "learnerHintRu": "Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!",
+        "speechEn": "Красивый сувенир, мадам! Всего восемьсот рупий.",
+        "learnerHintEn": "Hint: Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Слишком много! Назовите честную цену. Отдайте за четыреста рупий!",
+        "speechIso": "Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!",
+        "speechCyrillic": "Бахут зйаадаа хэ! Сахии даам лагааие. Чаар сау рупае дииджие!",
+        "acceptableResponsesIso": [
+          "Bahut zyādā hai! Chār sau rupayē dījiye!"
+        ],
+        "speechEn": "Слишком много! Назовите честную цену. Отдайте за четыреста рупий!"
+      },
+      {
+        "speaker": "Сцена 5: Прощание",
+        "speechRu": "Договорились, забирайте! Вы потрясающе говорите на хинди. Счастливого пути!",
+        "speechIso": "Lījiye madam! Āp bahut acchī Hindī boltī haiñ. Shubh yātrā!",
+        "speechCyrillic": "Лииджие мадам! Аап бахут аччхии Хиндии болтии хэⁿ. Шубх йаатраа!",
+        "learnerHintRu": "Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!",
+        "speechEn": "Договорились, забирайте! Вы потрясающе говорите на хинди. Счастливого пути!",
+        "learnerHintEn": "Hint: Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Большое спасибо от всего сердца! До свидания, мы обязательно снова встретимся!",
+        "speechIso": "Bahut dhanyavād jī! Mujhē Bhārat bahut pasand hai. Hum phir milēṅgē!",
+        "speechCyrillic": "Бахут дханьяваад джии! Муджхе Бхаарат бахут пасанд хэ. Хум пхир милээнгээ!",
+        "acceptableResponsesIso": [
+          "Bahut dhanyavād jī! Hum phir milēṅgē!"
+        ],
+        "speechEn": "Большое спасибо от всего сердца! До свидания, мы обязательно снова встретимся!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Integrated Travel Immersion Capstone",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Поздравляем с завершением 40-дневного курса!",
+    "pointsRu": [
+      "Вы проделали грандиозный путь: от нуля до уверенной разговорной речи в реальных жизненных ситуациях.",
+      "Вы доказали, что благодаря сопоставительной лингвистике носитель русского языка может освоить хинди быстрее, чем кто-либо в мире.",
+      "Индия ждет вас с распростертыми объятиями. Shubh yātrā aur bahut-bahut shukriyā!"
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 40)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Индия ждет вас с распростертыми объятиями. Shubh yātrā aur bahut-bahut shukriyā!"
+    ]
+  },
+  "themeEn": "Integrated Travel Immersion Capstone: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

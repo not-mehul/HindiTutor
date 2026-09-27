@@ -1,0 +1,283 @@
+{
+  "day": 20,
+  "phase": 3,
+  "title": {
+    "en": "Dietary Restrictions, Spice Management, and Allergies",
+    "ru": "Диета и острота: «Я вегетарианка» (Shākāhārī) и «Без перца» (Binā mirch kē)"
+  },
+  "theme": "Вегетарианство (shākāhārī), перец чили (mirch), без перца (binā mirch kē), не делайте острым (tīkhā mat banāiye)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция шипящего sh в shākāhārī и ретрофлексного t в отрицании mat)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Конструкция Binā [X] kē = русский предлог БЕЗ + Родительный падеж)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Отработка запрета: tīkhā mat banāiye = остро не делайте)",
+    "phase4SimulationMinutes": "17:00–20:00 (Инструктаж повара по специям перед приготовлением)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Declare vegetarian diet with 'Main shākāhārī hū̃'",
+      "Master privative postpositional frame 'Binā [X] kē' (without [X])",
+      "Prohibit hot chili spices using 'Tīkhā mat banāiye' and 'Kam mirch'"
+    ],
+    "ru": [
+      "Заявлять о вегетарианстве: 'Main shākāhārī hū̃' ('Я вегетарианка')",
+      "Использовать конструкцию лишения 'Binā [X] kē' (русское 'Без [чего-либо]')",
+      "Запрещать остроту фразами 'Tīkhā mat banāiye' (Остро не делайте) и 'Kam mirch' (Мало перца)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Глухой ретрофлексный /ṭ/ в отрицательной запретительной частице mat (मत)",
+    "articulatoryMechanism": "Зубной звук [м] + краткий гласный [а] + четкий зубной/альвеолярный [т]. Частица mat выражает категорический вежливый запрет (Не делайте!).",
+    "russianInterferenceWarning": "Не путайте отрицание nahī̃ (констатация) и mat (запрет действия). С повелительными глаголами используется ТОЛЬКО mat.",
+    "drills": [
+      {
+        "prompt": "Отработка запрета остроты",
+        "contrastPair": "Tīkhā mat banāiye (Остро не делайте)",
+        "instructionsRu": "Произнесите с твердым ударением на 'mat'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Послелог отсутствия Binā ... kē (Русский предлог 'Без')",
+    "russianParallel": "Прямая калька с русского языка: 'Без сахара' = Binā cheenī kē; 'Без перца' = Binā mirch kē. Слово binā исторически родственно славянскому корню (сравните др.-рус. безъ / от-бывать).",
+    "syntacticFormula": "Binā + [Ингредиент] + kē / [Характеристика] + mat banāiye",
+    "explanationRu": "Для запрета действия в повелительном наклонении в хинди есть специальная частица 'mat' (русское 'не надо / не смей'): Tīkhā mat banāiye = Острым не делайте!",
+    "pieCognateConnection": {
+      "root": "*bʰos- / *bē-",
+      "russian": "без",
+      "hindi": "binā",
+      "meaning": "Индоевропейское лишение и отсутствие"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 20: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d20_v01",
+      "devanagari": "शाकाहारी",
+      "transliterationIso": "Shākāhārī",
+      "phoneticCyrillic": "Шаакаахаарии",
+      "translationRu": "Вегетарианка / Вегетарианский",
+      "translationEn": "Vegetarian",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Все гласные долгие [шаа-каа-хаа-рии]."
+    },
+    {
+      "id": "d20_v02",
+      "devanagari": "मिर्च",
+      "transliterationIso": "Mirch",
+      "phoneticCyrillic": "Мирч",
+      "translationRu": "Перец / Острый перец чили",
+      "translationEn": "Chili / Pepper",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Чистый русский [р]."
+    },
+    {
+      "id": "d20_v03",
+      "devanagari": "बिना ... के",
+      "transliterationIso": "Binā ... kē",
+      "phoneticCyrillic": "Бинаа ... ке",
+      "translationRu": "Без ... (послеложная рамка)",
+      "translationEn": "Without ...",
+      "partOfSpeech": "postposition",
+      "gender": "n/a",
+      "audioHint": "Binā mirch kē = без перца."
+    },
+    {
+      "id": "d20_v04",
+      "devanagari": "तीखा",
+      "transliterationIso": "Tīkhā",
+      "phoneticCyrillic": "Тиикхаа",
+      "translationRu": "Острый / Пряный",
+      "translationEn": "Spicy / Hot (taste)",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Зубной [т] + придыхательное [кх]."
+    },
+    {
+      "id": "d20_v05",
+      "devanagari": "मत बनाइए",
+      "transliterationIso": "Mat banāiye",
+      "phoneticCyrillic": "Мат банааие",
+      "translationRu": "Не делайте / Не готовьте",
+      "translationEn": "Do not make",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Запретительная частица mat."
+    },
+    {
+      "id": "d20_v06",
+      "devanagari": "अंडा",
+      "transliterationIso": "Aṇḍā",
+      "phoneticCyrillic": "Андаа",
+      "translationRu": "Яйцо",
+      "translationEn": "Egg",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный 'нд' с загнутым назад языком."
+    },
+    {
+      "id": "d20_v07",
+      "devanagari": "कम तेल",
+      "transliterationIso": "Kam tēl",
+      "phoneticCyrillic": "Кам теел",
+      "translationRu": "Мало масла / Не жирно",
+      "translationEn": "Less oil / Not greasy",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Непридыхательный 'к' + долгий 'ее'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d20_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите важнейшую фразу: 'Пожалуйста, не делайте остро!'",
+      "prompt": "Не делайте острым",
+      "wordChips": [
+        "Tīkhā",
+        "mat",
+        "banāiye"
+      ],
+      "correctAnswer": [
+        "Tīkhā",
+        "mat",
+        "banāiye"
+      ],
+      "phoneticCyrillicTarget": "Тиикхаа мат банааие",
+      "explanationRu": "Tīkhā (остро) + mat (не) + banāiye (делайте).",
+      "instructionEn": "Exercise instruction: Соберите важнейшую фразу: 'Пожалуйста, не делайте остро!'",
+      "explanationEn": "Tīkhā (остро) + mat (не) + banāiye (делайте)."
+    },
+    {
+      "id": "d20_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Официант спрашивает о ваших предпочтениях. Сообщите, что вы вегетарианка за 2 секунды.",
+      "prompt": "Официант предлагает мясное карри",
+      "options": [
+        "Main shākāhārī hū̃!",
+        "Mujhē mirch chāhiye!",
+        "Station pās hai!"
+      ],
+      "correctAnswer": "Main shākāhārī hū̃!",
+      "phoneticCyrillicTarget": "Мэⁿ шаакаахаарии хууⁿ!",
+      "explanationRu": "Main shākāhārī hū̃ = Я вегетарианка.",
+      "instructionEn": "Exercise instruction: Официант спрашивает о ваших предпочтениях. Сообщите, что вы вегетарианка за 2 секунды.",
+      "explanationEn": "Main shākāhārī hū̃ = Я вегетарианка."
+    },
+    {
+      "id": "d20_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите приготовить блюдо без перца",
+      "prompt": "_____ mirch kē banāiye. (Без перца приготовьте)",
+      "options": [
+        "Binā",
+        "Sē",
+        "Mẽ"
+      ],
+      "correctAnswer": "Binā",
+      "transliterationIsoTarget": "Binā mirch kē banāiye.",
+      "explanationRu": "Binā [X] kē = без [X].",
+      "instructionEn": "Exercise instruction: Попросите приготовить блюдо без перца",
+      "explanationEn": "Binā [X] kē = без [X]."
+    },
+    {
+      "id": "d20_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Попросите положить совсем мало перца",
+      "prompt": "_____ mirch, please! (Мало перца)",
+      "options": [
+        "Kam",
+        "Zyādā",
+        "Bahut"
+      ],
+      "correctAnswer": "Kam",
+      "transliterationIsoTarget": "Kam mirch, please!",
+      "explanationRu": "Kam = мало / слабый.",
+      "instructionEn": "Exercise instruction: Попросите положить совсем мало перца",
+      "explanationEn": "Kam = мало / слабый."
+    },
+    {
+      "id": "d20_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Вегетарианка / Вегетарианский'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Vegetarian' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Вегетарианка / Вегетарианский»?",
+      "options": [
+        "Shākāhārī!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Shākāhārī!",
+      "phoneticCyrillicTarget": "Шаакаахаарии!",
+      "transliterationIsoTarget": "Shākāhārī!",
+      "explanationRu": "Правильный и уверенный устный ответ: Shākāhārī!",
+      "explanationEn": "Correct and confident verbal response: Shākāhārī!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Заказ ужина с жестким контролем специй",
+    "setting": "Ресторан индийской кухни",
+    "partnerRoleRu": "Официант, принимающий заказ",
+    "learnerRoleRu": "Путешественница с чувствительным желудком",
+    "turns": [
+      {
+        "speaker": "Официант",
+        "speechRu": "Добрый вечер, мадам! Курицу тикка или панир будете заказывать?",
+        "speechIso": "Namastē madam! Chicken tikka ya Paneer?",
+        "speechCyrillic": "Намастэ мадам! Чикен тикка йа Панир?",
+        "learnerHintRu": "Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)",
+        "speechEn": "Добрый вечер, мадам! Курицу тикка или панир будете заказывать?",
+        "learnerHintEn": "Hint: Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Я вегетарианка. Панир, пожалуйста. И совсем без перца!",
+        "speechIso": "Main shākāhārī hū̃. Paneer dījiye, binā mirch kē.",
+        "speechCyrillic": "Мэⁿ шаакаахаарии хууⁿ. Панир дииджие, бинаа мирч ке.",
+        "acceptableResponsesIso": [
+          "Main shākāhārī hū̃. Binā mirch kē."
+        ],
+        "speechEn": "Я вегетарианка. Панир, пожалуйста. И совсем без перца!"
+      },
+      {
+        "speaker": "Официант",
+        "speechRu": "Немножко перца чили добавить для вкуса?",
+        "speechIso": "Thōṛī mirch ḍāl dū̃?",
+        "speechCyrillic": "Тхоор͟ии мирч д͟аал дууⁿ?",
+        "learnerHintRu": "Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)",
+        "speechEn": "Немножко перца чили добавить для вкуса?",
+        "learnerHintEn": "Hint: Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, перца совсем не надо! Остро не делайте.",
+        "speechIso": "Nahī̃, tīkhā bilkul mat banāiye!",
+        "speechCyrillic": "Нахииⁿ, тиикхаа билкул мат банааие!",
+        "acceptableResponsesIso": [
+          "Tīkhā mat banāiye!"
+        ],
+        "speechEn": "Нет, перца совсем не надо! Остро не делайте."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Dietary Restrictions, Spice Management, and Allergies",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Специфика индийской градации остроты",
+    "pointsRu": [
+      "Индийское понимание 'Not spicy' (не остро) для европейца часто ощущается как умеренно острое.",
+      "Именно фраза на хинди 'Tīkhā bilkul mat banāiye' (Совсем не делайте остро) доходит до шеф-повара на кухне.",
+      "Слово 'Shākāhārī' (вегетарианский) в Индии священно: вегетарианские блюда готовятся в отдельной посуде с величайшей строгостью."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 20)",
+    "pointsEn": [
+      "Cultural insight: Индийское понимание 'Not spicy' (не остро) для европейца часто ощущается как умеренно острое.",
+      "Cultural insight: Именно фраза на хинди 'Tīkhā bilkul mat banāiye' (Совсем не делайте остро) доходит до шеф-повара на кухне.",
+      "Pure vegetarian restaurants ('Shuddh Shākāhārī') guarantee no meat or eggs; look for the green square-circle vegetarian symbol."
+    ]
+  },
+  "themeEn": "Dietary Restrictions, Spice Management, and Allergies: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

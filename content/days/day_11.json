@@ -1,0 +1,286 @@
+{
+  "day": 11,
+  "phase": 2,
+  "title": {
+    "en": "The Multi-Functional Postposition Sē (Ablative and Instrumental)",
+    "ru": "Многофункциональный послелог Sē: инструмент (чем?) и источник (откуда?)"
+  },
+  "theme": "На поезде (train sē), на метро (metro sē), отсюда (yahā̃ sē), далеко (dūr)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция твердого зубного s и долгого ū в dūr)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Sē объединяет русский творительный падеж без предлога и предлоги из/от)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Отработка: поездом, на метро, на такси, отсюда до вокзала)",
+    "phase4SimulationMinutes": "17:00–20:00 (Вопрос о выборе транспорта у прохожего)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Master postposition sē for transport instruments (train sē, auto sē)",
+      "Express source and distance using sē (yahā̃ sē kitnī dūr hai?)",
+      "Merge Russian Instrumental and Ablative cases into single particle sē"
+    ],
+    "ru": [
+      "Использовать послелог sē для обозначения транспорта (train sē = поездом, metro sē = на метро)",
+      "Выражать отправную точку и дистанцию (yahā̃ sē = отсюда, kitnī dūr hai = как далеко?)",
+      "Объединить русские функции творительного (кем/чем) и родительного (откуда) падежей в одном слове sē"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Долгий огубленный гласный /ū/ в слове dūr (दूर)",
+    "articulatoryMechanism": "Губы сильно округляются и вытягиваются вперед. Звук чистый, монофтонгический, без дифтонгизации.",
+    "russianInterferenceWarning": "Не редуцируйте гласный! Звук [дуур] должен быть протяжным.",
+    "drills": [
+      {
+        "prompt": "Отработка вопроса о расстоянии",
+        "contrastPair": "dūr (далеко) vs pās (близко)",
+        "instructionsRu": "Yahā̃ sē dūr hai? (Отсюда далеко?)"
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Многофункциональность послелога Sē (Творительный + Отложительный)",
+    "russianParallel": "В русском языке мы говорим: 'Ехать поездом' (Творительный падеж без предлога) и 'Выехать из Москвы' (Предлог ИЗ + Родительный падеж). В хинди ОБЕ эти функции выполняет ОДНО слово — Sē: Train sē = поездом; Yahā̃ sē = отсюда.",
+    "syntacticFormula": "[Транспорт / Место] + sē + [Глагол движения / dūr hai]",
+    "explanationRu": "Послелог Sē также используется для выражения сравнения (быстрее ЧЕМ) и начала времени (С понедельника). Это самый продуктивный послелог в языке!",
+    "pieCognateConnection": {
+      "root": "*sokʷ- / *se-",
+      "russian": "с / со",
+      "hindi": "sē",
+      "meaning": "Индоевропейский предлог совместности и исхода"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 11: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d11_v01",
+      "devanagari": "दूर",
+      "transliterationIso": "Dūr",
+      "phoneticCyrillic": "Дуур",
+      "translationRu": "Далеко",
+      "translationEn": "Far",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Долгое 'уу', раскатистый 'р'."
+    },
+    {
+      "id": "d11_v02",
+      "devanagari": "पास",
+      "transliterationIso": "Pās",
+      "phoneticCyrillic": "Паас",
+      "translationRu": "Близко / Рядом",
+      "translationEn": "Near / Close",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Долгое 'аа', зубное глухое 'с'."
+    },
+    {
+      "id": "d11_v03",
+      "devanagari": "मेट्रो",
+      "transliterationIso": "Metro",
+      "phoneticCyrillic": "Мэтро",
+      "translationRu": "Метро",
+      "translationEn": "Metro",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Зубное 'т'."
+    },
+    {
+      "id": "d11_v04",
+      "devanagari": "ऑटो",
+      "transliterationIso": "Auto",
+      "phoneticCyrillic": "Оото",
+      "translationRu": "Авторикша / Моторикша",
+      "translationEn": "Auto-rickshaw",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный 'т'."
+    },
+    {
+      "id": "d11_v05",
+      "devanagari": "कितनी",
+      "transliterationIso": "Kitnī",
+      "phoneticCyrillic": "Китнии",
+      "translationRu": "Сколько? / Как? (женский род / для дистанции dūrī)",
+      "translationEn": "How much (feminine)",
+      "partOfSpeech": "adjective",
+      "gender": "f",
+      "audioHint": "Окончание -ī согласуется с dūr (дистанция)."
+    },
+    {
+      "id": "d11_v06",
+      "devanagari": "जल्दी से",
+      "transliterationIso": "Jaldī sē",
+      "phoneticCyrillic": "Джалдии сээ",
+      "translationRu": "Быстро / Поскорее",
+      "translationEn": "Quickly / Hurry up",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Слитный [дж] + долгий 'ии' + послелог 'сээ'."
+    },
+    {
+      "id": "d11_v07",
+      "devanagari": "आहिस्ता से",
+      "transliterationIso": "Āhistā sē",
+      "phoneticCyrillic": "Аахистаа сээ",
+      "translationRu": "Медленно / Осторожно",
+      "translationEn": "Slowly / Carefully",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Мягкий выдох на звуке 'х'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d11_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вопрос 'Как далеко это отсюда?' (Отсюда + как далеко + есть?)",
+      "prompt": "Как далеко отсюда?",
+      "wordChips": [
+        "Yahā̃",
+        "sē",
+        "kitnī",
+        "dūr",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Yahā̃",
+        "sē",
+        "kitnī",
+        "dūr",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Йахааⁿ сэ китнии дуур хэ",
+      "explanationRu": "Yahā̃ sē (отсюда) + kitnī dūr (как далеко) + hai (есть)?",
+      "instructionEn": "Exercise instruction: Соберите вопрос 'Как далеко это отсюда?' (Отсюда + как далеко + есть?)",
+      "explanationEn": "Yahā̃ sē (отсюда) + kitnī dūr (как далеко) + hai (есть)?"
+    },
+    {
+      "id": "d11_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Посоветуйте поехать на метро (На метро + поезжайте)",
+      "prompt": "Metro _____ jāiye!",
+      "options": [
+        "sē",
+        "mẽ",
+        "par"
+      ],
+      "correctAnswer": "sē",
+      "transliterationIsoTarget": "Metro sē jāiye!",
+      "explanationRu": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро).",
+      "instructionEn": "Exercise instruction: Посоветуйте поехать на метро (На метро + поезжайте)",
+      "explanationEn": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро)."
+    },
+    {
+      "id": "d11_ex03",
+      "type": "fill_in_blank",
+      "instructionRu": "Ответьте, что объект находится рядом, а не далеко",
+      "prompt": "Dūr nahī̃ hai, _____ hai. (Не далеко, рядом)",
+      "options": [
+        "pās",
+        "sē",
+        "par"
+      ],
+      "correctAnswer": "pās",
+      "transliterationIsoTarget": "Dūr nahī̃ hai, pās hai.",
+      "explanationRu": "Pās = близко / рядом.",
+      "instructionEn": "Exercise instruction: Ответьте, что объект находится рядом, а не далеко",
+      "explanationEn": "Pās = близко / рядом."
+    },
+    {
+      "id": "d11_ex04",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам предлагают поехать на авторикше: 'Auto sē jāiye'. Согласитесь за 2 секунды.",
+      "prompt": "Собеседник: Auto sē jāiye!",
+      "options": [
+        "Hā̃-jī, ṭhīk hai! Auto sē jāūṅgī.",
+        "Nahī̃, main Russia sē hū̃!",
+        "Yeh station hai!"
+      ],
+      "correctAnswer": "Hā̃-jī, ṭhīk hai! Auto sē jāūṅgī.",
+      "phoneticCyrillicTarget": "Хааⁿ-джии, т͟хиик хэ! Оото сэ джаауунгii.",
+      "explanationRu": "Да, хорошо! Поеду на авторикше.",
+      "instructionEn": "Exercise instruction: Вам предлагают поехать на авторикше: 'Auto sē jāiye'. Согласитесь за 2 секунды.",
+      "explanationEn": "Да, хорошо! Поеду на авторикше."
+    },
+    {
+      "id": "d11_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Далеко'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Far' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Далеко»?",
+      "options": [
+        "Dūr!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Dūr!",
+      "phoneticCyrillicTarget": "Дуур!",
+      "transliterationIsoTarget": "Dūr!",
+      "explanationRu": "Правильный и уверенный устный ответ: Dūr!",
+      "explanationEn": "Correct and confident verbal response: Dūr!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Расспрос консьержа о дороге в центр города",
+    "setting": "Ресепшн отеля в Дели",
+    "partnerRoleRu": "Консьерж отеля",
+    "learnerRoleRu": "Туристка",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Скажите пожалуйста, рынок Connaught Place отсюда далеко?",
+        "speechIso": "Namastē jī! Connaught Place yahā̃ sē kitnī dūr hai?",
+        "speechCyrillic": "Намастэ джии! Коннот Плейс йахааⁿ сэ китнии дуур хэ?",
+        "learnerHintRu": "Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?",
+        "speechEn": "Здравствуйте! Скажите пожалуйста, рынок Connaught Place отсюда далеко?",
+        "learnerHintEn": "Hint: Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?"
+      },
+      {
+        "speaker": "Консьерж",
+        "speechRu": "Нет, сестра, не далеко. Близко!",
+        "speechIso": "Nahī̃ jī, dūr nahī̃ hai. Pās hai.",
+        "speechCyrillic": "Нахииⁿ джии, дуур нахииⁿ хэ. Паас хэ.",
+        "learnerHintRu": "Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)",
+        "speechEn": "Нет, сестра, не далеко. Близко!",
+        "learnerHintEn": "Hint: Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "На метро поехать или на авторикше?",
+        "speechIso": "Metro sē ya auto sē?",
+        "speechCyrillic": "Мэтро сэ йа оото сэ?",
+        "acceptableResponsesIso": [
+          "Metro sē jāiye ya auto sē?"
+        ],
+        "speechEn": "На метро поехать или на авторикше?"
+      },
+      {
+        "speaker": "Консьерж",
+        "speechRu": "Поезжайте на метро, так быстрее и удобнее.",
+        "speechIso": "Metro sē jāiye, bahut acchā hai.",
+        "speechCyrillic": "Мэтро сэ джааие, бахут аччхаа хэ.",
+        "learnerHintRu": "Поблагодарите: Dhanyavād jī!",
+        "speechEn": "Поезжайте на метро, так быстрее и удобнее.",
+        "learnerHintEn": "Hint: Поблагодарите: Dhanyavād jī!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: The Multi-Functional Postposition Sē (Ablative and Instrumental)",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Логистика метро в индийских мегаполисах",
+    "pointsRu": [
+      "Метро Дели — одно из самых чистых, современных и безопасных в мире.",
+      "В каждом поезде метро первый вагон зарезервирован строго для женщин (Women Only).",
+      "Конструкция 'Metro sē jāiye' всегда рекомендуется местными жителями в часы пик."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 11)",
+    "pointsEn": [
+      "Always negotiate or insist on meter usage ('Meter se chaliye') before boarding auto-rickshaws, or agree on a firm price upfront.",
+      "In traditional Indian social contexts, avoid initiating handshakes with women; the Namastē gesture is universal and culturally safe.",
+      "Cultural insight: Конструкция 'Metro sē jāiye' всегда рекомендуется местными жителями в часы пик."
+    ]
+  },
+  "themeEn": "The Multi-Functional Postposition Sē (Ablative and Instrumental): Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

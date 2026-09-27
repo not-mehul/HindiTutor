@@ -1,0 +1,289 @@
+{
+  "day": 38,
+  "phase": 5,
+  "title": {
+    "en": "Social Etiquette, Compliments, and Small Talk",
+    "ru": "Социальный этикет и комплименты: «Мне очень нравится Индия»"
+  },
+  "theme": "Индия (Bhārat), мне нравится Индия (Mujhē Bhārat bahut pasand hai), люди здесь прекрасные (yahā̃ kē log bahut acchē haiñ), красивый (sundar)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция придыхательного bh в Bhārat и звука sundar)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Конструкция притяжательного локатива: Yahā̃ kē log = Люди здешние / Люди отсюда)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Искренние комплименты стране, культуре, архитектуре и людям)",
+    "phase4SimulationMinutes": "17:00–20:00 (Душевная беседа с попутчиками или хозяевами дома)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Exchange social pleasantries and compliments with 'Mujhē Bhārat bahut pasand hai'",
+      "Praise hospitality and people using 'Yahā̃ kē log bahut acchē haiñ'",
+      "Describe visual beauty with sundar (beautiful)"
+    ],
+    "ru": [
+      "Обмениваться светскими любезностями и делать комплименты: 'Mujhē Bhārat bahut pasand hai' ('Мне очень нравится Индия')",
+      "Хвалить местных жителей и гостеприимство: 'Yahā̃ kē log bahut acchē haiñ' ('Люди здесь очень добрые/хорошие')",
+      "Описывать красоту словом sundar ('красивый / прекрасный')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Звонкий придыхательный /bh/ в исконном названии страны Bhārat (भारत)",
+    "articulatoryMechanism": "Губы смыкаются для звука [б] и раскрываются с мощным теплым голосовым выдохом [бх] + долгое [аа]: [бхаа-рат].",
+    "russianInterferenceWarning": "Не произносите плоское [барат]. Это священное имя страны, оно требует глубокого выдоха.",
+    "drills": [
+      {
+        "prompt": "Произнесение названия страны",
+        "contrastPair": "Bhārat (Индия)",
+        "instructionsRu": "Произнесите с придыханием: Bhārat bahut sundar hai."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Притяжательный послелог kē с локативом (Yahā̃ kē log)",
+    "russianParallel": "Фраза 'Yahā̃ kē log' буквально переводится: 'Здешние люди / Люди этого места' (yahā̃ = здесь, kē = притяжательное множественного числа, log = люди, народ). Порядок предикативного комплимента точно как в русском: Индия очень красивая = Bhārat bahut sundar hai.",
+    "syntacticFormula": "[Объект] + bahut sundar hai | Yahā̃ kē log bahut acchē haiñ",
+    "explanationRu": "Использование самоназвания 'Bhārat' вместо английского 'India' производит фурор среди местных жителей. Это показывает искреннее уважение к культуре.",
+    "pieCognateConnection": {
+      "root": "*bʰer- / *sem-",
+      "russian": "брать / беречь // сам / семья",
+      "hindi": "bhārat (поддерживаемый / несущий свет) / sundar (ладный, красивый)",
+      "meaning": "Индоевропейская гармония и созидание"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 38: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d38_v01",
+      "devanagari": "भारत",
+      "transliterationIso": "Bhārat",
+      "phoneticCyrillic": "Бхаарат",
+      "translationRu": "Индия (официальное самоназвание)",
+      "translationEn": "India (endonym)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное [бх]."
+    },
+    {
+      "id": "d38_v02",
+      "devanagari": "सुंदर",
+      "transliterationIso": "Sundar",
+      "phoneticCyrillic": "Сундар",
+      "translationRu": "Красивый / Прекрасный",
+      "translationEn": "Beautiful",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Ударение на первый слог."
+    },
+    {
+      "id": "d38_v03",
+      "devanagari": "लोग",
+      "transliterationIso": "Log",
+      "phoneticCyrillic": "Лог",
+      "translationRu": "Люди / Народ",
+      "translationEn": "People",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Чистый гласный 'о'."
+    },
+    {
+      "id": "d38_v04",
+      "devanagari": "यहाँ के लोग",
+      "transliterationIso": "Yahā̃ kē log",
+      "phoneticCyrillic": "Йахааⁿ ке лог",
+      "translationRu": "Здешние люди / Люди здесь",
+      "translationEn": "People here",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Притяжательная форма."
+    },
+    {
+      "id": "d38_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d38_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d38_v07",
+      "devanagari": "आप बहुत अच्छे हैं",
+      "transliterationIso": "Āp bahut acchē haiñ",
+      "phoneticCyrillic": "Аап бахут аччхее хэⁿ",
+      "translationRu": "Вы очень добры / Вы замечательный человек",
+      "translationEn": "You are very kind",
+      "partOfSpeech": "phrase",
+      "gender": "both",
+      "audioHint": "Высшая вежливость и уважение."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d38_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите душевный комплимент: 'Люди здесь очень хорошие!'",
+      "prompt": "Люди здесь очень хорошие",
+      "wordChips": [
+        "Yahā̃",
+        "kē",
+        "log",
+        "bahut",
+        "acchē",
+        "haiñ"
+      ],
+      "correctAnswer": [
+        "Yahā̃",
+        "kē",
+        "log",
+        "bahut",
+        "acchē",
+        "haiñ"
+      ],
+      "phoneticCyrillicTarget": "Йахааⁿ ке лог бахут аччхээ хэⁿ",
+      "explanationRu": "Yahā̃ kē log (люди здесь) + bahut acchē haiñ (очень хорошие).",
+      "instructionEn": "Exercise instruction: Соберите душевный комплимент: 'Люди здесь очень хорошие!'",
+      "explanationEn": "Yahā̃ kē log (люди здесь) + bahut acchē haiñ (очень хорошие)."
+    },
+    {
+      "id": "d38_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Собеседник спрашивает: 'India kaisā lagā?' (Как вам Индия?). Ответьте за 2 секунды с теплотой!",
+      "prompt": "Как вам Индия?",
+      "options": [
+        "Mujhē Bhārat bahut pasand hai! Bahut sundar hai!",
+        "Mujhē bilkul pasand nahī̃ hai!",
+        "Main station par hū̃!"
+      ],
+      "correctAnswer": "Mujhē Bhārat bahut pasand hai! Bahut sundar hai!",
+      "phoneticCyrillicTarget": "Муджхе Бхаарат бахут пасанд хэ! Бахут сундар хэ!",
+      "explanationRu": "Мне очень нравится Индия! Очень красиво!",
+      "instructionEn": "Exercise instruction: Собеседник спрашивает: 'India kaisā lagā?' (Как вам Индия?). Ответьте за 2 секунды с теплотой!",
+      "explanationEn": "Мне очень нравится Индия! Очень красиво!"
+    },
+    {
+      "id": "d38_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Сделайте комплимент храму или дворцу: 'Это здание очень красивое'",
+      "prompt": "Yeh bahut _____ hai. (Красивое)",
+      "options": [
+        "sundar",
+        "kharāb",
+        "tīkhā"
+      ],
+      "correctAnswer": "sundar",
+      "transliterationIsoTarget": "Yeh bahut sundar hai.",
+      "explanationRu": "Sundar = красивый.",
+      "instructionEn": "Exercise instruction: Сделайте комплимент храму или дворцу: 'Это здание очень красивое'",
+      "explanationEn": "Sundar = красивый."
+    },
+    {
+      "id": "d38_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Сделайте комплимент доброму собеседнику: 'Вы очень хороший человек'",
+      "prompt": "Āp bahut _____ haiñ. (Вы очень хороший)",
+      "options": [
+        "acchē",
+        "sundar",
+        "garam"
+      ],
+      "correctAnswer": "acchē",
+      "transliterationIsoTarget": "Āp bahut acchē haiñ.",
+      "explanationRu": "Āp bahut acchē haiñ = Вы очень добрый/хороший.",
+      "instructionEn": "Exercise instruction: Сделайте комплимент доброму собеседнику: 'Вы очень хороший человек'",
+      "explanationEn": "Āp bahut acchē haiñ = Вы очень добрый/хороший."
+    },
+    {
+      "id": "d38_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Индия (официальное самоназвание)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'India (endonym)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Индия (официальное самоназвание)»?",
+      "options": [
+        "Bhārat!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Bhārat!",
+      "phoneticCyrillicTarget": "Бхаарат!",
+      "transliterationIsoTarget": "Bhārat!",
+      "explanationRu": "Правильный и уверенный устный ответ: Bhārat!",
+      "explanationEn": "Correct and confident verbal response: Bhārat!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Вечерний разговор на террасе с индийской семьей",
+    "setting": "Терраса с видом на закат над Гангом или дворцами",
+    "partnerRoleRu": "Глава семьи",
+    "learnerRoleRu": "Вдохновленная гостья",
+    "turns": [
+      {
+        "speaker": "Глава семьи",
+        "speechRu": "Добрый вечер, сестра! Как вам наш город и наша страна?",
+        "speechIso": "Namastē madam! Hamārā shahar aur desh kaisā lagā?",
+        "speechCyrillic": "Намастэ мадам! Хамаараа шахар аур дэш кэсаа лагаа?",
+        "learnerHintRu": "Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)",
+        "speechEn": "Добрый вечер, сестра! Как вам наш город и наша страна?",
+        "learnerHintEn": "Hint: Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Мне очень нравится Индия! Страна необычайно красивая.",
+        "speechIso": "Mujhē Bhārat bahut pasand hai! Bahut sundar desh hai.",
+        "speechCyrillic": "Муджхе Бхаарат бахут пасанд хэ! Бахут сундар дэш хэ.",
+        "acceptableResponsesIso": [
+          "Mujhē Bhārat bahut pasand hai!"
+        ],
+        "speechEn": "Мне очень нравится Индия! Страна необычайно красивая."
+      },
+      {
+        "speaker": "Глава семьи",
+        "speechRu": "А как вам наши люди? Никто вас не обижает?",
+        "speechIso": "Aur yahā̃ kē log kaisē haiñ?",
+        "speechCyrillic": "Аур йахааⁿ ке лог кэсе хэⁿ?",
+        "learnerHintRu": "Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)",
+        "speechEn": "А как вам наши люди? Никто вас не обижает?",
+        "learnerHintEn": "Hint: Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Люди здесь очень добрые и душевные! Вы все очень хорошие.",
+        "speechIso": "Yahā̃ kē log bahut acchē haiñ! Āp sab bahut acchē haiñ.",
+        "speechCyrillic": "Йахааⁿ ке лог бахут аччхээ хэⁿ! Аап саб бахут аччхээ хэⁿ.",
+        "acceptableResponsesIso": [
+          "Yahā̃ kē log bahut acchē haiñ!"
+        ],
+        "speechEn": "Люди здесь очень добрые и душевные! Вы все очень хорошие."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Social Etiquette, Compliments, and Small Talk",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культура комплиментов и сердечность",
+    "pointsRu": [
+      "Индийцы необычайно чувствительны к искренней любви к их родине.",
+      "Фраза 'Yahā̃ kē log bahut acchē haiñ' часто растрогает пожилых людей до слез благословения.",
+      "Делая комплимент дому или детям, не забывайте улыбаться и слегка прикладывать правую руку к сердцу."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 38)",
+    "pointsEn": [
+      "Cultural insight: Индийцы необычайно чувствительны к искренней любви к их родине.",
+      "Cultural insight: Фраза 'Yahā̃ kē log bahut acchē haiñ' часто растрогает пожилых людей до слез благословения.",
+      "Cultural insight: Делая комплимент дому или детям, не забывайте улыбаться и слегка прикладывать правую руку к сердцу."
+    ]
+  },
+  "themeEn": "Social Etiquette, Compliments, and Small Talk: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

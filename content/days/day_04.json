@@ -1,0 +1,287 @@
+{
+  "day": 4,
+  "phase": 1,
+  "title": {
+    "en": "Core Politeness, Affirmation, and Negation",
+    "ru": "Базовая вежливость, утверждение, отрицание и извинения"
+  },
+  "theme": "Да, нет, ладно, извините (Māf kījiye) и ничего страшного (Kōī bāt nahī̃)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Контраст Hā̃ с носовым ааⁿ vs Nahī̃ с носовым ииⁿ)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Императив -iye как русский суффикс -ите в Извините)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Быстрое реагирование на бытовые предложения)",
+    "phase4SimulationMinutes": "17:00–20:00 (Реакция на случайный толчок в толпе или отказ от навязчивого гида)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Master polite affirmation (Hā̃-jī) and soft negation (Nahī̃-jī)",
+      "Apologize using formal imperative Māf kījiye",
+      "Dismiss trivial issues with Kōī bāt nahī̃"
+    ],
+    "ru": [
+      "Уверенно использовать вежливое 'да' (Hā̃-jī) и мягкое 'нет' (Nahī̃-jī)",
+      "Извиняться с помощью вежливого императива Māf kījiye (аналог русского 'Извините')",
+      "Снимать напряжение фразой Kōī bāt nahī̃ ('Ничего страшного / Пустяки')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Носовые гласные в Hā̃ (हाँ) и Nahī̃ (नहीं)",
+    "articulatoryMechanism": "Звук идет в нос. В слове 'Hā̃' открытый носовой гласный, в 'Nahī̃' — долгий высокий носовой 'ииⁿ'.",
+    "russianInterferenceWarning": "Не произносите четкое русское [н] на конце слова. Должно звучать [Хааⁿ] и [Нахииⁿ].",
+    "drills": [
+      {
+        "prompt": "Парное произнесение утверждения и отрицания",
+        "contrastPair": "Hā̃-jī (Хааⁿ-джи) vs Nahī̃-jī (Нахииⁿ-джи)",
+        "instructionsRu": "Держите носовой резонанс без прибавки твердого согласного."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Вежливый императив на -iye и фразеология вежливости",
+    "russianParallel": "Суффикс вежливости -iye строго соответствует русскому суффиксу -ите (Māf kījiye = Извин-ите; Kījiye = Сделайте). Kōī bāt nahī̃ семантически равна фразе 'Ничего страшного' (нет никакого вопроса/разговора).",
+    "syntacticFormula": "Глагольная основа + -iye (вежливая просьба)",
+    "explanationRu": "Форма на -iye используется всегда при обращении на Вы (Āp). Для извинения берется арабское заимствование māf (прощение) + kījiye (сделайте) = Простите / Извините.",
+    "pieCognateConnection": {
+      "root": "*ne / *nē",
+      "russian": "не / нет",
+      "hindi": "nahī̃ / na",
+      "meaning": "Индоевропейская отрицательная частица"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 4: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d04_v01",
+      "devanagari": "हाँ",
+      "transliterationIso": "Hā̃",
+      "phoneticCyrillic": "Хааⁿ",
+      "translationRu": "Да",
+      "translationEn": "Yes",
+      "partOfSpeech": "particle",
+      "gender": "n/a",
+      "audioHint": "Носовое открытое 'ааⁿ'."
+    },
+    {
+      "id": "d04_v02",
+      "devanagari": "नहीं",
+      "transliterationIso": "Nahī̃",
+      "phoneticCyrillic": "Нахииⁿ",
+      "translationRu": "Нет / Не",
+      "translationEn": "No / Not",
+      "partOfSpeech": "particle",
+      "gender": "n/a",
+      "audioHint": "Ударение на второй долгий носовой слог."
+    },
+    {
+      "id": "d04_v03",
+      "devanagari": "ठीक है",
+      "transliterationIso": "Ṭhīk hai",
+      "phoneticCyrillic": "Т͟хиик хэ",
+      "translationRu": "Ладно / Хорошо / Договорились",
+      "translationEn": "All right / Okay",
+      "partOfSpeech": "interjection",
+      "gender": "n/a",
+      "audioHint": "Ретрофлексный придыхательный ṭh."
+    },
+    {
+      "id": "d04_v04",
+      "devanagari": "माफ़ कीजिए",
+      "transliterationIso": "Māf kījiye",
+      "phoneticCyrillic": "Мааф кииджие",
+      "translationRu": "Извините / Простите",
+      "translationEn": "Excuse me / Sorry",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Долгое 'аа', окончание -iye."
+    },
+    {
+      "id": "d04_v05",
+      "devanagari": "कोई बात नहीं",
+      "transliterationIso": "Kōī bāt nahī̃",
+      "phoneticCyrillic": "Коии баат нахииⁿ",
+      "translationRu": "Ничего страшного / Без проблем",
+      "translationEn": "No problem / It doesn't matter",
+      "partOfSpeech": "interjection",
+      "gender": "n/a",
+      "audioHint": "Буквально: 'никакого разговора нет'."
+    },
+    {
+      "id": "d04_v06",
+      "devanagari": "कोई बात नहीं",
+      "transliterationIso": "Koī bāt nahī̃",
+      "phoneticCyrillic": "Коии баат нахииⁿ",
+      "translationRu": "Ничего страшного / Не за что",
+      "translationEn": "No problem / It doesn't matter",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Зубной звук 'т' в слове bāt + носовой 'нахииⁿ'."
+    },
+    {
+      "id": "d04_v07",
+      "devanagari": "बिल्कुल",
+      "transliterationIso": "Bilkul",
+      "phoneticCyrillic": "Билкул",
+      "translationRu": "Совершенно / Абсолютно точно",
+      "translationEn": "Absolutely / Exactly",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Ударение на первый слог, четкий чистый 'л'."
+    },
+    {
+      "id": "d04_v08",
+      "devanagari": "नहीं-जी",
+      "transliterationIso": "Nahī̃-jī",
+      "phoneticCyrillic": "Нахииⁿ-джии",
+      "translationRu": "Нет, спасибо (вежливый отказ)",
+      "translationEn": "No, thank you (polite refusal)",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Носовой 'ииⁿ' + вежливая частица."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d04_ex01",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "На улице торговец настойчиво предлагает купить барабан. Откажитесь вежливо, но твердо за 2 секунды.",
+      "prompt": "Торговец: Madam, take this! Very good drum!",
+      "options": [
+        "Nahī̃-jī, shukriyā!",
+        "Hā̃-jī, bilkul!",
+        "Mērā nām drum hai!"
+      ],
+      "correctAnswer": "Nahī̃-jī, shukriyā!",
+      "phoneticCyrillicTarget": "Нахииⁿ-джии, шукрийа!",
+      "explanationRu": "Формула 'Nahī̃-jī, shukriyā' (Нет, уважаемый, спасибо) — лучший культурный щит от навязчивых предложений.",
+      "instructionEn": "Exercise instruction: На улице торговец настойчиво предлагает купить барабан. Откажитесь вежливо, но твердо за 2 секунды.",
+      "explanationEn": "Формула 'Nahī̃-jī, shukriyā' (Нет, уважаемый, спасибо) — лучший культурный щит от навязчивых предложений."
+    },
+    {
+      "id": "d04_ex_sov",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите фразу вежливого согласия 'Да, все в порядке'",
+      "instructionEn": "Assemble the polite confirmation 'Yes, all is fine'",
+      "prompt": "Да, все в порядке (вежливое подтверждение)",
+      "wordChips": [
+        "ṭhīk hai",
+        "Hā̃-jī"
+      ],
+      "correctAnswer": [
+        "Hā̃-jī",
+        "ṭhīk hai"
+      ],
+      "explanationRu": "Сначала идет частица согласия (Hā̃-jī), затем предикат (ṭhīk hai).",
+      "explanationEn": "Affirmation particle comes first (Hā̃-jī), followed by predicate (ṭhīk hai)."
+    },
+    {
+      "id": "d04_ex02",
+      "type": "fill_in_blank",
+      "instructionRu": "Вставьте форму вежливого извинения",
+      "prompt": "_____, station kahā̃ hai? (Извините, где вокзал?)",
+      "options": [
+        "Māf kījiye",
+        "Bahut acchā",
+        "Kōī bāt nahī̃"
+      ],
+      "correctAnswer": "Māf kījiye",
+      "transliterationIsoTarget": "Māf kījiye, station kahā̃ hai?",
+      "explanationRu": "Māf kījiye используется для привлечения внимания или извинения.",
+      "instructionEn": "Exercise instruction: Вставьте форму вежливого извинения",
+      "explanationEn": "Māf kījiye используется для привлечения внимания или извинения."
+    },
+    {
+      "id": "d04_ex03",
+      "type": "listen_and_repeat",
+      "instructionRu": "Произнесите фразу успокоения собеседника 'Ничего страшного'",
+      "prompt": "Kōī bāt nahī̃",
+      "phoneticCyrillicTarget": "Коии баат нахииⁿ",
+      "transliterationIsoTarget": "Kōī bāt nahī̃",
+      "correctAnswer": "Kōī bāt nahī̃",
+      "explanationRu": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость.",
+      "instructionEn": "Exercise instruction: Произнесите фразу успокоения собеседника 'Ничего страшного'",
+      "explanationEn": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость."
+    },
+    {
+      "id": "d04_ex04",
+      "type": "substitution_drill",
+      "instructionRu": "Подтвердите согласие с собеседником",
+      "prompt": "Чай готов? Ответьте: 'Да, хорошо!'",
+      "options": [
+        "Hā̃, ṭhīk hai!",
+        "Nahī̃, māf kījiye!",
+        "Main tourist hū̃!"
+      ],
+      "correctAnswer": "Hā̃, ṭhīk hai!",
+      "transliterationIsoTarget": "Hā̃, ṭhīk hai!",
+      "explanationRu": "Hā̃ (да) + ṭhīk hai (ладно / хорошо).",
+      "instructionEn": "Exercise instruction: Подтвердите согласие с собеседником",
+      "explanationEn": "Hā̃ (да) + ṭhīk hai (ладно / хорошо)."
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Неловкая ситуация в узком коридоре",
+    "setting": "Коридор отеля или посадка в поезд",
+    "partnerRoleRu": "Попутчик с чемоданом",
+    "learnerRoleRu": "Путешественник",
+    "turns": [
+      {
+        "speaker": "Попутчик",
+        "speechRu": "Ой, извините пожалуйста! Я задел ваш багаж.",
+        "speechIso": "Oh, māf kījiye jī!",
+        "speechCyrillic": "Ох, мааф кииджие джии!",
+        "learnerHintRu": "Успокойте его: Ничего страшного, все в порядке!",
+        "speechEn": "Ой, извините пожалуйста! Я задел ваш багаж.",
+        "learnerHintEn": "Hint: Успокойте его: Ничего страшного, все в порядке!"
+      },
+      {
+        "speaker": "Вы (ученик)",
+        "speechRu": "Ничего страшного, все хорошо!",
+        "speechIso": "Kōī bāt nahī̃, ṭhīk hai!",
+        "speechCyrillic": "Коии баат нахииⁿ, т͟хиик хэ!",
+        "acceptableResponsesIso": [
+          "Kōī bāt nahī̃",
+          "Ṭhīk hai jī, kōī bāt nahī̃"
+        ],
+        "speechEn": "Ничего страшного, все хорошо!"
+      },
+      {
+        "speaker": "Попутчик",
+        "speechRu": "Большое спасибо за понимание!",
+        "speechIso": "Bahut shukriyā!",
+        "speechCyrillic": "Бахут шукрийа!",
+        "learnerHintRu": "Ответьте вежливым кивком 'Shukriyā jī'",
+        "speechEn": "Большое спасибо за понимание!",
+        "learnerHintEn": "Hint: Ответьте вежливым кивком 'Shukriyā jī'"
+      },
+      {
+        "speaker": "Вы (ученик)",
+        "speechRu": "Пожалуйста!",
+        "speechIso": "Shukriyā jī!",
+        "speechCyrillic": "Шукрийа джии!",
+        "acceptableResponsesIso": [
+          "Dhanyavād jī"
+        ],
+        "speechEn": "Пожалуйста!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Core Politeness, Affirmation, and Negation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культура отказа и личные границы",
+    "pointsRu": [
+      "Резкое русское 'Нет!' может восприниматься в Индии как излишняя агрессия.",
+      "Связка 'Nahī̃-jī, shukriyā' в сочетании с легким покачиванием головы из стороны в сторону выражает мягкий, но непререкаемый отказ.",
+      "Индийское покачивание головой ('head bobble') часто означает согласие, подтверждение или уважительное 'понимаю вас'."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 4)",
+    "pointsEn": [
+      "Cultural insight: Резкое русское 'Нет!' может восприниматься в Индии как излишняя агрессия.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Индийское покачивание головой ('head bobble') часто означает согласие, подтверждение или уважительное 'понимаю вас'."
+    ]
+  },
+  "themeEn": "Core Politeness, Affirmation, and Negation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

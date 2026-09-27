@@ -1,0 +1,293 @@
+{
+  "day": 2,
+  "phase": 1,
+  "title": {
+    "en": "Personal Identity and State of Being (Copula Honā)",
+    "ru": "Личная идентичность и бытийный глагол (Связка Honā)"
+  },
+  "theme": "Имя, происхождение (из России) и глагол-связка hū̃ (есмь)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Назализация hū̃ / хууⁿ, недопущение согласного [н])",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Конструкция Main ... hū̃ и послелог сэ)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Подстановочные упражнения с именами и городами)",
+    "phase4SimulationMinutes": "17:00–20:00 (Диалог знакомства при заселении)"
+  },
+  "learningObjectives": {
+    "en": [
+      "State name and origin using copula hū̃",
+      "Bridge the omitted Russian copula to obligatory Hindi terminal verb",
+      "Master postposition sē for origin ('из / с')"
+    ],
+    "ru": [
+      "Называть свое имя и страну происхождения с помощью глагола-связки hū̃",
+      "Преодолеть привычку опускать связку в настоящем времени (Я Анна -> Main Anna hū̃)",
+      "Использовать послелог 'sē' в значении 'из / с' (Russia sē)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Назализованный гласный /ū̃/ (ूँ) в связке hū̃",
+    "articulatoryMechanism": "Воздух выходит через рот и носовую полость одновременно. Губы вытянуты вперед для 'уу'.",
+    "russianInterferenceWarning": "Не прибавляйте на конце согласную 'н' или 'м'! Должно звучать чистое носовое [хууⁿ], а не 'хун'.",
+    "drills": [
+      {
+        "prompt": "Отработка чистой носовой долготы",
+        "contrastPair": "hū (чистый у) vs hū̃ (носовой ууⁿ)",
+        "instructionsRu": "Опустите нёбную занавеску и направьте часть звука в нос: 'хууⁿ'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Обязательная конечная глагол-связка (Copula)",
+    "russianParallel": "В современном русском языке связка опускается ('Я турист', 'Я из Москвы'). В хинди связка обязательна и закрывает предложение (исторически родственно церковнославянскому 'Аз есмь').",
+    "syntacticFormula": "Main + [Имя / Характеристика / Страна + sē] + hū̃",
+    "explanationRu": "В конце утверждения с 'Main' (Я) всегда стоит 'hū̃' (есмь). Послелог 'sē' ставится ПОСЛЕ существительного: Russia sē = из России.",
+    "pieCognateConnection": {
+      "root": "*es-",
+      "russian": "есмь / есть",
+      "hindi": "hū̃ / hai",
+      "meaning": "Праиндоевропейский корень бытия"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 2: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d02_v01",
+      "devanagari": "मैं",
+      "transliterationIso": "Main",
+      "phoneticCyrillic": "Мэⁿ",
+      "translationRu": "Я",
+      "translationEn": "I",
+      "partOfSpeech": "pronoun",
+      "gender": "both",
+      "audioHint": "Носовой широкий звук [мэⁿ], не путать с английским 'main'."
+    },
+    {
+      "id": "d02_v02",
+      "devanagari": "हूँ",
+      "transliterationIso": "hū̃",
+      "phoneticCyrillic": "хууⁿ",
+      "translationRu": "есмь (форма глагола 'быть' для 'я')",
+      "translationEn": "am (first person copula)",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Носовое долгое 'ууⁿ' на выдохе."
+    },
+    {
+      "id": "d02_v03",
+      "devanagari": "मेरा",
+      "transliterationIso": "Mērā",
+      "phoneticCyrillic": "Мераа",
+      "translationRu": "Мой / Моё",
+      "translationEn": "My",
+      "partOfSpeech": "pronoun",
+      "gender": "m",
+      "audioHint": "Чистый русский 'р', долгое 'аа' на конце."
+    },
+    {
+      "id": "d02_v04",
+      "devanagari": "नाम",
+      "transliterationIso": "Nām",
+      "phoneticCyrillic": "Наам",
+      "translationRu": "Имя",
+      "translationEn": "Name",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Когнат с русским 'имя' через индоевропейский корень *h₁nómn̥."
+    },
+    {
+      "id": "d02_v05",
+      "devanagari": "से",
+      "transliterationIso": "Sē",
+      "phoneticCyrillic": "Сэ",
+      "translationRu": "из / с / от",
+      "translationEn": "from / by",
+      "partOfSpeech": "postposition",
+      "gender": "n/a",
+      "audioHint": "Твердое зубное 'сэ'."
+    },
+    {
+      "id": "d02_v06",
+      "devanagari": "है",
+      "transliterationIso": "hai",
+      "phoneticCyrillic": "хэ",
+      "translationRu": "есть / является (для 3-го лица: он/она/оно)",
+      "translationEn": "is (third person singular copula)",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Широкий открытый [хэ]."
+    },
+    {
+      "id": "d02_v07",
+      "devanagari": "विद्यार्थी",
+      "transliterationIso": "Vidyārthī / Chhātrā",
+      "phoneticCyrillic": "Видйаартхии / Чхаатраа",
+      "translationRu": "Студент / Студентка",
+      "translationEn": "Student",
+      "partOfSpeech": "noun",
+      "gender": "both",
+      "audioHint": "Придыхательный 'тх' + долгий 'ии'."
+    },
+    {
+      "id": "d02_v08",
+      "devanagari": "खुश",
+      "transliterationIso": "Khush",
+      "phoneticCyrillic": "Кхуш",
+      "translationRu": "Рада / Рад / Счастлива",
+      "translationEn": "Happy / Glad",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Придыхательное 'кх', краткий 'у', мягкое 'ш'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d02_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите фразу 'Я из России' в строгом порядке хинди (Подлежащее + Обстоятельство + Связка)",
+      "prompt": "Я из России (буквально: Я Россия из есмь)",
+      "wordChips": [
+        "Main",
+        "Russia",
+        "sē",
+        "hū̃"
+      ],
+      "correctAnswer": [
+        "Main",
+        "Russia",
+        "sē",
+        "hū̃"
+      ],
+      "phoneticCyrillicTarget": "Мэⁿ Расийа сэ хууⁿ",
+      "explanationRu": "В хинди глагол-связка hū̃ строго закрывает предложение.",
+      "instructionEn": "Exercise instruction: Соберите фразу 'Я из России' в строгом порядке хинди (Подлежащее + Обстоятельство + Связка)",
+      "explanationEn": "В хинди глагол-связка hū̃ строго закрывает предложение."
+    },
+    {
+      "id": "d02_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Вставьте глагол-связку в фразу 'Меня зовут Анна'",
+      "prompt": "Mērā nām Anna _____",
+      "options": [
+        "hai",
+        "hū̃",
+        "sē"
+      ],
+      "correctAnswer": "hai",
+      "transliterationIsoTarget": "Mērā nām Anna hai",
+      "explanationRu": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'.",
+      "instructionEn": "Exercise instruction: Вставьте глагол-связку в фразу 'Меня зовут Анна'",
+      "explanationEn": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'."
+    },
+    {
+      "id": "d02_ex03",
+      "type": "listen_and_repeat",
+      "instructionRu": "Произнесите фразу 'Я турист/туристка', следя за носовым 'hū̃'",
+      "prompt": "Main tourist hū̃",
+      "phoneticCyrillicTarget": "Мэⁿ турист хууⁿ",
+      "transliterationIsoTarget": "Main tourist hū̃",
+      "correctAnswer": "Main tourist hū̃",
+      "explanationRu": "Никогда не забывайте связку hū̃ на конце!",
+      "instructionEn": "Exercise instruction: Произнесите фразу 'Я турист/туристка', следя за носовым 'hū̃'",
+      "explanationEn": "Никогда не забывайте связку hū̃ на конце!"
+    },
+    {
+      "id": "d02_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Выберите правильный послелог 'из'",
+      "prompt": "Main Moscow _____ hū̃.",
+      "options": [
+        "sē",
+        "mẽ",
+        "par"
+      ],
+      "correctAnswer": "sē",
+      "transliterationIsoTarget": "Main Moscow sē hū̃",
+      "explanationRu": "Sē передает значение происхождения (из Москвы).",
+      "instructionEn": "Exercise instruction: Выберите правильный послелог 'из'",
+      "explanationEn": "Sē передает значение происхождения (из Москвы)."
+    },
+    {
+      "id": "d02_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Я'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'I' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Я»?",
+      "options": [
+        "Main!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Main!",
+      "phoneticCyrillicTarget": "Мэⁿ!",
+      "transliterationIsoTarget": "Main!",
+      "explanationRu": "Правильный и уверенный устный ответ: Main!",
+      "explanationEn": "Correct and confident verbal response: Main!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Знакомство при заселении в гестхаус",
+    "setting": "Стойка регистрации в Ришикеше или Дели",
+    "partnerRoleRu": "Владелец гестхауса",
+    "learnerRoleRu": "Гость",
+    "turns": [
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Здравствуйте! Как ваше имя?",
+        "speechIso": "Namastē jī! Āpkā nām kyā hai?",
+        "speechCyrillic": "Намастэ джии! Аапкаа наам кйаа хэ?",
+        "learnerHintRu": "Назовите свое имя: Mērā nām [Имя] hai",
+        "speechEn": "Здравствуйте! Как ваше имя?",
+        "learnerHintEn": "Hint: Назовите свое имя: Mērā nām [Имя] hai"
+      },
+      {
+        "speaker": "Вы (ученик)",
+        "speechRu": "Здравствуйте! Меня зовут Анна.",
+        "speechIso": "Namastē jī! Mērā nām Anna hai.",
+        "speechCyrillic": "Намастэ джии! Мераа наам Анна хэ.",
+        "acceptableResponsesIso": [
+          "Mērā nām Anna hai",
+          "Main Anna hū̃"
+        ],
+        "speechEn": "Здравствуйте! Меня зовут Анна."
+      },
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Очень приятно! Откуда вы приехали?",
+        "speechIso": "Āp kahā̃ sē haiñ?",
+        "speechCyrillic": "Аап кахааⁿ сэ хэⁿ?",
+        "learnerHintRu": "Скажите: Я из России (Main Russia sē hū̃)",
+        "speechEn": "Очень приятно! Откуда вы приехали?",
+        "learnerHintEn": "Hint: Скажите: Я из России (Main Russia sē hū̃)"
+      },
+      {
+        "speaker": "Вы (ученик)",
+        "speechRu": "Я из России. Я турист.",
+        "speechIso": "Main Russia sē hū̃. Main tourist hū̃.",
+        "speechCyrillic": "Мэⁿ Расийа сэ хууⁿ. Мэⁿ турист хууⁿ.",
+        "acceptableResponsesIso": [
+          "Main Russia sē hū̃"
+        ],
+        "speechEn": "Я из России. Я турист."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Personal Identity and State of Being (Copula Honā)",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Разговоры о стране происхождения",
+    "pointsRu": [
+      "В Индии к путешественникам из России относятся очень тепло (историческое 'Хинди-руси бхай-бхай').",
+      "Фраза 'Main Russia sē hū̃' моментально вызывает улыбку и дружелюбие собеседника.",
+      "Слово 'tourist' абсолютно естественно используется в повседневном хинди (hinglish)."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 2)",
+    "pointsEn": [
+      "Cultural insight: В Индии к путешественникам из России относятся очень тепло (историческое 'Хинди-руси бхай-бхай').",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Слово 'tourist' абсолютно естественно используется в повседневном хинди (hinglish)."
+    ]
+  },
+  "themeEn": "Personal Identity and State of Being (Copula Honā): Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

@@ -1,0 +1,298 @@
+{
+  "day": 28,
+  "phase": 4,
+  "title": {
+    "en": "Bargaining Strategies and Price Negotiation",
+    "ru": "Стратегии торга: «Скиньте цену» (Kam kījiye) и «Назовите честную цену»"
+  },
+  "theme": "Слишком много (bahut zyādā hai), сделайте дешевле (kam kījiye), назовите честную цену (sahī dām lagāiye), дешево (sastā)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция kam kījiye и sahī dām)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Формулы сбивания цены: Thōṛā kam kījiye = Скиньте немного; Sahī dām lagāiye = Дайте реальную цену)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Парный раунд торга: завышенная цена -> возмущение -> предложение своей цены)",
+    "phase4SimulationMinutes": "17:00–20:00 (Реалистичный торг за сувениры на базаре)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Negotiate assertively using 'Bahut zyādā hai!' and 'Kam kījiye'",
+      "Demand fair pricing with 'Sahī dām lagāiye'",
+      "Propose counter-offers courteously with target amounts"
+    ],
+    "ru": [
+      "Уверенно торговаться фразами 'Bahut zyādā hai!' ('Слишком много!') и 'Kam kījiye' ('Сделайте дешевле / Скиньте')",
+      "Требовать честную цену: 'Sahī dām lagāiye' ('Назовите правильную/справедливую цену')",
+      "Предлагать свою цену в уважительном и доброжелательном тоне"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Зубной звук /s/ и долгое /ī/ в слове sahī (सही)",
+    "articulatoryMechanism": "Чистый глухой [с] + легкий выдох [х] с долгим гласным [ии]: [са-хии]. Значит 'правильный, справедливый'.",
+    "russianInterferenceWarning": "Не проглатывайте звук [х] в слове sahī.",
+    "drills": [
+      {
+        "prompt": "Отработка призыва к справедливости",
+        "contrastPair": "Sahī dām lagāiye (Назовите справедливую цену)",
+        "instructionsRu": "Произнесите спокойно и авторитетно."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Императивные формулы торга (Kam kījiye)",
+    "russianParallel": "Снова работает наш вежливый суффикс -iye (русское -ите): Kam (мало/меньше) + kījiye (сделайте) = Сделайте подешевле / Скиньте. 'Thōṛā kam kījiye' = Скиньте чуть-чуть. Глагол lagānā в 'dām lagāiye' означает 'назначьте / примените цену'.",
+    "syntacticFormula": "[Bahut zyādā hai] + [Kam kījiye / Sahī dām lagāiye] + [Своя сумма + dījiye]",
+    "explanationRu": "Торг на индийском рынке — это не драка, а дружелюбный театр. Улыбка, спокойствие и точные фразы на хинди снижают цену ровно вдвое.",
+    "pieCognateConnection": {
+      "root": "*seh₂-",
+      "russian": "суть / сытый (истинный)",
+      "hindi": "sahī (правильный / честный)",
+      "meaning": "Праиндоевропейская истина и верность"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 28: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d28_v01",
+      "devanagari": "कम कीजिए",
+      "transliterationIso": "Kam kījiye",
+      "phoneticCyrillic": "Кам кииджие",
+      "translationRu": "Сделайте подешевле / Скиньте цену",
+      "translationEn": "Lower it, please / Give a discount",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Kam (мало) + kījiye (сделайте)."
+    },
+    {
+      "id": "d28_v02",
+      "devanagari": "सही दाम लगाइए",
+      "transliterationIso": "Sahī dām lagāiye",
+      "phoneticCyrillic": "Сахии даам лагааие",
+      "translationRu": "Назовите честную (справедливую) цену",
+      "translationEn": "Quote a fair price",
+      "partOfSpeech": "phrase",
+      "gender": "both",
+      "audioHint": "Ключевая фраза опытных покупателей."
+    },
+    {
+      "id": "d28_v03",
+      "devanagari": "सस्ता",
+      "transliterationIso": "Sastā",
+      "phoneticCyrillic": "Састаа",
+      "translationRu": "Дешёвый / Недорогой",
+      "translationEn": "Cheap / Inexpensive",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Долгое 'аа' на конце."
+    },
+    {
+      "id": "d28_v04",
+      "devanagari": "बहुत ज़्यादा",
+      "transliterationIso": "Bahut zyādā",
+      "phoneticCyrillic": "Бахут зйаадаа",
+      "translationRu": "Слишком много / Чересчур",
+      "translationEn": "Too much",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Выражение протеста против цены."
+    },
+    {
+      "id": "d28_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d28_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d28_v07",
+      "devanagari": "ठीक दाम",
+      "transliterationIso": "Ṭhīk dām",
+      "phoneticCyrillic": "Т͟хиик даам",
+      "translationRu": "Справедливая / Честная цена",
+      "translationEn": "Fair price",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Ретрофлексный придыхательный [т͟х]."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d28_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите формулу торга: 'Брат, это слишком много! Скиньте немного'",
+      "prompt": "Слишком много, скиньте немного",
+      "wordChips": [
+        "Bahut",
+        "zyādā",
+        "hai,",
+        "thōṛā",
+        "kam",
+        "kījiye!"
+      ],
+      "correctAnswer": [
+        "Bahut",
+        "zyādā",
+        "hai,",
+        "thōṛā",
+        "kam",
+        "kījiye!"
+      ],
+      "phoneticCyrillicTarget": "Бахут зйаадаа хэ, тхоор͟аа кам кииджие!",
+      "explanationRu": "Классическая связка торга: Bahut zyādā hai, thōṛā kam kījiye!",
+      "instructionEn": "Exercise instruction: Соберите формулу торга: 'Брат, это слишком много! Скиньте немного'",
+      "explanationEn": "Классическая связка торга: Bahut zyādā hai, thōṛā kam kījiye!"
+    },
+    {
+      "id": "d28_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Продавец просит 1000 рупий. Потребуйте назвать честную цену за 2 секунды.",
+      "prompt": "Продавец: 1000 rupees last price!",
+      "options": [
+        "Nahī̃ bhaiyā, sahī dām lagāiye!",
+        "Hā̃ bhaiyā, lījiye 1000!",
+        "Station kahā̃ hai?"
+      ],
+      "correctAnswer": "Nahī̃ bhaiyā, sahī dām lagāiye!",
+      "phoneticCyrillicTarget": "Нахииⁿ бхаййаа, сахии даам лагааие!",
+      "explanationRu": "Sahī dām lagāiye = Назовите честную цену!",
+      "instructionEn": "Exercise instruction: Продавец просит 1000 рупий. Потребуйте назвать честную цену за 2 секунды.",
+      "explanationEn": "Sahī dām lagāiye = Назовите честную цену!"
+    },
+    {
+      "id": "d28_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Предложите забрать товар за 300 рупий (300 рупий + дайте)",
+      "prompt": "Tīn sau rupayē _____! (Отдайте за 300)",
+      "options": [
+        "dījiye",
+        "lījiye",
+        "chaliye"
+      ],
+      "correctAnswer": "dījiye",
+      "transliterationIsoTarget": "Tīn sau rupayē dījiye!",
+      "explanationRu": "Tīn sau rupayē dījiye = Отдайте за 300 рупий.",
+      "instructionEn": "Exercise instruction: Предложите забрать товар за 300 рупий (300 рупий + дайте)",
+      "explanationEn": "Tīn sau rupayē dījiye = Отдайте за 300 рупий."
+    },
+    {
+      "id": "d28_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Скажите, что вам нужен товар подешевле",
+      "prompt": "Mujhē _____ chāhiye. (Мне нужен дешевый)",
+      "options": [
+        "sastā",
+        "mahangā",
+        "tīkhā"
+      ],
+      "correctAnswer": "sastā",
+      "transliterationIsoTarget": "Mujhē sastā chāhiye.",
+      "explanationRu": "Sastā = дешевый.",
+      "instructionEn": "Exercise instruction: Скажите, что вам нужен товар подешевле",
+      "explanationEn": "Sastā = дешевый."
+    },
+    {
+      "id": "d28_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Сделайте подешевле / Скиньте цену'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Lower it, please / Give a discount' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Сделайте подешевле / Скиньте цену»?",
+      "options": [
+        "Kam kījiye!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Kam kījiye!",
+      "phoneticCyrillicTarget": "Кам кииджие!",
+      "transliterationIsoTarget": "Kam kījiye!",
+      "explanationRu": "Правильный и уверенный устный ответ: Kam kījiye!",
+      "explanationEn": "Correct and confident verbal response: Kam kījiye!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Настоящий торг за шелковый платок на базаре",
+    "setting": "Текстильная лавка на базаре Джодхпура",
+    "partnerRoleRu": "Азартный продавец платков",
+    "learnerRoleRu": "Опытная покупательница",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Мадам, прекрасный платок! Шестьсот рупий.",
+        "speechIso": "Chhah sau rupayē madam, best price!",
+        "speechCyrillic": "Чхэх сау рупае мадам, бэст прайс!",
+        "learnerHintRu": "Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)",
+        "speechEn": "Мадам, прекрасный платок! Шестьсот рупий.",
+        "learnerHintEn": "Hint: Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, брат! Это слишком дорого. Назовите честную цену. Триста рупий!",
+        "speechIso": "Nahī̃ bhaiyā! Bahut zyādā hai. Sahī dām lagāiye. Tīn sau rupayē dījiye!",
+        "speechCyrillic": "Нахииⁿ бхаййаа! Бахут зйаадаа хэ. Сахии даам лагааие. Тиин сау рупае дииджие!",
+        "acceptableResponsesIso": [
+          "Bahut zyādā hai! Tīn sau rupayē dījiye!"
+        ],
+        "speechEn": "Нет, брат! Это слишком дорого. Назовите честную цену. Триста рупий!"
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Триста?! Нет, так нельзя. Давайте четыреста рупий?",
+        "speechIso": "Tīn sau nahī̃ madam! Chār sau rupayē final.",
+        "speechCyrillic": "Тиин сау нахииⁿ мадам! Чаар сау рупае файнал.",
+        "learnerHintRu": "Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!",
+        "speechEn": "Триста?! Нет, так нельзя. Давайте четыреста рупий?",
+        "learnerHintEn": "Hint: Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Триста пятьдесят рупий, договорились? Заворачивайте!",
+        "speechIso": "350 rupayē, ṭhīk hai? Pack kar dījiye!",
+        "speechCyrillic": "350 рупае, т͟хиик хэ? Пэк кар дииджие!",
+        "acceptableResponsesIso": [
+          "Ṭhīk hai, pack kījiye!"
+        ],
+        "speechEn": "Триста пятьдесят рупий, договорились? Заворачивайте!"
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Ладно, мадам, вы умеете торговаться! Забирайте.",
+        "speechIso": "Ṭhīk hai madam, lījiye!",
+        "speechCyrillic": "Т͟хиик хэ мадам, лииджие!",
+        "learnerHintRu": "Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!",
+        "speechEn": "Ладно, мадам, вы умеете торговаться! Забирайте.",
+        "learnerHintEn": "Hint: Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Bargaining Strategies and Price Negotiation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Искусство 'Ухода' (The Walk-Away Technique)",
+    "pointsRu": [
+      "Если продавец не уступает, вежливо улыбнитесь, скажите 'Shukriyā bhaiyā' и сделайте вид, что уходите.",
+      "В 80% случаев продавец крикнет вам вслед: 'Madam, suniye! Āiye, le lījiye!' (Мадам, послушайте! Идите сюда, забирайте за вашу цену!).",
+      "Торговаться нужно всегда с доброй улыбкой, превращая процесс в позитивную игру."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 28)",
+    "pointsEn": [
+      "Cultural insight: Если продавец не уступает, вежливо улыбнитесь, скажите 'Shukriyā bhaiyā' и сделайте вид, что уходите.",
+      "The honorific suffix -jī attached to names (e.g. Anna-jī) or words (hā̃-jī) signals warmth, deference, and polite conversational posture.",
+      "Cultural insight: Торговаться нужно всегда с доброй улыбкой, превращая процесс в позитивную игру."
+    ]
+  },
+  "themeEn": "Bargaining Strategies and Price Negotiation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

@@ -1,0 +1,294 @@
+{
+  "day": 3,
+  "phase": 1,
+  "title": {
+    "en": "Inquiring Wellbeing and Adjectival Gender Agreement",
+    "ru": "Вопрос о самочувствии и родовое согласование прилагательных"
+  },
+  "theme": "Как дела? Согласование по женскому (-ī) и мужскому (-ē) роду",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция ретрофлексного ṭh в ṭhīk / тхиик)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Согласование kaisē / kaisī и окончание -ī)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Парный диалог: самочувствие и взаимный ответ)",
+    "phase4SimulationMinutes": "17:00–20:00 (Встреча знакомого на улице)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Ask how someone is doing in formal register (Āp kaisī/kaisē haiñ?)",
+      "Answer using adjectival agreement (Main ṭhīk hū̃)",
+      "Deploy reciprocation phrase 'Aur āp?' (And you?)"
+    ],
+    "ru": [
+      "Спрашивать 'Как ваши дела?' в уважительном регистре с учетом пола собеседника",
+      "Отвечать 'Я в порядке' (Main ṭhīk hū̃) и 'Очень хорошо' (Bahut acchā)",
+      "Использовать связку взаимности 'Aur āp?' (А вы?)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Ретрофлексный придыхательный /ṭh/ (ठ) в слове ṭhīk",
+    "articulatoryMechanism": "Кончик языка загибается назад к нёбу и с резким придыхательным выбросом воздуха размыкается.",
+    "russianInterferenceWarning": "Не заменяйте на русское мягкое 'ть'! Это твердый загнутый звук с дыханием: [т͟хиик].",
+    "drills": [
+      {
+        "prompt": "Тест с бумажкой на слово ṭhīk",
+        "contrastPair": "ṭīk (без придыхания) vs ṭhīk (с выбросом воздуха)",
+        "instructionsRu": "Бумажка перед губами должна резко колыхнуться на звуке 'ṭhīk'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Родовое согласование предикативных прилагательных",
+    "russianParallel": "Полная аналогия с русским языком: какой (м.р.) / какая (ж.р.). К женщине обращаются: Āp kaisī haiñ? К мужчине: Āp kaisē haiñ?",
+    "syntacticFormula": "Āp + [kaisē (м.р.) / kaisī (ж.р.)] + haiñ?",
+    "explanationRu": "Суффикс -ā / -ē маркирует мужской род, суффикс -ī маркирует женский род. При обращении на 'Āp' используется форма множественного числа/вежливости (kaisē / haiñ).",
+    "pieCognateConnection": {
+      "root": "*kʷo- / *kʷi-",
+      "russian": "какой / как",
+      "hindi": "kaisā / kaisī",
+      "meaning": "Вопросительное местоимение качества"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 3: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d03_v01",
+      "devanagari": "कैसी",
+      "transliterationIso": "Kaisī",
+      "phoneticCyrillic": "Кэсии",
+      "translationRu": "Как / Какая (для женщины)",
+      "translationEn": "How (feminine)",
+      "partOfSpeech": "adjective",
+      "gender": "f",
+      "audioHint": "Долгое чистое 'ии' на конце."
+    },
+    {
+      "id": "d03_v02",
+      "devanagari": "कैसे",
+      "transliterationIso": "Kaisē",
+      "phoneticCyrillic": "Кэсе",
+      "translationRu": "Как / Какой (для мужчины / вежливая форма)",
+      "translationEn": "How (masculine honorific)",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Твердое э на конце."
+    },
+    {
+      "id": "d03_v03",
+      "devanagari": "ठीक",
+      "transliterationIso": "Ṭhīk",
+      "phoneticCyrillic": "Т͟хиик",
+      "translationRu": "Хорошо / В порядке / Нормально",
+      "translationEn": "Fine / Okay / All right",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Ретрофлексный загиб кончика языка + придыхание."
+    },
+    {
+      "id": "d03_v04",
+      "devanagari": "बहुत",
+      "transliterationIso": "Bahut",
+      "phoneticCyrillic": "Бахут",
+      "translationRu": "Очень / Много",
+      "translationEn": "Very / Much",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Легкий выдох на 'х', зубное 'т'."
+    },
+    {
+      "id": "d03_v05",
+      "devanagari": "अच्छा",
+      "transliterationIso": "Acchā",
+      "phoneticCyrillic": "Аччхаа",
+      "translationRu": "Хороший / Хорошо",
+      "translationEn": "Good",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Удвоенное придыхательное 'ччх'."
+    },
+    {
+      "id": "d03_v06",
+      "devanagari": "और",
+      "transliterationIso": "Aur",
+      "phoneticCyrillic": "Аур",
+      "translationRu": "И / А (союз)",
+      "translationEn": "And",
+      "partOfSpeech": "conjunction",
+      "gender": "n/a",
+      "audioHint": "Раскатистый чистый 'р'."
+    },
+    {
+      "id": "d03_v07",
+      "devanagari": "सब ठीक",
+      "transliterationIso": "Sab ṭhīk hai",
+      "phoneticCyrillic": "Саб т͟хиик хэ",
+      "translationRu": "Все в порядке / Все хорошо",
+      "translationEn": "Everything is fine / All good",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Ретрофлексный придыхательный [т͟х] + долгий гласный [ии]."
+    },
+    {
+      "id": "d03_v08",
+      "devanagari": "और आप?",
+      "transliterationIso": "Aur āp?",
+      "phoneticCyrillic": "Аур аап?",
+      "translationRu": "А вы? (ответный вопрос)",
+      "translationEn": "And you?",
+      "partOfSpeech": "phrase",
+      "gender": "both",
+      "audioHint": "Дифтонг 'ау' + долгий гласный 'аап'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d03_ex01",
+      "type": "substitution_drill",
+      "instructionRu": "Обратитесь к женщине с вопросом 'Как ваши дела?'",
+      "prompt": "Āp _____ haiñ?",
+      "options": [
+        "kaisī",
+        "kaisē",
+        "kaisā"
+      ],
+      "correctAnswer": "kaisī",
+      "transliterationIsoTarget": "Āp kaisī haiñ?",
+      "explanationRu": "Для женского рода согласовательное окончание всегда -ī (kaisī).",
+      "instructionEn": "Exercise instruction: Обратитесь к женщине с вопросом 'Как ваши дела?'",
+      "explanationEn": "Для женского рода согласовательное окончание всегда -ī (kaisī)."
+    },
+    {
+      "id": "d03_ex02",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите фразу 'Я в порядке' (Я + в порядке + есмь)",
+      "prompt": "Я в порядке",
+      "wordChips": [
+        "Main",
+        "ṭhīk",
+        "hū̃"
+      ],
+      "correctAnswer": [
+        "Main",
+        "ṭhīk",
+        "hū̃"
+      ],
+      "phoneticCyrillicTarget": "Мэⁿ т͟хиик хууⁿ",
+      "explanationRu": "Main (Я) + ṭhīk (в порядке) + hū̃ (есмь).",
+      "instructionEn": "Exercise instruction: Соберите фразу 'Я в порядке' (Я + в порядке + есмь)",
+      "explanationEn": "Main (Я) + ṭhīk (в порядке) + hū̃ (есмь)."
+    },
+    {
+      "id": "d03_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вас спросили: 'Āp kaisī haiñ?'. Ответьте, что у вас все отлично, и поблагодарите.",
+      "prompt": "Собеседник: Āp kaisī haiñ?",
+      "options": [
+        "Main ṭhīk hū̃, shukriyā!",
+        "Main Russia sē hū̃!",
+        "Bahut nām hai!"
+      ],
+      "correctAnswer": "Main ṭhīk hū̃, shukriyā!",
+      "phoneticCyrillicTarget": "Мэⁿ т͟хиик хууⁿ, шукрийа!",
+      "explanationRu": "Классический вежливый ответ: Main ṭhīk hū̃, shukriyā!",
+      "instructionEn": "Exercise instruction: Вас спросили: 'Āp kaisī haiñ?'. Ответьте, что у вас все отлично, и поблагодарите.",
+      "explanationEn": "Классический вежливый ответ: Main ṭhīk hū̃, shukriyā!"
+    },
+    {
+      "id": "d03_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Вставьте союз 'А вы?'",
+      "prompt": "_____ āp? (А вы?)",
+      "options": [
+        "Aur",
+        "Sē",
+        "Jī"
+      ],
+      "correctAnswer": "Aur",
+      "transliterationIsoTarget": "Aur āp?",
+      "explanationRu": "Aur означает 'и / а'.",
+      "instructionEn": "Exercise instruction: Вставьте союз 'А вы?'",
+      "explanationEn": "Aur означает 'и / а'."
+    },
+    {
+      "id": "d03_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Как / Какая (для женщины)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'How (feminine)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Как / Какая (для женщины)»?",
+      "options": [
+        "Kaisī!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Kaisī!",
+      "phoneticCyrillicTarget": "Кэсии!",
+      "transliterationIsoTarget": "Kaisī!",
+      "explanationRu": "Правильный и уверенный устный ответ: Kaisī!",
+      "explanationEn": "Correct and confident verbal response: Kaisī!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Утренний обмен любезностями с администратором",
+    "setting": "Лобби отеля утром",
+    "partnerRoleRu": "Сотрудник отеля (мужчина)",
+    "learnerRoleRu": "Гостья",
+    "turns": [
+      {
+        "speaker": "Администратор",
+        "speechRu": "Доброе утро! Как вы поживаете?",
+        "speechIso": "Namastē jī! Āp kaisī haiñ?",
+        "speechCyrillic": "Намастэ джии! Аап кэсии хэⁿ?",
+        "learnerHintRu": "Ответьте: Я в порядке, спасибо! А вы?",
+        "speechEn": "Доброе утро! Как вы поживаете?",
+        "learnerHintEn": "Hint: Ответьте: Я в порядке, спасибо! А вы?"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Я в порядке, спасибо! А вы как?",
+        "speechIso": "Main ṭhīk hū̃, dhanyavād! Aur āp?",
+        "speechCyrillic": "Мэⁿ т͟хиик хууⁿ, дханьяваад! Аур аап?",
+        "acceptableResponsesIso": [
+          "Main ṭhīk hū̃, shukriyā! Aur āp?"
+        ],
+        "speechEn": "Я в порядке, спасибо! А вы как?"
+      },
+      {
+        "speaker": "Администратор",
+        "speechRu": "Я тоже в полном порядке. Очень хорошо!",
+        "speechIso": "Main bhī ṭhīk hū̃. Bahut acchā!",
+        "speechCyrillic": "Мэⁿ бхии т͟хиик хууⁿ. Бахут аччхаа!",
+        "learnerHintRu": "Улыбнитесь и скажите 'Acchā jī, shukriyā'",
+        "speechEn": "Я тоже в полном порядке. Очень хорошо!",
+        "learnerHintEn": "Hint: Улыбнитесь и скажите 'Acchā jī, shukriyā'"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Прекрасно, спасибо!",
+        "speechIso": "Acchā jī, shukriyā!",
+        "speechCyrillic": "Аччхаа джии, шукрийа!",
+        "acceptableResponsesIso": [
+          "Bahut acchā, shukriyā!"
+        ],
+        "speechEn": "Прекрасно, спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Inquiring Wellbeing and Adjectival Gender Agreement",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Интонация слова 'Acchā'",
+    "pointsRu": [
+      "Слово 'Acchā' в Индии — универсальный маркер активного слушания (как русское 'понятно', 'хорошо', 'ага').",
+      "С восходящей интонацией ('Acchā?') означает 'Правда? Да ладно!'.",
+      "С нисходящей спокойной интонацией ('Acchā...') означает 'Ясно / Договорились'."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 3)",
+    "pointsEn": [
+      "Cultural insight: Слово 'Acchā' в Индии — универсальный маркер активного слушания (как русское 'понятно', 'хорошо', 'ага').",
+      "Cultural insight: С восходящей интонацией ('Acchā?') означает 'Правда? Да ладно!'.",
+      "Cultural insight: С нисходящей спокойной интонацией ('Acchā...') означает 'Ясно / Договорились'."
+    ]
+  },
+  "themeEn": "Inquiring Wellbeing and Adjectival Gender Agreement: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

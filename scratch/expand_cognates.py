@@ -1,0 +1,512 @@
+import json
+from pathlib import Path
+
+BASE_DIR = Path("/home/mehul/Documents/Projects/HindiTutor")
+COGNATES_FILE = BASE_DIR / "content" / "cognates_index.json"
+
+cognates = [
+    # Architecture & Space
+    {
+        "pieRoot": "*dʰwer-",
+        "russianWord": "дверь",
+        "hindiWordIso": "dvār / darvāzā",
+        "hindiPhoneticCyrillic": "дваар / дарваазаа",
+        "hindiDevanagari": "द्वार / दरवाज़ा",
+        "semanticFieldRu": "Архитектура и пространство",
+        "semanticFieldEn": "Architecture & Space",
+        "notesRu": "Дверь и darvāzā происходят от праиндоевропейского корня *dʰwer-, обозначающего проход или ворота.",
+        "notesEn": "Russian dver' and Hindi dvār / darvāzā directly descend from PIE *dʰwer- (doorway/gate)."
+    },
+    # Kinship
+    {
+        "pieRoot": "*méh₂tēr",
+        "russianWord": "мать / мама",
+        "hindiWordIso": "mātā / mā̃",
+        "hindiPhoneticCyrillic": "маатаа / мааⁿ",
+        "hindiDevanagari": "माता / माँ",
+        "semanticFieldRu": "Семья и родство",
+        "semanticFieldEn": "Family & Kinship",
+        "notesRu": "Прямое генетическое родство терминов материнства: русское 'мать' и хинди 'mātā' / 'mā̃'.",
+        "notesEn": "Direct genetic reflex of PIE maternal term: Russian mat' and Hindi mātā / mā̃."
+    },
+    {
+        "pieRoot": "*ph₂tḗr",
+        "russianWord": "отец / батя",
+        "hindiWordIso": "pitā",
+        "hindiPhoneticCyrillic": "питаа",
+        "hindiDevanagari": "पिता",
+        "semanticFieldRu": "Семья и родство",
+        "semanticFieldEn": "Family & Kinship",
+        "notesRu": "Русское просторечное 'батя' и санскритско-хинди 'pitā' восходят к корню *ph₂tḗr.",
+        "notesEn": "Russian dialectal batya and Hindi pitā both derive from PIE *ph₂tḗr (father)."
+    },
+    {
+        "pieRoot": "*bʰréh₂tēr",
+        "russianWord": "брат",
+        "hindiWordIso": "bhrātā / bhāī",
+        "hindiPhoneticCyrillic": "бхраатаа / бхааии",
+        "hindiDevanagari": "भ्राता / भाई",
+        "semanticFieldRu": "Семья и родство",
+        "semanticFieldEn": "Family & Kinship",
+        "notesRu": "В разговорной речи хинди используется bhāī, в формальной bhrātā — прямой когнат русского слова 'брат'.",
+        "notesEn": "Colloquial Hindi bhāī and formal bhrātā are direct cognates of Russian brat."
+    },
+    {
+        "pieRoot": "*swésōr",
+        "russianWord": "сестра",
+        "hindiWordIso": "svasā (выс.) / bahin (разг.)",
+        "hindiPhoneticCyrillic": "свасаа / бахин",
+        "hindiDevanagari": "स्वसा / बहन",
+        "semanticFieldRu": "Семья и родство",
+        "semanticFieldEn": "Family & Kinship",
+        "notesRu": "Высокая форма svasā полностью родственна слову 'сестра' (с закономерным переходом праиндоевропейского *sw-).",
+        "notesEn": "Formal Hindi svasā and Russian sestra share the PIE root *swésōr (sister)."
+    },
+    {
+        "pieRoot": "*suh₁nús",
+        "russianWord": "сын",
+        "hindiWordIso": "sūnu (санскр.) / beṭā (хинди)",
+        "hindiPhoneticCyrillic": "сууну / беетаа",
+        "hindiDevanagari": "सूनु / बेटा",
+        "semanticFieldRu": "Семья и родство",
+        "semanticFieldEn": "Family & Kinship",
+        "notesRu": "Русское 'сын' идентично санскритско-хинди этимону sūnu, означающему 'рожденный'.",
+        "notesEn": "Russian syn and Sanskrit-Hindi etymon sūnu (son) share PIE *suh₁nús."
+    },
+    {
+        "pieRoot": "*dʰugh₂tḗr",
+        "russianWord": "дочь / дочерь",
+        "hindiWordIso": "duhitā (выс.) / beṭī (разг.)",
+        "hindiPhoneticCyrillic": "духитаа / беетии",
+        "hindiDevanagari": "दुहिता / बेटी",
+        "semanticFieldRu": "Семья и родство",
+        "semanticFieldEn": "Family & Kinship",
+        "notesRu": "Древнерусское 'дочери' и хинди duhitā восходят к *dʰugh₂tḗr (дочь, доящая скот).",
+        "notesEn": "Old Russian dochere and Hindi duhitā stem from PIE *dʰugh₂tḗr (daughter)."
+    },
+    # Natural Elements
+    {
+        "pieRoot": "*h₁n̥gʷnis",
+        "russianWord": "огонь",
+        "hindiWordIso": "agni / āg",
+        "hindiPhoneticCyrillic": "агни / ааг",
+        "hindiDevanagari": "अग्नि / आग",
+        "semanticFieldRu": "Природные стихии",
+        "semanticFieldEn": "Natural Elements",
+        "notesRu": "Один из самых знаменитых когнатов: русское 'огонь' и хинди agni/āg происходят от общего корня *h₁n̥gʷnis.",
+        "notesEn": "Famous cognate: Russian ogon' and Hindi agni / āg descend from PIE *h₁n̥gʷnis (fire)."
+    },
+    {
+        "pieRoot": "*wódr̥",
+        "russianWord": "вода / ведро",
+        "hindiWordIso": "udaka (выс.) / pānī (хинди)",
+        "hindiPhoneticCyrillic": "удака / паании",
+        "hindiDevanagari": "उदक / पानी",
+        "semanticFieldRu": "Природные стихии",
+        "semanticFieldEn": "Natural Elements",
+        "notesRu": "Хотя в быту хинди говорят pānī, санскритское udaka (вода, влага) родственно русской 'воде' и 'выдре'.",
+        "notesEn": "While daily Hindi uses pānī, literary udaka is cognate with Russian voda and vedro."
+    },
+    {
+        "pieRoot": "*sóh₂wl̥",
+        "russianWord": "солнце",
+        "hindiWordIso": "sūrya / sūraj",
+        "hindiPhoneticCyrillic": "суурйа / суурадж",
+        "hindiDevanagari": "सूर्य / सूरज",
+        "semanticFieldRu": "Природные стихии",
+        "semanticFieldEn": "Natural Elements",
+        "notesRu": "Русское 'солнце' и хинди sūrya / sūraj имеют общий индоевропейский солярный корень *sóh₂wl̥.",
+        "notesEn": "Russian solntse and Hindi sūrya / sūraj share the solar root *sóh₂wl̥."
+    },
+    {
+        "pieRoot": "*meh₁ns-",
+        "russianWord": "месяц / луна",
+        "hindiWordIso": "māsa / māh",
+        "hindiPhoneticCyrillic": "мааса / маах",
+        "hindiDevanagari": "मास / माह",
+        "semanticFieldRu": "Природные стихии",
+        "semanticFieldEn": "Natural Elements",
+        "notesRu": "Русское 'месяц' (и луна, и календарный период) соответствует хинди māsa / māh (месяц).",
+        "notesEn": "Russian mesyats (moon/month) matches Hindi māsa / māh (month)."
+    },
+    {
+        "pieRoot": "*h₂stḗr",
+        "russianWord": "звезда",
+        "hindiWordIso": "tārā",
+        "hindiPhoneticCyrillic": "таараа",
+        "hindiDevanagari": "तारा",
+        "semanticFieldRu": "Природные стихии",
+        "semanticFieldEn": "Natural Elements",
+        "notesRu": "Хинди tārā (звезда) восходит к *h₂stḗr (корень, давший также английское star и греческое astron).",
+        "notesEn": "Hindi tārā (star) comes from PIE *h₂stḗr, related to Slavic zvezda through archaic Indo-European celestial roots."
+    },
+    {
+        "pieRoot": "*dʰh₁-mós",
+        "russianWord": "дым",
+        "hindiWordIso": "dhūmra / dhuā̃",
+        "hindiPhoneticCyrillic": "дхуумра / дхуааⁿ",
+        "hindiDevanagari": "धूम्र / धुआँ",
+        "semanticFieldRu": "Природные стихии",
+        "semanticFieldEn": "Natural Elements",
+        "notesRu": "Русское 'дым' и хинди dhuā̃ (дым) точно сохраняют древнее индоевропейское придыхание и гласный.",
+        "notesEn": "Russian dym and Hindi dhuā̃ (smoke) preserve the identical PIE root *dʰh₁-mós."
+    },
+    # Qualities & Sensation
+    {
+        "pieRoot": "*gʷʰer-",
+        "russianWord": "горячий / жар / гореть",
+        "hindiWordIso": "garam",
+        "hindiPhoneticCyrillic": "гарам",
+        "hindiDevanagari": "गरम",
+        "semanticFieldRu": "Качества и температура",
+        "semanticFieldEn": "Qualities & Temperature",
+        "notesRu": "Корень *gʷʰer- дал русское 'жар/гореть' и хинди garam (горячий, теплый).",
+        "notesEn": "PIE *gʷʰer- produced Russian zhar / goret' and Hindi garam (hot/warm)."
+    },
+    {
+        "pieRoot": "*néwos",
+        "russianWord": "новый",
+        "hindiWordIso": "nayā / nav",
+        "hindiPhoneticCyrillic": "найаа / нав",
+        "hindiDevanagari": "नया / नव",
+        "semanticFieldRu": "Качества и температура",
+        "semanticFieldEn": "Qualities & Temperature",
+        "notesRu": "Русское 'новый' и хинди nayā / nav (новый) идентичны по смыслу и происхождению.",
+        "notesEn": "Russian novyj and Hindi nayā / nav (new) share PIE *néwos."
+    },
+    {
+        "pieRoot": "*lewh₂-",
+        "russianWord": "мыть / ловить",
+        "hindiWordIso": "dhonā (мыть)",
+        "hindiPhoneticCyrillic": "дхонаа",
+        "hindiDevanagari": "धोना",
+        "semanticFieldRu": "Качества и температура",
+        "semanticFieldEn": "Qualities & Temperature",
+        "notesRu": "Индоевропейская лексика очищения и проточной воды.",
+        "notesEn": "Indo-European vocabulary of cleansing and washing."
+    },
+    # Anatomy & Body Parts
+    {
+        "pieRoot": "*nóh₂s",
+        "russianWord": "нос",
+        "hindiWordIso": "nāsikā / nāk",
+        "hindiPhoneticCyrillic": "наасикаа / наак",
+        "hindiDevanagari": "नासिका / नाक",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Русское 'нос' и хинди nāk / nāsikā представляют собой прямое индоевропейское соответствие.",
+        "notesEn": "Russian nos and Hindi nāk / nāsikā (nose) directly correspond to PIE *nóh₂s."
+    },
+    {
+        "pieRoot": "*h₃dónts",
+        "russianWord": "десна / зуб",
+        "hindiWordIso": "dant / dā̃t",
+        "hindiPhoneticCyrillic": "дант / дааⁿт",
+        "hindiDevanagari": "दंत / दाँत",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Русское 'десна' и хинди dant / dā̃t (зуб) восходят к древнему корню *h₃dónts (кусать, зубы).",
+        "notesEn": "Russian desna (gum) and Hindi dant / dā̃t (tooth) derive from PIE *h₃dónts."
+    },
+    {
+        "pieRoot": "*pod-",
+        "russianWord": "подножие / пеший / пядь",
+        "hindiWordIso": "pada / pair",
+        "hindiPhoneticCyrillic": "пада / пэр",
+        "hindiDevanagari": "पद / पैर",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Русские корни 'под/пеший' и хинди pada (стопа, шаг) / pair (нога) восходят к *pod-.",
+        "notesEn": "Russian podnozhe / peshij and Hindi pada / pair (foot/leg) stem from PIE *pod-."
+    },
+    {
+        "pieRoot": "*ḱr̥h₂snom",
+        "russianWord": "череп / голова",
+        "hindiWordIso": "śiras / sir",
+        "hindiPhoneticCyrillic": "ширас / сир",
+        "hindiDevanagari": "शिर / सिर",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Русское 'череп' и хинди sir / śiras (голова) имеют общий индоевропейский корень с закономерным сатемным переходом.",
+        "notesEn": "Russian cherep and Hindi sir / śiras (head) descend from PIE *ḱr̥h₂snom."
+    },
+    {
+        "pieRoot": "*ḱerd-",
+        "russianWord": "сердце / середина",
+        "hindiWordIso": "hr̥day",
+        "hindiPhoneticCyrillic": "хридай",
+        "hindiDevanagari": "हृदय",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Русское 'сердце' и санскритско-хинди hr̥day восходят к индоевропейскому корню *ḱerd-.",
+        "notesEn": "Russian serdtse (heart) and Hindi hr̥day derive from PIE *ḱerd- (heart)."
+    },
+    {
+        "pieRoot": "*h₁oḱʷ-",
+        "russianWord": "око / очи",
+        "hindiWordIso": "akṣi / ā̃kh",
+        "hindiPhoneticCyrillic": "акши / ааⁿкх",
+        "hindiDevanagari": "अक्षि / आँख",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Старославянское 'око' и хинди ā̃kh / akṣi (глаз) восходят к *h₁oḱʷ- (видеть, глаз).",
+        "notesEn": "Russian oko / ochi and Hindi ā̃kh / akṣi (eye) stem from PIE *h₁oḱʷ-."
+    },
+    {
+        "pieRoot": "*bʰrū-",
+        "russianWord": "бровь",
+        "hindiWordIso": "bhaunh / bhrū",
+        "hindiPhoneticCyrillic": "бхаунх / бхруу",
+        "hindiDevanagari": "भौंह / भ्रू",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Русское 'бровь' и хинди bhaunh / bhrū представляют собой чистый индоевропейский изоморфизм.",
+        "notesEn": "Russian brov' and Hindi bhaunh / bhrū (eyebrow) reflect PIE *bʰrū-."
+    },
+    {
+        "pieRoot": "*ǵónu",
+        "russianWord": "звено / колено",
+        "hindiWordIso": "jānu / ghuṭnā",
+        "hindiPhoneticCyrillic": "джаану / гхутнаа",
+        "hindiDevanagari": "जानु / घुटना",
+        "semanticFieldRu": "Анатомия и тело",
+        "semanticFieldEn": "Anatomy & Body",
+        "notesRu": "Санскритско-хинди jānu (колено) восходит к *ǵónu (сравните англ. knee, лат. genu).",
+        "notesEn": "Sanskrit-Hindi jānu (knee) stems from PIE *ǵónu."
+    },
+    # Numerals
+    {
+        "pieRoot": "*dwóh₁",
+        "russianWord": "два",
+        "hindiWordIso": "do",
+        "hindiPhoneticCyrillic": "до",
+        "hindiDevanagari": "दो",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 2: русское 'два' и хинди 'do' восходят к *dwóh₁.",
+        "notesEn": "Number 2: Russian dva and Hindi do descend from PIE *dwóh₁."
+    },
+    {
+        "pieRoot": "*tréyes",
+        "russianWord": "три",
+        "hindiWordIso": "tīn",
+        "hindiPhoneticCyrillic": "тиин",
+        "hindiDevanagari": "तीन",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 3: русское 'три' и хинди 'tīn' (с дентальным зубным 'т').",
+        "notesEn": "Number 3: Russian tri and Hindi tīn stem from PIE *tréyes."
+    },
+    {
+        "pieRoot": "*kʷetwóres",
+        "russianWord": "четыре",
+        "hindiWordIso": "chār",
+        "hindiPhoneticCyrillic": "чаар",
+        "hindiDevanagari": "चार",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 4: русское 'четыре' и хинди 'chār' восходят к *kʷetwóres.",
+        "notesEn": "Number 4: Russian chetyre and Hindi chār reflect PIE *kʷetwóres."
+    },
+    {
+        "pieRoot": "*pénkʷe",
+        "russianWord": "пять",
+        "hindiWordIso": "pāñch",
+        "hindiPhoneticCyrillic": "паанч",
+        "hindiDevanagari": "पाँच",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 5: древнеславянское pętь и хинди pā̃ch восходят к *pénkʷe.",
+        "notesEn": "Number 5: Old Slavic pętь and Hindi pā̃ch stem from PIE *pénkʷe."
+    },
+    {
+        "pieRoot": "*swéḱs",
+        "russianWord": "шесть",
+        "hindiWordIso": "chhah",
+        "hindiPhoneticCyrillic": "чхах",
+        "hindiDevanagari": "छह",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 6: русское 'шесть' и хинди 'chhah' восходят к общему корню *swéḱs.",
+        "notesEn": "Number 6: Russian shest' and Hindi chhah derive from PIE *swéḱs."
+    },
+    {
+        "pieRoot": "*septḿ̥",
+        "russianWord": "семь",
+        "hindiWordIso": "sāt",
+        "hindiPhoneticCyrillic": "саат",
+        "hindiDevanagari": "सात",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 7: русское 'семь' и хинди 'sāt' (через санскритское sapta) восходят к *septḿ̥.",
+        "notesEn": "Number 7: Russian sem' and Hindi sāt (via Sanskrit sapta) stem from PIE *septḿ̥."
+    },
+    {
+        "pieRoot": "*oḱtṓw",
+        "russianWord": "восемь",
+        "hindiWordIso": "āṭh",
+        "hindiPhoneticCyrillic": "аат͟х",
+        "hindiDevanagari": "आठ",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 8: славянское 'осмь/восемь' и хинди 'āṭh' (санскритское aṣṭa) восходят к *oḱtṓw.",
+        "notesEn": "Number 8: Slavic vosem' and Hindi āṭh (Sanskrit aṣṭa) stem from PIE *oḱtṓw."
+    },
+    {
+        "pieRoot": "*h₁néwn̥",
+        "russianWord": "девять",
+        "hindiWordIso": "nau",
+        "hindiPhoneticCyrillic": "нау",
+        "hindiDevanagari": "नौ",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 9: русское 'девять' (с диссимиляцией n->d) и хинди 'nau' восходят к *h₁néwn̥.",
+        "notesEn": "Number 9: Russian devyat' and Hindi nau derive from PIE *h₁néwn̥."
+    },
+    {
+        "pieRoot": "*déḱm̥t",
+        "russianWord": "десять",
+        "hindiWordIso": "das",
+        "hindiPhoneticCyrillic": "дас",
+        "hindiDevanagari": "दस",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 10: русское 'десять' и хинди 'das' восходят к общему корню *déḱm̥t.",
+        "notesEn": "Number 10: Russian desyat' and Hindi das derive from PIE *déḱm̥t."
+    },
+    {
+        "pieRoot": "*ḱm̥tóm",
+        "russianWord": "сто",
+        "hindiWordIso": "sau / śata",
+        "hindiPhoneticCyrillic": "сау / шата",
+        "hindiDevanagari": "सौ / शत",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Число 100: русское 'сто' и хинди 'sau' (санскр. śata) являются образцом сатемного перехода палатального *ḱ в спирант.",
+        "notesEn": "Number 100: Russian sto and Hindi sau / śata represent the classic satem sound shift."
+    },
+    {
+        "pieRoot": "*dwo-ter-os",
+        "russianWord": "второй / другой",
+        "hindiWordIso": "dūsrā",
+        "hindiPhoneticCyrillic": "дуусраа",
+        "hindiDevanagari": "दूसरा",
+        "semanticFieldRu": "Числительные",
+        "semanticFieldEn": "Numerals",
+        "notesRu": "Слово dūsrā буквально значит 'другой' или 'второй', восходя к корню 'два'.",
+        "notesEn": "Hindi dūsrā literally means 'other' or 'second', derived from the root for 'two'."
+    },
+    # Core Verbs & Existence
+    {
+        "pieRoot": "*es-",
+        "russianWord": "есмь / есть",
+        "hindiWordIso": "hū̃ / hai / hain",
+        "hindiPhoneticCyrillic": "хууⁿ / хэ / хэⁿ",
+        "hindiDevanagari": "हूँ / है / हैं",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Хотя в современном русском связка 'быть' в настоящем времени опускается (Я Анна), форма 'есмь' точно соответствует хинди hū̃.",
+        "notesEn": "Archaic Russian yesm' (I am) corresponds precisely to Hindi hū̃ and hai from PIE *es-."
+    },
+    {
+        "pieRoot": "*bʰew-",
+        "russianWord": "быть / бывать",
+        "hindiWordIso": "honā / bhav",
+        "hindiPhoneticCyrillic": "хонаа / бхав",
+        "hindiDevanagari": "होना / भव",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Русское 'быть/буду' и глагол хинди honā (в основе bhav-) происходят от индоевропейского корня *bʰew-.",
+        "notesEn": "Russian byt' / budu and Hindi honā (stem bhav-) both originate from PIE *bʰew- (to become/be)."
+    },
+    {
+        "pieRoot": "*ǵneh₃-",
+        "russianWord": "знать / знакомый",
+        "hindiWordIso": "jānnā",
+        "hindiPhoneticCyrillic": "джааннаа",
+        "hindiDevanagari": "जानना",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Звуковой переход g -> j: русское 'знать' и хинди 'jānnā' восходят к *ǵneh₃- (сравните англ. know, греч. gnosis).",
+        "notesEn": "Regular satem shift: Russian znat' and Hindi jānnā (to know) descend from PIE *ǵneh₃-."
+    },
+    {
+        "pieRoot": "*gʷeyh₃-",
+        "russianWord": "жить / живой / жизнь",
+        "hindiWordIso": "jīnā / jīvan",
+        "hindiPhoneticCyrillic": "джиинаа / джииван",
+        "hindiDevanagari": "जीना / जीवन",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Русские слова 'жить/жизнь' и хинди jīvan (жизнь), jīnā (жить) восходят к общему корню *gʷeyh₃-.",
+        "notesEn": "Russian zhit' / zhizn' and Hindi jīvan (life) / jīnā (to live) share PIE *gʷeyh₃-."
+    },
+    {
+        "pieRoot": "*mr̥-",
+        "russianWord": "умереть / мертвый / смерть",
+        "hindiWordIso": "marnā / mr̥tyu",
+        "hindiPhoneticCyrillic": "марнаа / мритйу",
+        "hindiDevanagari": "मरना / मृत्यु",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Русское 'умереть/смерть' и хинди marnā (умирать) / mr̥tyu (смерть) происходят от индоевропейского корня *mr̥-.",
+        "notesEn": "Russian umeret' / smert' and Hindi marnā / mr̥tyu stem from PIE *mr̥- (to die)."
+    },
+    {
+        "pieRoot": "*dō-",
+        "russianWord": "дать / давать / дар",
+        "hindiWordIso": "denā / dān",
+        "hindiPhoneticCyrillic": "деенаа / даан",
+        "hindiDevanagari": "देना / दान",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Русское 'дать/дар' и глагол хинди denā (давать) / dān (пожертвование, дар) абсолютно идентичны.",
+        "notesEn": "Russian dat' / dar and Hindi denā (to give) / dān (gift/donation) are direct cognates from PIE *dō-."
+    },
+    {
+        "pieRoot": "*sed-",
+        "russianWord": "сидеть / садиться",
+        "hindiWordIso": "baiṭhnā / sad",
+        "hindiPhoneticCyrillic": "бэтхнаа / сад",
+        "hindiDevanagari": "बैठना / सद्",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Русское 'сидеть/сесть' и санскритско-хинди корень sad (откуда глагол baiṭhnā) восходят к *sed-.",
+        "notesEn": "Russian sidet' and Hindi sad / baiṭhnā (to sit) descend from PIE *sed-."
+    },
+    {
+        "pieRoot": "*steh₂-",
+        "russianWord": "стоять / стать / стан",
+        "hindiWordIso": "khaṛā honā / sthān",
+        "hindiPhoneticCyrillic": "кхараа хонаа / стхаан",
+        "hindiDevanagari": "खड़ा होना / स्थान",
+        "semanticFieldRu": "Бытийные глаголы",
+        "semanticFieldEn": "Core Verbs & Existence",
+        "notesRu": "Русское 'стан/стоять' и хинди sthān (место, станция) / sthit (расположенный) восходят к *steh₂-.",
+        "notesEn": "Russian stoyat' / stan and Hindi sthān (place/station) originate from PIE *steh₂-."
+    },
+    {
+        "pieRoot": "*tew-",
+        "russianWord": "ты / твой",
+        "hindiWordIso": "tū / tērā",
+        "hindiPhoneticCyrillic": "туу / тэраа",
+        "hindiDevanagari": "तू / तेरा",
+        "semanticFieldRu": "Местоимения",
+        "semanticFieldEn": "Pronouns",
+        "notesRu": "Прямое совпадение личных местоимений второго лица: русское 'ты/твой' и хинди 'tū/tērā'.",
+        "notesEn": "Direct reflex of the second-person singular pronoun: Russian ty / tvoj and Hindi tū / tērā."
+    }
+]
+
+output_data = {
+    "titleRu": "Словарь индоевропейских когнатов (Русский <-> Хинди)",
+    "titleEn": "Proto-Indo-European Cognate Index: Russian and Hindi",
+    "descriptionRu": "Общие праиндоевропейские корни, позволяющие русскоязычному студенту мгновенно запоминать базовую лексику хинди через этимологическую интуицию.",
+    "descriptionEn": "Shared Proto-Indo-European roots enabling native Russian learners to accelerate Hindi vocabulary acquisition through intuitive genetic cognate recognition.",
+    "cognates": cognates
+}
+
+with open(COGNATES_FILE, "w", encoding="utf-8") as f:
+    json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+print(f"✓ Successfully wrote {len(cognates)} enriched cognates to {COGNATES_FILE}")

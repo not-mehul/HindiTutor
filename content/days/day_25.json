@@ -1,0 +1,299 @@
+{
+  "day": 25,
+  "phase": 4,
+  "title": {
+    "en": "Numerical Framework 1–20",
+    "ru": "Числовая система от 1 до 20: Индоевропейские числовые параллели"
+  },
+  "theme": "Счет от 1 до 20: когнаты dva/do, tri/tīn, pyat'/pāñch, desyat'/das",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетика чисел: pāñch с назализацией, chhah с придыханием, gyārah/bārah)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Этимологическое сопоставление русских и хинди числительных)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Быстрый счет от 1 до 20, случайные числа, счет предметов)",
+    "phase4SimulationMinutes": "17:00–20:00 (Покупка фруктов поштучно на уличном лотке)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Count fluently from 1 to 20 in spoken Hindi",
+      "Leverage Proto-Indo-European cognates (Do = Два, Tīn = Три, Pāñch = Пять, Das = Десять)",
+      "Identify quantities and item counts without hesitation"
+    ],
+    "ru": [
+      "Свободно считать от 1 до 20 на разговорном хинди",
+      "Опираться на праиндоевропейские числовые корни (Do = Два, Tīn = Три, Pāñch = Пять, Das = Десять)",
+      "Мгновенно называть и распознавать количество предметов"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Назализованный гласный /ā̃/ в pāñch (पाँच) и придыхание в chhah (छह)",
+    "articulatoryMechanism": "В слове pāñch носовой гласный [паанч] переходит в аффрикату [ч]. В слове chhah придыхательный [чх] завершается гортанным выдохом [ах].",
+    "russianInterferenceWarning": "Не забывайте носовой звук в числе 5 (pāñch) — это не просто 'панч'.",
+    "drills": [
+      {
+        "prompt": "Счет от 1 до 5",
+        "contrastPair": "Ek, Do, Tīn, Chār, Pāñch",
+        "instructionsRu": "Считайте вслух, отстукивая ритм пальцами."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Индоевропейская числовая система",
+    "russianParallel": "Славянские и индоарийские языки сохранили древнейшую систему счета: Два = Do; Три = Tīn; Пять = Pāñch; Десять = Das. Числа от 11 до 20 построены как сложение основы с десятком: Bārah (12 = два-дцать/две-на-дцать), Tērah (13 = три-на-дцать).",
+    "syntacticFormula": "[Числительное] + [Существительное]",
+    "explanationRu": "В отличие от русского языка, где существительное после числительных меняет падеж (2 книги, 5 книг), в разговорном хинди существительное часто остается в прямой форме: Do bottle, Pāñch samosa.",
+    "pieCognateConnection": {
+      "root": "*dwóh₁ / *tréyes / *pénkʷe / *déḱm̥t",
+      "russian": "два / три / пять / десять",
+      "hindi": "do / tīn / pāñch / das",
+      "meaning": "Праиндоевропейские базовые числительные"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 25: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d25_v01",
+      "devanagari": "एक, दो, तीन, चार, पाँच",
+      "transliterationIso": "Ek, Do, Tīn, Chār, Pāñch",
+      "phoneticCyrillic": "Эк, До, Тиин, Чаар, Паанч",
+      "translationRu": "1, 2, 3, 4, 5",
+      "translationEn": "1, 2, 3, 4, 5",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Числа от 1 до 5."
+    },
+    {
+      "id": "d25_v02",
+      "devanagari": "छह, सात, आठ, नौ, दस",
+      "transliterationIso": "Chhah, Sāt, Āṭh, Nau, Das",
+      "phoneticCyrillic": "Чхэх, Саат, Аатх, Нау, Дас",
+      "translationRu": "6, 7, 8, 9, 10",
+      "translationEn": "6, 7, 8, 9, 10",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Числа от 6 до 10."
+    },
+    {
+      "id": "d25_v03",
+      "devanagari": "ग्यारह, बारह, पंद्रह, बीस",
+      "transliterationIso": "Gyārah (11), Bārah (12), Pandrah (15), Bīs (20)",
+      "phoneticCyrillic": "Гйаарах, Баарах, Панндрах, Биис",
+      "translationRu": "11, 12, 15, 20",
+      "translationEn": "11, 12, 15, 20",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Ключевые числа второго десятка."
+    },
+    {
+      "id": "d25_v04",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d25_v05",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d25_v06",
+      "devanagari": "एक",
+      "transliterationIso": "Ek",
+      "phoneticCyrillic": "Ээк",
+      "translationRu": "Один (1)",
+      "translationEn": "One (1)",
+      "partOfSpeech": "number",
+      "gender": "n/a",
+      "audioHint": "Долгий гласный 'ее' + твердый 'к'."
+    },
+    {
+      "id": "d25_v07",
+      "devanagari": "दो",
+      "transliterationIso": "Do",
+      "phoneticCyrillic": "До",
+      "translationRu": "Два (2)",
+      "translationEn": "Two (2)",
+      "partOfSpeech": "number",
+      "gender": "n/a",
+      "audioHint": "Зубной звук 'д' + чистый гласный 'о'."
+    },
+    {
+      "id": "d25_v08",
+      "devanagari": "तीन",
+      "transliterationIso": "Tīn",
+      "phoneticCyrillic": "Тиин",
+      "translationRu": "Три (3)",
+      "translationEn": "Three (3)",
+      "partOfSpeech": "number",
+      "gender": "n/a",
+      "audioHint": "Зубной звук 'т' без смягчения + долгий 'ии'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d25_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите заказ: 'Дайте два чая и две бутылки воды'",
+      "prompt": "Дайте два чая и две воды",
+      "wordChips": [
+        "Do",
+        "chāi",
+        "aur do",
+        "pānī",
+        "dījiye"
+      ],
+      "correctAnswer": [
+        "Do",
+        "chāi",
+        "aur do",
+        "pānī",
+        "dījiye"
+      ],
+      "phoneticCyrillicTarget": "До чаай аур до паании дииджие",
+      "explanationRu": "Числительное стоит перед существительным: Do chāi.",
+      "instructionEn": "Exercise instruction: Соберите заказ: 'Дайте два чая и две бутылки воды'",
+      "explanationEn": "Числительное стоит перед существительным: Do chāi."
+    },
+    {
+      "id": "d25_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Продавец спрашивает, сколько манго вам взвесить. Ответьте за 2 секунды: 'Пять штук!'",
+      "prompt": "Kitnē mango madam?",
+      "options": [
+        "Pāñch mango dījiye!",
+        "Das hotel hai!",
+        "Main pāñch hū̃!"
+      ],
+      "correctAnswer": "Pāñch mango dījiye!",
+      "phoneticCyrillicTarget": "Паанч манго дииджие!",
+      "explanationRu": "Pāñch = пять.",
+      "instructionEn": "Exercise instruction: Продавец спрашивает, сколько манго вам взвесить. Ответьте за 2 секунды: 'Пять штук!'",
+      "explanationEn": "Pāñch = пять."
+    },
+    {
+      "id": "d25_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Назовите число 10 (когнат с русским 'десять')",
+      "prompt": "У меня есть _____ рупий (10)",
+      "options": [
+        "das",
+        "tīn",
+        "ek"
+      ],
+      "correctAnswer": "das",
+      "transliterationIsoTarget": "Das rupayē",
+      "explanationRu": "Das = 10.",
+      "instructionEn": "Exercise instruction: Назовите число 10 (когнат с русским 'десять')",
+      "explanationEn": "Das = 10."
+    },
+    {
+      "id": "d25_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Вставьте число 20 в фразу '20 рупий'",
+      "prompt": "_____ rupayē (20 рупий)",
+      "options": [
+        "Bīs",
+        "Do",
+        "Bārah"
+      ],
+      "correctAnswer": "Bīs",
+      "transliterationIsoTarget": "Bīs rupayē",
+      "explanationRu": "Bīs = 20.",
+      "instructionEn": "Exercise instruction: Вставьте число 20 в фразу '20 рупий'",
+      "explanationEn": "Bīs = 20."
+    },
+    {
+      "id": "d25_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение '1, 2, 3, 4, 5'",
+      "instructionEn": "Rapid challenge: Speak the target phrase '1, 2, 3, 4, 5' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «1, 2, 3, 4, 5»?",
+      "options": [
+        "Ek, Do, Tīn, Chār, Pāñch!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Ek, Do, Tīn, Chār, Pāñch!",
+      "phoneticCyrillicTarget": "Эк, До, Тиин, Чаар, Паанч!",
+      "transliterationIsoTarget": "Ek, Do, Tīn, Chār, Pāñch!",
+      "explanationRu": "Правильный и уверенный устный ответ: Ek, Do, Tīn, Chār, Pāñch!",
+      "explanationEn": "Correct and confident verbal response: Ek, Do, Tīn, Chār, Pāñch!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Покупка фруктов на уличном лотке",
+    "setting": "Фруктовая лавка на вечернем базаре",
+    "partnerRoleRu": "Продавец фруктов",
+    "learnerRoleRu": "Покупательница",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Здравствуйте! Свежие бананы и апельсины. Сколько вам дать?",
+        "speechIso": "Namastē madam! Fresh bananas! Kitnē chāhiye?",
+        "speechCyrillic": "Намастэ мадам! Фрэш бананас! Китнее чаахийе?",
+        "learnerHintRu": "Скажите: Дайте четыре банана (Chār banana dījiye)",
+        "speechEn": "Здравствуйте! Свежие бананы и апельсины. Сколько вам дать?",
+        "learnerHintEn": "Hint: Скажите: Дайте четыре банана (Chār banana dījiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Дайте четыре банана и два апельсина.",
+        "speechIso": "Namastē! Chār banana aur do orange dījiye.",
+        "speechCyrillic": "Намастэ! Чаар банана аур до ориндж дииджие.",
+        "acceptableResponsesIso": [
+          "Chār banana dījiye",
+          "Do orange dījiye"
+        ],
+        "speechEn": "Здравствуйте! Дайте четыре банана и два апельсина."
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Вот, пожалуйста, держите. Всего двадцать рупий.",
+        "speechIso": "Lījiye madam. Total bīs rupayē.",
+        "speechCyrillic": "Лииджие мадам. Тотал биис рупае.",
+        "learnerHintRu": "Отдайте оплату: Bīs rupayē lījiye, shukriyā!",
+        "speechEn": "Вот, пожалуйста, держите. Всего двадцать рупий.",
+        "learnerHintEn": "Hint: Отдайте оплату: Bīs rupayē lījiye, shukriyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Возьмите двадцать рупий, спасибо!",
+        "speechIso": "Bīs rupayē lījiye, shukriyā!",
+        "speechCyrillic": "Биис рупае лииджие, шукрийа!",
+        "acceptableResponsesIso": [
+          "Lījiye, shukriyā!"
+        ],
+        "speechEn": "Возьмите двадцать рупий, спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Numerical Framework 1–20",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Счет жестами на индийском базаре",
+    "pointsRu": [
+      "В Индии часто считают фаланги пальцев большим пальцем (до 12 на одной руке), а не просто загибают пальцы.",
+      "Произнесение числительных на хинди (Do, Chār, Das) сразу отсекает наценку для 'наивных туристов'.",
+      "Число 12 (Bārah) часто используется как мера счета (дюжина бананов — ek dozen)."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 25)",
+    "pointsEn": [
+      "Cultural insight: В Индии часто считают фаланги пальцев большим пальцем (до 12 на одной руке), а не просто загибают пальцы.",
+      "Cultural insight: Произнесение числительных на хинди (Do, Chār, Das) сразу отсекает наценку для 'наивных туристов'.",
+      "Cultural insight: Число 12 (Bārah) часто используется как мера счета (дюжина бананов — ek dozen)."
+    ]
+  },
+  "themeEn": "Numerical Framework 1–20: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

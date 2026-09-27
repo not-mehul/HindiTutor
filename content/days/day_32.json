@@ -1,0 +1,312 @@
+{
+  "day": 32,
+  "phase": 4,
+  "title": {
+    "en": "Phase 4 Synthesis and Street Market Simulation",
+    "ru": "Синтез Фазы 4: сквозная базарная симуляция (поиск, торг, выбор цвета, сдача)"
+  },
+  "theme": "Полный базарный цикл: сколько стоит, торг, альтернативы, проверка качества, упаковка",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетический аудит коммерческих формул: Kitne ka hai, Mahanga, Kam kijiye, Sahi dam)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Сборка стратегии покупателя: приценивание + сбивание цены на 50% + выбор цвета + сдача)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Сквозной ролевой прогон жесткого базарного диалога без единого слова по-английски)",
+    "phase4SimulationMinutes": "17:00–20:00 (Экзаменационная базарная симуляция Фазы 4)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Execute full-scale bazaar purchase entirely in spoken Hindi without English",
+      "Assertively reduce prices by 40-50% using contrastive linguistic formulas",
+      "Demand variant sizing, color choices, and exact change under banter pressure"
+    ],
+    "ru": [
+      "Провести полноценную покупку на индийском базаре от начала до конца строго на хинди",
+      "Уверенно снижать цену на 40-50% с помощью правильных языковых формул",
+      "Выбирать размеры, цвета, проверять качество и забирать сдачу"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Интонационная напористость и убедительность в коммерческом споре",
+    "articulatoryMechanism": "Сохранение долготы гласных в числительных (do sau, pāñch sau) при эмоциональном повышении голоса.",
+    "russianInterferenceWarning": "Не переходите на раздраженный крик! Индийский торг ведется с азартом, улыбкой и звонкой артикуляцией.",
+    "drills": [
+      {
+        "prompt": "Боевой базарный арсенал",
+        "contrastPair": "Kitnē kā hai? -> Bahut mahangā hai! -> Sahī dām lagāiye! -> Pack kar dījiye!",
+        "instructionsRu": "Произнесите 4 фразы с нарастающей уверенностью."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Интеграция коммерческого регистра и чисел",
+    "russianParallel": "Фаза 4 превратила вас в неуязвимого покупателя. Все базарные приемы индийских продавцов теперь разбиваются о ваше чистое владение числительными и формулами торга.",
+    "syntacticFormula": "Yeh kitnē kā hai? | Bahut zyādā hai! | [Сумма] dījiye | Pack kar dījiye",
+    "explanationRu": "Знание счета на хинди экономит туристу в Индии сотни долларов и гарантирует искреннее уважение торговцев.",
+    "pieCognateConnection": {
+      "root": "*dwóh₁ / *dwo-ter-os / *seh₂-",
+      "russian": "два / второй / суть",
+      "hindi": "do / dūsrā / sahī",
+      "meaning": "Индоевропейская гармония торговли"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 32: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d32_v01",
+      "devanagari": "बाज़ार",
+      "transliterationIso": "Bāzār",
+      "phoneticCyrillic": "Баазаар",
+      "translationRu": "Рынок / Базар",
+      "translationEn": "Market / Bazaar",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Два долгих гласных [баа-заар]."
+    },
+    {
+      "id": "d32_v02",
+      "devanagari": "दुकानदार",
+      "transliterationIso": "Dukāndār",
+      "phoneticCyrillic": "Дукаандаар",
+      "translationRu": "Лавочник / Продавец",
+      "translationEn": "Shopkeeper",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Dukān (магазин) + dār (держатель)."
+    },
+    {
+      "id": "d32_v03",
+      "devanagari": "पसंद आया",
+      "transliterationIso": "Pasand āyā",
+      "phoneticCyrillic": "Пасанд аайаа",
+      "translationRu": "Понравилось",
+      "translationEn": "Liked it",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Прошедшее время от pasand."
+    },
+    {
+      "id": "d32_v04",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d32_v05",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d32_v06",
+      "devanagari": "सब अच्छा है",
+      "transliterationIso": "Sab acchā hai",
+      "phoneticCyrillic": "Саб аччхаа хэ",
+      "translationRu": "Все отлично / Все нравится",
+      "translationEn": "Everything is great",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d32_v07",
+      "devanagari": "धन्यवाद भैया",
+      "transliterationIso": "Dhanyavād bhaiyā",
+      "phoneticCyrillic": "Дханьяваад бхаййаа",
+      "translationRu": "Спасибо, брат (теплая вежливость)",
+      "translationEn": "Thank you, brother",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Придыхательное 'дх' + братское обращение."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d32_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите комплексное предложение покупателя: 'Брат, эта вещь бракованная, покажите другую за 200 рупий'",
+      "prompt": "Это с браком, покажите другую за 200",
+      "wordChips": [
+        "Yeh",
+        "kharāb",
+        "hai,",
+        "dūsrā",
+        "piece",
+        "dikhāiye,",
+        "do sau",
+        "rupayē!"
+      ],
+      "correctAnswer": [
+        "Yeh",
+        "kharāb",
+        "hai,",
+        "dūsrā",
+        "piece",
+        "dikhāiye,",
+        "do sau",
+        "rupayē!"
+      ],
+      "phoneticCyrillicTarget": "Йе харааб хэ, дуусраа пиис дикхааие, до сау рупае!",
+      "explanationRu": "Полная цепочка претензии, замены и встречной цены.",
+      "instructionEn": "Exercise instruction: Соберите комплексное предложение покупателя: 'Брат, эта вещь бракованная, покажите другую за 200 рупий'",
+      "explanationEn": "Полная цепочка претензии, замены и встречной цены."
+    },
+    {
+      "id": "d32_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Торговец кричит: '1200 rupees, madam, pure silver!'. Сбейте цену ровно вдвое за 2 секунды!",
+      "prompt": "1200 рупий за серебро",
+      "options": [
+        "Bahut mahangā hai! Chhah sau rupayē dījiye!",
+        "Hā̃, 1200 rupayē lījiye!",
+        "Main silver hū̃!"
+      ],
+      "correctAnswer": "Bahut mahangā hai! Chhah sau rupayē dījiye!",
+      "phoneticCyrillicTarget": "Бахут махангаа хэ! Чхэх сау рупае дииджие!",
+      "explanationRu": "Снижение цены ровно наполовину (600 вместо 1200).",
+      "instructionEn": "Exercise instruction: Торговец кричит: '1200 rupees, madam, pure silver!'. Сбейте цену ровно вдвое за 2 секунды!",
+      "explanationEn": "Снижение цены ровно наполовину (600 вместо 1200)."
+    },
+    {
+      "id": "d32_ex03",
+      "type": "dialogue_roleplay",
+      "instructionRu": "Спросите продавца, есть ли у него сдача с купюры в 500 рупий",
+      "prompt": "Кассир: 500 kā note hai?",
+      "options": [
+        "Hā̃, kyā āpkē pās khullē paisē haiñ?",
+        "Main bāzār mẽ hū̃!",
+        "Khānā svādishṭ hai!"
+      ],
+      "correctAnswer": "Hā̃, kyā āpkē pās khullē paisē haiñ?",
+      "phoneticCyrillicTarget": "Хааⁿ, кйаа аапке паас кхуллэ пэсе хэⁿ?",
+      "explanationRu": "Вопрос о наличии мелких денег для сдачи.",
+      "instructionEn": "Exercise instruction: Спросите продавца, есть ли у него сдача с купюры в 500 рупий",
+      "explanationEn": "Вопрос о наличии мелких денег для сдачи."
+    },
+    {
+      "id": "d32_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Завершите сделку: 'Хорошо, заворачивайте в пакет!'",
+      "prompt": "Ṭhīk hai, _____ kar dījiye!",
+      "options": [
+        "pack",
+        "garam",
+        "pās"
+      ],
+      "correctAnswer": "pack",
+      "transliterationIsoTarget": "Ṭhīk hai, pack kar dījiye!",
+      "explanationRu": "Pack kar dījiye = Упакуйте.",
+      "instructionEn": "Exercise instruction: Завершите сделку: 'Хорошо, заворачивайте в пакет!'",
+      "explanationEn": "Pack kar dījiye = Упакуйте."
+    },
+    {
+      "id": "d32_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Рынок / Базар'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Market / Bazaar' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Рынок / Базар»?",
+      "options": [
+        "Bāzār!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Bāzār!",
+      "phoneticCyrillicTarget": "Баазаар!",
+      "transliterationIsoTarget": "Bāzār!",
+      "explanationRu": "Правильный и уверенный устный ответ: Bāzār!",
+      "explanationEn": "Correct and confident verbal response: Bāzār!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Экзаменационная симуляция Фазы 4: Битва за сувенир на базаре",
+    "setting": "Колоритная лавка специй и сувениров на главном базаре",
+    "partnerRoleRu": "Агрессивный, но веселый продавец",
+    "learnerRoleRu": "Непробиваемая покупательница",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Намастэ, мадам! Посмотрите на этот резной деревянный сундук. Ручная работа! Всего одна тысяча рупий.",
+        "speechIso": "Namastē madam! Handmade wooden box! Sirf ek hazār rupayē.",
+        "speechCyrillic": "Намастэ мадам! Хэндмейд вуден бокс! Сирф эк хазаар рупае.",
+        "learnerHintRu": "Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)",
+        "speechEn": "Намастэ, мадам! Посмотрите на этот резной деревянный сундук. Ручная работа! Всего одна тысяча рупий.",
+        "learnerHintEn": "Hint: Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, брат! Тысяча рупий — это слишком дорого. Назовите честную цену. Пятьсот рупий!",
+        "speechIso": "Nahī̃ bhaiyā! Ek hazār bahut zyādā hai. Sahī dām lagāiye. Pāñch sau rupayē dījiye!",
+        "speechCyrillic": "Нахииⁿ бхаййаа! Эк хазаар бахут зйаадаа хэ. Сахии даам лагааие. Паанч сау рупае дииджие!",
+        "acceptableResponsesIso": [
+          "Bahut zyādā hai! Pāñch sau rupayē dījiye!"
+        ],
+        "speechEn": "Нет, брат! Тысяча рупий — это слишком дорого. Назовите честную цену. Пятьсот рупий!"
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Пятьсот?! Мадам, вы меня разорите! Семьсот рупий — последняя цена.",
+        "speechIso": "Pāñch sau?! Nahī̃ madam, 700 rupayē last price!",
+        "speechCyrillic": "Паанч сау?! Нахииⁿ мадам, 700 рупае ласт прайс!",
+        "learnerHintRu": "Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)",
+        "speechEn": "Пятьсот?! Мадам, вы меня разорите! Семьсот рупий — последняя цена.",
+        "learnerHintEn": "Hint: Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Шестьсот рупий — окончательная цена. Договорились? Упакуйте!",
+        "speechIso": "Chhah sau rupayē final. Ṭhīk hai? Pack kar dījiye!",
+        "speechCyrillic": "Чхэх сау рупае файнал. Т͟хиик хэ? Пэк кар дииджие!",
+        "acceptableResponsesIso": [
+          "Chhah sau rupayē final! Pack kar dījiye!"
+        ],
+        "speechEn": "Шестьсот рупий — окончательная цена. Договорились? Упакуйте!"
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Хорошо, мадам, вы победили! Заворачиваю. С вас шестьсот рупий.",
+        "speechIso": "Acchā madam, āp jeet gayī̃! Lījiye packed box.",
+        "speechCyrillic": "Аччхаа мадам, аап джиит гайииⁿ! Лииджие пэкт бокс.",
+        "learnerHintRu": "Отдайте оплату: Paisē lījiye, bahut shukriyā!",
+        "speechEn": "Хорошо, мадам, вы победили! Заворачиваю. С вас шестьсот рупий.",
+        "learnerHintEn": "Hint: Отдайте оплату: Paisē lījiye, bahut shukriyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Возьмите шестьсот рупий. Большое спасибо!",
+        "speechIso": "Chhah sau rupayē lījiye. Bahut shukriyā!",
+        "speechCyrillic": "Чхэх сау рупае лииджие. Бахут шукрийа!",
+        "acceptableResponsesIso": [
+          "Paisē lījiye, shukriyā!"
+        ],
+        "speechEn": "Возьмите шестьсот рупий. Большое спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Phase 4 Synthesis and Street Market Simulation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Итоги Фазы 4: Полное мастерство коммерческого диалога",
+    "pointsRu": [
+      "Вы свободно считаете до тысяч и оперируете сотнями (Sau) и тысячами (Hazār).",
+      "Вы знаете, как сбивать завышенные цены вдвое с улыбкой и достоинством.",
+      "Вы умеете требовать варианты цвета, размера, контролировать сдачу и закрывать сделки."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 32)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Phase 4 Synthesis and Street Market Simulation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

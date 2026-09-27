@@ -1,0 +1,296 @@
+{
+  "day": 35,
+  "phase": 5,
+  "title": {
+    "en": "Modal Capacity and Permission with Saknā",
+    "ru": "Модальность и разрешение: глагол Saknā (Мочь / Можно)"
+  },
+  "theme": "Я могу (main saktī hū̃), можно я здесь сяду? (kyā main yahā̃ baith saktī hū̃?), вы можете помочь? (kyā āp madad kar saktē haiñ?)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция модальной связки saktī / сактии)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Модальный глагол мочь в русском языке = Saknā в хинди)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Запрос разрешения: сфотографировать, присесть, войти, помочь)",
+    "phase4SimulationMinutes": "17:00–20:00 (Запрос разрешения на фотосъемку в храме/музее)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Express capability and permission using modal verb saknā",
+      "Formulate polite requests with 'Kyā main ... saktī hū̃?' (May I ...?)",
+      "Ask for assistance with 'Kyā āp madad kar saktē haiñ?' (Can you help?)"
+    ],
+    "ru": [
+      "Выражать физическую возможность и разрешение через модальный глагол saknā (мочь)",
+      "Формулировать вежливые вопросы о разрешении: 'Kyā main ... saktī hū̃?' ('Можно я ...? / Могу ли я ...?')",
+      "Просить о содействии: 'Kyā āp madad kar saktē haiñ?' ('Можете ли вы помочь?')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Зубной звук /s/ и согласный кластер /kt/ в saktī (सकती)",
+    "articulatoryMechanism": "Зубной [с] + краткий [а] + плотный смычный переход от [к] к зубному [т] с долгим [ии]: [сак-тии].",
+    "russianInterferenceWarning": "Не вставляйте гласный между к и т (не сакати!).",
+    "drills": [
+      {
+        "prompt": "Отработка модальной формы разрешения",
+        "contrastPair": "baith saktī hū̃ (могу сесть)",
+        "instructionsRu": "Kyā main yahā̃ baith saktī hū̃? (Можно я здесь сяду?)"
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Модальный глагол Saknā (Мочь / Иметь возможность)",
+    "russianParallel": "Строго повторяет русскую конструкцию: 'Я могу + инфинитив' или 'Можно мне сесть?'. В хинди берется чистая основа смыслового глагола (без окончания -nā) + форма глагола saknā: Baith (сесть) + saktī (могу) + hū̃ (есмь).",
+    "syntacticFormula": "Kyā main + [Основа смыслового глагола] + saktī hū̃?",
+    "explanationRu": "Для вопроса о разрешении мы просто ставим в начале знакомую нам частицу Kyā (ли): Kyā main photo lē saktī hū̃? = Могу ли я сделать фото? (Можно сфотографировать?).",
+    "pieCognateConnection": {
+      "root": "*sekw-",
+      "russian": "следовать / соблюдать (сила, мощь)",
+      "hindi": "saknā (мочь / быть в силах)",
+      "meaning": "Праиндоевропейская способность и возможность"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 35: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d35_v01",
+      "devanagari": "सकती हूँ / सकता हूँ",
+      "transliterationIso": "Saktī hū̃ (f) / Saktā hū̃ (m)",
+      "phoneticCyrillic": "Сактии хууⁿ / Сактаа хууⁿ",
+      "translationRu": "Я могу (модальный глагол)",
+      "translationEn": "I can / am able to",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Модальный глагол мочи."
+    },
+    {
+      "id": "d35_v02",
+      "devanagari": "फ़ोटो ले सकती हूँ",
+      "transliterationIso": "Photo lē saktī hū̃",
+      "phoneticCyrillic": "Фото лее сактии хууⁿ",
+      "translationRu": "Могу сфотографировать / снять",
+      "translationEn": "Can take a photo",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Lēnā = брать / делать фото."
+    },
+    {
+      "id": "d35_v03",
+      "devanagari": "अंदर आ सकती हूँ",
+      "transliterationIso": "Andar aa saktī hū̃",
+      "phoneticCyrillic": "Андар аа сактии хууⁿ",
+      "translationRu": "Могу войти внутрь (Можно войти?)",
+      "translationEn": "Can come inside",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Andar = внутри."
+    },
+    {
+      "id": "d35_v04",
+      "devanagari": "मदद कर सकते हैं",
+      "transliterationIso": "Madad kar saktē haiñ",
+      "phoneticCyrillic": "Мадад кар сактээ хэⁿ",
+      "translationRu": "Можете помочь (уважительно)",
+      "translationEn": "Can help (respectful)",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Обращение на Вы (Āp)."
+    },
+    {
+      "id": "d35_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d35_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d35_v07",
+      "devanagari": "बोल सकती हूँ",
+      "transliterationIso": "Bōl saktī hū̃",
+      "phoneticCyrillic": "Боол сактии хууⁿ",
+      "translationRu": "Я могу говорить (жен.)",
+      "translationEn": "I can speak (female)",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Модальный глагол saknā в женском роде."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d35_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вежливый вопрос о разрешении: 'Можно я сделаю фото?' (женский род)",
+      "prompt": "Можно я сфотографирую?",
+      "wordChips": [
+        "Kyā main",
+        "photo",
+        "lē",
+        "saktī",
+        "hū̃?"
+      ],
+      "correctAnswer": [
+        "Kyā main",
+        "photo",
+        "lē",
+        "saktī",
+        "hū̃?"
+      ],
+      "phoneticCyrillicTarget": "Кйаа мэⁿ фото лее сактии хууⁿ?",
+      "explanationRu": "Kyā main photo lē saktī hū̃? = Могу ли я сфотографировать?",
+      "instructionEn": "Exercise instruction: Соберите вежливый вопрос о разрешении: 'Можно я сделаю фото?' (женский род)",
+      "explanationEn": "Kyā main photo lē saktī hū̃? = Могу ли я сфотографировать?"
+    },
+    {
+      "id": "d35_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Спросите вежливо: 'Можно я здесь сяду?'",
+      "prompt": "Kyā main yahā̃ _____ saktī hū̃?",
+      "options": [
+        "baith",
+        "jā",
+        "khā"
+      ],
+      "correctAnswer": "baith",
+      "transliterationIsoTarget": "Kyā main yahā̃ baith saktī hū̃?",
+      "explanationRu": "Baithnā (сидеть) -> основа baith.",
+      "instructionEn": "Exercise instruction: Спросите вежливо: 'Можно я здесь сяду?'",
+      "explanationEn": "Baithnā (сидеть) -> основа baith."
+    },
+    {
+      "id": "d35_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам тяжело нести сумку. Попросите прохожего о помощи за 2 секунды.",
+      "prompt": "Просьба о помощи",
+      "options": [
+        "Bhaiyā, kyā āp madad kar saktē haiñ?",
+        "Bhaiyā, sīdhē jāiye!",
+        "Khānā mahangā hai!"
+      ],
+      "correctAnswer": "Bhaiyā, kyā āp madad kar saktē haiñ?",
+      "phoneticCyrillicTarget": "Бхаййаа, кйаа аап мадад кар сактээ хэⁿ?",
+      "explanationRu": "Очень вежливая формула просьбы о помощи.",
+      "instructionEn": "Exercise instruction: Вам тяжело нести сумку. Попросите прохожего о помощи за 2 секунды.",
+      "explanationEn": "Очень вежливая формула просьбы о помощи."
+    },
+    {
+      "id": "d35_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите разрешения войти в храм: 'Можно войти внутрь?'",
+      "prompt": "Kyā hum andar aa _____ haiñ?",
+      "options": [
+        "saktē",
+        "saktī",
+        "saktā"
+      ],
+      "correctAnswer": "saktē",
+      "transliterationIsoTarget": "Kyā hum andar aa saktē haiñ?",
+      "explanationRu": "Для местоимения hum (мы) или вежливости используется форма saktē.",
+      "instructionEn": "Exercise instruction: Спросите разрешения войти в храм: 'Можно войти внутрь?'",
+      "explanationEn": "Для местоимения hum (мы) или вежливости используется форма saktē."
+    },
+    {
+      "id": "d35_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Я могу (модальный глагол)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'I can / am able to' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Я могу (модальный глагол)»?",
+      "options": [
+        "Saktī hū̃ (f) / Saktā hū̃ (m)!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Saktī hū̃ (f) / Saktā hū̃ (m)!",
+      "phoneticCyrillicTarget": "Сактии хууⁿ / Сактаа хууⁿ!",
+      "transliterationIsoTarget": "Saktī hū̃ (f) / Saktā hū̃ (m)!",
+      "explanationRu": "Правильный и уверенный устный ответ: Saktī hū̃ (f) / Saktā hū̃ (m)!",
+      "explanationEn": "Correct and confident verbal response: Saktī hū̃ (f) / Saktā hū̃ (m)!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Запрос разрешения на съемку в историческом храме",
+    "setting": "Вход в древний храм в Кхаджурахо или Варанаси",
+    "partnerRoleRu": "Служитель храма (pujari / guard)",
+    "learnerRoleRu": "Уважительная туристка с камерой",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте, уважаемый! Можно войти внутрь?",
+        "speechIso": "Namastē jī! Kyā main andar aa saktī hū̃?",
+        "speechCyrillic": "Намастэ джии! Кйаа мэⁿ андар аа сактии хууⁿ?",
+        "learnerHintRu": "Спросите разрешения войти: Kyā main andar aa saktī hū̃?",
+        "speechEn": "Здравствуйте, уважаемый! Можно войти внутрь?",
+        "learnerHintEn": "Hint: Спросите разрешения войти: Kyā main andar aa saktī hū̃?"
+      },
+      {
+        "speaker": "Служитель",
+        "speechRu": "Здравствуйте! Да, проходите, только снимите обувь здесь.",
+        "speechIso": "Namastē! Hā̃, andar āiye, shoes yahā̃ utāriye.",
+        "speechCyrillic": "Намастэ! Хааⁿ, андар ааие, шууз йахааⁿ утаарие.",
+        "learnerHintRu": "Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)",
+        "speechEn": "Здравствуйте! Да, проходите, только снимите обувь здесь.",
+        "learnerHintEn": "Hint: Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Хорошо. А здесь можно сфотографировать?",
+        "speechIso": "Ṭhīk hai. Kyā main photo lē saktī hū̃?",
+        "speechCyrillic": "Т͟хиик хэ. Кйаа мэⁿ фото лее сактии хууⁿ?",
+        "acceptableResponsesIso": [
+          "Kyā main photo lē saktī hū̃?"
+        ],
+        "speechEn": "Хорошо. А здесь можно сфотографировать?"
+      },
+      {
+        "speaker": "Служитель",
+        "speechRu": "Снаружи можно, а внутри алтаря фото делать нельзя.",
+        "speechIso": "Bāhar photo lē saktī haiñ, andar nahī̃.",
+        "speechCyrillic": "Баахар фото лее сактии хэⁿ, андар нахииⁿ.",
+        "learnerHintRu": "Ответьте с почтением: Main samjhī, dhanyavād jī!",
+        "speechEn": "Снаружи можно, а внутри алтаря фото делать нельзя.",
+        "learnerHintEn": "Hint: Ответьте с почтением: Main samjhī, dhanyavād jī!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Я поняла, спасибо большое!",
+        "speechIso": "Main samjhī, bahut dhanyavād jī!",
+        "speechCyrillic": "Мэⁿ самджи, бахут дханьяваад джии!",
+        "acceptableResponsesIso": [
+          "Main samjhī, shukriyā!"
+        ],
+        "speechEn": "Я поняла, спасибо большое!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Modal Capacity and Permission with Saknā",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Правила этикета в индийских храмах",
+    "pointsRu": [
+      "Перед входом в любой индуистский храм, сикхскую гурудвару или мечеть ВСЕГДА снимают обувь.",
+      "Вопрос 'Kyā main photo lē saktī hū̃?' демонстрирует глубокое уважение к религиозным чувствам.",
+      "В сикхских храмах также обязательно покрывают голову платком (даже мужчинам)."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 35)",
+    "pointsEn": [
+      "Always remove footwear before entering temples, shrines, and Indian homes. A small shoe-keeper tip (10-20 Rs) is customary.",
+      "Cultural insight: Вопрос 'Kyā main photo lē saktī hū̃?' демонстрирует глубокое уважение к религиозным чувствам.",
+      "Always remove footwear before entering temples, shrines, and Indian homes. A small shoe-keeper tip (10-20 Rs) is customary."
+    ]
+  },
+  "themeEn": "Modal Capacity and Permission with Saknā: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

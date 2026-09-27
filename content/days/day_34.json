@@ -1,0 +1,287 @@
+{
+  "day": 34,
+  "phase": 5,
+  "title": {
+    "en": "Continuous Aspect: Real-Time Actions",
+    "ru": "Длительный аспект (Continuous): действия прямо сейчас (Rahā / Rahī hū̃)"
+  },
+  "theme": "Я иду сейчас (Main jā rahī hū̃), мы выходим (Hum nikal rahē haiñ), я просто смотрю (Main bas dēkh rahī hū̃)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция маркера длительности rahā / rahī)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Настоящее время с 'сейчас' в русском языке = Rahā/Rahī в хинди)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Отработка: я сейчас иду, мы выезжаем, я просто осматриваюсь)",
+    "phase4SimulationMinutes": "17:00–20:00 (Вежливое отклонение назойливого торговца: 'Я просто смотрю')"
+  },
+  "learningObjectives": {
+    "en": [
+      "Construct present continuous aspect using rahā (m) / rahī (f) + copula",
+      "Contrast habitual actions (-tī hū̃) with actions in progress (rahī hū̃)",
+      "Deploy essential browsing formula 'Main bas dēkh rahī hū̃' (Just looking)"
+    ],
+    "ru": [
+      "Строить настоящее длительное время с помощью маркера rahā (м.р.) / rahī (ж.р.) + связка hū̃/hai",
+      "Различать действие вообще (boltī hū̃) и действие прямо сейчас (jā rahī hū̃)",
+      "Использовать защитную фразу от навязчивых продавцов: 'Main bas dēkh rahī hū̃' ('Я просто смотрю')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Глухой выдох /h/ в прогрессивном маркере rahā / rahī (रहा / रही)",
+    "articulatoryMechanism": "Раскатистый [р] + краткий гласный [а] + чистый выдох [х] с долгим [аа] или [ии]: [ра-хаа], [ра-хии].",
+    "russianInterferenceWarning": "Не проглатывайте звук [х] в середине слова.",
+    "drills": [
+      {
+        "prompt": "Отработка длительного действия в женском роде",
+        "contrastPair": "jā rahī hū̃ (я иду прямо сейчас)",
+        "instructionsRu": "Произнесите: Main jā rahī hū̃ (Я сейчас иду)."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Длительный вид (Present Continuous с rahā / rahī)",
+    "russianParallel": "В русском языке мы добавляем слово 'сейчас' или интонационно подчеркиваем процесс: 'Я [сейчас] иду', 'Мы [в эту секунду] выходим'. В хинди для этого используется вспомогательное причастие rahā (м.р.) / rahī (ж.р.): Main jā rahī hū̃.",
+    "syntacticFormula": "[Основа глагола] + [rahī (ж.р.) / rahā (м.р.) / rahē (мн.ч.)] + [hū̃ / hai / haiñ]",
+    "explanationRu": "Эта конструкция используется при телефонных разговорах ('Где ты? — Я уже еду: Main aa rahī hū̃') и в магазинах ('Madam, buy this! — Shukriyā, main bas dēkh rahī hū̃: Спасибо, я просто смотрю').",
+    "pieCognateConnection": {
+      "root": "*reg-",
+      "russian": "ряд / прямо",
+      "hindi": "rahnā (оставаться / продолжаться)",
+      "meaning": "Протяженность процесса во времени"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 34: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d34_v01",
+      "devanagari": "रही हूँ / रहा हूँ",
+      "transliterationIso": "Rahī hū̃ (f) / Rahā hū̃ (m)",
+      "phoneticCyrillic": "Рахии хууⁿ / Рахаа хууⁿ",
+      "translationRu": "Я делаю прямо сейчас (длительный маркер)",
+      "translationEn": "am doing (continuous)",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Маркер процесса прямо сейчас."
+    },
+    {
+      "id": "d34_v02",
+      "devanagari": "जा रही हूँ",
+      "transliterationIso": "Jā rahī hū̃",
+      "phoneticCyrillic": "Джаа рахии хууⁿ",
+      "translationRu": "Я иду / еду прямо сейчас",
+      "translationEn": "I am going (now)",
+      "partOfSpeech": "verb",
+      "gender": "f",
+      "audioHint": "Jā (основа) + rahī + hū̃."
+    },
+    {
+      "id": "d34_v03",
+      "devanagari": "निकल रहे हैं",
+      "transliterationIso": "Nikal rahē haiñ",
+      "phoneticCyrillic": "Никал рахээ хэⁿ",
+      "translationRu": "Мы выходим / выезжаем прямо сейчас",
+      "translationEn": "We are leaving (now)",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Nikalnā (выходить / выдвигаться)."
+    },
+    {
+      "id": "d34_v04",
+      "devanagari": "देख रही हूँ",
+      "transliterationIso": "Dēkh rahī hū̃",
+      "phoneticCyrillic": "Дэкх рахии хууⁿ",
+      "translationRu": "Я смотрю / осматриваюсь",
+      "translationEn": "I am looking / browsing",
+      "partOfSpeech": "verb",
+      "gender": "f",
+      "audioHint": "Dēkh (смотреть) + rahī + hū̃."
+    },
+    {
+      "id": "d34_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d34_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d34_v07",
+      "devanagari": "देख रही हूँ",
+      "transliterationIso": "Dēkh rahī hū̃",
+      "phoneticCyrillic": "Деекх рахии хууⁿ",
+      "translationRu": "Я смотрю (прямо сейчас, жен.)",
+      "translationEn": "I am looking (female continuous)",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Придыхательное 'кх' + связка rahī hū̃."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d34_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите спасительную фразу в магазине: 'Спасибо, я просто смотрю' (женский род)",
+      "prompt": "Спасибо, я просто смотрю",
+      "wordChips": [
+        "Shukriyā,",
+        "main bas",
+        "dēkh",
+        "rahī",
+        "hū̃"
+      ],
+      "correctAnswer": [
+        "Shukriyā,",
+        "main bas",
+        "dēkh",
+        "rahī",
+        "hū̃"
+      ],
+      "phoneticCyrillicTarget": "Шукрийа, мэⁿ бас дэкх рахии хууⁿ",
+      "explanationRu": "Main bas dēkh rahī hū̃ = Я просто смотрю.",
+      "instructionEn": "Exercise instruction: Соберите спасительную фразу в магазине: 'Спасибо, я просто смотрю' (женский род)",
+      "explanationEn": "Main bas dēkh rahī hū̃ = Я просто смотрю."
+    },
+    {
+      "id": "d34_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Скажите водителю по телефону: 'Я уже иду!' (женский род)",
+      "prompt": "Main aa _____ hū̃. (Я иду/прихожу)",
+      "options": [
+        "rahī",
+        "rahā",
+        "boltī"
+      ],
+      "correctAnswer": "rahī",
+      "transliterationIsoTarget": "Main aa rahī hū̃.",
+      "explanationRu": "Main aa rahī hū̃ = Я иду прямо сейчас.",
+      "instructionEn": "Exercise instruction: Скажите водителю по телефону: 'Я уже иду!' (женский род)",
+      "explanationEn": "Main aa rahī hū̃ = Я иду прямо сейчас."
+    },
+    {
+      "id": "d34_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Хозяин отеля спрашивает: 'Āp kahā̃ jā rahī haiñ?' (Куда вы идете?). Ответьте за 2 секунды: 'Я иду в отель!'",
+      "prompt": "Куда вы идете?",
+      "options": [
+        "Main hotel jā rahī hū̃!",
+        "Main hotel mẽ thī!",
+        "Hotel bahut mahangā hai!"
+      ],
+      "correctAnswer": "Main hotel jā rahī hū̃!",
+      "phoneticCyrillicTarget": "Мэⁿ хотел джаа рахии хууⁿ!",
+      "explanationRu": "Main hotel jā rahī hū̃ = Я иду в отель.",
+      "instructionEn": "Exercise instruction: Хозяин отеля спрашивает: 'Āp kahā̃ jā rahī haiñ?' (Куда вы идете?). Ответьте за 2 секунды: 'Я иду в отель!'",
+      "explanationEn": "Main hotel jā rahī hū̃ = Я иду в отель."
+    },
+    {
+      "id": "d34_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Скажите попутчикам: 'Мы выходим прямо сейчас'",
+      "prompt": "Hum ab _____ rahē haiñ. (Мы выходим)",
+      "options": [
+        "nikal",
+        "chāi",
+        "pānī"
+      ],
+      "correctAnswer": "nikal",
+      "transliterationIsoTarget": "Hum ab nikal rahē haiñ.",
+      "explanationRu": "Nikal rahē haiñ = выходим / отправляемся.",
+      "instructionEn": "Exercise instruction: Скажите попутчикам: 'Мы выходим прямо сейчас'",
+      "explanationEn": "Nikal rahē haiñ = выходим / отправляемся."
+    },
+    {
+      "id": "d34_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Я делаю прямо сейчас (длительный маркер)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'am doing (continuous)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Я делаю прямо сейчас (длительный маркер)»?",
+      "options": [
+        "Rahī hū̃ (f) / Rahā hū̃ (m)!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Rahī hū̃ (f) / Rahā hū̃ (m)!",
+      "phoneticCyrillicTarget": "Рахии хууⁿ / Рахаа хууⁿ!",
+      "transliterationIsoTarget": "Rahī hū̃ (f) / Rahā hū̃ (m)!",
+      "explanationRu": "Правильный и уверенный устный ответ: Rahī hū̃ (f) / Rahā hū̃ (m)!",
+      "explanationEn": "Correct and confident verbal response: Rahī hū̃ (f) / Rahā hū̃ (m)!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Прогулка по антикварной лавке без навязывания покупок",
+    "setting": "Антикварный магазин в Джайпуре",
+    "partnerRoleRu": "Настойчивый консультант",
+    "learnerRoleRu": "Спокойная туристка",
+    "turns": [
+      {
+        "speaker": "Консультант",
+        "speechRu": "Здравствуйте, мадам! Посмотрите сюда, старинные ковры, бронза! Что вы ищете?",
+        "speechIso": "Namastē madam! Carpets, statues! Kyā chāhiye āpkō?",
+        "speechCyrillic": "Намастэ мадам! Карпетс, стэтьюс! Кйаа чаахийе аапко?",
+        "learnerHintRu": "Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)",
+        "speechEn": "Здравствуйте, мадам! Посмотрите сюда, старинные ковры, бронза! Что вы ищете?",
+        "learnerHintEn": "Hint: Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Спасибо, я просто осматриваюсь.",
+        "speechIso": "Shukriyā, main bas dēkh rahī hū̃.",
+        "speechCyrillic": "Шукрийа, мэⁿ бас дэкх рахии хууⁿ.",
+        "acceptableResponsesIso": [
+          "Main bas dēkh rahī hū̃"
+        ],
+        "speechEn": "Спасибо, я просто осматриваюсь."
+      },
+      {
+        "speaker": "Консультант",
+        "speechRu": "Пожалуйста, смотрите спокойно! Если что-то нужно, позовите меня.",
+        "speechIso": "Sure madam, dēkhiye āram sē! Bulāiye jab chāhiye.",
+        "speechCyrillic": "Шур мадам, дэкхие аарам сэ! Булааие джаб чаахийе.",
+        "learnerHintRu": "Ответьте с благодарностью: Ṭhīk hai, shukriyā!",
+        "speechEn": "Пожалуйста, смотрите спокойно! Если что-то нужно, позовите меня.",
+        "learnerHintEn": "Hint: Ответьте с благодарностью: Ṭhīk hai, shukriyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Хорошо, спасибо!",
+        "speechIso": "Ṭhīk hai, shukriyā!",
+        "speechCyrillic": "Т͟хиик хэ, шукрийа!",
+        "acceptableResponsesIso": [
+          "Dhanyavād"
+        ],
+        "speechEn": "Хорошо, спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Continuous Aspect: Real-Time Actions",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Как защитить личное пространство в магазинах",
+    "pointsRu": [
+      "В туристических магазинах продавцы могут ходить за вами по пятам.",
+      "Фраза на хинди 'Main bas dēkh rahī hū̃' (Я просто смотрю) действует обезоруживающе: консультант понимает, что давить бессмысленно, и отходит в сторону.",
+      "Слово 'Ārām sē' означает 'спокойно / не спеша'."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 34)",
+    "pointsEn": [
+      "Cultural insight: В туристических магазинах продавцы могут ходить за вами по пятам.",
+      "Cultural insight: Фраза на хинди 'Main bas dēkh rahī hū̃' (Я просто смотрю) действует обезоруживающе: консультант понимает, что давить бессмысленно, и отходит в сторону.",
+      "Cultural insight: Слово 'Ārām sē' означает 'спокойно / не спеша'."
+    ]
+  },
+  "themeEn": "Continuous Aspect: Real-Time Actions: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

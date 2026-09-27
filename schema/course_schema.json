@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HindiDayLesson",
+  "type": "object",
+  "required": [
+    "day",
+    "phase",
+    "title",
+    "theme",
+    "estimatedMinutes",
+    "learningObjectives",
+    "phoneticFocus",
+    "contrastiveBridge",
+    "vocabulary",
+    "exercises",
+    "simulationRoleplay",
+    "culturalPragmatics"
+  ],
+  "properties": {
+    "day": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 40
+    },
+    "phase": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "title": {
+      "type": "object",
+      "required": ["en", "ru"],
+      "properties": {
+        "en": { "type": "string" },
+        "ru": { "type": "string" }
+      }
+    },
+    "theme": { "type": "string" },
+    "estimatedMinutes": {
+      "type": "integer",
+      "default": 20
+    },
+    "cognitiveTimeAllocation": {
+      "type": "object",
+      "properties": {
+        "phase1WarmupMinutes": { "type": "string" },
+        "phase2StructuralCoreMinutes": { "type": "string" },
+        "phase3ShadowingDrillsMinutes": { "type": "string" },
+        "phase4SimulationMinutes": { "type": "string" }
+      }
+    },
+    "learningObjectives": {
+      "type": "object",
+      "required": ["en", "ru"],
+      "properties": {
+        "en": { "type": "array", "items": { "type": "string" } },
+        "ru": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "phoneticFocus": {
+      "type": "object",
+      "required": ["targetSound", "articulatoryMechanism", "russianInterferenceWarning", "drills"],
+      "properties": {
+        "targetSound": { "type": "string" },
+        "articulatoryMechanism": { "type": "string" },
+        "russianInterferenceWarning": { "type": "string" },
+        "drills": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["prompt", "contrastPair", "instructionsRu"],
+            "properties": {
+              "prompt": { "type": "string" },
+              "contrastPair": { "type": "string" },
+              "instructionsRu": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "contrastiveBridge": {
+      "type": "object",
+      "required": ["grammarConcept", "russianParallel", "syntacticFormula", "explanationRu"],
+      "properties": {
+        "grammarConcept": { "type": "string" },
+        "russianParallel": { "type": "string" },
+        "syntacticFormula": { "type": "string" },
+        "explanationRu": { "type": "string" },
+        "pieCognateConnection": {
+          "type": "object",
+          "properties": {
+            "root": { "type": "string" },
+            "russian": { "type": "string" },
+            "hindi": { "type": "string" },
+            "meaning": { "type": "string" }
+          }
+        }
+      }
+    },
+    "vocabulary": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "devanagari",
+          "transliterationIso",
+          "phoneticCyrillic",
+          "translationRu",
+          "translationEn",
+          "partOfSpeech"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "devanagari": { "type": "string" },
+          "transliterationIso": { "type": "string" },
+          "phoneticCyrillic": { "type": "string" },
+          "translationRu": { "type": "string" },
+          "translationEn": { "type": "string" },
+          "partOfSpeech": { "type": "string" },
+          "gender": {
+            "type": "string",
+            "enum": ["m", "f", "n/a", "both"]
+          },
+          "audioHint": { "type": "string" },
+          "pieCognate": {
+            "type": "object",
+            "properties": {
+              "pieRoot": { "type": "string" },
+              "russianWord": { "type": "string" },
+              "notes": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "exercises": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "instructionRu", "prompt"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "phonetic_discrimination",
+              "word_reorder_sov",
+              "fill_in_blank",
+              "substitution_drill",
+              "listen_and_repeat",
+              "rapid_oral_challenge",
+              "dialogue_roleplay"
+            ]
+          },
+          "instructionRu": { "type": "string" },
+          "prompt": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "correctAnswer": {
+            "type": ["string", "array"],
+            "items": { "type": "string" }
+          },
+          "wordChips": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "phoneticCyrillicTarget": { "type": "string" },
+          "transliterationIsoTarget": { "type": "string" },
+          "audioKey": { "type": "string" },
+          "explanationRu": { "type": "string" }
+        }
+      }
+    },
+    "simulationRoleplay": {
+      "type": "object",
+      "required": ["scenarioTitleRu", "setting", "partnerRoleRu", "learnerRoleRu", "turns"],
+      "properties": {
+        "scenarioTitleRu": { "type": "string" },
+        "setting": { "type": "string" },
+        "partnerRoleRu": { "type": "string" },
+        "learnerRoleRu": { "type": "string" },
+        "turns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["speaker", "speechRu", "speechIso", "speechCyrillic"],
+            "properties": {
+              "speaker": { "type": "string" },
+              "speechRu": { "type": "string" },
+              "speechIso": { "type": "string" },
+              "speechCyrillic": { "type": "string" },
+              "speechDevanagari": { "type": "string" },
+              "learnerHintRu": { "type": "string" },
+              "acceptableResponsesIso": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "culturalPragmatics": {
+      "type": "object",
+      "required": ["titleRu", "pointsRu"],
+      "properties": {
+        "titleRu": { "type": "string" },
+        "pointsRu": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

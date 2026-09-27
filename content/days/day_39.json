@@ -1,0 +1,300 @@
+{
+  "day": 39,
+  "phase": 5,
+  "title": {
+    "en": "Travel Disruptions: Delays and Lost Property",
+    "ru": "Нештатные ситуации: задержка рейса (Dērī) и потеря багажа (Khō gayā)"
+  },
+  "theme": "Потерялся (khō gayā/gayī - аналог русского возвратного 'потерялся'), моя сумка потерялась (mērā bag khō gayā hai), задержка (dērī), поезд опаздывает? (kyā train late hai?)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция возвратного прошедшего времени khō gayā / khō gayī)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Сходство с русским возвратным суффиксом -ся: потерял-ся = khō gayā)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Подача заявлений: сумка потерялась, паспорт потерялся, поезд задерживается)",
+    "phase4SimulationMinutes": "17:00–20:00 (Обращение в бюро находок или к начальнику вокзала)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Report lost belongings using intransitive past 'khō gayā (m) / khō gayī (f)'",
+      "Inquire about transit delays using dērī or late (Kyā train late hai?)",
+      "Demand administrative tracing at lost-and-found counters calmly"
+    ],
+    "ru": [
+      "Заявлять об утере вещей через форму непереходного прошедшего: 'khō gayā' (м.р.) / 'khō gayī' (ж.р.) (аналог русского 'потерялся / пропал')",
+      "Спрашивать о задержках транспорта: 'Dērī' или 'Late' (Kyā train late hai?)",
+      "Взаимодействовать со службами вокзала и аэропорта без паники"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Придыхательный велярный /kh/ в глаголе khōnā (खोना) -> khō gayā",
+    "articulatoryMechanism": "Мощный легочный выдох [кх] с чистым полузакрытым [оо], за которым следует звонкий звук [гайаа]: [кхоо гайаа].",
+    "russianInterferenceWarning": "Не превращайте в русское 'когая'. Должно звучать четкое придыхательное [кх].",
+    "drills": [
+      {
+        "prompt": "Отработка утери предмета",
+        "contrastPair": "Mērā bag khō gayā hai (Моя сумка потерялась)",
+        "instructionsRu": "Произнесите связку с тревожной, но четкой интонацией."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Непереходные глаголы изменения состояния (Русские глаголы на -ся)",
+    "russianParallel": "В русском языке мы говорим: 'Чемодан потерялся / пропал' (действие произошло само, субъект не виноват). В хинди используется сложный результативный глагол: Khō (терять) + gayā (ушел) = Khō gayā (Потерялся/пропал). Мужской род: Mērā bag khō gayā hai; Женский род: Mērī kitāb khō gayī hai.",
+    "syntacticFormula": "[Mērā/Mērī + Предмет] + [khō gayā (м.р.) / khō gayī (ж.р.)] + hai",
+    "explanationRu": "Эта конструкция снимает с вас вину (вы не говорите 'я потеряла', а констатируете, что вещь 'сама пропала'). В индийских реалиях это идеальная формулировка для поиска.",
+    "pieCognateConnection": {
+      "root": "*gʷā- / *gʷem-",
+      "russian": "гатить / путь",
+      "hindi": "jānā (gayā - ушел)",
+      "meaning": "Праиндоевропейское перемещение и исчезновение"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 39: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d39_v01",
+      "devanagari": "खो गया / खो गई",
+      "transliterationIso": "Khō gayā (m) / Khō gayī (f)",
+      "phoneticCyrillic": "Кхоо гайаа / Кхоо гайии",
+      "translationRu": "Потерялся / Потерялась (пропал)",
+      "translationEn": "Lost / Disappeared",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Результативный глагол утери."
+    },
+    {
+      "id": "d39_v02",
+      "devanagari": "देरी",
+      "transliterationIso": "Dērī / Late",
+      "phoneticCyrillic": "Дээрии / Лэйт",
+      "translationRu": "Задержка / Опоздание",
+      "translationEn": "Delay / Late",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Долгое 'ээ' и 'ии'."
+    },
+    {
+      "id": "d39_v03",
+      "devanagari": "समय",
+      "transliterationIso": "Samay",
+      "phoneticCyrillic": "Самай",
+      "translationRu": "Время / Срок",
+      "translationEn": "Time",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Санскритское слово времени."
+    },
+    {
+      "id": "d39_v04",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d39_v05",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d39_v06",
+      "devanagari": "पुलिस",
+      "transliterationIso": "Police",
+      "phoneticCyrillic": "Полис",
+      "translationRu": "Полиция",
+      "translationEn": "Police",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Ударение на первый слог."
+    },
+    {
+      "id": "d39_v07",
+      "devanagari": "पासपोर्ट",
+      "transliterationIso": "Passport",
+      "phoneticCyrillic": "Паспорт͟",
+      "translationRu": "Заграничный паспорт",
+      "translationEn": "Passport",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный [т͟] в конце слова."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d39_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите экстренное заявление: 'Извините, моя сумка потерялась!'",
+      "prompt": "Моя сумка потерялась",
+      "wordChips": [
+        "Māf",
+        "kījiye,",
+        "mērā",
+        "bag",
+        "khō",
+        "gayā",
+        "hai!"
+      ],
+      "correctAnswer": [
+        "Māf",
+        "kījiye,",
+        "mērā",
+        "bag",
+        "khō",
+        "gayā",
+        "hai!"
+      ],
+      "phoneticCyrillicTarget": "Мааф кииджие, мераа бэг кхоо гайаа хэ!",
+      "explanationRu": "Mērā bag khō gayā hai = Моя сумка потерялась.",
+      "instructionEn": "Exercise instruction: Соберите экстренное заявление: 'Извините, моя сумка потерялась!'",
+      "explanationEn": "Mērā bag khō gayā hai = Моя сумка потерялась."
+    },
+    {
+      "id": "d39_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Поезд задерживается на табло. Спросите дежурного за 2 секунды: 'Поезд опаздывает?'",
+      "prompt": "Поезд задерживается?",
+      "options": [
+        "Bhaiyā, kyā train late hai?",
+        "Train bahut svādishṭ hai!",
+        "Khānā khō gayā hai!"
+      ],
+      "correctAnswer": "Bhaiyā, kyā train late hai?",
+      "phoneticCyrillicTarget": "Бхаййаа, кйаа трэйн лэйт хэ?",
+      "explanationRu": "Kyā train late hai? — стандартный вопрос на вокзале.",
+      "instructionEn": "Exercise instruction: Поезд задерживается на табло. Спросите дежурного за 2 секунды: 'Поезд опаздывает?'",
+      "explanationEn": "Kyā train late hai? — стандартный вопрос на вокзале."
+    },
+    {
+      "id": "d39_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Сообщите, что потерялся паспорт (мужской род)",
+      "prompt": "Mērā passport _____ hai.",
+      "options": [
+        "khō gayā",
+        "khō gayī",
+        "khānā"
+      ],
+      "correctAnswer": "khō gayā",
+      "transliterationIsoTarget": "Mērā passport khō gayā hai.",
+      "explanationRu": "Passport мужского рода, поэтому khō gayā.",
+      "instructionEn": "Exercise instruction: Сообщите, что потерялся паспорт (мужской род)",
+      "explanationEn": "Passport мужского рода, поэтому khō gayā."
+    },
+    {
+      "id": "d39_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите о причине задержки рейса",
+      "prompt": "Kitnī _____ hai? (Какая задержка?)",
+      "options": [
+        "dērī",
+        "chāi",
+        "thailī"
+      ],
+      "correctAnswer": "dērī",
+      "transliterationIsoTarget": "Kitnī dērī hai?",
+      "explanationRu": "Dērī = задержка / опоздание.",
+      "instructionEn": "Exercise instruction: Спросите о причине задержки рейса",
+      "explanationEn": "Dērī = задержка / опоздание."
+    },
+    {
+      "id": "d39_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Потерялся / Потерялась (пропал)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Lost / Disappeared' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Потерялся / Потерялась (пропал)»?",
+      "options": [
+        "Khō gayā (m) / Khō gayī (f)!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Khō gayā (m) / Khō gayī (f)!",
+      "phoneticCyrillicTarget": "Кхоо гайаа / Кхоо гайии!",
+      "transliterationIsoTarget": "Khō gayā (m) / Khō gayī (f)!",
+      "explanationRu": "Правильный и уверенный устный ответ: Khō gayā (m) / Khō gayī (f)!",
+      "explanationEn": "Correct and confident verbal response: Khō gayā (m) / Khō gayī (f)!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Заявление о забытом рюкзаке в бюро находок вокзала",
+    "setting": "Офис начальника вокзала (Station Master Office)",
+    "partnerRoleRu": "Дежурный офицер вокзала",
+    "learnerRoleRu": "Встревоженная пассажирка",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте, сэр! Помогите пожалуйста, мой рюкзак потерялся в вагоне.",
+        "speechIso": "Namastē sir! Madad kījiye, mērā bag coach mẽ khō gayā hai.",
+        "speechCyrillic": "Намастэ сэр! Мадад кииджие, мераа бэг коуч мэⁿ кхоо гайаа хэ.",
+        "learnerHintRu": "Заявите о пропаже: Mērā bag khō gayā hai",
+        "speechEn": "Здравствуйте, сэр! Помогите пожалуйста, мой рюкзак потерялся в вагоне.",
+        "learnerHintEn": "Hint: Заявите о пропаже: Mērā bag khō gayā hai"
+      },
+      {
+        "speaker": "Офицер",
+        "speechRu": "Спокойно, мадам! Какой номер поезда и какой вагон?",
+        "speechIso": "Chintā mat kījiye madam! Train number aur coach kyā hai?",
+        "speechCyrillic": "Чинтаа мат кииджие мадам! Трэйн намбар аур коуч кйаа хэ?",
+        "learnerHintRu": "Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)",
+        "speechEn": "Спокойно, мадам! Какой номер поезда и какой вагон?",
+        "learnerHintEn": "Hint: Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Поезд Shatabdi, синий рюкзак. Там паспорт и билеты. Помогите!",
+        "speechIso": "Train Shatabdi, blue bag hai. Passport vahā̃ hai. Madad kījiye!",
+        "speechCyrillic": "Трэйн Шатабди, блю бэг хэ. Паспорт вахааⁿ хэ. Мадад кииджие!",
+        "acceptableResponsesIso": [
+          "Blue bag khō gayā hai. Madad kījiye!"
+        ],
+        "speechEn": "Поезд Shatabdi, синий рюкзак. Там паспорт и билеты. Помогите!"
+      },
+      {
+        "speaker": "Офицер",
+        "speechRu": "Я прямо сейчас звоню проводнику поезда! Садитесь здесь.",
+        "speechIso": "Main abhī TTE ko call kartā hū̃. Yahā̃ baithiye.",
+        "speechCyrillic": "Мэⁿ абхии Ти-Ти-Ии ко кол картаа хууⁿ. Йахааⁿ бэтхие.",
+        "learnerHintRu": "Поблагодарите с облегчением: Bahut dhanyavād sir!",
+        "speechEn": "Я прямо сейчас звоню проводнику поезда! Садитесь здесь.",
+        "learnerHintEn": "Hint: Поблагодарите с облегчением: Bahut dhanyavād sir!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Большое спасибо, сэр!",
+        "speechIso": "Bahut dhanyavād sir!",
+        "speechCyrillic": "Бахут дханьяваад сэр!",
+        "acceptableResponsesIso": [
+          "Bahut shukriyā!"
+        ],
+        "speechEn": "Большое спасибо, сэр!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Travel Disruptions: Delays and Lost Property",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Разрешение форс-мажоров на транспорте",
+    "pointsRu": [
+      "На индийской железной дороге работает служба Railway Protection Force (RPF) и дежурные Station Master.",
+      "Вежливое обращение на хинди ('Mērā bag khō gayā hai, madad kījiye') включает максимальную вовлеченность дежурных.",
+      "Индийские поезда часто задерживаются из-за тумана (зимой на севере) или плотного графика — фраза 'Kitnī dērī hai?' поможет сориентироваться."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 39)",
+    "pointsEn": [
+      "Cultural insight: На индийской железной дороге работает служба Railway Protection Force (RPF) и дежурные Station Master.",
+      "The honorific suffix -jī attached to names (e.g. Anna-jī) or words (hā̃-jī) signals warmth, deference, and polite conversational posture.",
+      "Cultural insight: Индийские поезда часто задерживаются из-за тумана (зимой на севере) или плотного графика — фраза 'Kitnī dērī hai?' поможет сориентироваться."
+    ]
+  },
+  "themeEn": "Travel Disruptions: Delays and Lost Property: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

@@ -1,0 +1,283 @@
+{
+  "day": 26,
+  "phase": 4,
+  "title": {
+    "en": "Numerical Scaling: Tens, Hundreds, and Thousands",
+    "ru": "Масштабирование чисел: десятки, сотни (Sau) и тысячи (Hazār)"
+  },
+  "theme": "50 (pachās), 100 (sau), 200 (do sau), 500 (pāñch sau), 1000 (hazār), рупии",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетика sau / сау и hazār / хазаар)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Сложные числительные: точная копия русской модели Двести = Do sau, Пятьсот = Pāñch sau)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Называние цен: 150 рупий, 300 рупий, 1200 рупий)",
+    "phase4SimulationMinutes": "17:00–20:00 (Распознавание цен на текстиль и сувениры)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Master hundred and thousand compounds (Sau, Hazār)",
+      "Identify retail currency values in Rupees effortlessly",
+      "Understand the identical compound structure with Russian сотни (Do sau = Двести)"
+    ],
+    "ru": [
+      "Освоить образование сотен и тысяч (Sau = сто, Hazār = тысяча)",
+      "Мгновенно распознавать на слух любые денежные суммы в рупиях",
+      "Опираться на идентичную русскую модель сложения сотен (Do sau = двести, Pāñch sau = пятьсот)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Дифтонгоид /au/ в sau (सौ) и звонкий /z/ в hazār (हज़ार)",
+    "articulatoryMechanism": "В слове sau звук [с] переходит в дифтонг [ау]: [сау]. В hazār четкий звонкий русский [з] и долгое [аа]: [хазаар].",
+    "russianInterferenceWarning": "Не оглушайте 'z' в слове hazār (не хасар!).",
+    "drills": [
+      {
+        "prompt": "Сотни и тысячи",
+        "contrastPair": "Ek sau (100) vs Ek hazār (1000)",
+        "instructionsRu": "Произнесите парно: [эк сау] — [эк хазаар]."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Составные числительные (Сотни и тысячи)",
+    "russianParallel": "Хинди образует сотни АБСОЛЮТНО так же, как русский язык: Две + сти = Do + sau (200); Пять + сот = Pāñch + sau (500); Одна + тысяча = Ek + hazār (1000). 150 = Ek sau pachās (Сто пятьдесят). Никакой грамматической сложности!",
+    "syntacticFormula": "[Количество] + sau (сотен) / hazār (тысяч) + [десятки] + rupayē",
+    "explanationRu": "Эта прозрачная логика позволяет русскоязычному человеку освоить любые ценники за 5 минут практики.",
+    "pieCognateConnection": {
+      "root": "*ḱm̥tóm",
+      "russian": "сто / сотня",
+      "hindi": "shat (санскр.) / sau (разг. хинди)",
+      "meaning": "Праиндоевропейская сотня"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 26: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d26_v01",
+      "devanagari": "सौ",
+      "transliterationIso": "Sau",
+      "phoneticCyrillic": "Сау",
+      "translationRu": "Сто (100)",
+      "translationEn": "Hundred (100)",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Дифтонгоид [сау]."
+    },
+    {
+      "id": "d26_v02",
+      "devanagari": "हज़ार",
+      "transliterationIso": "Hazār",
+      "phoneticCyrillic": "Хазаар",
+      "translationRu": "Тысяча (1000)",
+      "translationEn": "Thousand (1000)",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Звонкое 'з', долгое 'аа'."
+    },
+    {
+      "id": "d26_v03",
+      "devanagari": "पचास",
+      "transliterationIso": "Pachās",
+      "phoneticCyrillic": "Пачаас",
+      "translationRu": "Пятьдесят (50)",
+      "translationEn": "Fifty (50)",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Долгое 'аа' во втором слоге."
+    },
+    {
+      "id": "d26_v04",
+      "devanagari": "पचीस",
+      "transliterationIso": "Pachīs",
+      "phoneticCyrillic": "Пачиис",
+      "translationRu": "Двадцать пять (25)",
+      "translationEn": "Twenty-five (25)",
+      "partOfSpeech": "numeral",
+      "gender": "n/a",
+      "audioHint": "Долгое 'ии'."
+    },
+    {
+      "id": "d26_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d26_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d26_v07",
+      "devanagari": "पचास",
+      "transliterationIso": "Pachās",
+      "phoneticCyrillic": "Пачаас",
+      "translationRu": "Пятьдесят (50)",
+      "translationEn": "Fifty (50)",
+      "partOfSpeech": "number",
+      "gender": "n/a",
+      "audioHint": "Краткий 'а' + долгий 'аа'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d26_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите сумму: 'Пятьсот рупий' (Пять + сотен + рупий)",
+      "prompt": "500 рупий",
+      "wordChips": [
+        "Pāñch",
+        "sau",
+        "rupayē"
+      ],
+      "correctAnswer": [
+        "Pāñch",
+        "sau",
+        "rupayē"
+      ],
+      "phoneticCyrillicTarget": "Паанч сау рупае",
+      "explanationRu": "Pāñch sau = 500.",
+      "instructionEn": "Exercise instruction: Соберите сумму: 'Пятьсот рупий' (Пять + сотен + рупий)",
+      "explanationEn": "Pāñch sau = 500."
+    },
+    {
+      "id": "d26_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам называют цену: 'Ek sau pachās rupayē'. Сколько это в цифрах за 2 секунды?",
+      "prompt": "Ek sau pachās rupayē",
+      "options": [
+        "150 рупий",
+        "250 рупий",
+        "500 рупий"
+      ],
+      "correctAnswer": "150 рупий",
+      "phoneticCyrillicTarget": "150",
+      "explanationRu": "Ek sau (100) + pachās (50) = 150 рупий.",
+      "instructionEn": "Exercise instruction: Вам называют цену: 'Ek sau pachās rupayē'. Сколько это в цифрах за 2 секунды?",
+      "explanationEn": "Ek sau (100) + pachās (50) = 150 рупий."
+    },
+    {
+      "id": "d26_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Назовите сумму 'Одна тысяча рупий'",
+      "prompt": "Ek _____ rupayē (1000)",
+      "options": [
+        "hazār",
+        "sau",
+        "das"
+      ],
+      "correctAnswer": "hazār",
+      "transliterationIsoTarget": "Ek hazār rupayē",
+      "explanationRu": "Hazār = тысяча.",
+      "instructionEn": "Exercise instruction: Назовите сумму 'Одна тысяча рупий'",
+      "explanationEn": "Hazār = тысяча."
+    },
+    {
+      "id": "d26_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Назовите число 200 (Двести)",
+      "prompt": "_____ sau (200)",
+      "options": [
+        "Do",
+        "Ek",
+        "Tīn"
+      ],
+      "correctAnswer": "Do",
+      "transliterationIsoTarget": "Do sau",
+      "explanationRu": "Do sau = 200 (двести).",
+      "instructionEn": "Exercise instruction: Назовите число 200 (Двести)",
+      "explanationEn": "Do sau = 200 (двести)."
+    },
+    {
+      "id": "d26_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Сто (100)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Hundred (100)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Сто (100)»?",
+      "options": [
+        "Sau!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Sau!",
+      "phoneticCyrillicTarget": "Сау!",
+      "transliterationIsoTarget": "Sau!",
+      "explanationRu": "Правильный и уверенный устный ответ: Sau!",
+      "explanationEn": "Correct and confident verbal response: Sau!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Уточнение ценника на сувенирный палантин",
+    "setting": "Магазин кашемира и текстиля",
+    "partnerRoleRu": "Продавец платков",
+    "learnerRoleRu": "Покупательница",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Посмотрите, мадам, настоящий пашминовый платок! Отличная цена.",
+        "speechIso": "Dēkhiye madam, pure pashmina shawl! Bahut acchā price.",
+        "speechCyrillic": "Дэкхие мадам, пьюр пашмина шол! Бахут аччхаа прайс.",
+        "learnerHintRu": "Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)",
+        "speechEn": "Посмотрите, мадам, настоящий пашминовый платок! Отличная цена.",
+        "learnerHintEn": "Hint: Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Сколько стоит этот платок?",
+        "speechIso": "Yeh kitnē kā hai? Kitnē rupayē?",
+        "speechCyrillic": "Йе китнее каа хэ? Китнее рупае?",
+        "acceptableResponsesIso": [
+          "Yeh kitnē kā hai?"
+        ],
+        "speechEn": "Сколько стоит этот платок?"
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Всего одна тысяча пятьсот рупий, мадам.",
+        "speechIso": "Sirf ek hazār pāñch sau rupayē, madam.",
+        "speechCyrillic": "Сирф эк хазаар паанч сау рупае, мадам.",
+        "learnerHintRu": "Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)",
+        "speechEn": "Всего одна тысяча пятьсот рупий, мадам.",
+        "learnerHintEn": "Hint: Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Одна тысяча пятьсот рупий?! Это слишком дорого!",
+        "speechIso": "Ek hazār pāñch sau rupayē?! Bahut mahangā hai!",
+        "speechCyrillic": "Эк хазаар паанч сау рупае?! Бахут махангаа хэ!",
+        "acceptableResponsesIso": [
+          "Ek hazār pāñch sau rupayē?!"
+        ],
+        "speechEn": "Одна тысяча пятьсот рупий?! Это слишком дорого!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Numerical Scaling: Tens, Hundreds, and Thousands",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Купюры индийской рупии",
+    "pointsRu": [
+      "Самые ходовые банкноты: 10, 20, 50, 100, 200 и 500 рупий.",
+      "Купюра в 2000 рупий была изъята из обращения — если вам пытаются ее дать, категорически отказывайтесь ('Nahī̃ chāhiye').",
+      "Всегда проверяйте сдачу с крупных купюр в 500 рупий."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 26)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Купюра в 2000 рупий была изъята из обращения — если вам пытаются ее дать, категорически отказывайтесь ('Nahī̃ chāhiye').",
+      "Cultural insight: Всегда проверяйте сдачу с крупных купюр в 500 рупий."
+    ]
+  },
+  "themeEn": "Numerical Scaling: Tens, Hundreds, and Thousands: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

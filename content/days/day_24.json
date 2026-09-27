@@ -1,0 +1,306 @@
+{
+  "day": 24,
+  "phase": 3,
+  "title": {
+    "en": "Phase 3 Synthesis and Authentic Dhābā Dining Simulation",
+    "ru": "Синтез Фазы 3: сквозная гастрономическая симуляция в индийской дхабе"
+  },
+  "theme": "Полный цикл: посадка, заказ безопасной воды, блюд без перца, соль, похвала, расчет",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетический аудит дативных конструкций: Mujhe chahiye, Mujhe pasand hai, Garam/Thanda)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Сборка гастрономического сценария: вода + специи + похвала + счет)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Сквозной ролевой прогон заказа без единого английского слова)",
+    "phase4SimulationMinutes": "17:00–20:00 (Экзаменационная гастрономическая симуляция Фазы 3)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Execute complete dining transaction in spoken Hindi from seating to billing",
+      "Enforce strict non-spicy dietary constraints without miscommunication",
+      "Seamlessly navigate dative needs, compliments, and payments under pressure"
+    ],
+    "ru": [
+      "Провести полный ресторанный диалог от рассадки до оплаты исключительно на хинди",
+      "Четко задать диетические ограничения по остроте (binā mirch kē, tīkhā mat banāiye)",
+      "Легко переключаться между дативом необходимости, комплиментами и расчетом"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Слитность и естественный темп разговорных фраз за столом",
+    "articulatoryMechanism": "Свободное переключение между носовыми гласными (pānī, hū̃), придыханиями (thōṛā, tīkhā) и дативными местоимениями (mujhē).",
+    "russianInterferenceWarning": "Не забывайте: в хинди глаголы стоят на конце, а отрицание mat используется только для запрета!",
+    "drills": [
+      {
+        "prompt": "Сквозная гастрономическая цепочка",
+        "contrastPair": "Bisleri pānī dījiye -> Tīkhā mat banāiye -> Bahut svādishṭ hai -> Bill lē āiye",
+        "instructionsRu": "Произнесите 4 ключевые фразы заказа подряд."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Консолидация экспериенциального дативного регистра",
+    "russianParallel": "Фаза 3 закрепила мощнейшее преимущество русскоязычного студента: дативные субъекты 'Mujhē chāhiye' (Мне нужно) и 'Mujhē pasand hai' (Мне нравится) стали вашей второй натурой.",
+    "syntacticFormula": "Mujhē + [Объект] + chāhiye / pasand hai | Bill lē āiye | Kitnā huā?",
+    "explanationRu": "Теперь вы способны безопасно, вкусно и уверенно питаться в любом заведении Индии — от скромной уличной дхабы до элитного ресторана.",
+    "pieCognateConnection": {
+      "root": "*gʷʰer- / *swād- / *kʷel-",
+      "russian": "жар / услада / колесо",
+      "hindi": "garam / svādishṭ / chalēgā",
+      "meaning": "Индоевропейское культурное наследие"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 24: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d24_v01",
+      "devanagari": "ढाबा",
+      "transliterationIso": "Dhābā",
+      "phoneticCyrillic": "Дхаабаа",
+      "translationRu": "Дхаба (традиционное индийское придорожное кафе)",
+      "translationEn": "Dhaba (traditional roadside diner)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное [дх]."
+    },
+    {
+      "id": "d24_v02",
+      "devanagari": "रोटी",
+      "transliterationIso": "Rotī",
+      "phoneticCyrillic": "Ротии",
+      "translationRu": "Лепешка роти (традиционный хлеб)",
+      "translationEn": "Roti (flatbread)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Ретрофлексный 'ṭ'."
+    },
+    {
+      "id": "d24_v03",
+      "devanagari": "दाल",
+      "transliterationIso": "Dāl",
+      "phoneticCyrillic": "Даал",
+      "translationRu": "Дал (традиционный суп/соус из чечевицы)",
+      "translationEn": "Dal (lentil curry)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Зубной звук [д]."
+    },
+    {
+      "id": "d24_v04",
+      "devanagari": "चावल",
+      "transliterationIso": "Chāval",
+      "phoneticCyrillic": "Чаавал",
+      "translationRu": "Рис",
+      "translationEn": "Rice",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгое 'аа'."
+    },
+    {
+      "id": "d24_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d24_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d24_v07",
+      "devanagari": "बहुत बढ़िया",
+      "transliterationIso": "Bahut baṛhiyā",
+      "phoneticCyrillic": "Бахут бархийаа",
+      "translationRu": "Великолепно / Очень здорово",
+      "translationEn": "Excellent / Splendid",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Ретрофлексный звук [рх] с легким придыханием."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d24_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите полный заказ: 'Мне нужен дал, рис и лепешка роти'",
+      "prompt": "Мне нужен дал, рис и роти",
+      "wordChips": [
+        "Mujhē",
+        "dāl,",
+        "chāval",
+        "aur roti",
+        "chāhiye"
+      ],
+      "correctAnswer": [
+        "Mujhē",
+        "dāl,",
+        "chāval",
+        "aur roti",
+        "chāhiye"
+      ],
+      "phoneticCyrillicTarget": "Муджхе даал, чаавал аур роти чаахийе",
+      "explanationRu": "Mujhē + перечисление блюд + chāhiye.",
+      "instructionEn": "Exercise instruction: Соберите полный заказ: 'Мне нужен дал, рис и лепешка роти'",
+      "explanationEn": "Mujhē + перечисление блюд + chāhiye."
+    },
+    {
+      "id": "d24_ex02",
+      "type": "dialogue_roleplay",
+      "instructionRu": "Официант спрашивает, все ли вам понравилось",
+      "prompt": "Официант: Madam, khānā kaisā lagā?",
+      "options": [
+        "Khānā bahut svādishṭ thā! Bill lē āiye.",
+        "Mujhē metro station jānā hai!",
+        "Main Russia sē hū̃!"
+      ],
+      "correctAnswer": "Khānā bahut svādishṭ thā! Bill lē āiye.",
+      "phoneticCyrillicTarget": "Кхаанаа бахут сваадишт тхаа! Билл лее ааие.",
+      "explanationRu": "Похвала еде + просьба принести счет.",
+      "instructionEn": "Exercise instruction: Официант спрашивает, все ли вам понравилось",
+      "explanationEn": "Похвала еде + просьба принести счет."
+    },
+    {
+      "id": "d24_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Повар собирается посыпать ваше блюдо острым красным перцем. Остановите его за 1 секунду!",
+      "prompt": "Повар заносит ложку с перцем чили",
+      "options": [
+        "Bhaiyā nahī̃! Mirch mat ḍāliye! Binā mirch kē!",
+        "Bahut acchā, shukriyā!",
+        "Garam pānī dījiye!"
+      ],
+      "correctAnswer": "Bhaiyā nahī̃! Mirch mat ḍāliye! Binā mirch kē!",
+      "phoneticCyrillicTarget": "Бхаййаа нахииⁿ! Мирч мат д͟аалие! Бинаа мирч ке!",
+      "explanationRu": "Мгновенная реакция запрета остроты!",
+      "instructionEn": "Exercise instruction: Повар собирается посыпать ваше блюдо острым красным перцем. Остановите его за 1 секунду!",
+      "explanationEn": "Мгновенная реакция запрета остроты!"
+    },
+    {
+      "id": "d24_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите о возможности оплаты наличными или картой",
+      "prompt": "Kitnā huā? Card _____?",
+      "options": [
+        "chalēgā",
+        "hai",
+        "jāūṅgī"
+      ],
+      "correctAnswer": "chalēgā",
+      "transliterationIsoTarget": "Kitnā huā? Card chalēgā?",
+      "explanationRu": "Card chalēgā? = Карта пройдет?",
+      "instructionEn": "Exercise instruction: Спросите о возможности оплаты наличными или картой",
+      "explanationEn": "Card chalēgā? = Карта пройдет?"
+    },
+    {
+      "id": "d24_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Дхаба (традиционное индийское придорожное кафе)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Dhaba (traditional roadside diner)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Дхаба (традиционное индийское придорожное кафе)»?",
+      "options": [
+        "Dhābā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Dhābā!",
+      "phoneticCyrillicTarget": "Дхаабаа!",
+      "transliterationIsoTarget": "Dhābā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Dhābā!",
+      "explanationEn": "Correct and confident verbal response: Dhābā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Экзаменационная симуляция Фазы 3: Полный обед в традиционной дхабе",
+    "setting": "Аутентичная дхаба в Пенджабе или Раджастхане",
+    "partnerRoleRu": "Колоритный хозяин дхабы",
+    "learnerRoleRu": "Уверенная путешественница",
+    "turns": [
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Добро пожаловать, сестра! Проходите, садитесь! Что вам принести?",
+        "speechIso": "Namastē madam! Āiye baithiye! Kyā chāhiye?",
+        "speechCyrillic": "Намастэ мадам! Ааие бэтхие! Кйаа чаахийе?",
+        "learnerHintRu": "Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē",
+        "speechEn": "Добро пожаловать, сестра! Проходите, садитесь! Что вам принести?",
+        "learnerHintEn": "Hint: Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Мне нужна бутылка воды Bisleri, дал и рис. Пожалуйста, совсем без перца!",
+        "speechIso": "Namastē! Ek Bisleri pānī, dāl aur chāval chāhiye. Binā mirch kē!",
+        "speechCyrillic": "Намастэ! Эк Бислери паании, даал аур чаавал чаахийе. Бинаа мирч ке!",
+        "acceptableResponsesIso": [
+          "Bisleri pānī aur dāl chāval chāhiye, binā mirch kē"
+        ],
+        "speechEn": "Здравствуйте! Мне нужна бутылка воды Bisleri, дал и рис. Пожалуйста, совсем без перца!"
+      },
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Понял! Готовим совсем не остро. Вот горячая еда!",
+        "speechIso": "Bilkul tīkhā nahī̃ banāyā. Lījiye garam khānā!",
+        "speechCyrillic": "Билкул тиикхаа нахииⁿ банаайаа. Лииджие гарам кхаанаа!",
+        "learnerHintRu": "Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет.",
+        "speechEn": "Понял! Готовим совсем не остро. Вот горячая еда!",
+        "learnerHintEn": "Hint: Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет."
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Очень вкусно! Большое спасибо. Брат, принесите счет.",
+        "speechIso": "Bahut svādishṭ hai! Shukriyā. Bhaiyā, bill lē āiye.",
+        "speechCyrillic": "Бахут сваадишт хэ! Шукрийа. Бхаййаа, билл лее ааие.",
+        "acceptableResponsesIso": [
+          "Bahut svādishṭ hai! Bill lē āiye."
+        ],
+        "speechEn": "Очень вкусно! Большое спасибо. Брат, принесите счет."
+      },
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Всего двести пятьдесят рупий, сестра.",
+        "speechIso": "Sirf 250 rupayē madam.",
+        "speechCyrillic": "Сирф 250 рупае мадам.",
+        "learnerHintRu": "Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!",
+        "speechEn": "Всего двести пятьдесят рупий, сестра.",
+        "learnerHintEn": "Hint: Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Возьмите деньги, спасибо большое!",
+        "speechIso": "Paisē lījiye, bahut dhanyavād!",
+        "speechCyrillic": "Пэсе лииджие, бахут дханьяваад!",
+        "acceptableResponsesIso": [
+          "Paisē lījiye, shukriyā!"
+        ],
+        "speechEn": "Возьмите деньги, спасибо большое!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Phase 3 Synthesis and Authentic Dhābā Dining Simulation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Итоги Фазы 3: Полная автономия в питании",
+    "pointsRu": [
+      "Вы освоили фундаментальную дативную грамматику (Mujhē chāhiye, Mujhē pasand hai).",
+      "Вы умеете управлять безопасностью питания (бутилированная вода, горячая еда, запрет чили).",
+      "Вы умеете благодарить персонал и закрывать счета без единого слова по-английски."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 24)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Phase 3 Synthesis and Authentic Dhābā Dining Simulation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

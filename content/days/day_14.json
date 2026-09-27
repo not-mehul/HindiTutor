@@ -1,0 +1,286 @@
+{
+  "day": 14,
+  "phase": 2,
+  "title": {
+    "en": "Transit Negotiations: Auto-Rickshaws and Cabs",
+    "ru": "Переговоры с транспортом: авторикши, такси и счетчик"
+  },
+  "theme": "Брат (Bhaiyā), мне нужно ехать в... (jānā hai), включите счетчик (mīṭar chalāo)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция придыхательного bh в Bhaiyā и ретрофлексного ṭ в mīṭar)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Конструкция необходимости: Инфинитив + hai: Jānā hai = нужно ехать)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Диалог посадки: пункт назначения, включение счетчика, поехали)",
+    "phase4SimulationMinutes": "17:00–20:00 (Жесткие, но вежливые переговоры с рикшей у вокзала)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Hail transport using polite kinship term Bhaiyā",
+      "State destination with infinitive of obligation (Airport jānā hai)",
+      "Insist on metered fare using 'Mīṭar chalāo / Mīṭar sē chaliye'"
+    ],
+    "ru": [
+      "Окликать водителей вежливым народным термином Bhaiyā (брат / молодой человек)",
+      "Называть пункт назначения с помощью инфинитива необходимости: [Место] + jānā hai (нужно ехать в...)",
+      "Настаивать на поездке по счетчику: 'Mīṭar chalāo' или 'Mīṭar sē chaliye'"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Звонкий придыхательный губной /bh/ (भ) в слове Bhaiyā (भैया)",
+    "articulatoryMechanism": "Губы смыкаются для звука [б] и размыкаются с сильным голосовым выдохом [бх].",
+    "russianInterferenceWarning": "Не превращайте в глухой звук [пх] или английский [v]. Это плотный русский [б] с дыханием.",
+    "drills": [
+      {
+        "prompt": "Отработка обращения к водителю",
+        "contrastPair": "bāī (ошибка) vs bhaiyā (верно: придыхание [бхаййаа])",
+        "instructionsRu": "Произнесите уверенно и приветливо: 'Bhaiyā!'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Инфинитив с hai как выражение необходимости",
+    "russianParallel": "В русском языке мы говорим инфинитивом: 'Мне нужно ехать' или безлично 'Ехать на вокзал'. В хинди используется инфинитив jānā (ехать) + связка hai: 'Station jānā hai' (Нужно ехать на вокзал).",
+    "syntacticFormula": "[Пункт назначения] + jānā hai",
+    "explanationRu": "Конструкция с jānā hai избавляет от необходимости спрягать глагол по лицам. Вы просто называете место и говорите jānā hai!",
+    "pieCognateConnection": {
+      "root": "*bʰréh₂tēr",
+      "russian": "брат",
+      "hindi": "bhāī / bhaiyā",
+      "meaning": "Праиндоевропейское братство и обращение"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 14: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d14_v01",
+      "devanagari": "भैया",
+      "transliterationIso": "Bhaiyā",
+      "phoneticCyrillic": "Бхаййаа",
+      "translationRu": "Брат / Молодой человек (уважительное обращение)",
+      "translationEn": "Brother (polite address for drivers/vendors)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'бх', ударение на первый слог."
+    },
+    {
+      "id": "d14_v02",
+      "devanagari": "जाना है",
+      "transliterationIso": "Jānā hai",
+      "phoneticCyrillic": "Джаанаа хэ",
+      "translationRu": "Нужно ехать / иду (букв. ехать есть)",
+      "translationEn": "Need to go / Have to go",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Инфинитив jānā + связка hai."
+    },
+    {
+      "id": "d14_v03",
+      "devanagari": "मीटर",
+      "transliterationIso": "Mīṭar",
+      "phoneticCyrillic": "Миитар͟",
+      "translationRu": "Счетчик (таксометр)",
+      "translationEn": "Meter",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный 'ṭ'."
+    },
+    {
+      "id": "d14_v04",
+      "devanagari": "चलाओ",
+      "transliterationIso": "Chalāo",
+      "phoneticCyrillic": "Чалаао",
+      "translationRu": "Включи / Запусти / Веди машину",
+      "translationEn": "Turn on / Drive",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Ударение на второй слог."
+    },
+    {
+      "id": "d14_v05",
+      "devanagari": "चलिए",
+      "transliterationIso": "Chaliye",
+      "phoneticCyrillic": "Чалие",
+      "translationRu": "Поехали! / Пойдемте! (вежливо)",
+      "translationEn": "Let's go (polite)",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Суффикс -iye."
+    },
+    {
+      "id": "d14_v06",
+      "devanagari": "सीधे चलिए",
+      "transliterationIso": "Sīdhē chaliye",
+      "phoneticCyrillic": "Сиидхее чалийе",
+      "translationRu": "Поезжайте прямо",
+      "translationEn": "Go straight ahead",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Придыхательный звонкий 'дх'."
+    },
+    {
+      "id": "d14_v07",
+      "devanagari": "यहाँ उतारिए",
+      "transliterationIso": "Yahā̃ utāriye",
+      "phoneticCyrillic": "Йахааⁿ утаарийе",
+      "translationRu": "Высадите меня здесь",
+      "translationEn": "Drop me off here",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Носовой 'ааⁿ' + вежливый императив."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d14_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите фразу: 'Брат, нужно ехать в аэропорт'",
+      "prompt": "Брат, в аэропорт нужно ехать",
+      "wordChips": [
+        "Bhaiyā,",
+        "Airport",
+        "jānā",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Bhaiyā,",
+        "Airport",
+        "jānā",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Бхаййаа, эрпорт джаанаа хэ",
+      "explanationRu": "Bhaiyā + Место + jānā hai.",
+      "instructionEn": "Exercise instruction: Соберите фразу: 'Брат, нужно ехать в аэропорт'",
+      "explanationEn": "Bhaiyā + Место + jānā hai."
+    },
+    {
+      "id": "d14_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Водитель рикши хочет назвать завышенную цену без счетчика. Потребуйте включить счетчик за 2 секунды.",
+      "prompt": "Водитель: 500 rupees, madam!",
+      "options": [
+        "Nahī̃ bhaiyā, mīṭar chalāo!",
+        "Hā̃ bhaiyā, bahut acchā!",
+        "Mērā nām mīṭar hai!"
+      ],
+      "correctAnswer": "Nahī̃ bhaiyā, mīṭar chalāo!",
+      "phoneticCyrillicTarget": "Нахииⁿ бхаййаа, миитар͟ чалаао!",
+      "explanationRu": "Mīṭar chalāo (включи счетчик) пресекает накрутку цен.",
+      "instructionEn": "Exercise instruction: Водитель рикши хочет назвать завышенную цену без счетчика. Потребуйте включить счетчик за 2 секунды.",
+      "explanationEn": "Mīṭar chalāo (включи счетчик) пресекает накрутку цен."
+    },
+    {
+      "id": "d14_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Скажите, что вам нужно ехать на вокзал",
+      "prompt": "Station _____ hai.",
+      "options": [
+        "jānā",
+        "khānā",
+        "pīnā"
+      ],
+      "correctAnswer": "jānā",
+      "transliterationIsoTarget": "Station jānā hai.",
+      "explanationRu": "Jānā hai = нужно ехать.",
+      "instructionEn": "Exercise instruction: Скажите, что вам нужно ехать на вокзал",
+      "explanationEn": "Jānā hai = нужно ехать."
+    },
+    {
+      "id": "d14_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Скомандуйте водителю отправляться: 'Поехали!'",
+      "prompt": "Ṭhīk hai bhaiyā, _____! (Поехали)",
+      "options": [
+        "chaliye",
+        "rukiye",
+        "dēkhiye"
+      ],
+      "correctAnswer": "chaliye",
+      "transliterationIsoTarget": "Ṭhīk hai bhaiyā, chaliye!",
+      "explanationRu": "Chaliye = поехали / пойдемте.",
+      "instructionEn": "Exercise instruction: Скомандуйте водителю отправляться: 'Поехали!'",
+      "explanationEn": "Chaliye = поехали / пойдемте."
+    },
+    {
+      "id": "d14_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Брат / Молодой человек (уважительное обращение)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Brother (polite address for drivers/vendors)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Брат / Молодой человек (уважительное обращение)»?",
+      "options": [
+        "Bhaiyā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Bhaiyā!",
+      "phoneticCyrillicTarget": "Бхаййаа!",
+      "transliterationIsoTarget": "Bhaiyā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Bhaiyā!",
+      "explanationEn": "Correct and confident verbal response: Bhaiyā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Найм авторикши у выхода с вокзала",
+    "setting": "Стоянка рикш возле железнодорожного вокзала",
+    "partnerRoleRu": "Водитель авторикши",
+    "learnerRoleRu": "Путешественница",
+    "turns": [
+      {
+        "speaker": "Водитель",
+        "speechRu": "Такси, рикша! Куда вам нужно ехать?",
+        "speechIso": "Madam! Kahā̃ jānā hai?",
+        "speechCyrillic": "Мадам! Кахааⁿ джаанаа хэ?",
+        "learnerHintRu": "Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)",
+        "speechEn": "Такси, рикша! Куда вам нужно ехать?",
+        "learnerHintEn": "Hint: Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Брат, мне нужно в отель Тадж. Включите счетчик!",
+        "speechIso": "Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo.",
+        "speechCyrillic": "Бхаййаа, Тадж Хотел джаанаа хэ. Миитар͟ чалаао.",
+        "acceptableResponsesIso": [
+          "Bhaiyā, Taj Hotel jānā hai.",
+          "Mīṭar chalāo."
+        ],
+        "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик!"
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Ладно, мадам, садитесь! Поехали по счетчику.",
+        "speechIso": "Ṭhīk hai madam, baithiye! Mīṭar sē chalēṅgē.",
+        "speechCyrillic": "Т͟хиик хэ мадам, бэтхие! Миитар͟ сэ чалэнгээ.",
+        "learnerHintRu": "Скажите: Отлично, поехали! (Bahut acchā, chaliye!)",
+        "speechEn": "Ладно, мадам, садитесь! Поехали по счетчику.",
+        "learnerHintEn": "Hint: Скажите: Отлично, поехали! (Bahut acchā, chaliye!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Очень хорошо, поехали!",
+        "speechIso": "Bahut acchā, chaliye!",
+        "speechCyrillic": "Бахут аччхаа, чалие!",
+        "acceptableResponsesIso": [
+          "Chaliye!"
+        ],
+        "speechEn": "Очень хорошо, поехали!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Transit Negotiations: Auto-Rickshaws and Cabs",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Психология переговоров с водителями",
+    "pointsRu": [
+      "Обращение 'Bhaiyā' (брат) мгновенно переводит диалог из плоскости 'богатый иностранец — продавец' в плоскость человеческого уважения.",
+      "Фраза на хинди 'Mīṭar chalāo' показывает, что вы ориентируетесь в местных порядках и обмануть вас не удастся.",
+      "Уверенная интонация без суеты всегда экономит от 50% до 70% стоимости поездки."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 14)",
+    "pointsEn": [
+      "Cultural insight: Обращение 'Bhaiyā' (брат) мгновенно переводит диалог из плоскости 'богатый иностранец — продавец' в плоскость человеческого уважения.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Уверенная интонация без суеты всегда экономит от 50% до 70% стоимости поездки."
+    ]
+  },
+  "themeEn": "Transit Negotiations: Auto-Rickshaws and Cabs: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

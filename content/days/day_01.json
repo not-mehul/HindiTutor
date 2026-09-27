@@ -1,0 +1,292 @@
+{
+  "day": 1,
+  "phase": 1,
+  "title": {
+    "en": "Articulatory Architecture, Greetings, and Respectful Interaction",
+    "ru": "Артикуляционная база, приветствия и уважительный регистр"
+  },
+  "theme": "Приветствия, базовые формулы вежливости и жест Añjali Mudrā",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Калибровка дентальных त vs ретрофлексных ट)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Намастэ, частица джи, уважительное Вы - Аап)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Шейдоуинг-повторение связок с джи)",
+    "phase4SimulationMinutes": "17:00–20:00 (Симуляция первой встречи в аэропорту/отеле)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Master true laminal dental contact for त vs retroflex curl for ट",
+      "Learn core respectful greeting Namastē and gratitude forms",
+      "Understand the pragmatic function of deferential particle Jī"
+    ],
+    "ru": [
+      "Освоить чистое зубное त и ретрофлексный загиб ट без русского смягчения (ть)",
+      "Выучить приветствие 'Намастэ' и формулы благодарности 'Дханьяваад' и 'Шукрия'",
+      "Понять социолингвистическую функцию уважительной частицы 'Джи' (аналог 'да, конечно')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Дентальный /t/ (त) против ретрофлексного /ṭ/ (ट)",
+    "articulatoryMechanism": "Для त лопатка языка плоско прижимается к верхним резцам. Для ट кончик языка загибается назад к твердому нёбу.",
+    "russianInterferenceWarning": "Не заменяйте ретрофлексию русской мягкой 'ть'! Язык должен быть загнут назад, создавая сухой щелкающий звук.",
+    "drills": [
+      {
+        "prompt": "Контраст зубного и загнутого звуков",
+        "contrastPair": "tāl (зубной) vs ṭāl (ретрофлексный)",
+        "instructionsRu": "Произнесите 'таал', прижав язык к резцам, затем 'т͟аал', загнув кончик к куполу нёба."
+      },
+      {
+        "prompt": "Устранение палатализации",
+        "contrastPair": "namastē (не смягчать 'т'!)",
+        "instructionsRu": "Следите, чтобы в 'Namastē' слог 'tē' звучал твердо [тэ], а не [те]."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Уважительный регистр и вежливые частицы",
+    "russianParallel": "Соответствие русскому 'Здравствуйте' (с жестом намастэ) и уважительному обращению на 'Вы' (Аап). Частица 'Jī' работает как русский смягчающий маркер согласия.",
+    "syntacticFormula": "[Приветствие / Ответ] + Jī",
+    "explanationRu": "В хинди обращение к незнакомым людям всегда строится в уважительном регистре 'Āp' (русское 'Вы'). Добавление частицы 'jī' к любому слову превращает его в подчеркнуто вежливое (hā̃ -> hā̃-jī).",
+    "pieCognateConnection": {
+      "root": "*tew-",
+      "russian": "твой / ты",
+      "hindi": "tū / tērā",
+      "meaning": "Индоевропейское личное местоимение второго лица"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 1: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d01_v01",
+      "devanagari": "नमस्ते",
+      "transliterationIso": "Namastē",
+      "phoneticCyrillic": "Намастэ",
+      "translationRu": "Здравствуйте / Приветствую",
+      "translationEn": "Hello / Greetings",
+      "partOfSpeech": "interjection",
+      "gender": "n/a",
+      "audioHint": "Ударение на второй слог, 'т' твердое зубное."
+    },
+    {
+      "id": "d01_v02",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (формальное / высокое)",
+      "translationEn": "Thank you (formal)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий гласный 'аа' в конце."
+    },
+    {
+      "id": "d01_v03",
+      "devanagari": "शुक्रिया",
+      "transliterationIso": "Shukriyā",
+      "phoneticCyrillic": "Шукрийа",
+      "translationRu": "Спасибо (разговорное)",
+      "translationEn": "Thank you (colloquial)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Мягкое индийское 'ш', раскатистый чистый русский 'р'."
+    },
+    {
+      "id": "d01_v04",
+      "devanagari": "आप",
+      "transliterationIso": "Āp",
+      "phoneticCyrillic": "Аап",
+      "translationRu": "Вы (вежливое обращение)",
+      "translationEn": "You (formal / respectful)",
+      "partOfSpeech": "pronoun",
+      "gender": "both",
+      "audioHint": "Долгий чистый гласный 'аа', губной непридыхательный 'п'."
+    },
+    {
+      "id": "d01_v05",
+      "devanagari": "जी",
+      "transliterationIso": "Jī",
+      "phoneticCyrillic": "Джии",
+      "translationRu": "Уважительная частица (да / уважаемый)",
+      "translationEn": "Respectful honorific marker",
+      "partOfSpeech": "particle",
+      "gender": "n/a",
+      "audioHint": "Слитный звонкий аффрикат [дж] + долгий 'ии'."
+    },
+    {
+      "id": "d01_v06",
+      "devanagari": "फिर मिलेंगे",
+      "transliterationIso": "Phir milẽge",
+      "phoneticCyrillic": "Пхир милееⁿгее",
+      "translationRu": "До скорой встречи / Еще увидимся",
+      "translationEn": "See you again / Farewell",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Придыхательное 'пх' + долгий 'ее' в конце."
+    },
+    {
+      "id": "d01_v07",
+      "devanagari": "माफ़ कीजिए",
+      "transliterationIso": "Māf kījiye",
+      "phoneticCyrillic": "Мааф кииджийе",
+      "translationRu": "Простите / Извините",
+      "translationEn": "Excuse me / Sorry",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Долгий 'аа' + вежливое окончание -ийе."
+    },
+    {
+      "id": "d01_v08",
+      "devanagari": "हाँ-जी",
+      "transliterationIso": "Hā̃-jī",
+      "phoneticCyrillic": "Хааⁿ-джии",
+      "translationRu": "Да, конечно (вежливое согласие)",
+      "translationEn": "Yes, please / Certainly",
+      "partOfSpeech": "particle",
+      "gender": "n/a",
+      "audioHint": "Носовой 'ааⁿ' + уважительная частица 'джии'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d01_ex01",
+      "type": "phonetic_discrimination",
+      "instructionRu": "Выберите слово с твердым зубным согласным без русского смягчения (не 'те', а 'тэ')",
+      "prompt": "Какое произношение слова 'Namastē' является правильным?",
+      "options": [
+        "Намасьте (с мягким т')",
+        "Намастэ (с чистым зубным т)",
+        "Намаштэ (с шипящим)"
+      ],
+      "correctAnswer": "Намастэ (с чистым зубным т)",
+      "explanationRu": "В хинди звук /t/ перед 'e' не смягчается; язык упирается в резцы.",
+      "instructionEn": "Exercise instruction: Выберите слово с твердым зубным согласным без русского смягчения (не 'те', а 'тэ')",
+      "explanationEn": "В хинди звук /t/ перед 'e' не смягчается; язык упирается в резцы."
+    },
+    {
+      "id": "d01_ex_sov",
+      "type": "word_reorder_sov",
+      "instructionRu": "Составьте вежливую фразу 'Здравствуйте, уважаемый!' в правильном порядке",
+      "instructionEn": "Assemble the polite greeting 'Hello sir/madam!' in correct order",
+      "prompt": "Здравствуйте, уважаемый! (вежливое приветствие)",
+      "wordChips": [
+        "jī",
+        "Namastē"
+      ],
+      "correctAnswer": [
+        "Namastē",
+        "jī"
+      ],
+      "explanationRu": "В хинди уважительная частица 'jī' ставится ПОСЛЕ приветствия или имени: Namastē jī.",
+      "explanationEn": "In Hindi, the honorific particle 'jī' is placed AFTER the greeting: Namastē jī."
+    },
+    {
+      "id": "d01_ex02",
+      "type": "listen_and_repeat",
+      "instructionRu": "Повторите фразу с уважительной частицей, удерживая долгие гласные",
+      "prompt": "Намастэ джи (Здравствуйте!)",
+      "phoneticCyrillicTarget": "Намастэ джии",
+      "transliterationIsoTarget": "Namastē jī",
+      "correctAnswer": "Namastē jī",
+      "explanationRu": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость.",
+      "instructionEn": "Exercise instruction: Повторите фразу с уважительной частицей, удерживая долгие гласные",
+      "explanationEn": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость."
+    },
+    {
+      "id": "d01_ex03",
+      "type": "fill_in_blank",
+      "instructionRu": "Вставьте подходящее разговорное слово 'спасибо'",
+      "prompt": "Bahut _____ (Большое спасибо!)",
+      "options": [
+        "shukriyā",
+        "āp",
+        "namastē"
+      ],
+      "correctAnswer": "shukriyā",
+      "transliterationIsoTarget": "Bahut shukriyā",
+      "explanationRu": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо.",
+      "instructionEn": "Exercise instruction: Вставьте подходящее разговорное слово 'спасибо'",
+      "explanationEn": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо."
+    },
+    {
+      "id": "d01_ex04",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам навстречу идет пожилой хозяин дома и складывает руки в приветствии. Что вы ответите за 3 секунды?",
+      "prompt": "Хозяин: Namastē!",
+      "options": [
+        "Namastē jī!",
+        "Shukriyā āp!",
+        "Āp kaun?"
+      ],
+      "correctAnswer": "Namastē jī!",
+      "phoneticCyrillicTarget": "Намастэ джии!",
+      "explanationRu": "Вежливый и мгновенный ответ — Namastē jī!",
+      "instructionEn": "Exercise instruction: Вам навстречу идет пожилой хозяин дома и складывает руки в приветствии. Что вы ответите за 3 секунды?",
+      "explanationEn": "Вежливый и мгновенный ответ — Namastē jī!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Первое приветствие в аэропорту / хостеле",
+    "setting": "Зона прилета в Дели, встреча с водителем или администратором",
+    "partnerRoleRu": "Встречающий менеджер отеля",
+    "learnerRoleRu": "Прибывший путешественник",
+    "turns": [
+      {
+        "speaker": "Менеджер",
+        "speechRu": "Здравствуйте! Добро пожаловать!",
+        "speechIso": "Namastē jī! Welcome!",
+        "speechCyrillic": "Намастэ джии! Вэлкам!",
+        "learnerHintRu": "Ответьте вежливым приветствием со словом джи",
+        "speechEn": "Здравствуйте! Добро пожаловать!",
+        "learnerHintEn": "Hint: Ответьте вежливым приветствием со словом джи"
+      },
+      {
+        "speaker": "Вы (ученик)",
+        "speechRu": "Здравствуйте, спасибо большое!",
+        "speechIso": "Namastē jī, bahut shukriyā!",
+        "speechCyrillic": "Намастэ джии, бахут шукрийа!",
+        "acceptableResponsesIso": [
+          "Namastē jī",
+          "Namastē jī, shukriyā"
+        ],
+        "speechEn": "Здравствуйте, спасибо большое!"
+      },
+      {
+        "speaker": "Менеджер",
+        "speechRu": "Пожалуйста, проходите сюда.",
+        "speechIso": "Āiye jī, yahā̃ āiye.",
+        "speechCyrillic": "Ааие джии, йахааⁿ ааие.",
+        "learnerHintRu": "Поблагодарите уважительным словом Dhanyavād jī",
+        "speechEn": "Пожалуйста, проходите сюда.",
+        "learnerHintEn": "Hint: Поблагодарите уважительным словом Dhanyavād jī"
+      },
+      {
+        "speaker": "Вы (ученик)",
+        "speechRu": "Большое спасибо!",
+        "speechIso": "Dhanyavād jī!",
+        "speechCyrillic": "Дханьяваад джии!",
+        "acceptableResponsesIso": [
+          "Dhanyavād jī",
+          "Bahut shukriyā jī"
+        ],
+        "speechEn": "Большое спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Articulatory Architecture, Greetings, and Respectful Interaction",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культурный код жеста Намастэ",
+    "pointsRu": [
+      "Жест 'añjali mudrā' (ладони сложены на уровне груди с легким поклоном головы) передает глубокое почтение.",
+      "Женщинам в Индии традиционно не протягивают руку для рукопожатия первыми — жест Намастэ является идеальной и безопасной нормой.",
+      "Частица 'jī' ставится после имен (например, Anna-jī) или после утверждений (Hā̃-jī)."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 1)",
+    "pointsEn": [
+      "The Añjali Mudrā gesture (palms joined at chest level with a slight nod) conveys deep respect and replaces handshakes.",
+      "The Añjali Mudrā gesture (palms joined at chest level with a slight nod) conveys deep respect and replaces handshakes.",
+      "Cultural insight: Частица 'jī' ставится после имен (например, Anna-jī) или после утверждений (Hā̃-jī)."
+    ]
+  },
+  "themeEn": "Articulatory Architecture, Greetings, and Respectful Interaction: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

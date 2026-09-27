@@ -1,0 +1,293 @@
+{
+  "day": 5,
+  "phase": 1,
+  "title": {
+    "en": "Interrogative Formulations and the Question Particle",
+    "ru": "Вопросительные конструкции и вопросительная частица Kyā"
+  },
+  "theme": "Общие вопросы (частица Kyā как русское 'Ли') и специальные вопросы на К",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция согласных серии К: непридыхательный k vs ky)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Начальная частица Kyā и вопросы Где? Кто? Когда? Как?)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Трансформация утверждений в общие вопросы)",
+    "phase4SimulationMinutes": "17:00–20:00 (Расспрос прохожего о вокзале и гостинице)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Formulate polar questions using clause-initial particle Kyā",
+      "Master K-interrogative question words (Kahā̃, Kaun, Kab, Kyū̃, Kaisē)",
+      "Maintain sentence-final copula hai in questions"
+    ],
+    "ru": [
+      "Строить общие вопросы с помощью начальной частицы Kyā (аналог русской частицы 'Ли')",
+      "Освоить вопросительные слова на букву К (Kahā̃ = где, Kaun = кто, Kab = когда, Kaisē = как)",
+      "Сохранять обязательную глагол-связку hai в конце вопросительного предложения"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Непридыхательный велярный /k/ (क) и назализованный /ā̃/ в kahā̃",
+    "articulatoryMechanism": "Задняя спинка языка смыкается с мягким нёбом. Без придыхания. В слове kahā̃ второй слог назализуется: [кахааⁿ].",
+    "russianInterferenceWarning": "Не забывайте носовой звук в вопросе 'Где?' (Kahā̃). Если сказать просто 'каха', это звучит грубо и фонетически искаженно.",
+    "drills": [
+      {
+        "prompt": "Отработка вопроса 'Где?'",
+        "contrastPair": "kahā (ошибка) vs kahā̃ (верно: носовой гласный)",
+        "instructionsRu": "Направьте гласный в нос на втором слоге: [кахааⁿ]."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Двойная роль слова Kyā (Что? vs Вопросительная частица)",
+    "russianParallel": "Если Kyā стоит в САМОМ НАЧАЛЕ фразы, оно не переводится как 'что', а работает как русская частица 'Ли' (Kyā yeh hotel hai? = Отель ли это? / Это отель?). В середине предложения Kyā значит 'что' (Yeh kyā hai? = Что это?).",
+    "syntacticFormula": "Kyā + [Подлежащее] + [Сказуемое] + [hai]?",
+    "explanationRu": "Все базовые вопросительные слова в хинди начинаются на букву К (как в русском: кто, когда, куда, какой). Связка hai ВСЕГДА стоит на последнем месте: Station kahā̃ hai? (Вокзал где есть?).",
+    "pieCognateConnection": {
+      "root": "*kʷi- / *kʷo-",
+      "russian": "кто / когда / какой",
+      "hindi": "kaun / kab / kaisā",
+      "meaning": "Индоевропейский вопросительный класс на K"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 5: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d05_v01",
+      "devanagari": "क्या",
+      "transliterationIso": "Kyā",
+      "phoneticCyrillic": "Кйаа",
+      "translationRu": "Что? / Вопросительная частица (Ли)",
+      "translationEn": "What / Polar question marker",
+      "partOfSpeech": "pronoun",
+      "gender": "n/a",
+      "audioHint": "Короткий [кй] + долгое [аа]."
+    },
+    {
+      "id": "d05_v02",
+      "devanagari": "कहाँ",
+      "transliterationIso": "Kahā̃",
+      "phoneticCyrillic": "Кахааⁿ",
+      "translationRu": "Где? / Куда?",
+      "translationEn": "Where",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Носовой звук на конце: [кахааⁿ]."
+    },
+    {
+      "id": "d05_v03",
+      "devanagari": "कौन",
+      "transliterationIso": "Kaun",
+      "phoneticCyrillic": "Каун",
+      "translationRu": "Кто?",
+      "translationEn": "Who",
+      "partOfSpeech": "pronoun",
+      "gender": "both",
+      "audioHint": "Дифтонгоид [ау], твердый зубной [н]."
+    },
+    {
+      "id": "d05_v04",
+      "devanagari": "कब",
+      "transliterationIso": "Kab",
+      "phoneticCyrillic": "Каб",
+      "translationRu": "Когда?",
+      "translationEn": "When",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Короткий гласный [а], звонкий [б]."
+    },
+    {
+      "id": "d05_v05",
+      "devanagari": "क्यों",
+      "transliterationIso": "Kyū̃",
+      "phoneticCyrillic": "Кйууⁿ",
+      "translationRu": "Почему? / Зачем?",
+      "translationEn": "Why",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Долгое носовое [ууⁿ]."
+    },
+    {
+      "id": "d05_v06",
+      "devanagari": "कब",
+      "transliterationIso": "Kab",
+      "phoneticCyrillic": "Каб",
+      "translationRu": "Когда",
+      "translationEn": "When",
+      "partOfSpeech": "pronoun",
+      "gender": "n/a",
+      "audioHint": "Непридыхательный твердый 'к', краткий гласный 'а'."
+    },
+    {
+      "id": "d05_v07",
+      "devanagari": "क्यों",
+      "transliterationIso": "Kyū̃",
+      "phoneticCyrillic": "Кйууⁿ",
+      "translationRu": "Почему / Зачем",
+      "translationEn": "Why",
+      "partOfSpeech": "pronoun",
+      "gender": "n/a",
+      "audioHint": "Носовой долгий 'ууⁿ' в конце слова."
+    },
+    {
+      "id": "d05_v08",
+      "devanagari": "कितना",
+      "transliterationIso": "Kitnā",
+      "phoneticCyrillic": "Китнаа",
+      "translationRu": "Сколько",
+      "translationEn": "How much / How many",
+      "partOfSpeech": "pronoun",
+      "gender": "m",
+      "audioHint": "Дентальный зубной 'т', долгий 'аа' на конце."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d05_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вопрос 'Где находится станция?' (Станция + где + есть?)",
+      "prompt": "Где станция метро?",
+      "wordChips": [
+        "Metro station",
+        "kahā̃",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Metro station",
+        "kahā̃",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Мэтро стэшн кахааⁿ хэ",
+      "explanationRu": "Вопросительное слово ставится перед конечным глаголом: Объект + kahā̃ + hai?",
+      "instructionEn": "Exercise instruction: Соберите вопрос 'Где находится станция?' (Станция + где + есть?)",
+      "explanationEn": "Вопросительное слово ставится перед конечным глаголом: Объект + kahā̃ + hai?"
+    },
+    {
+      "id": "d05_ex02",
+      "type": "fill_in_blank",
+      "instructionRu": "Превратите утверждение 'Yeh hotel hai' (Это отель) в вопрос 'Это отель?'",
+      "prompt": "_____ yeh hotel hai?",
+      "options": [
+        "Kyā",
+        "Kahā̃",
+        "Kaun"
+      ],
+      "correctAnswer": "Kyā",
+      "transliterationIsoTarget": "Kyā yeh hotel hai?",
+      "explanationRu": "Kyā в начале предложения делает из него общий вопрос (да/нет).",
+      "instructionEn": "Exercise instruction: Превратите утверждение 'Yeh hotel hai' (Это отель) в вопрос 'Это отель?'",
+      "explanationEn": "Kyā в начале предложения делает из него общий вопрос (да/нет)."
+    },
+    {
+      "id": "d05_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Укажите на незнакомый предмет и спросите 'Что это?'",
+      "prompt": "Что это?",
+      "options": [
+        "Yeh kyā hai?",
+        "Kyā yeh hai?",
+        "Kahā̃ yeh hai?"
+      ],
+      "correctAnswer": "Yeh kyā hai?",
+      "phoneticCyrillicTarget": "Йе кйаа хэ?",
+      "explanationRu": "Yeh (это) + kyā (что) + hai (есть)?",
+      "instructionEn": "Exercise instruction: Укажите на незнакомый предмет и спросите 'Что это?'",
+      "explanationEn": "Yeh (это) + kyā (что) + hai (есть)?"
+    },
+    {
+      "id": "d05_ex04",
+      "type": "substitution_drill",
+      "instructionRu": "Спросите 'Когда прибудет поезд?' (Поезд + когда + есть?)",
+      "prompt": "Train _____ hai?",
+      "options": [
+        "kab",
+        "kyū̃",
+        "kaun"
+      ],
+      "correctAnswer": "kab",
+      "transliterationIsoTarget": "Train kab hai?",
+      "explanationRu": "Kab означает 'когда'.",
+      "instructionEn": "Exercise instruction: Спросите 'Когда прибудет поезд?' (Поезд + когда + есть?)",
+      "explanationEn": "Kab означает 'когда'."
+    },
+    {
+      "id": "d05_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Что? / Вопросительная частица (Ли)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'What / Polar question marker' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Что? / Вопросительная частица (Ли)»?",
+      "options": [
+        "Kyā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Kyā!",
+      "phoneticCyrillicTarget": "Кйаа!",
+      "transliterationIsoTarget": "Kyā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Kyā!",
+      "explanationEn": "Correct and confident verbal response: Kyā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Поиск стойки информации на вокзале",
+    "setting": "Шумный железнодорожный вокзал Нью-Дели",
+    "partnerRoleRu": "Дежурный по станции",
+    "learnerRoleRu": "Пассажирка",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Извините, пожалуйста! Где стойка информации?",
+        "speechIso": "Māf kījiye jī! Information counter kahā̃ hai?",
+        "speechCyrillic": "Мааф кииджие джии! Информэйшн каунтер кахааⁿ хэ?",
+        "learnerHintRu": "Задайте вопрос с вежливым Māf kījiye",
+        "speechEn": "Извините, пожалуйста! Где стойка информации?",
+        "learnerHintEn": "Hint: Задайте вопрос с вежливым Māf kījiye"
+      },
+      {
+        "speaker": "Дежурный",
+        "speechRu": "Стойка информации там, прямо.",
+        "speechIso": "Information counter vahā̃ hai, sīdhē.",
+        "speechCyrillic": "Информэйшн каунтер вахааⁿ хэ, сиидхэ.",
+        "learnerHintRu": "Уточните: Это рядом? (Kyā pās hai?)",
+        "speechEn": "Стойка информации там, прямо.",
+        "learnerHintEn": "Hint: Уточните: Это рядом? (Kyā pās hai?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Это рядом?",
+        "speechIso": "Kyā pās hai?",
+        "speechCyrillic": "Кйаа паас хэ?",
+        "acceptableResponsesIso": [
+          "Kyā yeh pās hai?"
+        ],
+        "speechEn": "Это рядом?"
+      },
+      {
+        "speaker": "Дежурный",
+        "speechRu": "Да, совсем рядом. Большое спасибо!",
+        "speechIso": "Hā̃-jī, bilkul pās hai.",
+        "speechCyrillic": "Хааⁿ-джии, билкул паас хэ.",
+        "learnerHintRu": "Поблагодарите: Shukriyā jī!",
+        "speechEn": "Да, совсем рядом. Большое спасибо!",
+        "learnerHintEn": "Hint: Поблагодарите: Shukriyā jī!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Interrogative Formulations and the Question Particle",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Как обращаться к незнакомцам с вопросом",
+    "pointsRu": [
+      "Всегда предваряйте вопрос формулой 'Māf kījiye' (Извините) или вежливым словом 'Sunye jī' (Послушайте, пожалуйста).",
+      "К мужчинам-работникам вокзала или водителям принято обращаться 'Bhaiyā' (брат / молодой человек) — это звучит уважительно и дружелюбно.",
+      "Связка 'hai' на конце предложения обязательна даже в быстром диалоге."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 5)",
+    "pointsEn": [
+      "The honorific suffix -jī attached to names (e.g. Anna-jī) or words (hā̃-jī) signals warmth, deference, and polite conversational posture.",
+      "Cultural insight: К мужчинам-работникам вокзала или водителям принято обращаться 'Bhaiyā' (брат / молодой человек) — это звучит уважительно и дружелюбно.",
+      "Cultural insight: Связка 'hai' на конце предложения обязательна даже в быстром диалоге."
+    ]
+  },
+  "themeEn": "Interrogative Formulations and the Question Particle: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

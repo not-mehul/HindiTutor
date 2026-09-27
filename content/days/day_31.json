@@ -1,0 +1,285 @@
+{
+  "day": 31,
+  "phase": 4,
+  "title": {
+    "en": "Finalizing Purchases, Exact Change, and Packaging",
+    "ru": "Завершение покупки: сдача и мелочь (Khullē paisē), упаковка (Pack kar dījiye)"
+  },
+  "theme": "Мелочь/сдача (khullē paisē), нет сдачи (khullē nahī̃ haiñ), пакет (bag/thailī), упакуйте (pack kar dījiye)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция удвоенного l в khullē / кхуллэ и придыхательного th в thailī)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Khullē paisē = русское 'мелочь / сдача' и Pack kar dījiye = Упакуйте)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Диалог на кассе: есть ли мелочь? упакуйте в пакет, заберите чек)",
+    "phase4SimulationMinutes": "17:00–20:00 (Финальный расчет и укладывание покупок)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Manage change shortages using 'Khullē paisē haiñ? / Khullē nahī̃ haiñ'",
+      "Request packaging with 'Pack kar dījiye' and ask for a bag (bag / thailī)",
+      "Close commercial retail exchanges smoothly"
+    ],
+    "ru": [
+      "Решать вечную проблему сдачи в Индии фразами: 'Khullē paisē haiñ?' (Есть мелочь?) / 'Khullē nahī̃ haiñ' (Мелочи нет)",
+      "Просить упаковать покупки: 'Pack kar dījiye' и просить пакет (thailī / bag)",
+      "Уверенно и быстро завершать покупки на кассе"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Удвоенный латеральный /ll/ и придыхательное /kh/ в khullē (खुले)",
+    "articulatoryMechanism": "Выдох на глухом велярном [кх] + задержка на удвоенном [лл] с открытым гласным [э]: [кхуллэ].",
+    "russianInterferenceWarning": "Не забывайте придыхание на первом слоге.",
+    "drills": [
+      {
+        "prompt": "Вопрос о мелочи",
+        "contrastPair": "Khullē paisē haiñ? (Есть сдача / мелочь?)",
+        "instructionsRu": "Произнесите связку: Khullē nahī̃ haiñ (Мелочи нет)."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Идиома Khullē paisē (Мелочь / Разменные деньги)",
+    "russianParallel": "Слово khullē буквально значит 'открытые / свободные'. В сочетании с paisē (деньги) это абсолютный эквивалент русского 'мелочь / размен / мелкие купюры'. Если у вас нет мелочи, вы говорите: 'Mērē pās khullē nahī̃ haiñ' (У меня нет мелочи).",
+    "syntacticFormula": "Pack kar dījiye + [Khullē paisē lījiye / nahī̃ haiñ]",
+    "explanationRu": "Сложный составной глагол: Pack (упаковка) + karnā (делать) + dījiye (дайте) = Pack kar dījiye (Упакуйте, пожалуйста). Это самый популярный тип глаголов в современном хинди!",
+    "pieCognateConnection": {
+      "root": "*kʷel-",
+      "russian": "коло / около",
+      "hindi": "khulnā / khullā (открытый / свободный)",
+      "meaning": "Развязывание и открытие"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 31: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d31_v01",
+      "devanagari": "खुले पैसे",
+      "transliterationIso": "Khullē paisē",
+      "phoneticCyrillic": "Кхуллэ пэсе",
+      "translationRu": "Мелочь / Мелкие деньги / Сдача",
+      "translationEn": "Small change / Coins",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенное 'лл'."
+    },
+    {
+      "id": "d31_v02",
+      "devanagari": "पैक कर दीजिए",
+      "transliterationIso": "Pack kar dījiye",
+      "phoneticCyrillic": "Пэк кар дииджие",
+      "translationRu": "Упакуйте, пожалуйста / Заверните",
+      "translationEn": "Please pack it",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Pack + kar dījiye."
+    },
+    {
+      "id": "d31_v03",
+      "devanagari": "थैली / बैग",
+      "transliterationIso": "Thailī / Bag",
+      "phoneticCyrillic": "Тхэилии / Бэг",
+      "translationRu": "Пакет / Сумка",
+      "translationEn": "Bag / Carry bag",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Придыхательное 'тх'."
+    },
+    {
+      "id": "d31_v04",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d31_v05",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d31_v06",
+      "devanagari": "रसीद",
+      "transliterationIso": "Rasīd",
+      "phoneticCyrillic": "Расиид",
+      "translationRu": "Чек / Квитанция",
+      "translationEn": "Receipt / Bill",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Звук 'с' + долгий 'ии' + зубной 'д'."
+    },
+    {
+      "id": "d31_v07",
+      "devanagari": "पेमेंट",
+      "transliterationIso": "Payment",
+      "phoneticCyrillic": "Пеемент͟",
+      "translationRu": "Оплата / Расчет",
+      "translationEn": "Payment",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Общеупотребительное слово во всей Индии."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d31_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите просьбу: 'Пожалуйста, упакуйте эту вещь в пакет'",
+      "prompt": "Упакуйте это, пожалуйста",
+      "wordChips": [
+        "Isē",
+        "pack",
+        "kar",
+        "dījiye"
+      ],
+      "correctAnswer": [
+        "Isē",
+        "pack",
+        "kar",
+        "dījiye"
+      ],
+      "phoneticCyrillicTarget": "Исе пэк кар дииджие",
+      "explanationRu": "Isē pack kar dījiye = Упакуйте это.",
+      "instructionEn": "Exercise instruction: Соберите просьбу: 'Пожалуйста, упакуйте эту вещь в пакет'",
+      "explanationEn": "Isē pack kar dījiye = Упакуйте это."
+    },
+    {
+      "id": "d31_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Продавец спрашивает: 'Khullē paisē haiñ?' (Есть мелочь?). Ответьте за 2 секунды, что мелочи нет.",
+      "prompt": "Продавец просит мелочь",
+      "options": [
+        "Nahī̃ bhaiyā, khullē nahī̃ haiñ!",
+        "Hā̃, bahut mahangā hai!",
+        "Main thailī hū̃!"
+      ],
+      "correctAnswer": "Nahī̃ bhaiyā, khullē nahī̃ haiñ!",
+      "phoneticCyrillicTarget": "Нахииⁿ бхаййаа, кхуллэ нахииⁿ хэⁿ!",
+      "explanationRu": "Khullē nahī̃ haiñ = Мелочи нет.",
+      "instructionEn": "Exercise instruction: Продавец спрашивает: 'Khullē paisē haiñ?' (Есть мелочь?). Ответьте за 2 секунды, что мелочи нет.",
+      "explanationEn": "Khullē nahī̃ haiñ = Мелочи нет."
+    },
+    {
+      "id": "d31_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите пакет (Пакет + дайте)",
+      "prompt": "Ek _____ dījiye. (Пакет дайте)",
+      "options": [
+        "bag",
+        "namak",
+        "chāval"
+      ],
+      "correctAnswer": "bag",
+      "transliterationIsoTarget": "Ek bag dījiye.",
+      "explanationRu": "Ek bag dījiye = Дайте пакет.",
+      "instructionEn": "Exercise instruction: Попросите пакет (Пакет + дайте)",
+      "explanationEn": "Ek bag dījiye = Дайте пакет."
+    },
+    {
+      "id": "d31_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Отдайте купюру в 500 рупий",
+      "prompt": "Pāñch sau kā note _____! (Возьмите купюру 500)",
+      "options": [
+        "lījiye",
+        "dījiye",
+        "jāiye"
+      ],
+      "correctAnswer": "lījiye",
+      "transliterationIsoTarget": "Pāñch sau kā note lījiye!",
+      "explanationRu": "Lījiye = возьмите.",
+      "instructionEn": "Exercise instruction: Отдайте купюру в 500 рупий",
+      "explanationEn": "Lījiye = возьмите."
+    },
+    {
+      "id": "d31_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Мелочь / Мелкие деньги / Сдача'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Small change / Coins' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Мелочь / Мелкие деньги / Сдача»?",
+      "options": [
+        "Khullē paisē!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Khullē paisē!",
+      "phoneticCyrillicTarget": "Кхуллэ пэсе!",
+      "transliterationIsoTarget": "Khullē paisē!",
+      "explanationRu": "Правильный и уверенный устный ответ: Khullē paisē!",
+      "explanationEn": "Correct and confident verbal response: Khullē paisē!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Завершение покупки сувениров на кассе",
+    "setting": "Касса сувенирного магазина",
+    "partnerRoleRu": "Кассир",
+    "learnerRoleRu": "Покупательница",
+    "turns": [
+      {
+        "speaker": "Кассир",
+        "speechRu": "Всего четыреста пятьдесят рупий, мадам. У вас есть мелочь 50 рупий?",
+        "speechIso": "450 rupayē madam. Kyā 50 khullē haiñ?",
+        "speechCyrillic": "450 рупае мадам. Кйаа 50 кхуллэ хэⁿ?",
+        "learnerHintRu": "Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)",
+        "speechEn": "Всего четыреста пятьдесят рупий, мадам. У вас есть мелочь 50 рупий?",
+        "learnerHintEn": "Hint: Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, мелочи нет. Возьмите пятьсот рупий.",
+        "speechIso": "Nahī̃, khullē nahī̃ haiñ. Pāñch sau kā note lījiye.",
+        "speechCyrillic": "Нахииⁿ, кхуллэ нахииⁿ хэⁿ. Паанч сау каа ноот лииджие.",
+        "acceptableResponsesIso": [
+          "Khullē nahī̃ haiñ. Pāñch sau kā note lījiye."
+        ],
+        "speechEn": "Нет, мелочи нет. Возьмите пятьсот рупий."
+      },
+      {
+        "speaker": "Кассир",
+        "speechRu": "Хорошо, вот ваши пятьдесят рупий сдачи. Упаковать в пакет?",
+        "speechIso": "Ṭhīk hai, 50 rupayē change lījiye. Pack kar dū̃?",
+        "speechCyrillic": "Т͟хиик хэ, 50 рупае чейндж лииджие. Пэк кар дууⁿ?",
+        "learnerHintRu": "Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)",
+        "speechEn": "Хорошо, вот ваши пятьдесят рупий сдачи. Упаковать в пакет?",
+        "learnerHintEn": "Hint: Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, пожалуйста, упакуйте. Большое спасибо!",
+        "speechIso": "Hā̃, pack kar dījiye. Bahut shukriyā!",
+        "speechCyrillic": "Хааⁿ, пэк кар дииджие. Бахут шукрийа!",
+        "acceptableResponsesIso": [
+          "Pack kar dījiye, shukriyā!"
+        ],
+        "speechEn": "Да, пожалуйста, упакуйте. Большое спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Finalizing Purchases, Exact Change, and Packaging",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Проблема мелкой сдачи в Индии ('Chillar problem')",
+    "pointsRu": [
+      "В Индии почти всегда наблюдается нехватка монет и мелких купюр у уличных продавцов.",
+      "Иногда вместо 5 или 10 рупий сдачи вам могут предложить мятную конфетку (toffee) — это общепринятая забавная норма.",
+      "Всегда полезно иметь при себе несколько купюр по 10, 20 и 50 рупий со словами 'Khullē paisē haiñ'."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 31)",
+    "pointsEn": [
+      "Cultural insight: В Индии почти всегда наблюдается нехватка монет и мелких купюр у уличных продавцов.",
+      "Cultural insight: Иногда вместо 5 или 10 рупий сдачи вам могут предложить мятную конфетку (toffee) — это общепринятая забавная норма.",
+      "Cultural insight: Всегда полезно иметь при себе несколько купюр по 10, 20 и 50 рупий со словами 'Khullē paisē haiñ'."
+    ]
+  },
+  "themeEn": "Finalizing Purchases, Exact Change, and Packaging: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

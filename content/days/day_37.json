@@ -1,0 +1,299 @@
+{
+  "day": 37,
+  "phase": 5,
+  "title": {
+    "en": "Health, Safety, and Medical Emergencies",
+    "ru": "Здоровье и безопасность: симптомы (Tabīyat kharāb hai) и вызов врача"
+  },
+  "theme": "Самочувствие плохое (Mērī tabīyat kharāb hai), боль в животе (pēṭ dard), лекарство (davā), вызовите врача (Doctor ko bulāiye)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция медицинских терминов: tabīyat, pēṭ dard, bulāiye)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Русское 'Мое самочувствие плохое' = Mērī tabīyat kharāb hai; винительный ko в Doctor ko bulāiye)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Экстренные фразы: болит живот, нужна аптека, позовите врача)",
+    "phase4SimulationMinutes": "17:00–20:00 (Покупка лекарств в аптеке и консультация)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Report illness using idiom 'Mērī tabīyat kharāb hai' (I am unwell)",
+      "Identify physical symptoms: pēṭ dard (stomach ache), sirdard (headache)",
+      "Request medical intervention using 'Doctor ko bulāiye' and find davā (medicine)"
+    ],
+    "ru": [
+      "Сообщать о болезни через идиому: 'Mērī tabīyat kharāb hai' ('Моё самочувствие плохое / Мне нездоровится')",
+      "Описывать симптомы: pēṭ dard (боль в животе), sirdard (головная боль)",
+      "Вызывать медицинскую помощь: 'Doctor ko bulāiye' ('Позовите доктора') и просить davā (лекарство)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Зубной звонкий /d/ и раскатистый /r/ в слове dard (दर्द)",
+    "articulatoryMechanism": "Два твердых зубных [д] с раскатистым чистым [р] посередине: [дард]. Значит 'боль'.",
+    "russianInterferenceWarning": "Не оглушайте звук [д] на конце слова (не 'дарт'!).",
+    "drills": [
+      {
+        "prompt": "Отработка локализации боли",
+        "contrastPair": "Pēṭ dard (живот болит) vs Sirdard (голова болит)",
+        "instructionsRu": "Pēṭ (живот) + dard (боль)."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Идиома самочувствия и оформление прямого объекта через 'ko'",
+    "russianParallel": "Фраза 'Mērī tabīyat kharāb hai' буквально переводится как 'Моё самочувствие плохое' (tabīyat женского рода = самочувствие/здоровье; kharāb = плохое/сломанное). При вызове конкретного одушевленного лица появляется послелог ko (русский винительный падеж): 'Позовите кого? Доктора' = Doctor ko bulāiye!",
+    "syntacticFormula": "Mērī tabīyat kharāb hai / [Орган] + dard hai / [Лицо] + ko bulāiye",
+    "explanationRu": "Эта лексика — ваша спасательная страховка в любой экстренной ситуации со здоровьем в Индии.",
+    "pieCognateConnection": {
+      "root": "*der-",
+      "russian": "драть / дыра (раздирающая боль)",
+      "hindi": "dard (боль / страдание)",
+      "meaning": "Праиндоевропейская физическая боль"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 37: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d37_v01",
+      "devanagari": "तबीयत ख़राब है",
+      "transliterationIso": "Tabīyat kharāb hai",
+      "phoneticCyrillic": "Табиийат харааб хэ",
+      "translationRu": "Мне нездоровится (самочувствие плохое)",
+      "translationEn": "I am feeling unwell / sick",
+      "partOfSpeech": "phrase",
+      "gender": "f",
+      "audioHint": "Ключевая фраза о здоровье."
+    },
+    {
+      "id": "d37_v02",
+      "devanagari": "दर्द",
+      "transliterationIso": "Dard",
+      "phoneticCyrillic": "Дард",
+      "translationRu": "Боль",
+      "translationEn": "Pain / Ache",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Когнат со словом 'драть'."
+    },
+    {
+      "id": "d37_v03",
+      "devanagari": "पेट दर्द",
+      "transliterationIso": "Pēṭ dard",
+      "phoneticCyrillic": "Пеет͟ дард",
+      "translationRu": "Боль в животе",
+      "translationEn": "Stomach ache",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный [т͟]."
+    },
+    {
+      "id": "d37_v04",
+      "devanagari": "दवा",
+      "transliterationIso": "Davā",
+      "phoneticCyrillic": "Даваа",
+      "translationRu": "Лекарство",
+      "translationEn": "Medicine",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Долгое 'аа' на конце."
+    },
+    {
+      "id": "d37_v05",
+      "devanagari": "डॉक्टर को बुलाइए",
+      "transliterationIso": "Doctor ko bulāiye",
+      "phoneticCyrillic": "Доктор ко булааие",
+      "translationRu": "Вызовите (позовите) доктора",
+      "translationEn": "Please call a doctor",
+      "partOfSpeech": "phrase",
+      "gender": "both",
+      "audioHint": "Bulānā = звать."
+    },
+    {
+      "id": "d37_v06",
+      "devanagari": "डॉक्टर",
+      "transliterationIso": "Doctor",
+      "phoneticCyrillic": "Доктор",
+      "translationRu": "Врач / Доктор",
+      "translationEn": "Doctor",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ретрофлексный 'д' без смягчения."
+    },
+    {
+      "id": "d37_v07",
+      "devanagari": "दवा",
+      "transliterationIso": "Davā",
+      "phoneticCyrillic": "Даваа",
+      "translationRu": "Лекарство",
+      "translationEn": "Medicine",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Зубной звук 'д' + долгий гласный 'аа'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d37_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите экстренное сообщение: 'Помогите, пожалуйста! Мне нездоровится'",
+      "prompt": "Помогите, мне нездоровится",
+      "wordChips": [
+        "Madad",
+        "kījiye,",
+        "mērī",
+        "tabīyat",
+        "kharāb",
+        "hai!"
+      ],
+      "correctAnswer": [
+        "Madad",
+        "kījiye,",
+        "mērī",
+        "tabīyat",
+        "kharāb",
+        "hai!"
+      ],
+      "phoneticCyrillicTarget": "Мадад кииджие, мерии табиийат харааб хэ!",
+      "explanationRu": "Madad kījiye (помогите) + mērī tabīyat kharāb hai (мне нездоровится).",
+      "instructionEn": "Exercise instruction: Соберите экстренное сообщение: 'Помогите, пожалуйста! Мне нездоровится'",
+      "explanationEn": "Madad kījiye (помогите) + mērī tabīyat kharāb hai (мне нездоровится)."
+    },
+    {
+      "id": "d37_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "У вас сильно разболелся живот. Скажите об этом в аптеке за 2 секунды.",
+      "prompt": "Симптом боли в животе",
+      "options": [
+        "Bhaiyā, pēṭ dard hai, davā dījiye!",
+        "Mujhē chāi pasand hai!",
+        "Station kahā̃ hai?"
+      ],
+      "correctAnswer": "Bhaiyā, pēṭ dard hai, davā dījiye!",
+      "phoneticCyrillicTarget": "Бхаййаа, пеет͟ дард хэ, даваа дииджие!",
+      "explanationRu": "Pēṭ dard hai, davā dījiye = Живот болит, дайте лекарство!",
+      "instructionEn": "Exercise instruction: У вас сильно разболелся живот. Скажите об этом в аптеке за 2 секунды.",
+      "explanationEn": "Pēṭ dard hai, davā dījiye = Живот болит, дайте лекарство!"
+    },
+    {
+      "id": "d37_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите срочно позвать доктора",
+      "prompt": "Doctor ko _____! (Позовите)",
+      "options": [
+        "bulāiye",
+        "jāiye",
+        "baithiye"
+      ],
+      "correctAnswer": "bulāiye",
+      "transliterationIsoTarget": "Doctor ko bulāiye!",
+      "explanationRu": "Bulāiye = позовите.",
+      "instructionEn": "Exercise instruction: Попросите срочно позвать доктора",
+      "explanationEn": "Bulāiye = позовите."
+    },
+    {
+      "id": "d37_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите: 'Есть ли здесь лекарство от боли?'",
+      "prompt": "Kyā dard kī _____ hai? (Лекарство от боли)",
+      "options": [
+        "davā",
+        "chāi",
+        "thailī"
+      ],
+      "correctAnswer": "davā",
+      "transliterationIsoTarget": "Kyā dard kī davā hai?",
+      "explanationRu": "Davā = лекарство.",
+      "instructionEn": "Exercise instruction: Спросите: 'Есть ли здесь лекарство от боли?'",
+      "explanationEn": "Davā = лекарство."
+    },
+    {
+      "id": "d37_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Мне нездоровится (самочувствие плохое)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'I am feeling unwell / sick' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Мне нездоровится (самочувствие плохое)»?",
+      "options": [
+        "Tabīyat kharāb hai!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Tabīyat kharāb hai!",
+      "phoneticCyrillicTarget": "Табиийат харааб хэ!",
+      "transliterationIsoTarget": "Tabīyat kharāb hai!",
+      "explanationRu": "Правильный и уверенный устный ответ: Tabīyat kharāb hai!",
+      "explanationEn": "Correct and confident verbal response: Tabīyat kharāb hai!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Обращение к администратору отеля при отравлении",
+    "setting": "Ресепшн отеля поздно вечером",
+    "partnerRoleRu": "Ночной портье",
+    "learnerRoleRu": "Заболевшая постоялица",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Брат, помогите пожалуйста! Мне очень нездоровится.",
+        "speechIso": "Bhaiyā, madad kījiye! Mērī tabīyat bahut kharāb hai.",
+        "speechCyrillic": "Бхаййаа, мадад кииджие! Мерии табиийат бахут харааб хэ.",
+        "learnerHintRu": "Сообщите о болезни: Mērī tabīyat bahut kharāb hai",
+        "speechEn": "Брат, помогите пожалуйста! Мне очень нездоровится.",
+        "learnerHintEn": "Hint: Сообщите о болезни: Mērī tabīyat bahut kharāb hai"
+      },
+      {
+        "speaker": "Портье",
+        "speechRu": "О господи! Что болит, мадам? Температура или живот?",
+        "speechIso": "Oh! Kyā huā madam? Pēṭ dard hai?",
+        "speechCyrillic": "Ох! Кйаа хуаа мадам? Пеет͟ дард хэ?",
+        "learnerHintRu": "Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)",
+        "speechEn": "О господи! Что болит, мадам? Температура или живот?",
+        "learnerHintEn": "Hint: Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, сильно болит живот. Пожалуйста, вызовите доктора или аптекаря.",
+        "speechIso": "Hā̃, bahut pēṭ dard hai. Doctor ko bulāiye, please!",
+        "speechCyrillic": "Хааⁿ, бахут пеет͟ дард хэ. Доктор ко булааие, плииз!",
+        "acceptableResponsesIso": [
+          "Doctor ko bulāiye!",
+          "Pēṭ dard hai, davā chāhiye."
+        ],
+        "speechEn": "Да, сильно болит живот. Пожалуйста, вызовите доктора или аптекаря."
+      },
+      {
+        "speaker": "Портье",
+        "speechRu": "Сейчас же вызываю врача из соседней клиники! Присядьте здесь, выпейте воды.",
+        "speechIso": "Abhī doctor ko bulātā hū̃. Yahā̃ baithiye, pānī lījiye.",
+        "speechCyrillic": "Абхии доктор ко булаатаа хууⁿ. Йахааⁿ бэтхие, паании лииджие.",
+        "learnerHintRu": "Поблагодарите: Bahut shukriyā bhaiyā!",
+        "speechEn": "Сейчас же вызываю врача из соседней клиники! Присядьте здесь, выпейте воды.",
+        "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā bhaiyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Спасибо огромное, брат!",
+        "speechIso": "Bahut shukriyā bhaiyā!",
+        "speechCyrillic": "Бахут шукрийа бхаййаа!",
+        "acceptableResponsesIso": [
+          "Shukriyā jī!"
+        ],
+        "speechEn": "Спасибо огромное, брат!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Health, Safety, and Medical Emergencies",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Медицинская взаимопомощь в Индии",
+    "pointsRu": [
+      "Индийцы невероятно сердобольны и отзывчивы к заболевшим гостям: вам немедленно вызовут врача, принесут горячий отвар и купят лекарства.",
+      "Фраза 'Mērī tabīyat kharāb hai' поднимает на ноги весь персонал отеля за 30 секунд.",
+      "Аптекари (chemists) в Индии часто обладают квалификацией фельдшера и могут выдать эффективное средство от расстройства желудка прямо у стойки."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 37)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Фраза 'Mērī tabīyat kharāb hai' поднимает на ноги весь персонал отеля за 30 секунд.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Health, Safety, and Medical Emergencies: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

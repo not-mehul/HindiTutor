@@ -1,0 +1,294 @@
+{
+  "day": 23,
+  "phase": 3,
+  "title": {
+    "en": "Billing Inquiries and Payment Settlement",
+    "ru": "Расчет в ресторане: «Принесите счет» (Bill lē āiye) и «Сколько вышло?» (Kitnā huā?)"
+  },
+  "theme": "Принесите счет (bill lē āiye), сколько вышло (kitnā huā?), работает ли карта (card chalēgā?)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Фонетика идиоматического глагола chalēgā / чалээгаа)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Kitnā huā? = Сколько вышло? и Card chalēgā? = Карта пойдет/пройдет?)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Диалог закрытия счета: чек, безналичная оплата, сдача)",
+    "phase4SimulationMinutes": "17:00–20:00 (Полная процедура оплаты обеда в кафе)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Request the restaurant check using 'Bill lē āiye'",
+      "Ask total cost with 'Kitnā huā?' (How much did it come to?)",
+      "Verify card and digital payments with idiomatic 'Card / UPI chalēgā?'"
+    ],
+    "ru": [
+      "Просить счет в ресторане: 'Bill lē āiye' ('Принесите счет')",
+      "Спрашивать итоговую сумму: 'Kitnā huā?' ('Сколько вышло?')",
+      "Проверять возможность безналичной оплаты: 'Card chalēgā?' (русское разговорное 'Карта пойдет / пройдет?')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Глагольная форма будущего времени chalēgā (चलेगा)",
+    "articulatoryMechanism": "Мягкий [ч] + зубной [л] с гласным [э] + звонкий велярный [г] с долгим [аа]: [ча-лээ-гаа].",
+    "russianInterferenceWarning": "Не редуцируйте гласный [э] в безударной позиции.",
+    "drills": [
+      {
+        "prompt": "Отработка вопроса об оплате картой",
+        "contrastPair": "Card chalēgā? (Карта пойдет / сработает?)",
+        "instructionsRu": "Произнесите связку: Card chalēgā ya cash?"
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Идиоматическое употребление глагола chalnā и вопрос Kitnā huā?",
+    "russianParallel": "Поразительное сходство с русской разговорной речью: 1. 'Kitnā huā?' буквально переводится как 'Сколько вышло? / Сколько получилось?' (huā = стало, вышло). 2. Глагол chalnā (идти, двигаться) в форме 'chalēgā' абсолютно точно совпадает с русским: 'Карта пойдет?' / 'Карта пройдет?'.",
+    "syntacticFormula": "Bill lē āiye + Kitnā huā? + [Card / UPI] + chalēgā?",
+    "explanationRu": "В Индии невероятно развита система мгновенных платежей UPI (Google Pay / PhonePe). Вопрос 'UPI chalēgā?' поймет даже продавец кокосов на улице.",
+    "pieCognateConnection": {
+      "root": "*kʷel-",
+      "russian": "колесо / колобродить (движение)",
+      "hindi": "chalnā (идти / двигаться / работать)",
+      "meaning": "Индоевропейское круговое движение и действие"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 23: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d23_v01",
+      "devanagari": "ले आइए",
+      "transliterationIso": "Lē āiye",
+      "phoneticCyrillic": "Лее ааие",
+      "translationRu": "Принесите (букв. взяв, придите)",
+      "translationEn": "Please bring",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Сложный глагол: lē (взять) + āiye (придите)."
+    },
+    {
+      "id": "d23_v02",
+      "devanagari": "कितना हुआ",
+      "transliterationIso": "Kitnā huā",
+      "phoneticCyrillic": "Китнаа хуаа",
+      "translationRu": "Сколько вышло? / Сколько получилось?",
+      "translationEn": "How much did it come to? / What's the total?",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Kitnā (сколько) + huā (вышло)."
+    },
+    {
+      "id": "d23_v03",
+      "devanagari": "चलेगा",
+      "transliterationIso": "Chalēgā",
+      "phoneticCyrillic": "Чалээгаа",
+      "translationRu": "Пойдет? / Сработает? / Принимается?",
+      "translationEn": "Will it work? / Do you accept?",
+      "partOfSpeech": "verb",
+      "gender": "m",
+      "audioHint": "Идиоматическое 'пойдет'."
+    },
+    {
+      "id": "d23_v04",
+      "devanagari": "कार्ड",
+      "transliterationIso": "Card",
+      "phoneticCyrillic": "Кард",
+      "translationRu": "Банковская карта",
+      "translationEn": "Card",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Банковская карта."
+    },
+    {
+      "id": "d23_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d23_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d23_v07",
+      "devanagari": "कैश",
+      "transliterationIso": "Cash",
+      "phoneticCyrillic": "Кэш",
+      "translationRu": "Наличные деньги",
+      "translationEn": "Cash money",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Широкий гласный [э]."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d23_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вежливую просьбу: 'Брат, принесите счет, пожалуйста'",
+      "prompt": "Принесите счет",
+      "wordChips": [
+        "Bhaiyā,",
+        "bill",
+        "lē",
+        "āiye"
+      ],
+      "correctAnswer": [
+        "Bhaiyā,",
+        "bill",
+        "lē",
+        "āiye"
+      ],
+      "phoneticCyrillicTarget": "Бхаййаа, билл лее ааие",
+      "explanationRu": "Bhaiyā, bill lē āiye = Брат, принесите счет.",
+      "instructionEn": "Exercise instruction: Соберите вежливую просьбу: 'Брат, принесите счет, пожалуйста'",
+      "explanationEn": "Bhaiyā, bill lē āiye = Брат, принесите счет."
+    },
+    {
+      "id": "d23_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Спросите, сколько вышло к оплате",
+      "prompt": "Bhaiyā, kitnā _____? (Сколько вышло?)",
+      "options": [
+        "huā",
+        "hai",
+        "chalēgā"
+      ],
+      "correctAnswer": "huā",
+      "transliterationIsoTarget": "Bhaiyā, kitnā huā?",
+      "explanationRu": "Kitnā huā? = Сколько вышло?",
+      "instructionEn": "Exercise instruction: Спросите, сколько вышло к оплате",
+      "explanationEn": "Kitnā huā? = Сколько вышло?"
+    },
+    {
+      "id": "d23_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вы хотите расплатиться банковской картой. Спросите официанта за 2 секунды.",
+      "prompt": "Принимаете карты?",
+      "options": [
+        "Card chalēgā?",
+        "Mērā card hai!",
+        "Card kahan hai?"
+      ],
+      "correctAnswer": "Card chalēgā?",
+      "phoneticCyrillicTarget": "Кард чалээгаа?",
+      "explanationRu": "Card chalēgā? — точный и естественный вопрос.",
+      "instructionEn": "Exercise instruction: Вы хотите расплатиться банковской картой. Спросите официанта за 2 секунды.",
+      "explanationEn": "Card chalēgā? — точный и естественный вопрос."
+    },
+    {
+      "id": "d23_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Уточните, принимают ли оплату через UPI (Google Pay)",
+      "prompt": "UPI / G-Pay _____?",
+      "options": [
+        "chalēgā",
+        "lījiye",
+        "chāhiye"
+      ],
+      "correctAnswer": "chalēgā",
+      "transliterationIsoTarget": "UPI / G-Pay chalēgā?",
+      "explanationRu": "Chalēgā означает 'сработает / принимается'.",
+      "instructionEn": "Exercise instruction: Уточните, принимают ли оплату через UPI (Google Pay)",
+      "explanationEn": "Chalēgā означает 'сработает / принимается'."
+    },
+    {
+      "id": "d23_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Принесите (букв. взяв, придите)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Please bring' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Принесите (букв. взяв, придите)»?",
+      "options": [
+        "Lē āiye!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Lē āiye!",
+      "phoneticCyrillicTarget": "Лее ааие!",
+      "transliterationIsoTarget": "Lē āiye!",
+      "explanationRu": "Правильный и уверенный устный ответ: Lē āiye!",
+      "explanationEn": "Correct and confident verbal response: Lē āiye!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Закрытие счета и оплата картой в ресторане",
+    "setting": "Завершение ужина в городском ресторане",
+    "partnerRoleRu": "Официант ресторана",
+    "learnerRoleRu": "Посетительница",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Брат, принесите счет, пожалуйста!",
+        "speechIso": "Bhaiyā, bill lē āiye!",
+        "speechCyrillic": "Бхаййаа, билл лее ааие!",
+        "learnerHintRu": "Попросите счет: Bhaiyā, bill lē āiye!",
+        "speechEn": "Брат, принесите счет, пожалуйста!",
+        "learnerHintEn": "Hint: Попросите счет: Bhaiyā, bill lē āiye!"
+      },
+      {
+        "speaker": "Официант",
+        "speechRu": "Вот ваш счет, мадам. Семьсот пятьдесят рупий.",
+        "speechIso": "Lījiye bill madam. 750 rupayē.",
+        "speechCyrillic": "Лииджие билл мадам. 750 рупае.",
+        "learnerHintRu": "Спросите: Карта пойдет? (Card chalēgā?)",
+        "speechEn": "Вот ваш счет, мадам. Семьсот пятьдесят рупий.",
+        "learnerHintEn": "Hint: Спросите: Карта пойдет? (Card chalēgā?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Сколько вышло? Банковская карта пройдет?",
+        "speechIso": "Kitnā huā? Card chalēgā?",
+        "speechCyrillic": "Китнаа хуаа? Кард чалээгаа?",
+        "acceptableResponsesIso": [
+          "Card chalēgā?"
+        ],
+        "speechEn": "Сколько вышло? Банковская карта пройдет?"
+      },
+      {
+        "speaker": "Официант",
+        "speechRu": "Да, конечно, карточный терминал работает!",
+        "speechIso": "Hā̃-jī bilkul, card chalēgā.",
+        "speechCyrillic": "Хааⁿ-джии билкул, кард чалээгаа.",
+        "learnerHintRu": "Передайте карту: Lījiye, shukriyā!",
+        "speechEn": "Да, конечно, карточный терминал работает!",
+        "learnerHintEn": "Hint: Передайте карту: Lījiye, shukriyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Возьмите, пожалуйста! Большое спасибо.",
+        "speechIso": "Lījiye card. Bahut shukriyā!",
+        "speechCyrillic": "Лииджие кард. Бахут шукрийа!",
+        "acceptableResponsesIso": [
+          "Lījiye, shukriyā!"
+        ],
+        "speechEn": "Возьмите, пожалуйста! Большое спасибо."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Billing Inquiries and Payment Settlement",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культура чаевых и оплата в Индии",
+    "pointsRu": [
+      "В большинстве ресторанов в счет уже включен сервисный сбор (Service charge 5-10%).",
+      "Если сбор не включен, принято оставлять около 50-100 рупий чаевых за хороший сервис.",
+      "Вопрос 'Kitnā huā?' звучит предельно естественно и авторитетно."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 23)",
+    "pointsEn": [
+      "Cultural insight: В большинстве ресторанов в счет уже включен сервисный сбор (Service charge 5-10%).",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always negotiate or insist on meter usage ('Meter se chaliye') before boarding auto-rickshaws, or agree on a firm price upfront."
+    ]
+  },
+  "themeEn": "Billing Inquiries and Payment Settlement: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

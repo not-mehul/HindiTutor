@@ -1,0 +1,309 @@
+{
+  "day": 16,
+  "phase": 2,
+  "title": {
+    "en": "Phase 2 Synthesis and Urban Navigation Simulation",
+    "ru": "Синтез Фазы 2: сквозная транспортная симуляция от аэропорта до отеля"
+  },
+  "theme": "Полный маршрут: выбор рикши, торг за счетчик, ведение по поворотам, прибытие",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Комплексный фонетический тренинг: послелоги mẽ, par, sē, команды поворотов)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Сборка конструкций: Bhaiyā + jānā hai + mīṭar chalāo + bāē̃/dāē̃ + rukiye)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Сквозная ролевая тренировка с напористым водителем)",
+    "phase4SimulationMinutes": "17:00–20:00 (Экзаменационная транспортная симуляция Фазы 2)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Conduct end-to-end transit interaction entirely in Hindi without English",
+      "Apply postpositions, imperatives, and directionals under conversational pressure",
+      "Successfully direct a driver to a destination and halt smoothly"
+    ],
+    "ru": [
+      "Провести полный цикл транспортных переговоров исключительно на хинди",
+      "Безошибочно применять послелоги (sē, mẽ, par), вежливые императивы (-iye) и направления",
+      "Успешно доехать до пункта назначения, корректируя водителя по ходу движения"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Ритмическая устойчивость при быстрой смене речевых формул",
+    "articulatoryMechanism": "Синхронизация зубных смычек (dāē̃, sīdhē) с придыханиями (bhaiyā, dhīrē) в спонтанном потоке речи.",
+    "russianInterferenceWarning": "Не сбивайтесь на русский порядок слов SVO при стрессе! Глаголы rukiye и jāiye всегда закрывают фразу.",
+    "drills": [
+      {
+        "prompt": "Связка транспортных команд на одном дыхании",
+        "contrastPair": "Bhaiyā, sīdhē jāiye -> bāē̃ jāiye -> yahā̃ rukiye!",
+        "instructionsRu": "Произнесите последовательность команд четко и уверенно."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Синтаксическая интеграция SOV в логистике",
+    "russianParallel": "Вы окончательно преодолели интерференцию русского порядка слов. Теперь связки 'прямо езжайте' (sīdhē jāiye) и 'здесь остановитесь' (yahā̃ rukiye) формируются автоматически.",
+    "syntacticFormula": "[Субъект/Обращение] + [Локатив / Направление] + [Терминальный глагол]",
+    "explanationRu": "Фаза 2 вооружила вас полным суверенитетом в городском пространстве Индии: вы умеете находить любые объекты и руководить любым водителем.",
+    "pieCognateConnection": {
+      "root": "*dʰwer- / *wódr̥ / *sed-",
+      "russian": "дверь / вода / сидеть",
+      "hindi": "dvār / pānī / baithiye",
+      "meaning": "Индоевропейская лексическая база"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 16: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d16_v01",
+      "devanagari": "चालक / ड्राइवर",
+      "transliterationIso": "Driver / Bhaiyā",
+      "phoneticCyrillic": "Драйвер / Бхаййаа",
+      "translationRu": "Водитель / Брат",
+      "translationEn": "Driver",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Универсальное обращение."
+    },
+    {
+      "id": "d16_v02",
+      "devanagari": "रास्ता",
+      "transliterationIso": "Rāstā",
+      "phoneticCyrillic": "Раастаа",
+      "translationRu": "Дорога / Путь",
+      "translationEn": "Way / Road",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Два долгих гласных [раа-стаа]."
+    },
+    {
+      "id": "d16_v03",
+      "devanagari": "रुपये",
+      "transliterationIso": "Rupayē",
+      "phoneticCyrillic": "Рупае",
+      "translationRu": "Рупии",
+      "translationEn": "Rupees",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Индийская валюта."
+    },
+    {
+      "id": "d16_v04",
+      "devanagari": "यहाँ पर",
+      "transliterationIso": "Yahā̃ par",
+      "phoneticCyrillic": "Йахааⁿ пар",
+      "translationRu": "Прямо здесь / Вот тут",
+      "translationEn": "Right here",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Усилительный послелог par."
+    },
+    {
+      "id": "d16_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d16_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d16_v07",
+      "devanagari": "जल्दी चलिए",
+      "transliterationIso": "Jaldī chaliye",
+      "phoneticCyrillic": "Джалдии чалийе",
+      "translationRu": "Поехали скорее",
+      "translationEn": "Let's go quickly",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Чистый гласный 'ии' в слове jaldī."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d16_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите комплексное указание водителю: 'Брат, сначала поезжайте направо, затем налево'",
+      "prompt": "Сначала направо, потом налево",
+      "wordChips": [
+        "Pahlē",
+        "dāē̃",
+        "jāiye,",
+        "phir",
+        "bāē̃",
+        "jāiye"
+      ],
+      "correctAnswer": [
+        "Pahlē",
+        "dāē̃",
+        "jāiye,",
+        "phir",
+        "bāē̃",
+        "jāiye"
+      ],
+      "phoneticCyrillicTarget": "Пэхле дааеⁿ джааие, пхир бааеⁿ джааие",
+      "explanationRu": "Последовательность команд с предлогами pahlē (сначала) и phir (затем).",
+      "instructionEn": "Exercise instruction: Соберите комплексное указание водителю: 'Брат, сначала поезжайте направо, затем налево'",
+      "explanationEn": "Последовательность команд с предлогами pahlē (сначала) и phir (затем)."
+    },
+    {
+      "id": "d16_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Водитель пытается проехать нужные ворота. Скомандуйте немедленную остановку!",
+      "prompt": "Водитель мчит мимо цели",
+      "options": [
+        "Bhaiyā, yahā̃ par rukiye!",
+        "Bhaiyā, sīdhē jāiye!",
+        "Kitnā time lagēgā?"
+      ],
+      "correctAnswer": "Bhaiyā, yahā̃ par rukiye!",
+      "phoneticCyrillicTarget": "Бхаййаа, йахааⁿ пар рукие!",
+      "explanationRu": "Yahā̃ par rukiye! — Остановитесь прямо здесь!",
+      "instructionEn": "Exercise instruction: Водитель пытается проехать нужные ворота. Скомандуйте немедленную остановку!",
+      "explanationEn": "Yahā̃ par rukiye! — Остановитесь прямо здесь!"
+    },
+    {
+      "id": "d16_ex03",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите о стоимости по счетчику",
+      "prompt": "Mīṭar _____ kitnā huā? (По счетчику сколько вышло?)",
+      "options": [
+        "sē",
+        "mẽ",
+        "par"
+      ],
+      "correctAnswer": "sē",
+      "transliterationIsoTarget": "Mīṭar sē kitnā huā?",
+      "explanationRu": "Mīṭar sē = по счетчику (инструментальный sē).",
+      "instructionEn": "Exercise instruction: Спросите о стоимости по счетчику",
+      "explanationEn": "Mīṭar sē = по счетчику (инструментальный sē)."
+    },
+    {
+      "id": "d16_ex04",
+      "type": "dialogue_roleplay",
+      "instructionRu": "Завершите поездку и отдайте деньги",
+      "prompt": "Водитель: Hum pahuñch gayē madam (Мы приехали, мадам)",
+      "options": [
+        "Bahut shukriyā bhaiyā! Paisē lījiye.",
+        "Main hotel mẽ hū̃!",
+        "Station kahā̃ hai?"
+      ],
+      "correctAnswer": "Bahut shukriyā bhaiyā! Paisē lījiye.",
+      "phoneticCyrillicTarget": "Бахут шукрийа бхаййаа! Пэсе лииджие.",
+      "explanationRu": "Благодарность + передача оплаты: Paisē lījiye.",
+      "instructionEn": "Exercise instruction: Завершите поездку и отдайте деньги",
+      "explanationEn": "Благодарность + передача оплаты: Paisē lījiye."
+    },
+    {
+      "id": "d16_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Водитель / Брат'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Driver' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Водитель / Брат»?",
+      "options": [
+        "Driver / Bhaiyā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Driver / Bhaiyā!",
+      "phoneticCyrillicTarget": "Драйвер / Бхаййаа!",
+      "transliterationIsoTarget": "Driver / Bhaiyā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Driver / Bhaiyā!",
+      "explanationEn": "Correct and confident verbal response: Driver / Bhaiyā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Экзаменационная симуляция Фазы 2: Поездка от вокзала до отеля",
+    "setting": "Привокзальная площадь и маршрут по старым улицам",
+    "partnerRoleRu": "Упрямый водитель рикши",
+    "learnerRoleRu": "Уверенная путешественница",
+    "turns": [
+      {
+        "speaker": "Водитель",
+        "speechRu": "Эй, мадам! Садись, 300 рупий до отеля!",
+        "speechIso": "Madam! 300 rupees hotel kē liye!",
+        "speechCyrillic": "Мадам! 300 рупиис хотел ке лие!",
+        "learnerHintRu": "Скажите: Нет, брат! Включи счетчик. Поехали по счетчику.",
+        "speechEn": "Эй, мадам! Садись, 300 рупий до отеля!",
+        "learnerHintEn": "Hint: Скажите: Нет, брат! Включи счетчик. Поехали по счетчику."
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, брат! Включи счетчик. Поедем по счетчику.",
+        "speechIso": "Nahī̃ bhaiyā! Mīṭar chalāo. Mīṭar sē chaliye.",
+        "speechCyrillic": "Нахииⁿ бхаййаа! Миитар͟ чалаао. Миитар͟ сэ чалие.",
+        "acceptableResponsesIso": [
+          "Nahī̃ bhaiyā! Mīṭar chalāo.",
+          "Mīṭar sē chaliye."
+        ],
+        "speechEn": "Нет, брат! Включи счетчик. Поедем по счетчику."
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Ладно, садись! Куда поворачивать у рынка?",
+        "speechIso": "Acchā, baithiye! Market kē pās kahā̃ jānā hai?",
+        "speechCyrillic": "Аччхаа, бэтхие! Маркет ке паас кахааⁿ джаанаа хэ?",
+        "learnerHintRu": "Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)",
+        "speechEn": "Ладно, садись! Куда поворачивать у рынка?",
+        "learnerHintEn": "Hint: Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Сначала поезжайте прямо, потом поверните налево.",
+        "speechIso": "Pahlē sīdhē jāiye, phir bāē̃ jāiye.",
+        "speechCyrillic": "Пэхле сиидхэ джааие, пхир бааеⁿ джааие.",
+        "acceptableResponsesIso": [
+          "Sīdhē jāiye, phir bāē̃ jāiye."
+        ],
+        "speechEn": "Сначала поезжайте прямо, потом поверните налево."
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Вот этот отель?",
+        "speechIso": "Yeh hotel hai madam?",
+        "speechCyrillic": "Йе хотел хэ мадам?",
+        "learnerHintRu": "Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!",
+        "speechEn": "Вот этот отель?",
+        "learnerHintEn": "Hint: Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да! Остановитесь прямо здесь. Возьмите деньги, большое спасибо!",
+        "speechIso": "Hā̃-jī! Yahā̃ par rukiye. Paisē lījiye, bahut shukriyā!",
+        "speechCyrillic": "Хааⁿ-джии! Йахааⁿ пар рукие. Пэсе лииджие, бахут шукрийа!",
+        "acceptableResponsesIso": [
+          "Yahā̃ par rukiye! Paisē lījiye, shukriyā!"
+        ],
+        "speechEn": "Да! Остановитесь прямо здесь. Возьмите деньги, большое спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Phase 2 Synthesis and Urban Navigation Simulation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Итоги Фазы 2: Полный навигационный суверенитет",
+    "pointsRu": [
+      "Вы научились мыслить синтаксисом SOV: направление всегда стоит перед глаголом.",
+      "Вы виртуозно используете послелоги: В машине (gāṛī mẽ), на метро (metro sē), на вокзале (station par).",
+      "Вы контролируете любую поездку и не переплачиваете за транспорт."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 16)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Phase 2 Synthesis and Urban Navigation Simulation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

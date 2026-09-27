@@ -1,0 +1,284 @@
+{
+  "day": 30,
+  "phase": 4,
+  "title": {
+    "en": "Requesting Alternatives, Variations, and Exchanges",
+    "ru": "Выбор вариантов: «Покажите другой» (Dūsrā dikhāiye) и цвет (Raṅg)"
+  },
+  "theme": "Другой/второй (dūsrā - когнат с русским 'второй/другой'), покажите другой (dūsrā dikhāiye), поменяйте это (badal dījiye), цвет (raṅg)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Этимологическая связь dūsrā с русским 'второй / другой')",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Вежливый императив: Dūsrā dikhāiye = Покажите другой; Badal dījiye = Обменяйте)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Запрос вариаций: другой цвет, другой размер, поменяйте это)",
+    "phase4SimulationMinutes": "17:00–20:00 (Подбор расцветки и фасона ткани)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Request alternate products with 'Dūsrā / Dūsrī dikhāiye' (Show another one)",
+      "Leverage PIE cognate Dūsrā (Russian второй / другой)",
+      "Request exchange using 'Isē badal dījiye' (Exchange this)"
+    ],
+    "ru": [
+      "Просить показать другие варианты: 'Dūsrā dikhāiye' ('Покажите другой / другую')",
+      "Использовать этимологический когнат Dūsrā (русский второй / другой)",
+      "Требовать замену товара: 'Isē badal dījiye' ('Обменяйте это')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Долгий гласный /ū/ в слове dūsrā (दूसरा) и придыхательный /kh/ в dikhāiye",
+    "articulatoryMechanism": "В слове dūsrā губы округлены для долгого [уу], чистый зубной [с], раскатистый [р]: [дуу-сраа]. В dikhāiye — придыхательное [кх].",
+    "russianInterferenceWarning": "Не редуцируйте гласный в слове dūsrā. Он должен звучать протяжно.",
+    "drills": [
+      {
+        "prompt": "Отработка просьбы показать другой вариант",
+        "contrastPair": "Dūsrā dikhāiye (Покажите другой)",
+        "instructionsRu": "Произнесите слитно с акцентом на 'dikhāiye'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Индоевропейский когнат Dūsrā и глагол dikhānā (показывать)",
+    "russianParallel": "Слово Dūsrā буквально родственно русским словам 'два', 'второй' и 'другой' (восходит к праиндоевропейскому корню *dwo-ter-os). Фраза 'Dūsrā dikhāiye' 100% соответствует русскому: 'Покажите другой!'.",
+    "syntacticFormula": "[Dūsrā (м.р.) / Dūsrī (ж.р.)] + dikhāiye / Isē badal dījiye",
+    "explanationRu": "Глагол badalnā означает 'менять / обменивать'. С нашим знакомым вежливым суффиксом -iye получается: Badal dījiye = Поменяйте, пожалуйста.",
+    "pieCognateConnection": {
+      "root": "*dwo-ter-os",
+      "russian": "второй / другой",
+      "hindi": "dūsrā",
+      "meaning": "Праиндоевропейская альтернатива и второй элемент"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 30: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d30_v01",
+      "devanagari": "दूसरा / दूसरी",
+      "transliterationIso": "Dūsrā (m) / Dūsrī (f)",
+      "phoneticCyrillic": "Дуусраа / Дуусрии",
+      "translationRu": "Другой / Вторая (когнат)",
+      "translationEn": "Another / Second / Different",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Когнат с 'второй / другой'."
+    },
+    {
+      "id": "d30_v02",
+      "devanagari": "दिखाइए",
+      "transliterationIso": "Dikhāiye",
+      "phoneticCyrillic": "Дикхааие",
+      "translationRu": "Покажите, пожалуйста",
+      "translationEn": "Please show",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Придыхательное [кх] + -iye."
+    },
+    {
+      "id": "d30_v03",
+      "devanagari": "बदल दीजिए",
+      "transliterationIso": "Badal dījiye",
+      "phoneticCyrillic": "Бадал дииджие",
+      "translationRu": "Поменяйте / Обменяйте",
+      "translationEn": "Please exchange / change",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Badal (замена) + dījiye (дайте)."
+    },
+    {
+      "id": "d30_v04",
+      "devanagari": "रंग",
+      "transliterationIso": "Raṅg",
+      "phoneticCyrillic": "Ранг",
+      "translationRu": "Цвет / Краска",
+      "translationEn": "Color",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Велярный носовой [нг]."
+    },
+    {
+      "id": "d30_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d30_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d30_v07",
+      "devanagari": "नीला",
+      "transliterationIso": "Nīlā",
+      "phoneticCyrillic": "Ниилаа",
+      "translationRu": "Синий",
+      "translationEn": "Blue",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Долгий 'ии' + долгий 'аа'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d30_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите просьбу: 'Пожалуйста, покажите другой цвет'",
+      "prompt": "Покажите другой цвет",
+      "wordChips": [
+        "Dūsrā",
+        "raṅg",
+        "dikhāiye"
+      ],
+      "correctAnswer": [
+        "Dūsrā",
+        "raṅg",
+        "dikhāiye"
+      ],
+      "phoneticCyrillicTarget": "Дуусраа ранг дикхааие",
+      "explanationRu": "Dūsrā raṅg (другой цвет) + dikhāiye (покажите).",
+      "instructionEn": "Exercise instruction: Соберите просьбу: 'Пожалуйста, покажите другой цвет'",
+      "explanationEn": "Dūsrā raṅg (другой цвет) + dikhāiye (покажите)."
+    },
+    {
+      "id": "d30_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам показали вещь, фасон вам не нравится. Попросите показать другой вариант за 2 секунды.",
+      "prompt": "Нужен другой вариант",
+      "options": [
+        "Bhaiyā, dūsrā piece dikhāiye!",
+        "Bhaiyā, sīdhē jāiye!",
+        "Khānā garam hai!"
+      ],
+      "correctAnswer": "Bhaiyā, dūsrā piece dikhāiye!",
+      "phoneticCyrillicTarget": "Бхаййаа, дуусраа пиис дикхааие!",
+      "explanationRu": "Dūsrā dikhāiye = Покажите другой!",
+      "instructionEn": "Exercise instruction: Вам показали вещь, фасон вам не нравится. Попросите показать другой вариант за 2 секунды.",
+      "explanationEn": "Dūsrā dikhāiye = Покажите другой!"
+    },
+    {
+      "id": "d30_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите обменять эту вещь (Эту вещь + обменяйте)",
+      "prompt": "Isē _____ dījiye. (Обменяйте)",
+      "options": [
+        "badal",
+        "dēkh",
+        "chalo"
+      ],
+      "correctAnswer": "badal",
+      "transliterationIsoTarget": "Isē badal dījiye.",
+      "explanationRu": "Badal dījiye = обменяйте.",
+      "instructionEn": "Exercise instruction: Попросите обменять эту вещь (Эту вещь + обменяйте)",
+      "explanationEn": "Badal dījiye = обменяйте."
+    },
+    {
+      "id": "d30_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите: 'Есть ли другой цвет?'",
+      "prompt": "Kyā dūsrā _____ hai?",
+      "options": [
+        "raṅg",
+        "nām",
+        "pānī"
+      ],
+      "correctAnswer": "raṅg",
+      "transliterationIsoTarget": "Kyā dūsrā raṅg hai?",
+      "explanationRu": "Raṅg = цвет.",
+      "instructionEn": "Exercise instruction: Спросите: 'Есть ли другой цвет?'",
+      "explanationEn": "Raṅg = цвет."
+    },
+    {
+      "id": "d30_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Другой / Вторая (когнат)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Another / Second / Different' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Другой / Вторая (когнат)»?",
+      "options": [
+        "Dūsrā (m) / Dūsrī (f)!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Dūsrā (m) / Dūsrī (f)!",
+      "phoneticCyrillicTarget": "Дуусраа / Дуусрии!",
+      "transliterationIsoTarget": "Dūsrā (m) / Dūsrī (f)!",
+      "explanationRu": "Правильный и уверенный устный ответ: Dūsrā (m) / Dūsrī (f)!",
+      "explanationEn": "Correct and confident verbal response: Dūsrā (m) / Dūsrī (f)!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Выбор цвета сари или палантина",
+    "setting": "Лавка традиционных индийских тканей",
+    "partnerRoleRu": "Услужливый продавец",
+    "learnerRoleRu": "Взыскательная покупательница",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Посмотрите этот красный платок! Очень красивый цвет.",
+        "speechIso": "Yeh lāl rang shawl dēkhiye madam! Bahut sundar hai.",
+        "speechCyrillic": "Йе лаал ранг шол дэкхие мадам! Бахут сундар хэ.",
+        "learnerHintRu": "Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)",
+        "speechEn": "Посмотрите этот красный платок! Очень красивый цвет.",
+        "learnerHintEn": "Hint: Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Мне не нравится красный цвет. Пожалуйста, покажите другой цвет.",
+        "speechIso": "Mujhē lāl raṅg pasand nahī̃ hai. Dūsrā raṅg dikhāiye.",
+        "speechCyrillic": "Муджхе лаал ранг пасанд нахииⁿ хэ. Дуусраа ранг дикхааие.",
+        "acceptableResponsesIso": [
+          "Dūsrā raṅg dikhāiye",
+          "Dūsrā dikhāiye"
+        ],
+        "speechEn": "Мне не нравится красный цвет. Пожалуйста, покажите другой цвет."
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Синий цвет нравится? Вот синий и зеленый варианты.",
+        "speechIso": "Blue rang pasand hai? Yeh blue aur green dēkhiye.",
+        "speechCyrillic": "Блю ранг пасанд хэ? Йе блю аур гриин дэкхие.",
+        "learnerHintRu": "Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?",
+        "speechEn": "Синий цвет нравится? Вот синий и зеленый варианты.",
+        "learnerHintEn": "Hint: Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, синий мне очень нравится! Почём этот платок?",
+        "speechIso": "Hā̃! Blue mujhē bahut pasand hai. Yeh kitnē kā hai?",
+        "speechCyrillic": "Хааⁿ! Блю муджхе бахут пасанд хэ. Йе китнее каа хэ?",
+        "acceptableResponsesIso": [
+          "Yeh kitnē kā hai?"
+        ],
+        "speechEn": "Да, синий мне очень нравится! Почём этот платок?"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Requesting Alternatives, Variations, and Exchanges",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Цветовая символика в индийском текстиле",
+    "pointsRu": [
+      "Цвет (Raṅg) имеет в Индии глубокое значение: шафрановый и желтый — священные, красный — цвет свадьбы и праздника.",
+      "Продавцы тканей готовы развернуть перед вами сотни отрезов ткани, пока вы говорите 'Dūsrā dikhāiye'.",
+      "Слово 'Raṅg' также дало название весеннему фестивалю красок — Холи."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 30)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Слово 'Raṅg' также дало название весеннему фестивалю красок — Холи."
+    ]
+  },
+  "themeEn": "Requesting Alternatives, Variations, and Exchanges: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

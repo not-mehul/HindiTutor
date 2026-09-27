@@ -1,0 +1,285 @@
+{
+  "day": 29,
+  "phase": 4,
+  "title": {
+    "en": "Adjectival Modifiers: Dimensions and Condition",
+    "ru": "Качественные прилагательные: размер (Большой/Маленький) и состояние"
+  },
+  "theme": "Большой (baṛā/baṛī), маленький (chhōṭā/chhōṭī), испорченный/брак (kharāb), новый (nayā), старый (purānā)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция ретрофлексного flap ṛ в baṛā и придыхательного chh в chhōṭā)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Родовое согласование прилагательных: -ā для мужского рода, -ī для женского рода)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Пары: большой размер, маленькая сумка, бракованная вещь, новая вещь)",
+    "phase4SimulationMinutes": "17:00–20:00 (Проверка качества одежды и отбраковка дефектов)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Apply gender-concordant dimension adjectives (baṛā/baṛī, chhōṭā/chhōṭī)",
+      "Identify product defects using kharāb (damaged / broken)",
+      "Contrast temporal qualities nayā (new) and purānā (old)"
+    ],
+    "ru": [
+      "Согласовывать прилагательные размера по родам: baṛā/baṛī (большой/большая), chhōṭā/chhōṭī (маленький/маленькая)",
+      "Указывать на брак и дефекты словом kharāb ('сломанный / бракованный')",
+      "Различать качество товара: nayā (новый) и purānā (старый)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Ретрофлексный одноударный /ṛ/ в baṛā (बड़ा) и глухой придыхательный /chh/ в chhōṭā (छोटा)",
+    "articulatoryMechanism": "В слове baṛā кончик языка быстро смахивает по нёбу: [бар͟аа]. В chhōṭā губы смыкаются для звука [ч] с мощным выдохом [чх] и ретрофлексным зубным [т͟]: [чхоот͟аа].",
+    "russianInterferenceWarning": "Не заменяйте звук /ṛ/ на обычный русский [р]! Это принципиально разные звуки.",
+    "drills": [
+      {
+        "prompt": "Пара 'большой — маленький'",
+        "contrastPair": "Baṛā (большой) vs Chhōṭā (маленький)",
+        "instructionsRu": "Произнесите парно: [бар͟аа] — [чхоот͟аа]."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Родовое согласование прилагательных (-ā / -ī)",
+    "russianParallel": "Идентично русскому языку: Большой (м.р.) / Больш-ая (ж.р.). В хинди: мужской род оканчивается на -ā (Baṛā kamrā = большая комната), а женский на -ī (Baṛī gāṛī = большая машина). Слово kharāb (испорченный) не меняется по родам.",
+    "syntacticFormula": "[Baṛā/Chhōṭā/Nayā (м.р.) // Baṛī/Chhōṭī/Nayī (ж.р.)] + [Существительное]",
+    "explanationRu": "Если товар имеет брак, вы просто показываете на него пальцем и говорите: 'Yeh piece kharāb hai' (Эта вещь бракованная). Торговец сразу же заменит ее.",
+    "pieCognateConnection": {
+      "root": "*newo-",
+      "russian": "новый",
+      "hindi": "nayā / nayī",
+      "meaning": "Праиндоевропейская новизна"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 29: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d29_v01",
+      "devanagari": "बड़ा / बड़ी",
+      "transliterationIso": "Baṛā (m) / Baṛī (f)",
+      "phoneticCyrillic": "Бар͟аа / Бар͟ии",
+      "translationRu": "Большой / Большая",
+      "translationEn": "Big / Large",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Ретрофлексный flap [р͟]."
+    },
+    {
+      "id": "d29_v02",
+      "devanagari": "छोटा / छोटी",
+      "transliterationIso": "Chhōṭā (m) / Chhōṭī (f)",
+      "phoneticCyrillic": "Чхоот͟аа / Чхоот͟ии",
+      "translationRu": "Маленький / Маленькая",
+      "translationEn": "Small",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Придыхательное [чх] + ретрофлексный [т͟]."
+    },
+    {
+      "id": "d29_v03",
+      "devanagari": "ख़राब",
+      "transliterationIso": "Kharāb",
+      "phoneticCyrillic": "Харааб",
+      "translationRu": "Испорченный / Сломанный / Бракованный",
+      "translationEn": "Defective / Damaged / Broken",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Гортанный глухой [х], долгое [аа]."
+    },
+    {
+      "id": "d29_v04",
+      "devanagari": "नया / पुरानी",
+      "transliterationIso": "Nayā (новый) / Purānā (старый)",
+      "phoneticCyrillic": "Найаа / Пураанаа",
+      "translationRu": "Новый / Старый",
+      "translationEn": "New / Old",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Nayā когнат со словом 'новый'."
+    },
+    {
+      "id": "d29_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d29_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d29_v07",
+      "devanagari": "रेशम",
+      "transliterationIso": "Rēsham",
+      "phoneticCyrillic": "Реешам",
+      "translationRu": "Шелк / Шелковый",
+      "translationEn": "Silk (material)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгий 'ее' + мягкий индийский 'ш'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d29_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите претензию: 'Эта вещь бракованная' (Эта вещь + бракованная + есть)",
+      "prompt": "Эта вещь бракованная",
+      "wordChips": [
+        "Yeh",
+        "piece",
+        "kharāb",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Yeh",
+        "piece",
+        "kharāb",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Йе пиис харааб хэ",
+      "explanationRu": "Yeh piece kharāb hai = Эта вещь с браком.",
+      "instructionEn": "Exercise instruction: Соберите претензию: 'Эта вещь бракованная' (Эта вещь + бракованная + есть)",
+      "explanationEn": "Yeh piece kharāb hai = Эта вещь с браком."
+    },
+    {
+      "id": "d29_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите размер побольше (Мне нужен большой размер)",
+      "prompt": "Mujhē _____ size chāhiye.",
+      "options": [
+        "baṛā",
+        "chhōṭā",
+        "kharāb"
+      ],
+      "correctAnswer": "baṛā",
+      "transliterationIsoTarget": "Mujhē baṛā size chāhiye.",
+      "explanationRu": "Baṛā size = большой размер.",
+      "instructionEn": "Exercise instruction: Попросите размер побольше (Мне нужен большой размер)",
+      "explanationEn": "Baṛā size = большой размер."
+    },
+    {
+      "id": "d29_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам дали рубашку, а она вам слишком мала. Скажите об этом продавцу за 2 секунды.",
+      "prompt": "Рубашка слишком маленькая",
+      "options": [
+        "Yeh bahut chhōṭā hai!",
+        "Yeh bahut svādishṭ hai!",
+        "Station dūr hai!"
+      ],
+      "correctAnswer": "Yeh bahut chhōṭā hai!",
+      "phoneticCyrillicTarget": "Йе бахут чхоот͟аа хэ!",
+      "explanationRu": "Yeh bahut chhōṭā hai! = Это слишком мало!",
+      "instructionEn": "Exercise instruction: Вам дали рубашку, а она вам слишком мала. Скажите об этом продавцу за 2 секунды.",
+      "explanationEn": "Yeh bahut chhōṭā hai! = Это слишком мало!"
+    },
+    {
+      "id": "d29_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Попросите абсолютно новую вещь со склада",
+      "prompt": "Mujhē _____ piece dījiye. (Новую вещь)",
+      "options": [
+        "nayā",
+        "purānā",
+        "tīkhā"
+      ],
+      "correctAnswer": "nayā",
+      "transliterationIsoTarget": "Mujhē nayā piece dījiye.",
+      "explanationRu": "Nayā piece = новая вещь.",
+      "instructionEn": "Exercise instruction: Попросите абсолютно новую вещь со склада",
+      "explanationEn": "Nayā piece = новая вещь."
+    },
+    {
+      "id": "d29_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Большой / Большая'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Big / Large' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Большой / Большая»?",
+      "options": [
+        "Baṛā (m) / Baṛī (f)!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Baṛā (m) / Baṛī (f)!",
+      "phoneticCyrillicTarget": "Бар͟аа / Бар͟ии!",
+      "transliterationIsoTarget": "Baṛā (m) / Baṛī (f)!",
+      "explanationRu": "Правильный и уверенный устный ответ: Baṛā (m) / Baṛī (f)!",
+      "explanationEn": "Correct and confident verbal response: Baṛā (m) / Baṛī (f)!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Примерка одежды и замена размера",
+    "setting": "Магазин индийских курток и туник",
+    "partnerRoleRu": "Продавец одежды",
+    "learnerRoleRu": "Покупательница у зеркала",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Как сидит туника курта, мадам? Все в порядке?",
+        "speechIso": "Madam, kaisā hai? Fitting ṭhīk hai?",
+        "speechCyrillic": "Мадам, кэсаа хэ? Фиттинг т͟хиик хэ?",
+        "learnerHintRu": "Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)",
+        "speechEn": "Как сидит туника курта, мадам? Все в порядке?",
+        "learnerHintEn": "Hint: Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, это очень мало. Мне нужен большой размер.",
+        "speechIso": "Nahī̃ bhaiyā, yeh bahut chhōṭā hai. Baṛā size chāhiye.",
+        "speechCyrillic": "Нахииⁿ бхаййаа, йе бахут чхоот͟аа хэ. Бар͟аа сайз чаахийе.",
+        "acceptableResponsesIso": [
+          "Yeh bahut chhōṭā hai. Baṛā size chāhiye."
+        ],
+        "speechEn": "Нет, это очень мало. Мне нужен большой размер."
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Без проблем! Вот размер L. Посмотрите, пожалуйста.",
+        "speechIso": "Kōī bāt nahī̃ madam! Lījiye baṛā size.",
+        "speechCyrillic": "Коии баат нахииⁿ мадам! Лииджие бар͟аа сайз.",
+        "learnerHintRu": "Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)",
+        "speechEn": "Без проблем! Вот размер L. Посмотрите, пожалуйста.",
+        "learnerHintEn": "Hint: Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Подождите, здесь пятно, эта вещь бракованная. Дайте новую!",
+        "speechIso": "Rukiye, yeh kharāb hai. Nayā piece dījiye.",
+        "speechCyrillic": "Рукие, йе харааб хэ. Найаа пиис дииджие.",
+        "acceptableResponsesIso": [
+          "Yeh kharāb hai, nayā piece dījiye."
+        ],
+        "speechEn": "Подождите, здесь пятно, эта вещь бракованная. Дайте новую!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Adjectival Modifiers: Dimensions and Condition",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Контроль качества перед покупкой",
+    "pointsRu": [
+      "В Индии на базарах действует правило: 'Купленный товар возврату не подлежит'.",
+      "Поэтому ВСЕГДА внимательно осматривайте швы, пуговицы и молнии со словами 'Dēkhiye, kharāb hai'.",
+      "Продавец без малейших споров достанет вам запечатанный пакет со склада."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 29)",
+    "pointsEn": [
+      "Cultural insight: В Индии на базарах действует правило: 'Купленный товар возврату не подлежит'.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Продавец без малейших споров достанет вам запечатанный пакет со склада."
+    ]
+  },
+  "themeEn": "Adjectival Modifiers: Dimensions and Condition: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

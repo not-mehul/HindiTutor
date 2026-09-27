@@ -1,0 +1,282 @@
+{
+  "day": 13,
+  "phase": 2,
+  "title": {
+    "en": "Formal Imperatives and Social Directives (-iye)",
+    "ru": "Вежливые императивы и директивы: суффикс -iye (аналог русского -ите)"
+  },
+  "theme": "Пройдите (āiye), садитесь (baithiye), возьмите (lījiye), дайте (dījiye), посмотрите (dēkhiye)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция суффикса вежливости -iye: слитное произношение)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Глагольные основы: dē- / lē- / ā- / jā- и их вежливые формы dījiye / lījiye)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Подстановка: дайте воду, возьмите деньги, посмотрите сюда)",
+    "phase4SimulationMinutes": "17:00–20:00 (Взаимодействие с персоналом отеля и водителем)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Master high-frequency polite imperatives with suffix -iye",
+      "Form irregular honorific commands: Dījiye (give), Lījiye (take), Kījiye (do)",
+      "Map Hindi -iye directly to Russian formal imperative suffix -ите"
+    ],
+    "ru": [
+      "Освоить главные вежливые глагольные директивы с суффиксом -iye",
+      "Запомнить формы: Dījiye (дайте), Lījiye (возьмите), Āiye (пройдите), Dēkhiye (посмотрите)",
+      "Опираться на 100% совпадение с русским суффиксом вежливости -ите (да-йте, возьм-ите, посмотр-ите)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Гласный /ī/ и безударный полугласный переход в суффиксе /-iye/",
+    "articulatoryMechanism": "Долгий [ии] мягко переходит в краткое [е]: [дииджие], [лиджие]. Без резких пауз.",
+    "russianInterferenceWarning": "Не проглатывайте окончание! Четко произносите форму вежливости.",
+    "drills": [
+      {
+        "prompt": "Пара 'дайте — возьмите'",
+        "contrastPair": "Dījiye (дайте) vs Lījiye (возьмите)",
+        "instructionsRu": "Произносите в быстром темпе: Dījiye — Lījiye."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Вежливый императив на -iye (Соответствие русскому -ите)",
+    "russianParallel": "Грамматическое совпадение абсолютно: в русском языке к основе прибавляется -ите (Пройд-ите, Сад-итесь, Посмотр-ите). В хинди прибавляется -iye: Ā-iye, Baith-iye, Dēkh-iye. Глаголы 'давать' (dēnā) и 'брать' (lēnā) имеют формы Dījiye (дайте) и Lījiye (возьмите).",
+    "syntacticFormula": "[Объект] + [Dījiye / Lījiye / Dēkhiye]",
+    "explanationRu": "Использование формы на -iye защищает иностранца от любого подозрения в грубости. В путешествии вы будете применять эти 5 глаголов сотни раз в день.",
+    "pieCognateConnection": {
+      "root": "*deh₃-",
+      "russian": "дать / даю / дай",
+      "hindi": "dēnā (dījiye)",
+      "meaning": "Праиндоевропейский корень дарения"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 13: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d13_v01",
+      "devanagari": "दीजिए",
+      "transliterationIso": "Dījiye",
+      "phoneticCyrillic": "Дииджие",
+      "translationRu": "Дайте, пожалуйста",
+      "translationEn": "Please give",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Долгое 'ии' + мягкое джи-е."
+    },
+    {
+      "id": "d13_v02",
+      "devanagari": "लीजिए",
+      "transliterationIso": "Lījiye",
+      "phoneticCyrillic": "Лииджие",
+      "translationRu": "Возьмите, пожалуйста",
+      "translationEn": "Please take",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Долгое 'ии'."
+    },
+    {
+      "id": "d13_v03",
+      "devanagari": "आइए",
+      "transliterationIso": "Āiye",
+      "phoneticCyrillic": "Ааие",
+      "translationRu": "Входите / Проходите, пожалуйста",
+      "translationEn": "Please come in",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Широкое 'аа' в начале."
+    },
+    {
+      "id": "d13_v04",
+      "devanagari": "देखिए",
+      "transliterationIso": "Dēkhiye",
+      "phoneticCyrillic": "Дэкхие",
+      "translationRu": "Посмотрите, пожалуйста",
+      "translationEn": "Please look / see",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Придыхательное велярное [кх]."
+    },
+    {
+      "id": "d13_v05",
+      "devanagari": "पानी",
+      "transliterationIso": "Pānī",
+      "phoneticCyrillic": "Паании",
+      "translationRu": "Вода",
+      "translationEn": "Water",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Два долгих гласных [паа-нии]."
+    },
+    {
+      "id": "d13_v06",
+      "devanagari": "खाइए",
+      "transliterationIso": "Khāiye",
+      "phoneticCyrillic": "Кхаайийе",
+      "translationRu": "Кушайте / Угощайтесь (вежливо)",
+      "translationEn": "Please eat / Have food",
+      "partOfSpeech": "verb",
+      "gender": "n/a",
+      "audioHint": "Придыхательный 'кх' + вежливое окончание."
+    },
+    {
+      "id": "d13_v07",
+      "devanagari": "पीजिए",
+      "transliterationIso": "Pījiye",
+      "phoneticCyrillic": "Пииджийе",
+      "translationRu": "Пейте (вежливо)",
+      "translationEn": "Please drink",
+      "partOfSpeech": "verb",
+      "gender": "n/a",
+      "audioHint": "Долгий 'ии' + слитный 'дж'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d13_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вежливую просьбу: 'Дайте воду, пожалуйста' (Воду + дайте)",
+      "prompt": "Дайте воду, пожалуйста",
+      "wordChips": [
+        "Pānī",
+        "dījiye"
+      ],
+      "correctAnswer": [
+        "Pānī",
+        "dījiye"
+      ],
+      "phoneticCyrillicTarget": "Паании дииджие",
+      "explanationRu": "Объект стоит перед глаголом: Pānī dījiye.",
+      "instructionEn": "Exercise instruction: Соберите вежливую просьбу: 'Дайте воду, пожалуйста' (Воду + дайте)",
+      "explanationEn": "Объект стоит перед глаголом: Pānī dījiye."
+    },
+    {
+      "id": "d13_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Передайте деньги и скажите: 'Возьмите, пожалуйста'",
+      "prompt": "Paisē (деньги) _____! (Возьмите)",
+      "options": [
+        "lījiye",
+        "dījiye",
+        "āiye"
+      ],
+      "correctAnswer": "lījiye",
+      "transliterationIsoTarget": "Paisē lījiye!",
+      "explanationRu": "Lījiye означает 'возьмите'.",
+      "instructionEn": "Exercise instruction: Передайте деньги и скажите: 'Возьмите, пожалуйста'",
+      "explanationEn": "Lījiye означает 'возьмите'."
+    },
+    {
+      "id": "d13_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Обратите внимание собеседника на расписание: 'Посмотрите сюда!'",
+      "prompt": "Посмотрите сюда!",
+      "options": [
+        "Yahā̃ dēkhiye!",
+        "Vahā̃ jāiye!",
+        "Yahā̃ rukiye!"
+      ],
+      "correctAnswer": "Yahā̃ dēkhiye!",
+      "phoneticCyrillicTarget": "Йахааⁿ дэкхие!",
+      "explanationRu": "Yahā̃ (сюда) + dēkhiye (посмотрите).",
+      "instructionEn": "Exercise instruction: Обратите внимание собеседника на расписание: 'Посмотрите сюда!'",
+      "explanationEn": "Yahā̃ (сюда) + dēkhiye (посмотрите)."
+    },
+    {
+      "id": "d13_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Пригласите гостя войти: 'Проходите, пожалуйста!'",
+      "prompt": "Andar (внутрь) _____!",
+      "options": [
+        "āiye",
+        "dījiye",
+        "lījiye"
+      ],
+      "correctAnswer": "āiye",
+      "transliterationIsoTarget": "Andar āiye!",
+      "explanationRu": "Āiye означает 'проходите / входите'.",
+      "instructionEn": "Exercise instruction: Пригласите гостя войти: 'Проходите, пожалуйста!'",
+      "explanationEn": "Āiye означает 'проходите / входите'."
+    },
+    {
+      "id": "d13_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Дайте, пожалуйста'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Please give' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Дайте, пожалуйста»?",
+      "options": [
+        "Dījiye!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Dījiye!",
+      "phoneticCyrillicTarget": "Дииджие!",
+      "transliterationIsoTarget": "Dījiye!",
+      "explanationRu": "Правильный и уверенный устный ответ: Dījiye!",
+      "explanationEn": "Correct and confident verbal response: Dījiye!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Заказ воды и расчет в придорожном кафе",
+    "setting": "Чайная (Chai shop) у дороги",
+    "partnerRoleRu": "Хозяин чайной",
+    "learnerRoleRu": "Путешественница",
+    "turns": [
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Добро пожаловать, сестра! Проходите, присаживайтесь.",
+        "speechIso": "Namastē madam! Āiye, yahā̃ baithiye.",
+        "speechCyrillic": "Намастэ мадам! Ааие, йахааⁿ бэтхие.",
+        "learnerHintRu": "Попросите воду: Pānī dījiye, пожалуйста",
+        "speechEn": "Добро пожаловать, сестра! Проходите, присаживайтесь.",
+        "learnerHintEn": "Hint: Попросите воду: Pānī dījiye, пожалуйста"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Дайте бутылку воды, пожалуйста.",
+        "speechIso": "Namastē jī! Ek bottle pānī dījiye.",
+        "speechCyrillic": "Намастэ джии! Эк ботл паании дииджие.",
+        "acceptableResponsesIso": [
+          "Pānī dījiye",
+          "Ek bottle pānī dījiye"
+        ],
+        "speechEn": "Здравствуйте! Дайте бутылку воды, пожалуйста."
+      },
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Вот, пожалуйста, холодная вода. Двадцать рупий.",
+        "speechIso": "Lījiye, ṭhaṇḍā pānī. Bīs rupayē.",
+        "speechCyrillic": "Лииджие, тхандаа паании. Биис рупае.",
+        "learnerHintRu": "Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)",
+        "speechEn": "Вот, пожалуйста, холодная вода. Двадцать рупий.",
+        "learnerHintEn": "Hint: Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Возьмите, пожалуйста. Большое спасибо!",
+        "speechIso": "Paisē lījiye. Bahut shukriyā!",
+        "speechCyrillic": "Пэсе лииджие. Бахут шукрийа!",
+        "acceptableResponsesIso": [
+          "Lījiye, shukriyā!"
+        ],
+        "speechEn": "Возьмите, пожалуйста. Большое спасибо!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Formal Imperatives and Social Directives (-iye)",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Правило правой руки при передаче предметов",
+    "pointsRu": [
+      "В Индии передавать предметы, деньги и еду со словами 'Lījiye' (Возьмите) или 'Dījiye' принято СТРОГО правой рукой.",
+      "Левая рука традиционно считается 'нечистой' (санитарно-бытовой).",
+      "Если нужно подать что-то двумя руками в знак особого почтения, левая рука поддерживает правое запястье."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 13)",
+    "pointsEn": [
+      "The honorific suffix -jī attached to names (e.g. Anna-jī) or words (hā̃-jī) signals warmth, deference, and polite conversational posture.",
+      "Always pass food, money, and sacred items using your right hand; the left hand is culturally reserved for hygiene.",
+      "Always pass food, money, and sacred items using your right hand; the left hand is culturally reserved for hygiene."
+    ]
+  },
+  "themeEn": "Formal Imperatives and Social Directives (-iye): Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

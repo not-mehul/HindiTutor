@@ -1,0 +1,286 @@
+{
+  "day": 18,
+  "phase": 3,
+  "title": {
+    "en": "Dative Experiencers 2: Quantifiers and Polite Negation",
+    "ru": "Дативный экспериенцер 2: Квантификаторы и отказ («Мне это не нужно»)"
+  },
+  "theme": "Немного (thōṛā), слишком много (zyādā), еще один (ek aur), достаточно/хватит (bas)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция придыхательного th и ретрофлексного ṛ в thōṛā / тхоор͟аа)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Отрицание датива: Mujhē yeh nahī̃ chāhiye = Мне это не нужно)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Дозирование: чуть-чуть воды, хватит, слишком много)",
+    "phase4SimulationMinutes": "17:00–20:00 (Отказ от лишней добавки блюда за столом)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Negate dative needs with 'Mujhē yeh nahī̃ chāhiye'",
+      "Quantify requests with thōṛā (a little) and zyādā (more / too much)",
+      "Signal sufficiency with emphatic boundary particle 'Bas!' (Enough / Stop)"
+    ],
+    "ru": [
+      "Отказываться от предложенного фразой 'Mujhē yeh nahī̃ chāhiye' ('Мне это не нужно')",
+      "Регулировать порции словами thōṛā (чуть-чуть) и zyādā (много / слишком)",
+      "Устанавливать границу словом 'Bas!' ('Хватит! / Достаточно!')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Зубной придыхательный /th/ (थ) и ретрофлексный взмах /ṛ/ (ड़) в thōṛā",
+    "articulatoryMechanism": "Смычка на резцах с мощным выбросом воздуха [тх] + переход к загибу языка назад [р͟] с ударом по нёбу: [тхоор͟аа].",
+    "russianInterferenceWarning": "Не произносите просто русское 'тора' или 'сора'. Это сложнейший звук: придыхание + ретрофлексный взмах.",
+    "drills": [
+      {
+        "prompt": "Отработка слова 'чуть-чуть'",
+        "contrastPair": "tōrā (ошибка) vs thōṛā (верно: [тхоор͟аа])",
+        "instructionsRu": "Выдохните воздух на 'th', затем щелкните кончиком языка по нёбу на 'ṛā'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Квантификация и отрицание дативного субъекта",
+    "russianParallel": "Русское 'Мне это не нужно' = Mujhē (мне) + yeh (это) + nahī̃ (не) + chāhiye (нужно). Квантификаторы thōṛā (чуть-чуть) и zyādā (слишком много) ставятся ПЕРЕД существительным, точно как в русском языке (Thōṛā pānī = Чуть-чуть воды).",
+    "syntacticFormula": "Mujhē + [yeh] + nahī̃ chāhiye / [Thōṛā / Zyādā] + [Объект] + dījiye",
+    "explanationRu": "Слово 'Bas!' — абсолютный хит в Индии. Когда вам наливают воду или накладывают рис, громкое и вежливое 'Bas, bas!' мгновенно останавливает официанта (точно как русское 'Хватит, достаточно!').",
+    "pieCognateConnection": {
+      "root": "*bheg-",
+      "russian": "богатый / изобилие",
+      "hindi": "bahut / zyādā",
+      "meaning": "Количественное превосходство"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 18: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d18_v01",
+      "devanagari": "थोड़ा",
+      "transliterationIso": "Thōṛā",
+      "phoneticCyrillic": "Тхоор͟аа",
+      "translationRu": "Немного / Чуть-чуть",
+      "translationEn": "A little / A bit",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Придыхательное 'тх' + ретрофлексный flap 'р͟'."
+    },
+    {
+      "id": "d18_v02",
+      "devanagari": "ज़्यादा",
+      "transliterationIso": "Zyādā",
+      "phoneticCyrillic": "Зйаадаа",
+      "translationRu": "Много / Слишком много",
+      "translationEn": "More / Too much",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Звонкий [з] + долгое [аа]."
+    },
+    {
+      "id": "d18_v03",
+      "devanagari": "एक और",
+      "transliterationIso": "Ek aur",
+      "phoneticCyrillic": "Эк аур",
+      "translationRu": "Еще один / Еще одну",
+      "translationEn": "One more",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Ek (один) + aur (еще/и)."
+    },
+    {
+      "id": "d18_v04",
+      "devanagari": "बस",
+      "transliterationIso": "Bas",
+      "phoneticCyrillic": "Бас",
+      "translationRu": "Хватит / Достаточно / Только",
+      "translationEn": "Enough / Stop / Only",
+      "partOfSpeech": "particle",
+      "gender": "n/a",
+      "audioHint": "Краткое открытое [бас]."
+    },
+    {
+      "id": "d18_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d18_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d18_v07",
+      "devanagari": "बस, काफ़ी है",
+      "transliterationIso": "Bas, kāfī hai",
+      "phoneticCyrillic": "Бас, каафии хэ",
+      "translationRu": "Хватит, достаточно",
+      "translationEn": "Enough / That's plenty",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Короткий энергичный слог 'бас'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d18_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вежливый отказ: 'Мне это не нужно'",
+      "prompt": "Мне это не нужно",
+      "wordChips": [
+        "Mujhē",
+        "yeh",
+        "nahī̃",
+        "chāhiye"
+      ],
+      "correctAnswer": [
+        "Mujhē",
+        "yeh",
+        "nahī̃",
+        "chāhiye"
+      ],
+      "phoneticCyrillicTarget": "Муджхе йе нахииⁿ чаахийе",
+      "explanationRu": "Отрицание nahī̃ ставится перед chāhiye: nahī̃ chāhiye.",
+      "instructionEn": "Exercise instruction: Соберите вежливый отказ: 'Мне это не нужно'",
+      "explanationEn": "Отрицание nahī̃ ставится перед chāhiye: nahī̃ chāhiye."
+    },
+    {
+      "id": "d18_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам наливают чай в стакан, порция уже полная. Остановите официанта за 1 секунду!",
+      "prompt": "Чай наливается через край",
+      "options": [
+        "Bas, bhaiyā, bas! Shukriyā!",
+        "Zyādā dījiye!",
+        "Mērā nām chāi hai!"
+      ],
+      "correctAnswer": "Bas, bhaiyā, bas! Shukriyā!",
+      "phoneticCyrillicTarget": "Бас, бхаййаа, бас! Шукрийа!",
+      "explanationRu": "'Bas, bas!' — моментальный сигнал 'Достаточно, хватит!'.",
+      "instructionEn": "Exercise instruction: Вам наливают чай в стакан, порция уже полная. Остановите официанта за 1 секунду!",
+      "explanationEn": "'Bas, bas!' — моментальный сигнал 'Достаточно, хватит!'."
+    },
+    {
+      "id": "d18_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите еще один чай (Еще один + чай + дайте)",
+      "prompt": "_____ chāi dījiye. (Еще один чай)",
+      "options": [
+        "Ek aur",
+        "Thōṛā",
+        "Zyādā"
+      ],
+      "correctAnswer": "Ek aur",
+      "transliterationIsoTarget": "Ek aur chāi dījiye.",
+      "explanationRu": "Ek aur = еще один / еще одну.",
+      "instructionEn": "Exercise instruction: Попросите еще один чай (Еще один + чай + дайте)",
+      "explanationEn": "Ek aur = еще один / еще одну."
+    },
+    {
+      "id": "d18_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Попросите немного воды",
+      "prompt": "_____ pānī dījiye. (Немного воды дайте)",
+      "options": [
+        "Thōṛā",
+        "Bas",
+        "Ek aur"
+      ],
+      "correctAnswer": "Thōṛā",
+      "transliterationIsoTarget": "Thōṛā pānī dījiye.",
+      "explanationRu": "Thōṛā pānī = немного воды.",
+      "instructionEn": "Exercise instruction: Попросите немного воды",
+      "explanationEn": "Thōṛā pānī = немного воды."
+    },
+    {
+      "id": "d18_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Немного / Чуть-чуть'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'A little / A bit' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Немного / Чуть-чуть»?",
+      "options": [
+        "Thōṛā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Thōṛā!",
+      "phoneticCyrillicTarget": "Тхоор͟аа!",
+      "transliterationIsoTarget": "Thōṛā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Thōṛā!",
+      "explanationEn": "Correct and confident verbal response: Thōṛā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Обед в ресторане: регулирование порций",
+    "setting": "Столик в ресторане, официант подливает соус",
+    "partnerRoleRu": "Внимательный официант с кувшином соуса",
+    "learnerRoleRu": "Осторожная гостья",
+    "turns": [
+      {
+        "speaker": "Официант",
+        "speechRu": "Мадам, добавить еще соуса дала?",
+        "speechIso": "Madam, aur dāl dū̃?",
+        "speechCyrillic": "Мадам, аур даал дууⁿ?",
+        "learnerHintRu": "Скажите: Только чуть-чуть, спасибо! (Bas thōṛā, shukriyā!)",
+        "speechEn": "Мадам, добавить еще соуса дала?",
+        "learnerHintEn": "Hint: Скажите: Только чуть-чуть, спасибо! (Bas thōṛā, shukriyā!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Только немного, пожалуйста, хватит!",
+        "speechIso": "Bas thōṛā jī, bas! Shukriyā.",
+        "speechCyrillic": "Бас тхоор͟аа джии, бас! Шукрийа.",
+        "acceptableResponsesIso": [
+          "Bas thōṛā, bas!",
+          "Thōṛā dījiye, bas!"
+        ],
+        "speechEn": "Только немного, пожалуйста, хватит!"
+      },
+      {
+        "speaker": "Официант",
+        "speechRu": "Хорошо. Еще одну лепешку роти принести?",
+        "speechIso": "Ṭhīk hai. Ek aur roti lē āū̃?",
+        "speechCyrillic": "Т͟хиик хэ. Эк аур роти лее ааууⁿ?",
+        "learnerHintRu": "Откажитесь: Нет, мне это не нужно, спасибо! (Nahī̃, mujhē nahī̃ chāhiye)",
+        "speechEn": "Хорошо. Еще одну лепешку роти принести?",
+        "learnerHintEn": "Hint: Откажитесь: Нет, мне это не нужно, спасибо! (Nahī̃, mujhē nahī̃ chāhiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Нет, спасибо, мне больше не нужно.",
+        "speechIso": "Nahī̃, mujhē nahī̃ chāhiye, shukriyā.",
+        "speechCyrillic": "Нахииⁿ, муджхе нахииⁿ чаахийе, шукрийа.",
+        "acceptableResponsesIso": [
+          "Nahī̃ chāhiye, shukriyā"
+        ],
+        "speechEn": "Нет, спасибо, мне больше не нужно."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Dative Experiencers 2: Quantifiers and Polite Negation",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культура индийского хлебосольства (Atithi Devo Bhava)",
+    "pointsRu": [
+      "В традиционных индийских заведениях (Thali restaurants) еду будут подкладывать бесконечно, пока вы не скажете твердое 'Bas!'.",
+      "Если не остановить официанта словом 'Bas!', ваша тарелка всегда будет полна до краев.",
+      "Связка 'Bas jī, pet bhar gayā' (Хватит, уважаемый, я сыта) вызывает всеобщий восторг и уважение."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 18)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Если не остановить официанта словом 'Bas!', ваша тарелка всегда будет полна до краев.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Dative Experiencers 2: Quantifiers and Polite Negation: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

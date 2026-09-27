@@ -1,0 +1,284 @@
+{
+  "day": 19,
+  "phase": 3,
+  "title": {
+    "en": "Culinary Ordering: Temperatures, Water Safety, and Staples",
+    "ru": "Заказ еды и безопасность воды: температуры (Garam/Ṭhaṇḍā) и бутилированная вода"
+  },
+  "theme": "Еда (khānā), горячий (garam - когнат с русским 'жар'), холодный (ṭhaṇḍā), бутилированная вода",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Этимологическая связь когната garam с русским словом 'гореть / жар')",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Прилагательные перед существительными: garam pānī, ṭhaṇḍī bottle)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Четкий заказ безопасной запечатанной воды: Bottled / Bisleri pānī)",
+    "phase4SimulationMinutes": "17:00–20:00 (Проверка запечатанной пробки и заказ горячего чая)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Order temperature-specific staples using garam (hot) and ṭhaṇḍā (cold)",
+      "Leverage PIE cognate *gʷʰer- (Russian жар/гореть <-> Hindi garam)",
+      "Safeguard health by demanding sealed bottled water (Bisleri / Packaged pānī)"
+    ],
+    "ru": [
+      "Заказывать блюда и напитки нужной температуры: garam (горячий) и ṭhaṇḍā (холодный)",
+      "Использовать этимологическую интуицию когната *gʷʰer- (русский жар/гореть = хинди garam)",
+      "Защищать здоровье в поездке, заказывая строго бутилированную воду (Bisleri / Packaged pānī)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Ретрофлексный придыхательный /ṭh/ и назализованный ретрофлекс в ṭhaṇḍā (ठंडा)",
+    "articulatoryMechanism": "Кончик языка загнут к нёбу. При смычке идет выброс воздуха [тх], носовая фаза [н] и звонкий ретрофлексный отскок [д͟аа]: [тхандаа].",
+    "russianInterferenceWarning": "Не заменяйте на мягкое русское 'тянда'! Звук должен быть гулким и твердым.",
+    "drills": [
+      {
+        "prompt": "Контраст температур",
+        "contrastPair": "Garam (горячий) vs Ṭhaṇḍā (холодный)",
+        "instructionsRu": "Произнесите: Garam pānī (горячая вода) — Ṭhaṇḍā pānī (холодная вода)."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Индоевропейский когнат Garam и порядок определения",
+    "russianParallel": "Хинди 'garam' и русское 'гореть / жар' восходят к общему праиндоевропейскому корню *gʷʰer-. Как и в русском языке, прилагательное ВСЕГДА стоит ПЕРЕД определяемым словом: Garam khānā (Горячая еда), Ṭhaṇḍā pānī (Холодная вода).",
+    "syntacticFormula": "[Garam / Ṭhaṇḍā] + [Еда / Напиток] + dījiye",
+    "explanationRu": "В Индии жизненно важно требовать запечатанную промышленную воду. Бренд 'Bisleri' стал именем нарицательным для безопасной бутилированной воды.",
+    "pieCognateConnection": {
+      "root": "*gʷʰer-",
+      "russian": "гореть / жар / горячий",
+      "hindi": "garam",
+      "meaning": "Праиндоевропейское тепло и огонь"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 19: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d19_v01",
+      "devanagari": "गरम",
+      "transliterationIso": "Garam",
+      "phoneticCyrillic": "Гарам",
+      "translationRu": "Горячий / Тёплый",
+      "translationEn": "Hot / Warm",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Когнат со словом 'гореть'."
+    },
+    {
+      "id": "d19_v02",
+      "devanagari": "ठंडा",
+      "transliterationIso": "Ṭhaṇḍā",
+      "phoneticCyrillic": "Тхандаа",
+      "translationRu": "Холодный",
+      "translationEn": "Cold",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Ретрофлексный придыхательный ṭh."
+    },
+    {
+      "id": "d19_v03",
+      "devanagari": "खाना",
+      "transliterationIso": "Khānā",
+      "phoneticCyrillic": "Кхаанаа",
+      "translationRu": "Еда / Кушать",
+      "translationEn": "Food / To eat",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное велярное [кх], два долгих гласных."
+    },
+    {
+      "id": "d19_v04",
+      "devanagari": "बॉटल पानी",
+      "transliterationIso": "Bottled / Bisleri pānī",
+      "phoneticCyrillic": "Ботл / Бислери паании",
+      "translationRu": "Бутилированная (запечатанная) вода",
+      "translationEn": "Bottled / Packaged water",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ключевое слово гигиены в поездке."
+    },
+    {
+      "id": "d19_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d19_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d19_v07",
+      "devanagari": "साफ़",
+      "transliterationIso": "Sāf",
+      "phoneticCyrillic": "Сааф",
+      "translationRu": "Чистый",
+      "translationEn": "Clean",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Долгий чистый гласный 'аа'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d19_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите заказ: 'Дайте горячий чай, пожалуйста'",
+      "prompt": "Дайте горячий чай",
+      "wordChips": [
+        "Garam",
+        "chāi",
+        "dījiye"
+      ],
+      "correctAnswer": [
+        "Garam",
+        "chāi",
+        "dījiye"
+      ],
+      "phoneticCyrillicTarget": "Гарам чаай дииджие",
+      "explanationRu": "Прилагательное перед существительным: Garam chāi dījiye.",
+      "instructionEn": "Exercise instruction: Соберите заказ: 'Дайте горячий чай, пожалуйста'",
+      "explanationEn": "Прилагательное перед существительным: Garam chāi dījiye."
+    },
+    {
+      "id": "d19_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите холодную воду",
+      "prompt": "_____ pānī dījiye.",
+      "options": [
+        "Ṭhaṇḍā",
+        "Garam",
+        "Khānā"
+      ],
+      "correctAnswer": "Ṭhaṇḍā",
+      "transliterationIsoTarget": "Ṭhaṇḍā pānī dījiye.",
+      "explanationRu": "Ṭhaṇḍā = холодный.",
+      "instructionEn": "Exercise instruction: Попросите холодную воду",
+      "explanationEn": "Ṭhaṇḍā = холодный."
+    },
+    {
+      "id": "d19_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Официант несет открытый кувшин с водой из-под крана. Потребуйте закрытую бутылку Bisleri за 2 секунды!",
+      "prompt": "Официант наливает подозрительную воду",
+      "options": [
+        "Nahī̃ bhaiyā, Bisleri bottle dījiye!",
+        "Hā̃, yeh pānī acchā hai!",
+        "Garam khānā kahā̃ hai?"
+      ],
+      "correctAnswer": "Nahī̃ bhaiyā, Bisleri bottle dījiye!",
+      "phoneticCyrillicTarget": "Нахииⁿ бхаййаа, Бислери ботл дииджие!",
+      "explanationRu": "Защита здоровья: требуйте упакованную воду Bisleri.",
+      "instructionEn": "Exercise instruction: Официант несет открытый кувшин с водой из-под крана. Потребуйте закрытую бутылку Bisleri за 2 секунды!",
+      "explanationEn": "Защита здоровья: требуйте упакованную воду Bisleri."
+    },
+    {
+      "id": "d19_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Уточните: 'Еда горячая?'",
+      "prompt": "Kyā khānā _____ hai?",
+      "options": [
+        "garam",
+        "pās",
+        "sē"
+      ],
+      "correctAnswer": "garam",
+      "transliterationIsoTarget": "Kyā khānā garam hai?",
+      "explanationRu": "Garam = горячий.",
+      "instructionEn": "Exercise instruction: Уточните: 'Еда горячая?'",
+      "explanationEn": "Garam = горячий."
+    },
+    {
+      "id": "d19_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Горячий / Тёплый'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Hot / Warm' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Горячий / Тёплый»?",
+      "options": [
+        "Garam!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Garam!",
+      "phoneticCyrillicTarget": "Гарам!",
+      "transliterationIsoTarget": "Garam!",
+      "explanationRu": "Правильный и уверенный устный ответ: Garam!",
+      "explanationEn": "Correct and confident verbal response: Garam!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Заказ безопасной воды и горячей еды в кафе",
+    "setting": "Уютное кафе в Дхарамсале или Удайпуре",
+    "partnerRoleRu": "Официант",
+    "learnerRoleRu": "Заботящаяся о здоровье путешественница",
+    "turns": [
+      {
+        "speaker": "Официант",
+        "speechRu": "Здравствуйте, что будете пить?",
+        "speechIso": "Namastē madam, kyā pīyēṅgī?",
+        "speechCyrillic": "Намастэ мадам, кйаа пииенгии?",
+        "learnerHintRu": "Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye",
+        "speechEn": "Здравствуйте, что будете пить?",
+        "learnerHintEn": "Hint: Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Дайте одну закрытую бутылку воды Bisleri, пожалуйста.",
+        "speechIso": "Namastē! Ek Bisleri pānī bottle dījiye.",
+        "speechCyrillic": "Намастэ! Эк Бислери паании ботл дииджие.",
+        "acceptableResponsesIso": [
+          "Bisleri bottle dījiye",
+          "Bottled pānī dījiye"
+        ],
+        "speechEn": "Здравствуйте! Дайте одну закрытую бутылку воды Bisleri, пожалуйста."
+      },
+      {
+        "speaker": "Официант",
+        "speechRu": "Хорошо, вот вода. А из еды что принести?",
+        "speechIso": "Lījiye packaged pānī. Khānē mẽ kyā chāhiye?",
+        "speechCyrillic": "Лииджие пэкиджд паании. Кхаанее мэⁿ кйаа чаахийе?",
+        "learnerHintRu": "Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)",
+        "speechEn": "Хорошо, вот вода. А из еды что принести?",
+        "learnerHintEn": "Hint: Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Еда должна быть свежей и горячей, пожалуйста.",
+        "speechIso": "Khānā garam honā chāhiye.",
+        "speechCyrillic": "Кхаанаа гарам хонаа чаахийе.",
+        "acceptableResponsesIso": [
+          "Garam khānā dījiye"
+        ],
+        "speechEn": "Еда должна быть свежей и горячей, пожалуйста."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Culinary Ordering: Temperatures, Water Safety, and Staples",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Правила водной безопасности в путешествии",
+    "pointsRu": [
+      "Никогда не пейте сырую воду из графинов на столах уличных заведений.",
+      "При покупке бутылки Bisleri обязательно проверяйте целостность пластикового кольца на крышке ('Seal check').",
+      "Горячий свежесваренный чай масала кипятится несколько минут, поэтому он микробиологически абсолютно безопасен."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 19)",
+    "pointsEn": [
+      "Cultural insight: Никогда не пейте сырую воду из графинов на столах уличных заведений.",
+      "Cultural insight: При покупке бутылки Bisleri обязательно проверяйте целостность пластикового кольца на крышке ('Seal check').",
+      "Cultural insight: Горячий свежесваренный чай масала кипятится несколько минут, поэтому он микробиологически абсолютно безопасен."
+    ]
+  },
+  "themeEn": "Culinary Ordering: Temperatures, Water Safety, and Staples: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

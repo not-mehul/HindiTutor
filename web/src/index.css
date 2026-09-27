@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased selection:bg-emerald-200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom 3D button press effect like Duolingo */
+.btn-duo-green {
+  background-color: #22c55e;
+  box-shadow: 0 4px 0 #15803d;
+  transition: all 0.1s ease;
+}
+.btn-duo-green:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #15803d;
+}
+
+.btn-duo-blue {
+  background-color: #3b82f6;
+  box-shadow: 0 4px 0 #1d4ed8;
+  transition: all 0.1s ease;
+}
+.btn-duo-blue:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #1d4ed8;
+}
+
+.btn-duo-slate {
+  background-color: #f1f5f9;
+  box-shadow: 0 4px 0 #cbd5e1;
+  transition: all 0.1s ease;
+}
+.btn-duo-slate:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #cbd5e1;
+}
+
+/* Hide scrollbars for clean tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

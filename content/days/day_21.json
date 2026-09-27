@@ -1,0 +1,285 @@
+{
+  "day": 21,
+  "phase": 3,
+  "title": {
+    "en": "Expressing Culinary Evaluation and Quality",
+    "ru": "Кулинарная оценка: «Очень вкусно» (Svādishṭ) и специи (Соль, Сахар)"
+  },
+  "theme": "Вкусно (svādishṭ), соль (namak), сахар (cheenī), сладкий (mīṭhā), очень хорошо",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция санскритского кластера svā- в svādishṭ / сваадишт)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Предикативная оценка качества с копулой: Khānā bahut acchā hai)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Похвала повару и просьба подать соль/сахар)",
+    "phase4SimulationMinutes": "17:00–20:00 (Оценка блюда официанту во время обеда)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Praise meal quality with 'Khānā bahut svādishṭ / acchā hai'",
+      "Request seasoning table adjustments (namak = salt, cheenī = sugar)",
+      "Identify sweet flavors using mīṭhā"
+    ],
+    "ru": [
+      "Хвалить качество еды: 'Khānā bahut svādishṭ hai' ('Еда очень вкусная')",
+      "Просить недостающие специи к столу: namak (соль), cheenī (сахар)",
+      "Описывать сладкий вкус: mīṭhā / mīṭhī chāi"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Звуковой кластер /sv/ и ретрофлексный спирант /ṣṭ/ в слове svādishṭ (स्वादिष्ट)",
+    "articulatoryMechanism": "Зубной [с] слитно переходит в [в] с долгим [аа], а на конце кончик языка загибается назад для ретрофлексного кластера [шт͟]: [сваадишт].",
+    "russianInterferenceWarning": "Не вставляйте лишний гласный между 'с' и 'в' (не 'савадишт'!).",
+    "drills": [
+      {
+        "prompt": "Произнесение комплимента еде",
+        "contrastPair": "Svādishṭ (вкусно)",
+        "instructionsRu": "Khānā bahut svādishṭ hai! (Еда очень вкусная!)"
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Предикативная качественная оценка с обязательной связкой",
+    "russianParallel": "В русском языке мы говорим: 'Еда [есть] очень вкусная'. В хинди связка hai строго закрывает предложение: Khānā (Еда) + bahut (очень) + svādishṭ (вкусная) + hai (есть). Просьба подать соль: Thōṛā namak dījiye (Немного соли дайте).",
+    "syntacticFormula": "[Блюдо] + bahut + [acchā / svādishṭ] + hai",
+    "explanationRu": "Искренняя похвала еде на хинди делает повара и официанта вашими лучшими друзьями на все время пребывания.",
+    "pieCognateConnection": {
+      "root": "*swād-",
+      "russian": "сладкий / услада",
+      "hindi": "svādishṭ (вкусный) / svād (вкус)",
+      "meaning": "Праиндоевропейский корень вкуса и сладости"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 21: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d21_v01",
+      "devanagari": "स्वादिष्ट",
+      "transliterationIso": "Svādishṭ",
+      "phoneticCyrillic": "Сваадишт",
+      "translationRu": "Вкусный / Аппетитный",
+      "translationEn": "Delicious / Tasty",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Когнат со словом 'сладость' и 'услада'."
+    },
+    {
+      "id": "d21_v02",
+      "devanagari": "नमक",
+      "transliterationIso": "Namak",
+      "phoneticCyrillic": "Намак",
+      "translationRu": "Соль",
+      "translationEn": "Salt",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Ударение на первый слог."
+    },
+    {
+      "id": "d21_v03",
+      "devanagari": "चीनी",
+      "transliterationIso": "Cheenī",
+      "phoneticCyrillic": "Чиинии",
+      "translationRu": "Сахар",
+      "translationEn": "Sugar",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Два долгих звука [чии-нии]."
+    },
+    {
+      "id": "d21_v04",
+      "devanagari": "मीठा",
+      "transliterationIso": "Mīṭhā",
+      "phoneticCyrillic": "Миитхаа",
+      "translationRu": "Сладкий",
+      "translationEn": "Sweet",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Придыхательное ретрофлексное ṭh."
+    },
+    {
+      "id": "d21_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d21_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d21_v07",
+      "devanagari": "खट्टा",
+      "transliterationIso": "Khaṭṭā",
+      "phoneticCyrillic": "Кхатт͟аа",
+      "translationRu": "Кислый",
+      "translationEn": "Sour",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Придыхательный 'кх' + удвоенный ретрофлексный [тт͟]."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d21_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите похвалу повару: 'Еда очень вкусная!'",
+      "prompt": "Еда очень вкусная",
+      "wordChips": [
+        "Khānā",
+        "bahut",
+        "svādishṭ",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Khānā",
+        "bahut",
+        "svādishṭ",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Кхаанаа бахут сваадишт хэ",
+      "explanationRu": "Подлежащее + наречие + прилагательное + связка hai.",
+      "instructionEn": "Exercise instruction: Соберите похвалу повару: 'Еда очень вкусная!'",
+      "explanationEn": "Подлежащее + наречие + прилагательное + связка hai."
+    },
+    {
+      "id": "d21_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Попросите принести немного соли к столу",
+      "prompt": "Thōṛā _____ dījiye. (Немного соли)",
+      "options": [
+        "namak",
+        "cheenī",
+        "mīṭhā"
+      ],
+      "correctAnswer": "namak",
+      "transliterationIsoTarget": "Thōṛā namak dījiye.",
+      "explanationRu": "Namak = соль.",
+      "instructionEn": "Exercise instruction: Попросите принести немного соли к столу",
+      "explanationEn": "Namak = соль."
+    },
+    {
+      "id": "d21_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Официант подходит и спрашивает: 'Khānā kaisā hai?' (Как вам еда?). Ответьте за 2 секунды с восторгом!",
+      "prompt": "Официант интересуется вашим впечатлением",
+      "options": [
+        "Bahut acchā hai, bahut svādishṭ!",
+        "Mujhē khānā nahī̃ chāhiye!",
+        "Main Russia sē hū̃!"
+      ],
+      "correctAnswer": "Bahut acchā hai, bahut svādishṭ!",
+      "phoneticCyrillicTarget": "Бахут аччхаа хэ, бахут сваадишт!",
+      "explanationRu": "Прекрасный отзыв: Очень хорошо, очень вкусно!",
+      "instructionEn": "Exercise instruction: Официант подходит и спрашивает: 'Khānā kaisā hai?' (Как вам еда?). Ответьте за 2 секунды с восторгом!",
+      "explanationEn": "Прекрасный отзыв: Очень хорошо, очень вкусно!"
+    },
+    {
+      "id": "d21_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Скажите, что чай слишком сладкий",
+      "prompt": "Chāi bahut _____ hai. (Чай очень сладкий)",
+      "options": [
+        "mīṭhī",
+        "namak",
+        "tīkhā"
+      ],
+      "correctAnswer": "mīṭhī",
+      "transliterationIsoTarget": "Chāi bahut mīṭhī hai.",
+      "explanationRu": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī.",
+      "instructionEn": "Exercise instruction: Скажите, что чай слишком сладкий",
+      "explanationEn": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī."
+    },
+    {
+      "id": "d21_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Вкусный / Аппетитный'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Delicious / Tasty' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Вкусный / Аппетитный»?",
+      "options": [
+        "Svādishṭ!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Svādishṭ!",
+      "phoneticCyrillicTarget": "Сваадишт!",
+      "transliterationIsoTarget": "Svādishṭ!",
+      "explanationRu": "Правильный и уверенный устный ответ: Svādishṭ!",
+      "explanationEn": "Correct and confident verbal response: Svādishṭ!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Обратная связь повару во время ужина",
+    "setting": "Традиционный ресторан в Варанаси",
+    "partnerRoleRu": "Шеф-повар или хозяин ресторана",
+    "learnerRoleRu": "Довольная посетительница",
+    "turns": [
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Намастэ, сестра! Как вам наше карри? Понравилось?",
+        "speechIso": "Namastē madam! Khānā kaisā lagā?",
+        "speechCyrillic": "Намастэ мадам! Кхаанаа кэсаа лагаа?",
+        "learnerHintRu": "Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса.",
+        "speechEn": "Намастэ, сестра! Как вам наше карри? Понравилось?",
+        "learnerHintEn": "Hint: Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса."
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Еда очень вкусная! Спасибо большое.",
+        "speechIso": "Khānā bahut svādishṭ hai! Bahut shukriyā.",
+        "speechCyrillic": "Кхаанаа бахут сваадишт хэ! Бахут шукрийа.",
+        "acceptableResponsesIso": [
+          "Bahut svādishṭ hai!"
+        ],
+        "speechEn": "Еда очень вкусная! Спасибо большое."
+      },
+      {
+        "speaker": "Хозяин",
+        "speechRu": "Большое спасибо! Еще что-нибудь нужно?",
+        "speechIso": "Dhanyavād madam! Aur kuchh chāhiye?",
+        "speechCyrillic": "Дханьяваад мадам! Аур кучх чаахийе?",
+        "learnerHintRu": "Попросите немного соли: Thōṛā namak dījiye",
+        "speechEn": "Большое спасибо! Еще что-нибудь нужно?",
+        "learnerHintEn": "Hint: Попросите немного соли: Thōṛā namak dījiye"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, дайте еще немного соли, пожалуйста.",
+        "speechIso": "Hā̃-jī, thōṛā namak dījiye.",
+        "speechCyrillic": "Хааⁿ-джии, тхоор͟аа намак дииджие.",
+        "acceptableResponsesIso": [
+          "Thōṛā namak dījiye"
+        ],
+        "speechEn": "Да, дайте еще немного соли, пожалуйста."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Expressing Culinary Evaluation and Quality",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Культура комплиментов еде в Индии",
+    "pointsRu": [
+      "Индийцы гордятся своей кухней превыше всего. Слово 'Svādishṭ' производит магический эффект на владельцев заведений.",
+      "Традиционный чай в Индии по умолчанию заваривается с огромным количеством сахара.",
+      "Если вы не любите сладкий чай, предупреждайте заранее: 'Binā cheenī kē' (Без сахара)."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 21)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Традиционный чай в Индии по умолчанию заваривается с огромным количеством сахара.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect."
+    ]
+  },
+  "themeEn": "Expressing Culinary Evaluation and Quality: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

@@ -1,0 +1,288 @@
+{
+  "day": 27,
+  "phase": 4,
+  "title": {
+    "en": "Inquiring About Prices and Merchandise",
+    "ru": "Запрос цены: «Почём это?» (Yeh kitnē kā hai?) и «Это дорого» (Mahangā)"
+  },
+  "theme": "Сколько это стоит (Yeh kitnē kā hai?), какая цена (kyā dām hai?), очень дорого (bahut mahangā hai)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция придыхательного h в mahangā / махангаа)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Послелог kā/kī/kē в согласовании цены: Yeh kitnē kā hai? = Почём это?)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Быстрый опрос цен: это почём? то почём? сколько стоит?)",
+    "phase4SimulationMinutes": "17:00–20:00 (Первичный мониторинг цен в сувенирной лавке)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Ask prices using genitive formula 'Yeh kitnē kā hai?'",
+      "Inquire about cost with dām / kīmat",
+      "Express price shock with 'Bahut mahangā hai!' (Very expensive!)"
+    ],
+    "ru": [
+      "Спрашивать цену через формулу согласовательного родительного: 'Yeh kitnē kā hai?' (букв. 'Это со скольки? / Почём это?')",
+      "Уточнять стоимость словами dām (цена) и kīmat (стоимость)",
+      "Реагировать на завышенную цену фразой 'Bahut mahangā hai!' ('Это очень дорого!')"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Звуковой переход /h/ и назализация в слове mahangā (महँगा)",
+    "articulatoryMechanism": "Легкий выдох [х] с одновременным носовым резонансом на втором слоге: [ма-хан-гаа].",
+    "russianInterferenceWarning": "Не оглушайте звук [г] на конце слова. Должно звучать звонкое долгое [гаа].",
+    "drills": [
+      {
+        "prompt": "Отработка возмущения ценой",
+        "contrastPair": "Bahut mahangā hai! (Очень дорого!)",
+        "instructionsRu": "Произнесите с экспрессивной интонацией удивления."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Родительный согласовательный вопрос цены (Kitnē kā)",
+    "russianParallel": "Фраза 'Yeh kitnē kā hai?' буквально переводится как 'Это почём? / Это со скольки рупий?'. Послелог kā согласуется с опущенным мужским словом rupayē (рупии во мн.ч. -> kitnē kā / kitnē kē).",
+    "syntacticFormula": "[Yeh / Voh] + kitnē kā hai? / Kyā dām hai?",
+    "explanationRu": "Любой торговец на индийском базаре сразу понимает, что перед ним опытный путешественник, как только слышит чистое 'Yeh kitnē kā hai?' вместо английского 'How much?'.",
+    "pieCognateConnection": {
+      "root": "*meh₂-",
+      "russian": "мера / мерить / махина (большой)",
+      "hindi": "mahangā (высокая мера / дорогой)",
+      "meaning": "Индоевропейская мера ценности"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 27: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d27_v01",
+      "devanagari": "कितने का",
+      "transliterationIso": "Kitnē kā",
+      "phoneticCyrillic": "Китнее каа",
+      "translationRu": "Почём? / Сколько стоит?",
+      "translationEn": "For how much? / What is the cost?",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Универсальный вопрос цены."
+    },
+    {
+      "id": "d27_v02",
+      "devanagari": "दाम",
+      "transliterationIso": "Dām",
+      "phoneticCyrillic": "Даам",
+      "translationRu": "Цена",
+      "translationEn": "Price",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Долгое 'аа', зубное 'д'."
+    },
+    {
+      "id": "d27_v03",
+      "devanagari": "महँगा",
+      "transliterationIso": "Mahangā",
+      "phoneticCyrillic": "Махангаа",
+      "translationRu": "Дорогой / Дорого",
+      "translationEn": "Expensive",
+      "partOfSpeech": "adjective",
+      "gender": "m",
+      "audioHint": "Ударение на второй слог."
+    },
+    {
+      "id": "d27_v04",
+      "devanagari": "कीमत",
+      "transliterationIso": "Kīmat",
+      "phoneticCyrillic": "Киимат",
+      "translationRu": "Стоимость",
+      "translationEn": "Cost / Value",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Долгое 'ии'."
+    },
+    {
+      "id": "d27_v05",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d27_v06",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d27_v07",
+      "devanagari": "यह वाला",
+      "transliterationIso": "Yeh vālā",
+      "phoneticCyrillic": "Йех ваалаа",
+      "translationRu": "Вот этот (предмет)",
+      "translationEn": "This one",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Указательное местоимение + выделительный суффикс vālā."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d27_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вопрос: 'Сколько стоит этот шарф?' (Этот шарф + почём + есть?)",
+      "prompt": "Почём этот шарф?",
+      "wordChips": [
+        "Yeh",
+        "scarf",
+        "kitnē",
+        "kā",
+        "hai?"
+      ],
+      "correctAnswer": [
+        "Yeh",
+        "scarf",
+        "kitnē",
+        "kā",
+        "hai?"
+      ],
+      "phoneticCyrillicTarget": "Йе скарф китнее каа хэ?",
+      "explanationRu": "Yeh scarf kitnē kā hai? — классический вопрос на рынке.",
+      "instructionEn": "Exercise instruction: Соберите вопрос: 'Сколько стоит этот шарф?' (Этот шарф + почём + есть?)",
+      "explanationEn": "Yeh scarf kitnē kā hai? — классический вопрос на рынке."
+    },
+    {
+      "id": "d27_ex02",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Продавец заломил 2000 рупий за простую футболку. Возмутитесь за 2 секунды: 'Очень дорого!'",
+      "prompt": "Продавец: 2000 rupees madam!",
+      "options": [
+        "Bhaiyā, bahut mahangā hai!",
+        "Bahut svādishṭ hai!",
+        "Main ṭhīk hū̃!"
+      ],
+      "correctAnswer": "Bhaiyā, bahut mahangā hai!",
+      "phoneticCyrillicTarget": "Бхаййаа, бахут махангаа хэ!",
+      "explanationRu": "Bahut mahangā hai! — Это очень дорого!",
+      "instructionEn": "Exercise instruction: Продавец заломил 2000 рупий за простую футболку. Возмутитесь за 2 секунды: 'Очень дорого!'",
+      "explanationEn": "Bahut mahangā hai! — Это очень дорого!"
+    },
+    {
+      "id": "d27_ex03",
+      "type": "substitution_drill",
+      "instructionRu": "Спросите: 'Какая цена?'",
+      "prompt": "Kyā _____ hai?",
+      "options": [
+        "dām",
+        "nām",
+        "kamrā"
+      ],
+      "correctAnswer": "dām",
+      "transliterationIsoTarget": "Kyā dām hai?",
+      "explanationRu": "Kyā dām hai? = Какая цена?",
+      "instructionEn": "Exercise instruction: Спросите: 'Какая цена?'",
+      "explanationEn": "Kyā dām hai? = Какая цена?"
+    },
+    {
+      "id": "d27_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите о цене вон того дальнего предмета",
+      "prompt": "_____ kitnē kā hai? (Тот почём?)",
+      "options": [
+        "Voh",
+        "Main",
+        "Mujhē"
+      ],
+      "correctAnswer": "Voh",
+      "transliterationIsoTarget": "Voh kitnē kā hai?",
+      "explanationRu": "Voh = тот (вдали).",
+      "instructionEn": "Exercise instruction: Спросите о цене вон того дальнего предмета",
+      "explanationEn": "Voh = тот (вдали)."
+    },
+    {
+      "id": "d27_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Почём? / Сколько стоит?'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'For how much? / What is the cost?' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Почём? / Сколько стоит?»?",
+      "options": [
+        "Kitnē kā!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Kitnē kā!",
+      "phoneticCyrillicTarget": "Китнее каа!",
+      "transliterationIsoTarget": "Kitnē kā!",
+      "explanationRu": "Правильный и уверенный устный ответ: Kitnē kā!",
+      "explanationEn": "Correct and confident verbal response: Kitnē kā!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Приценивание на ремесленном базаре",
+    "setting": "Рыночный ряд в Чанди Чоук (Дели)",
+    "partnerRoleRu": "Продавец резных фигурок слонов",
+    "learnerRoleRu": "Любознательная покупательница",
+    "turns": [
+      {
+        "speaker": "Продавец",
+        "speechRu": "Здравствуйте, мадам! Посмотрите, деревянный слоник ручной работы!",
+        "speechIso": "Namastē madam! Handmade elephant dēkhiye.",
+        "speechCyrillic": "Намастэ мадам! Хэндмейд элефант дэкхие.",
+        "learnerHintRu": "Спросите цену: Bhaiyā, yeh kitnē kā hai?",
+        "speechEn": "Здравствуйте, мадам! Посмотрите, деревянный слоник ручной работы!",
+        "learnerHintEn": "Hint: Спросите цену: Bhaiyā, yeh kitnē kā hai?"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Здравствуйте! Брат, почём этот слоник?",
+        "speechIso": "Namastē! Bhaiyā, yeh kitnē kā hai?",
+        "speechCyrillic": "Намастэ! Бхаййаа, йе китнее каа хэ?",
+        "acceptableResponsesIso": [
+          "Yeh kitnē kā hai?",
+          "Kyā dām hai?"
+        ],
+        "speechEn": "Здравствуйте! Брат, почём этот слоник?"
+      },
+      {
+        "speaker": "Продавец",
+        "speechRu": "Для вас особая цена — восемьсот рупий!",
+        "speechIso": "Āpkē liye special price — 800 rupayē!",
+        "speechCyrillic": "Аапке лие спэшл прайс — 800 рупае!",
+        "learnerHintRu": "Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)",
+        "speechEn": "Для вас особая цена — восемьсот рупий!",
+        "learnerHintEn": "Hint: Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Ого! Восемьсот рупий?! Это очень дорого!",
+        "speechIso": "Āṭh sau rupayē?! Bahut mahangā hai!",
+        "speechCyrillic": "Аатх сау рупае?! Бахут махангаа хэ!",
+        "acceptableResponsesIso": [
+          "Bahut mahangā hai!"
+        ],
+        "speechEn": "Ого! Восемьсот рупий?! Это очень дорого!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Inquiring About Prices and Merchandise",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Правила ценообразования на индийском рынке",
+    "pointsRu": [
+      "Первоначальная названная цена на базаре почти всегда завышена в 2-3 раза для иностранцев.",
+      "Восклицание 'Bahut mahangā hai!' — обязательный первый шаг в ритуале индийского торга.",
+      "Торговец никогда не обижается на фразу 'Mahangā hai' — для него это сигнал к началу увлекательного диалога."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 27)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Торговец никогда не обижается на фразу 'Mahangā hai' — для него это сигнал к началу увлекательного диалога."
+    ]
+  },
+  "themeEn": "Inquiring About Prices and Merchandise: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

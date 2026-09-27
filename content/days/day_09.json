@@ -1,0 +1,281 @@
+{
+  "day": 9,
+  "phase": 2,
+  "title": {
+    "en": "Syntactic Realignment: Establishing Fixed SOV Order",
+    "ru": "Синтаксическая перестройка: жесткий порядок слов SOV и направления"
+  },
+  "theme": "Налево, направо, прямо, идите, остановитесь. Перестройка с русского SVO на хинди SOV",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Назализация bāē̃ / дааеⁿ и ретрофлексный flap в rukiye)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Правило: Направление ВСЕГДА стоит ПЕРЕД глаголом: Sīdhē jāiye)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Команды водителю на поворотах: налево, направо, стоп)",
+    "phase4SimulationMinutes": "17:00–20:00 (Управление водителем тук-тука на развилке)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Realign Russian SVO word order to strict Hindi SOV (Direction before Verb)",
+      "Master directional directives (Bāē̃, Dāē̃, Sīdhē)",
+      "Command stops politely using Rukiye (Please stop)"
+    ],
+    "ru": [
+      "Перестроить мышление с русского SVO на строгий порядок хинди SOV (направление ставится ПЕРЕД глаголом)",
+      "Освоить указатели поворотов: Bāē̃ (налево), Dāē̃ (направо), Sīdhē (прямо)",
+      "Вежливо командовать остановку: Rukiye (Остановитесь, пожалуйста) и Yahā̃ rukiye (Здесь остановитесь)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Назализованный дифтонг /āē̃/ в bāē̃ (बाएँ) и dāē̃ (दाएँ)",
+    "articulatoryMechanism": "Переход от долгого 'аа' к открытому 'э' с одновременным выходом воздуха через нос: [бааеⁿ], [дааеⁿ].",
+    "russianInterferenceWarning": "Не произносите согласный звук [н] в конце слова! Ни в коем случае не 'баен' или 'даен', только чистый носовой гласный.",
+    "drills": [
+      {
+        "prompt": "Пара налево / направо",
+        "contrastPair": "Bāē̃ (налево) vs Dāē̃ (направо)",
+        "instructionsRu": "Произносите парно: налево [бааеⁿ], направо [дааеⁿ]."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Инверсия русского порядка слов глагол-направление",
+    "russianParallel": "В русском языке мы говорим: 'Идите прямо' или 'Поверните направо' (Глагол + Направление). В хинди порядок СТРОГО обратный: Sīdhē jāiye (Прямо идите), Bāē̃ jāiye (Налево идите). Конечный глагол ВСЕГДА закрывает фразу!",
+    "syntacticFormula": "[Ориентир / Направление] + [Повелительный глагол (Императив)]",
+    "explanationRu": "Глагол в хинди выполняет роль точки в конце предложения. Любые указатели пути, направления и расстояния обязаны стоять ДО глагола.",
+    "pieCognateConnection": {
+      "root": "*sed- / *sidh-",
+      "russian": "сесть / сидеть",
+      "hindi": "sīdhē (прямой путь / праведный)",
+      "meaning": "Индоевропейская ориентация и порядок"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 9: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d09_v01",
+      "devanagari": "बाएँ",
+      "transliterationIso": "Bāē̃",
+      "phoneticCyrillic": "Бааеⁿ",
+      "translationRu": "Налево / Слева",
+      "translationEn": "Left",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Носовой дифтонг на конце."
+    },
+    {
+      "id": "d09_v02",
+      "devanagari": "दाएँ",
+      "transliterationIso": "Dāē̃",
+      "phoneticCyrillic": "Дааеⁿ",
+      "translationRu": "Направо / Справа",
+      "translationEn": "Right",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Зубной звук [д], носовой дифтонг."
+    },
+    {
+      "id": "d09_v03",
+      "devanagari": "सीधे",
+      "transliterationIso": "Sīdhē",
+      "phoneticCyrillic": "Сиидхэ",
+      "translationRu": "Прямо",
+      "translationEn": "Straight",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Долгое 'ии', придыхательное 'дх'."
+    },
+    {
+      "id": "d09_v04",
+      "devanagari": "जाइए",
+      "transliterationIso": "Jāiye",
+      "phoneticCyrillic": "Джааие",
+      "translationRu": "Идите / Поезжайте (вежливо)",
+      "translationEn": "Please go",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Слитный [дж] + суффикс -iye."
+    },
+    {
+      "id": "d09_v05",
+      "devanagari": "रुकिए",
+      "transliterationIso": "Rukiye",
+      "phoneticCyrillic": "Рукие",
+      "translationRu": "Остановитесь / Подождите (вежливо)",
+      "translationEn": "Please stop",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Раскатистый 'р', краткое 'у'."
+    },
+    {
+      "id": "d09_v06",
+      "devanagari": "चलिए",
+      "transliterationIso": "Chaliye",
+      "phoneticCyrillic": "Чалийе",
+      "translationRu": "Поехали / Пойдемте",
+      "translationEn": "Let's go / Proceed",
+      "partOfSpeech": "verb",
+      "gender": "n/a",
+      "audioHint": "Ударение на первый слог, мягкое окончание -ийе."
+    },
+    {
+      "id": "d09_v07",
+      "devanagari": "रुकिए",
+      "transliterationIso": "Rukiye",
+      "phoneticCyrillic": "Рукийе",
+      "translationRu": "Остановитесь / Подождите здесь",
+      "translationEn": "Stop here / Wait",
+      "partOfSpeech": "verb",
+      "gender": "n/a",
+      "audioHint": "Краткий 'у' + чистый раскатистый 'р'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d09_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите указание водителю 'Поезжайте прямо' (Прямо + поезжайте)",
+      "prompt": "Поезжайте прямо (русский: Идите прямо)",
+      "wordChips": [
+        "Sīdhē",
+        "jāiye"
+      ],
+      "correctAnswer": [
+        "Sīdhē",
+        "jāiye"
+      ],
+      "phoneticCyrillicTarget": "Сиидхэ джааие",
+      "explanationRu": "В хинди направление предшествует глаголу: Sīdhē jāiye.",
+      "instructionEn": "Exercise instruction: Соберите указание водителю 'Поезжайте прямо' (Прямо + поезжайте)",
+      "explanationEn": "В хинди направление предшествует глаголу: Sīdhē jāiye."
+    },
+    {
+      "id": "d09_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Скажите водителю повернуть налево",
+      "prompt": "_____ jāiye! (Поверните налево)",
+      "options": [
+        "Bāē̃",
+        "Dāē̃",
+        "Sīdhē"
+      ],
+      "correctAnswer": "Bāē̃",
+      "transliterationIsoTarget": "Bāē̃ jāiye!",
+      "explanationRu": "Bāē̃ = налево.",
+      "instructionEn": "Exercise instruction: Скажите водителю повернуть налево",
+      "explanationEn": "Bāē̃ = налево."
+    },
+    {
+      "id": "d09_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вы подъехали к своему отелю. Скомандуйте водителю: 'Остановитесь здесь!' за 2 секунды.",
+      "prompt": "Водитель проезжает нужный дом",
+      "options": [
+        "Yahā̃ rukiye!",
+        "Vahā̃ jāiye!",
+        "Sīdhē chalo!"
+      ],
+      "correctAnswer": "Yahā̃ rukiye!",
+      "phoneticCyrillicTarget": "Йахааⁿ рукие!",
+      "explanationRu": "Yahā̃ (здесь) + rukiye (остановитесь).",
+      "instructionEn": "Exercise instruction: Вы подъехали к своему отелю. Скомандуйте водителю: 'Остановитесь здесь!' за 2 секунды.",
+      "explanationEn": "Yahā̃ (здесь) + rukiye (остановитесь)."
+    },
+    {
+      "id": "d09_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Вставьте глагол 'поезжайте / идите' в приказ 'Направо, пожалуйста'",
+      "prompt": "Dāē̃ _____! (Поверните направо)",
+      "options": [
+        "jāiye",
+        "rukiye",
+        "hai"
+      ],
+      "correctAnswer": "jāiye",
+      "transliterationIsoTarget": "Dāē̃ jāiye!",
+      "explanationRu": "Dāē̃ jāiye = поезжайте направо.",
+      "instructionEn": "Exercise instruction: Вставьте глагол 'поезжайте / идите' в приказ 'Направо, пожалуйста'",
+      "explanationEn": "Dāē̃ jāiye = поезжайте направо."
+    },
+    {
+      "id": "d09_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Налево / Слева'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Left' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Налево / Слева»?",
+      "options": [
+        "Bāē̃!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Bāē̃!",
+      "phoneticCyrillicTarget": "Бааеⁿ!",
+      "transliterationIsoTarget": "Bāē̃!",
+      "explanationRu": "Правильный и уверенный устный ответ: Bāē̃!",
+      "explanationEn": "Correct and confident verbal response: Bāē̃!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Навигация авторикши в лабиринте старого города",
+    "setting": "Авторикша на перекрестке в Дели или Джайпуре",
+    "partnerRoleRu": "Водитель рикши (спрашивает дорогу)",
+    "learnerRoleRu": "Пассажирка с навигатором",
+    "turns": [
+      {
+        "speaker": "Водитель",
+        "speechRu": "Сестра, куда поворачивать? Налево или направо?",
+        "speechIso": "Madam, bāē̃ ya dāē̃?",
+        "speechCyrillic": "Мадам, бааеⁿ йа дааеⁿ?",
+        "learnerHintRu": "Скажите: Прямо поезжайте (Sīdhē jāiye)",
+        "speechEn": "Сестра, куда поворачивать? Налево или направо?",
+        "learnerHintEn": "Hint: Скажите: Прямо поезжайте (Sīdhē jāiye)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Езжайте прямо.",
+        "speechIso": "Sīdhē jāiye.",
+        "speechCyrillic": "Сиидхэ джааие.",
+        "acceptableResponsesIso": [
+          "Sīdhē jāiye"
+        ],
+        "speechEn": "Езжайте прямо."
+      },
+      {
+        "speaker": "Водитель",
+        "speechRu": "Понял, едем прямо. А теперь куда?",
+        "speechIso": "Acchā jī. Ab kahā̃?",
+        "speechCyrillic": "Аччхаа джии. Аб кахааⁿ?",
+        "learnerHintRu": "Скажите: Налево, а затем остановитесь здесь!",
+        "speechEn": "Понял, едем прямо. А теперь куда?",
+        "learnerHintEn": "Hint: Скажите: Налево, а затем остановитесь здесь!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Поверните налево. Остановитесь прямо здесь!",
+        "speechIso": "Bāē̃ jāiye. Yahā̃ rukiye!",
+        "speechCyrillic": "Бааеⁿ джааие. Йахааⁿ рукие!",
+        "acceptableResponsesIso": [
+          "Bāē̃ jāiye, yahā̃ rukiye!"
+        ],
+        "speechEn": "Поверните налево. Остановитесь прямо здесь!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Syntactic Realignment: Establishing Fixed SOV Order",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Как подсказывать дорогу в индийском транспорте",
+    "pointsRu": [
+      "Водители рикш часто не смотрят в мобильные навигаторы, а полагаются на живые подсказки пассажира.",
+      "Связка 'Bhaiyā, sīdhē jāiye' звучит уважительно и сразу дает водителю нужный ориентир.",
+      "Громкая и четкая команда 'Bhaiyā, yahā̃ rukiye!' спасет от проезда нужного переулка."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 9)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Связка 'Bhaiyā, sīdhē jāiye' звучит уважительно и сразу дает водителю нужный ориентир.",
+      "Cultural insight: Громкая и четкая команда 'Bhaiyā, yahā̃ rukiye!' спасет от проезда нужного переулка."
+    ]
+  },
+  "themeEn": "Syntactic Realignment: Establishing Fixed SOV Order: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

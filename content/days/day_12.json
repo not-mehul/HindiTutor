@@ -1,0 +1,282 @@
+{
+  "day": 12,
+  "phase": 2,
+  "title": {
+    "en": "Inquiring About Urban Infrastructure and Facilities",
+    "ru": "Городская инфраструктура: поиск туалетов, касс и банкоматов"
+  },
+  "theme": "Где туалет? Где банкомат (ATM)? Где аптека? Pās mẽ (поблизости)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция каверзных заимствованных слов: toilet, pharmacy, counter)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Связка: Объект + kahā̃ hai? и наличие рядом: Kyā pās mẽ ... hai?)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Срочные запросы объектов первой необходимости)",
+    "phase4SimulationMinutes": "17:00–20:00 (Поиск туалета и обменника на вокзале)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Inquire about critical amenities (toilet/washroom, ATM, pharmacy)",
+      "Use the spatial frame 'pās mẽ' (nearby / in the vicinity)",
+      "Formulate urgent infrastructural requests courteously"
+    ],
+    "ru": [
+      "Спрашивать о жизненно важных объектах (туалет, банкомат, аптека, касса)",
+      "Использовать конструкцию 'pās mẽ' (поблизости / неподалеку)",
+      "Формулировать срочные просьбы вежливо и быстро"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Зубной звук /t/ в заимствованиях и открытый гласный /ā/ в pās",
+    "articulatoryMechanism": "Слово 'pās' произносится с широким долгим 'аа'. В слове 'kahā̃' держите носовой резонанс.",
+    "russianInterferenceWarning": "Не забывайте конечное связочное слово 'hai'. Без него вопрос звучит оборванно.",
+    "drills": [
+      {
+        "prompt": "Связка вопроса о местонахождении",
+        "contrastPair": "Toilet kahā̃ hai? (Где туалет?)",
+        "instructionsRu": "Произнесите слитно с вопросительной интонацией на слове 'kahā̃'."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Конструкция локализации с 'pās mẽ' (Вблизи)",
+    "russianParallel": "Прямое соответствие русскому выражению: 'Есть ли поблизости отель / аптека?'. В хинди: Kyā (Ли) + pās mẽ (вблизи) + pharmacy (аптека) + hai (есть)?",
+    "syntacticFormula": "Kyā + pās mẽ + [Объект] + hai?",
+    "explanationRu": "Для точного поиска объекта в шаговой доступности используется слово pās (близко) с послелогом mẽ = pās mẽ (рядом, поблизости).",
+    "pieCognateConnection": {
+      "root": "*bʰā-",
+      "russian": "баять / речь",
+      "hindi": "pās (близость / присутствие)",
+      "meaning": "Пространственная локализация"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 12: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d12_v01",
+      "devanagari": "शौचालय",
+      "transliterationIso": "Shaucālay / Toilet",
+      "phoneticCyrillic": "Шаучалай / Тойлет",
+      "translationRu": "Туалет / Уборная",
+      "translationEn": "Toilet / Restroom",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "В живой речи в 99% случаев используется английское слово Toilet или Washroom."
+    },
+    {
+      "id": "d12_v02",
+      "devanagari": "दवा की दुकान",
+      "transliterationIso": "Davā kī dukān / Pharmacy",
+      "phoneticCyrillic": "Даваа кии дукаан / Фармаси",
+      "translationRu": "Аптека (букв. магазин лекарств)",
+      "translationEn": "Pharmacy / Medical store",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Davā (лекарство) + kī dukān (магазин)."
+    },
+    {
+      "id": "d12_v03",
+      "devanagari": "एटीएम",
+      "transliterationIso": "ATM",
+      "phoneticCyrillic": "Эй-Тии-Эм",
+      "translationRu": "Банкомат",
+      "translationEn": "ATM",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Произносится как по-английски."
+    },
+    {
+      "id": "d12_v04",
+      "devanagari": "टिकट काउंटर",
+      "transliterationIso": "Ticket counter",
+      "phoneticCyrillic": "Тикат каунтер",
+      "translationRu": "Билетная касса",
+      "translationEn": "Ticket counter",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Универсальный индийский термин."
+    },
+    {
+      "id": "d12_v05",
+      "devanagari": "पास में",
+      "transliterationIso": "Pās mẽ",
+      "phoneticCyrillic": "Паас мэⁿ",
+      "translationRu": "Поблизости / Рядом",
+      "translationEn": "Nearby / In the vicinity",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Носовое 'мэⁿ'."
+    },
+    {
+      "id": "d12_v06",
+      "devanagari": "पानी",
+      "transliterationIso": "Pānī",
+      "phoneticCyrillic": "Паании",
+      "translationRu": "Вода",
+      "translationEn": "Water",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Непридыхательный 'п' + долгие гласные."
+    },
+    {
+      "id": "d12_v07",
+      "devanagari": "दुकान",
+      "transliterationIso": "Dukān",
+      "phoneticCyrillic": "Дукаан",
+      "translationRu": "Магазин / Лавка",
+      "translationEn": "Shop / Store",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Зубной 'д' + долгий 'аа'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d12_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите вопрос: 'Где туалет?' (Туалет + где + есть?)",
+      "prompt": "Где туалет?",
+      "wordChips": [
+        "Washroom",
+        "kahā̃",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Washroom",
+        "kahā̃",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Вашруум кахааⁿ хэ",
+      "explanationRu": "Washroom / Toilet + kahā̃ + hai?",
+      "instructionEn": "Exercise instruction: Соберите вопрос: 'Где туалет?' (Туалет + где + есть?)",
+      "explanationEn": "Washroom / Toilet + kahā̃ + hai?"
+    },
+    {
+      "id": "d12_ex02",
+      "type": "fill_in_blank",
+      "instructionRu": "Спросите: 'Есть ли поблизости банкомат?'",
+      "prompt": "Kyā _____ ATM hai?",
+      "options": [
+        "pās mẽ",
+        "vahā̃ sē",
+        "gāṛī mẽ"
+      ],
+      "correctAnswer": "pās mẽ",
+      "transliterationIsoTarget": "Kyā pās mẽ ATM hai?",
+      "explanationRu": "Pās mẽ = поблизости.",
+      "instructionEn": "Exercise instruction: Спросите: 'Есть ли поблизости банкомат?'",
+      "explanationEn": "Pās mẽ = поблизости."
+    },
+    {
+      "id": "d12_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Вам срочно нужна аптека. Спросите прохожего за 3 секунды.",
+      "prompt": "Срочный поиск аптеки",
+      "options": [
+        "Māf kījiye, pharmacy kahā̃ hai?",
+        "Main pharmacy hū̃!",
+        "Pharmacy bahut acchā hai!"
+      ],
+      "correctAnswer": "Māf kījiye, pharmacy kahā̃ hai?",
+      "phoneticCyrillicTarget": "Мааф кииджие, фармаси кахааⁿ хэ?",
+      "explanationRu": "Вежливое обращение + объект + kahā̃ hai?",
+      "instructionEn": "Exercise instruction: Вам срочно нужна аптека. Спросите прохожего за 3 секунды.",
+      "explanationEn": "Вежливое обращение + объект + kahā̃ hai?"
+    },
+    {
+      "id": "d12_ex04",
+      "type": "substitution_drill",
+      "instructionRu": "Уточните, где билетная касса",
+      "prompt": "Ticket counter _____ hai?",
+      "options": [
+        "kahā̃",
+        "kaun",
+        "kyū̃"
+      ],
+      "correctAnswer": "kahā̃",
+      "transliterationIsoTarget": "Ticket counter kahā̃ hai?",
+      "explanationRu": "Kahā̃ = где.",
+      "instructionEn": "Exercise instruction: Уточните, где билетная касса",
+      "explanationEn": "Kahā̃ = где."
+    },
+    {
+      "id": "d12_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Туалет / Уборная'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Toilet / Restroom' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Туалет / Уборная»?",
+      "options": [
+        "Shaucālay / Toilet!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Shaucālay / Toilet!",
+      "phoneticCyrillicTarget": "Шаучалай / Тойлет!",
+      "transliterationIsoTarget": "Shaucālay / Toilet!",
+      "explanationRu": "Правильный и уверенный устный ответ: Shaucālay / Toilet!",
+      "explanationEn": "Correct and confident verbal response: Shaucālay / Toilet!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Поиск банкомата и туалета на вокзале",
+    "setting": "Главный вестибюль вокзала",
+    "partnerRoleRu": "Сотрудник вокзала в форме",
+    "learnerRoleRu": "Пассажирка с рюкзаком",
+    "turns": [
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Извините, пожалуйста! Где здесь туалет?",
+        "speechIso": "Māf kījiye jī! Toilet kahā̃ hai?",
+        "speechCyrillic": "Мааф кииджие джии! Тойлет кахааⁿ хэ?",
+        "learnerHintRu": "Задайте вежливый вопрос о туалете",
+        "speechEn": "Извините, пожалуйста! Где здесь туалет?",
+        "learnerHintEn": "Hint: Задайте вежливый вопрос о туалете"
+      },
+      {
+        "speaker": "Сотрудник",
+        "speechRu": "Туалет вон там, прямо и направо.",
+        "speechIso": "Toilet vahā̃ hai, sīdhē aur dāē̃.",
+        "speechCyrillic": "Тойлет вахааⁿ хэ, сиидхэ аур дааеⁿ.",
+        "learnerHintRu": "Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)",
+        "speechEn": "Туалет вон там, прямо и направо.",
+        "learnerHintEn": "Hint: Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "А поблизости есть банкомат?",
+        "speechIso": "Aur kyā pās mẽ ATM hai?",
+        "speechCyrillic": "Аур кйаа паас мэⁿ Эй-Тии-Эм хэ?",
+        "acceptableResponsesIso": [
+          "Kyā pās mẽ ATM hai?"
+        ],
+        "speechEn": "А поблизости есть банкомат?"
+      },
+      {
+        "speaker": "Сотрудник",
+        "speechRu": "Да, банкомат прямо возле выхода номер 1.",
+        "speechIso": "Hā̃, gate number 1 kē pās ATM hai.",
+        "speechCyrillic": "Хааⁿ, гейт намбар 1 ке паас Эй-Тии-Эм хэ.",
+        "learnerHintRu": "Поблагодарите: Bahut dhanyavād jī!",
+        "speechEn": "Да, банкомат прямо возле выхода номер 1.",
+        "learnerHintEn": "Hint: Поблагодарите: Bahut dhanyavād jī!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Inquiring About Urban Infrastructure and Facilities",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Слова 'Washroom' и 'Medical store' в Индии",
+    "pointsRu": [
+      "Слово 'Washroom' считается в индийском английском более деликатным и вежливым, чем 'Toilet'.",
+      "Аптеки в Индии почти всегда называются вывеской 'Chemist' или 'Medical Store'.",
+      "Банкоматы (ATM) часто имеют отдельного охранника у двери — не пугайтесь, он просто помогает с очередью."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 12)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Банкоматы (ATM) часто имеют отдельного охранника у двери — не пугайтесь, он просто помогает с очередью."
+    ]
+  },
+  "themeEn": "Inquiring About Urban Infrastructure and Facilities: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

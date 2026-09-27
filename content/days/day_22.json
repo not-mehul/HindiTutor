@@ -1,0 +1,285 @@
+{
+  "day": 22,
+  "phase": 3,
+  "title": {
+    "en": "Dative Experiencers 3: Preferences with Pasand",
+    "ru": "Дативный экспериенцер 3: Конструкция симпатии «Мне нравится» (Mujhē ... pasand hai)"
+  },
+  "theme": "Мне нравится индийская еда (Mujhē Indian khānā pasand hai), мне это не нравится",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция pasand с чистым зубным nd на конце)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Полное 1:1 совпадение: 'Мне нравится это' = 'Mujhē yeh pasand hai')",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Подстановка: мне нравится чай, Индия, этот город, эта музыка)",
+    "phase4SimulationMinutes": "17:00–20:00 (Светская беседа о впечатлениях от индийской кухни)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Master dative preference construction 'Mujhē [X] pasand hai'",
+      "Negate preferences with 'Mujhē yeh pasand nahī̃ hai'",
+      "Map Hindi pasand directly onto Russian 'нравится'"
+    ],
+    "ru": [
+      "Освоить дативную конструкцию предпочтения 'Mujhē [X] pasand hai' ('Мне нравится [X]')",
+      "Выражать антипатию: 'Mujhē yeh pasand nahī̃ hai' ('Мне это не нравится')",
+      "Опираться на полное структурное совпадение с русским оборотом 'Мне нравится'"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Непридыхательный смычный /p/ и носовая группа /nd/ в слове pasand (पसंद)",
+    "articulatoryMechanism": "Губной [п] без придыхания, краткий гласный [а], звонкий зубной переход [нд]: [пасанд].",
+    "russianInterferenceWarning": "Не оглушайте [д] на конце слова! Звук должен оставаться звонким.",
+    "drills": [
+      {
+        "prompt": "Отработка формулы симпатии",
+        "contrastPair": "Mujhē pasand hai (Мне нравится)",
+        "instructionsRu": "Произнесите связку: Mujhē chāi pasand hai (Мне нравится чай)."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Дативная конструкция предпочтения (Мне нравится)",
+    "russianParallel": "Снова идеальное 100% совпадение с русской когнитивной моделью: Русский: 'Мне [Датив] нравится [Предикат] индийская еда [Именительный]'. Хинди: 'Mujhē [Датив] Indian khānā [Именительный] pasand hai [Предикат]'. Никакого сопротивления языкового барьера!",
+    "syntacticFormula": "Mujhē + [Объект] + [pasand hai / pasand nahī̃ hai]",
+    "explanationRu": "Англоязычные студенты мучаются, пытаясь перестроить свой номинатив 'I like' в датив. Русскоязычный студент просто берет свое родное 'Мне нравится' и подставляет Mujhē ... pasand hai!",
+    "pieCognateConnection": {
+      "root": "*mendʰ-",
+      "russian": "мнить / мнение",
+      "hindi": "pasand (одобренное / приглянувшееся)",
+      "meaning": "Внутренняя оценка и предпочтение"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 22: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d22_v01",
+      "devanagari": "पसंद",
+      "transliterationIso": "Pasand",
+      "phoneticCyrillic": "Пасанд",
+      "translationRu": "Нравится / Угодный",
+      "translationEn": "Pleasing / Liked",
+      "partOfSpeech": "adjective",
+      "gender": "both",
+      "audioHint": "Ударение на второй слог."
+    },
+    {
+      "id": "d22_v02",
+      "devanagari": "भारतीय کھانا",
+      "transliterationIso": "Indian / Bhāratīya khānā",
+      "phoneticCyrillic": "Индиан / Бхааратиийа кхаанаа",
+      "translationRu": "Индийская еда",
+      "translationEn": "Indian food",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Khānā — еда."
+    },
+    {
+      "id": "d22_v03",
+      "devanagari": "मसाला चाय",
+      "transliterationIso": "Masālā chāi",
+      "phoneticCyrillic": "Масаалаа чаай",
+      "translationRu": "Чай со специями (масала чай)",
+      "translationEn": "Spiced tea (Masala chai)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Традиционный чай."
+    },
+    {
+      "id": "d22_v04",
+      "devanagari": "बहुत अच्छा",
+      "transliterationIso": "Bahut acchā",
+      "phoneticCyrillic": "Бахут аччхаа",
+      "translationRu": "Очень хорошо / Прекрасно",
+      "translationEn": "Very good / Great",
+      "partOfSpeech": "phrase",
+      "gender": "m",
+      "audioHint": "Удвоенный 'ччх' + долгий 'аа'."
+    },
+    {
+      "id": "d22_v05",
+      "devanagari": "धन्यवाद",
+      "transliterationIso": "Dhanyavād",
+      "phoneticCyrillic": "Дханьяваад",
+      "translationRu": "Спасибо (благодарность)",
+      "translationEn": "Thank you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "audioHint": "Придыхательное 'дх' + долгий 'аа'."
+    },
+    {
+      "id": "d22_v06",
+      "devanagari": "चाय",
+      "transliterationIso": "Chāi",
+      "phoneticCyrillic": "Чаай",
+      "translationRu": "Чай",
+      "translationEn": "Tea",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "audioHint": "Долгий 'аа' + краткий 'й'."
+    },
+    {
+      "id": "d22_v07",
+      "devanagari": "बहुत पसंद है",
+      "transliterationIso": "Bahut pasand hai",
+      "phoneticCyrillic": "Бахут пасанд хэ",
+      "translationRu": "Очень нравится",
+      "translationEn": "I like it very much",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Стандартная формула высшей похвалы."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d22_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите признание: 'Мне нравится индийская еда' (Мне + индийская еда + нравится + есть)",
+      "prompt": "Мне нравится индийская еда",
+      "wordChips": [
+        "Mujhē",
+        "Indian khānā",
+        "pasand",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Mujhē",
+        "Indian khānā",
+        "pasand",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Муджхе индиан кхаанаа пасанд хэ",
+      "explanationRu": "Mujhē (мне) + Объект + pasand hai (нравится).",
+      "instructionEn": "Exercise instruction: Соберите признание: 'Мне нравится индийская еда' (Мне + индийская еда + нравится + есть)",
+      "explanationEn": "Mujhē (мне) + Объект + pasand hai (нравится)."
+    },
+    {
+      "id": "d22_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Скажите, что вам не нравится это блюдо",
+      "prompt": "Mujhē yeh _____ nahī̃ hai.",
+      "options": [
+        "pasand",
+        "shukriyā",
+        "chaliye"
+      ],
+      "correctAnswer": "pasand",
+      "transliterationIsoTarget": "Mujhē yeh pasand nahī̃ hai.",
+      "explanationRu": "Mujhē yeh pasand nahī̃ hai = Мне это не нравится.",
+      "instructionEn": "Exercise instruction: Скажите, что вам не нравится это блюдо",
+      "explanationEn": "Mujhē yeh pasand nahī̃ hai = Мне это не нравится."
+    },
+    {
+      "id": "d22_ex03",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Хозяин отеля спрашивает: 'Kyā āpkō masālā chāi pasand hai?'. Ответьте с улыбкой за 2 секунды.",
+      "prompt": "Вам нравится чай масала?",
+      "options": [
+        "Hā̃! Mujhē masālā chāi bahut pasand hai!",
+        "Nahī̃, main hotel mẽ hū̃!",
+        "Kitnā time lagēgā?"
+      ],
+      "correctAnswer": "Hā̃! Mujhē masālā chāi bahut pasand hai!",
+      "phoneticCyrillicTarget": "Хааⁿ! Муджхе масаалаа чаай бахут пасанд хэ!",
+      "explanationRu": "Да, мне очень нравится чай масала!",
+      "instructionEn": "Exercise instruction: Хозяин отеля спрашивает: 'Kyā āpkō masālā chāi pasand hai?'. Ответьте с улыбкой за 2 секунды.",
+      "explanationEn": "Да, мне очень нравится чай масала!"
+    },
+    {
+      "id": "d22_ex04",
+      "type": "fill_in_blank",
+      "instructionRu": "Задайте вопрос: 'Вам нравится Дели?'",
+      "prompt": "Kyā āpkō Delhi _____ hai?",
+      "options": [
+        "pasand",
+        "chāhiye",
+        "garam"
+      ],
+      "correctAnswer": "pasand",
+      "transliterationIsoTarget": "Kyā āpkō Delhi pasand hai?",
+      "explanationRu": "Āpkō (вам) + Delhi + pasand hai (нравится)?",
+      "instructionEn": "Exercise instruction: Задайте вопрос: 'Вам нравится Дели?'",
+      "explanationEn": "Āpkō (вам) + Delhi + pasand hai (нравится)?"
+    },
+    {
+      "id": "d22_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Нравится / Угодный'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'Pleasing / Liked' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Нравится / Угодный»?",
+      "options": [
+        "Pasand!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Pasand!",
+      "phoneticCyrillicTarget": "Пасанд!",
+      "transliterationIsoTarget": "Pasand!",
+      "explanationRu": "Правильный и уверенный устный ответ: Pasand!",
+      "explanationEn": "Correct and confident verbal response: Pasand!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Беседа о впечатлениях от индийской кухни",
+    "setting": "Гостиная в гестхаусе после завтрака",
+    "partnerRoleRu": "Хозяйка дома",
+    "learnerRoleRu": "Гостья",
+    "turns": [
+      {
+        "speaker": "Хозяйка",
+        "speechRu": "Доброе утро! Вам понравился индийский завтрак?",
+        "speechIso": "Namastē! Kyā āpkō Indian breakfast pasand hai?",
+        "speechCyrillic": "Намастэ! Кйаа аапко индиан брэкфаст пасанд хэ?",
+        "learnerHintRu": "Скажите: Да, мне очень нравится индийская еда! (Hā̃, mujhē Indian khānā bahut pasand hai)",
+        "speechEn": "Доброе утро! Вам понравился индийский завтрак?",
+        "learnerHintEn": "Hint: Скажите: Да, мне очень нравится индийская еда! (Hā̃, mujhē Indian khānā bahut pasand hai)"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, мне очень нравится индийская кухня! Все очень вкусно.",
+        "speechIso": "Hā̃-jī! Mujhē Indian khānā bahut pasand hai. Bahut svādishṭ hai!",
+        "speechCyrillic": "Хааⁿ-джии! Муджхе индиан кхаанаа бахут пасанд хэ. Бахут сваадишт хэ!",
+        "acceptableResponsesIso": [
+          "Mujhē Indian khānā bahut pasand hai!"
+        ],
+        "speechEn": "Да, мне очень нравится индийская кухня! Все очень вкусно."
+      },
+      {
+        "speaker": "Хозяйка",
+        "speechRu": "Как приятно слышать! Еще чашечку масала чая налить?",
+        "speechIso": "Bahut acchā! Ek aur masālā chāi dū̃?",
+        "speechCyrillic": "Бахут аччхаа! Эк аур масаалаа чаай дууⁿ?",
+        "learnerHintRu": "Согласитесь с радостью: Hā̃-jī, shukriyā!",
+        "speechEn": "Как приятно слышать! Еще чашечку масала чая налить?",
+        "learnerHintEn": "Hint: Согласитесь с радостью: Hā̃-jī, shukriyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Да, пожалуйста! Большое спасибо.",
+        "speechIso": "Hā̃-jī, ek aur chāi dījiye. Shukriyā!",
+        "speechCyrillic": "Хааⁿ-джии, эк аур чаай дииджие. Шукрийа!",
+        "acceptableResponsesIso": [
+          "Hā̃-jī, shukriyā!"
+        ],
+        "speechEn": "Да, пожалуйста! Большое спасибо."
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Dative Experiencers 3: Preferences with Pasand",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Искренность в индийском диалоге",
+    "pointsRu": [
+      "Фраза 'Mujhē Bhārat pasand hai' (Мне нравится Индия) открывает любые двери и растапливает любые сердца.",
+      "Индийцы обожают расспрашивать иностранцев об их вкусах и всегда стараются угостить любимым блюдом.",
+      "Конструкция с pasand употребляется как для еды, так и для городов, музыки и людей."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 22)",
+    "pointsEn": [
+      "Cultural insight: Фраза 'Mujhē Bhārat pasand hai' (Мне нравится Индия) открывает любые двери и растапливает любые сердца.",
+      "Cultural insight: Индийцы обожают расспрашивать иностранцев об их вкусах и всегда стараются угостить любимым блюдом.",
+      "Cultural insight: Конструкция с pasand употребляется как для еды, так и для городов, музыки и людей."
+    ]
+  },
+  "themeEn": "Dative Experiencers 3: Preferences with Pasand: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

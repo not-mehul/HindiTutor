@@ -1,0 +1,295 @@
+{
+  "day": 7,
+  "phase": 1,
+  "title": {
+    "en": "Spatial Deixis and Demonstratives",
+    "ru": "Пространственная дейксис: указательные местоимения (Этот/Тот, Здесь/Там)"
+  },
+  "theme": "Yeh (этот/он/она) и Voh (тот/он/она), Yahā̃ (здесь) и Vahā̃ (там)",
+  "estimatedMinutes": 20,
+  "cognitiveTimeAllocation": {
+    "phase1WarmupMinutes": "00:00–04:00 (Артикуляция кратких гласных в Yeh / Voh и назализации в Yahā̃ / Vahā̃)",
+    "phase2StructuralCoreMinutes": "04:00–11:00 (Нейтрализация рода местоимений 3-го лица: Yeh = он/она/это)",
+    "phase3ShadowingDrillsMinutes": "11:00–17:00 (Указание на ближние и дальние объекты)",
+    "phase4SimulationMinutes": "17:00–20:00 (Ориентирование в номере гостиницы)"
+  },
+  "learningObjectives": {
+    "en": [
+      "Contrast proximal (Yeh, Yahā̃) and distal (Voh, Vahā̃) demonstratives",
+      "Understand that 3rd person pronouns collapse gender distinctions",
+      "Direct people using Yahā̃ baithiye (Sit here) and Vahā̃ jāiye (Go there)"
+    ],
+    "ru": [
+      "Различать ближний (Yeh, Yahā̃ = этот, здесь) и дальний (Voh, Vahā̃ = тот, там) дейксис",
+      "Усвоить, что местоимения Yeh и Voh заменяют слова 'он', 'она', 'оно' без различия рода",
+      "Использовать связки с указанием места: 'Yahā̃ baithiye' (садитесь здесь), 'Vahā̃ jāiye' (идите туда)"
+    ]
+  },
+  "phoneticFocus": {
+    "targetSound": "Лабиодентальный /v/ (व) и полугласный /y/ (य) в начале дейктиков",
+    "articulatoryMechanism": "Для 'Voh' губы слегка сближаются (звук средний между русским [в] и английским [w]). В 'Yahā̃' чистый [йахааⁿ].",
+    "russianInterferenceWarning": "Не оглушайте 'v' на конце слогов. Следите за долготой носового гласного в yahā̃ / vahā̃.",
+    "drills": [
+      {
+        "prompt": "Пары 'здесь — там'",
+        "contrastPair": "Yahā̃ (здесь) vs Vahā̃ (там)",
+        "instructionsRu": "Произносите парно с указательным жестом рукой: [йахааⁿ] — [вахааⁿ]."
+      }
+    ]
+  },
+  "contrastiveBridge": {
+    "grammarConcept": "Пространственный дейксис и местоимения 3-го лица",
+    "russianParallel": "Строгое соответствие русской паре 'этот / тот' и 'здесь / там'. Главное отличие от русского языка: в хинди местоимения 3-го лица НЕ делятся по родам! Yeh значит и 'он', и 'она', и 'это' (близко); Voh значит 'он', 'она', 'то' (далеко).",
+    "syntacticFormula": "[Yeh / Voh] + [Существительное] + [hai]",
+    "explanationRu": "В разговорной речи Yeh часто произносится как [ye] или [e], а Voh как [vo] или [o]. Это колоссально упрощает общение, так как не нужно думать о роде местоимения при указании на предмет.",
+    "pieCognateConnection": {
+      "root": "*e- / *ey-",
+      "russian": "этот / эта",
+      "hindi": "yeh / yahā̃",
+      "meaning": "Праиндоевропейская дейктическая основа"
+    },
+    "explanationEn": "Contrastive structural alignment for Day 7: Bridges native Russian grammatical categories with spoken Hindi SOV order and honorific verb agreement."
+  },
+  "vocabulary": [
+    {
+      "id": "d07_v01",
+      "devanagari": "यह",
+      "transliterationIso": "Yeh",
+      "phoneticCyrillic": "Йе",
+      "translationRu": "Этот / Эта / Это / Он / Она (вблизи)",
+      "translationEn": "This / He / She / It (proximal)",
+      "partOfSpeech": "pronoun",
+      "gender": "both",
+      "audioHint": "В разговорной речи звучит как краткое открытое [йе]."
+    },
+    {
+      "id": "d07_v02",
+      "devanagari": "वह",
+      "transliterationIso": "Voh",
+      "phoneticCyrillic": "Во",
+      "translationRu": "Тот / Та / То / Он / Она (вдали)",
+      "translationEn": "That / He / She / It (distal)",
+      "partOfSpeech": "pronoun",
+      "gender": "both",
+      "audioHint": "Звучит как [во] или [о]."
+    },
+    {
+      "id": "d07_v03",
+      "devanagari": "यहाँ",
+      "transliterationIso": "Yahā̃",
+      "phoneticCyrillic": "Йахааⁿ",
+      "translationRu": "Здесь / Сюда",
+      "translationEn": "Here",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Носовой звук на конце."
+    },
+    {
+      "id": "d07_v04",
+      "devanagari": "वहाँ",
+      "transliterationIso": "Vahā̃",
+      "phoneticCyrillic": "Вахааⁿ",
+      "translationRu": "Там / Туда",
+      "translationEn": "There",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Носовой звук на конце."
+    },
+    {
+      "id": "d07_v05",
+      "devanagari": "बैठिए",
+      "transliterationIso": "Baithiye",
+      "phoneticCyrillic": "Бэтхие",
+      "translationRu": "Садитесь, пожалуйста",
+      "translationEn": "Please sit",
+      "partOfSpeech": "verb",
+      "gender": "both",
+      "audioHint": "Придыхательное [тх], суффикс вежливости -iye."
+    },
+    {
+      "id": "d07_v06",
+      "devanagari": "इधर",
+      "transliterationIso": "Idhar",
+      "phoneticCyrillic": "Идхар",
+      "translationRu": "Сюда / В эту сторону",
+      "translationEn": "Over here / This way",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Придыхательный звонкий 'дх' + чистый 'р'."
+    },
+    {
+      "id": "d07_v07",
+      "devanagari": "उधर",
+      "transliterationIso": "Udhar",
+      "phoneticCyrillic": "Удхар",
+      "translationRu": "Туда / В ту сторону",
+      "translationEn": "Over there / That way",
+      "partOfSpeech": "adverb",
+      "gender": "n/a",
+      "audioHint": "Краткий 'у' + придыхательный 'дх'."
+    },
+    {
+      "id": "d07_v08",
+      "devanagari": "पास में",
+      "transliterationIso": "Pās mẽ",
+      "phoneticCyrillic": "Паас мееⁿ",
+      "translationRu": "Поблизости / Рядом",
+      "translationEn": "Nearby / Close by",
+      "partOfSpeech": "phrase",
+      "gender": "n/a",
+      "audioHint": "Долгий 'аа' + носовой 'мееⁿ'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d07_ex01",
+      "type": "word_reorder_sov",
+      "instructionRu": "Соберите предложение: 'Это отель' (Этот + отель + есть)",
+      "prompt": "Это гостиница",
+      "wordChips": [
+        "Yeh",
+        "hotel",
+        "hai"
+      ],
+      "correctAnswer": [
+        "Yeh",
+        "hotel",
+        "hai"
+      ],
+      "phoneticCyrillicTarget": "Йе хотел хэ",
+      "explanationRu": "Yeh (это) + hotel + hai (есть).",
+      "instructionEn": "Exercise instruction: Соберите предложение: 'Это отель' (Этот + отель + есть)",
+      "explanationEn": "Yeh (это) + hotel + hai (есть)."
+    },
+    {
+      "id": "d07_ex02",
+      "type": "substitution_drill",
+      "instructionRu": "Предложите гостю: 'Садитесь сюда, пожалуйста'",
+      "prompt": "_____ baithiye (Садитесь здесь)",
+      "options": [
+        "Yahā̃",
+        "Vahā̃",
+        "Kyā"
+      ],
+      "correctAnswer": "Yahā̃",
+      "transliterationIsoTarget": "Yahā̃ baithiye",
+      "explanationRu": "Yahā̃ означает 'здесь / сюда'.",
+      "instructionEn": "Exercise instruction: Предложите гостю: 'Садитесь сюда, пожалуйста'",
+      "explanationEn": "Yahā̃ означает 'здесь / сюда'."
+    },
+    {
+      "id": "d07_ex03",
+      "type": "fill_in_blank",
+      "instructionRu": "Укажите на дальний объект (Вон там)",
+      "prompt": "Station _____ hai. (Вокзал вон там)",
+      "options": [
+        "vahā̃",
+        "yahā̃",
+        "yeh"
+      ],
+      "correctAnswer": "vahā̃",
+      "transliterationIsoTarget": "Station vahā̃ hai",
+      "explanationRu": "Vahā̃ означает 'там / вон там'.",
+      "instructionEn": "Exercise instruction: Укажите на дальний объект (Вон там)",
+      "explanationEn": "Vahā̃ означает 'там / вон там'."
+    },
+    {
+      "id": "d07_ex04",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Укажите на блюдо на столе и спросите: 'Что это?'",
+      "prompt": "Что это?",
+      "options": [
+        "Yeh kyā hai?",
+        "Voh kahā̃ hai?",
+        "Kyā hai yeh?"
+      ],
+      "correctAnswer": "Yeh kyā hai?",
+      "phoneticCyrillicTarget": "Йе кйаа хэ?",
+      "explanationRu": "Yeh kyā hai? — универсальный вопрос при изучении индийских блюд и предметов.",
+      "instructionEn": "Exercise instruction: Укажите на блюдо на столе и спросите: 'Что это?'",
+      "explanationEn": "Yeh kyā hai? — универсальный вопрос при изучении индийских блюд и предметов."
+    },
+    {
+      "id": "d07_ex05",
+      "type": "rapid_oral_challenge",
+      "instructionRu": "Ситуативный вызов: Произнесите за 3 секунды целевое выражение 'Этот / Эта / Это / Он / Она (вблизи)'",
+      "instructionEn": "Rapid challenge: Speak the target phrase 'This / He / She / It (proximal)' within 3 seconds",
+      "prompt": "Как сказать по-хинди: «Этот / Эта / Это / Он / Она (вблизи)»?",
+      "options": [
+        "Yeh!",
+        "Nahī̃ jī!",
+        "Bahut mahangā!"
+      ],
+      "correctAnswer": "Yeh!",
+      "phoneticCyrillicTarget": "Йе!",
+      "transliterationIsoTarget": "Yeh!",
+      "explanationRu": "Правильный и уверенный устный ответ: Yeh!",
+      "explanationEn": "Correct and confident verbal response: Yeh!"
+    }
+  ],
+  "simulationRoleplay": {
+    "scenarioTitleRu": "Заселение в номер и осмотр удобств",
+    "setting": "Гостиничный номер",
+    "partnerRoleRu": "Коридорный / портье",
+    "learnerRoleRu": "Постоялица",
+    "turns": [
+      {
+        "speaker": "Портье",
+        "speechRu": "Пожалуйста, проходите. Это ваш номер.",
+        "speechIso": "Āiye jī, yeh āpkā room hai.",
+        "speechCyrillic": "Ааие джии, йе аапкаа руум хэ.",
+        "learnerHintRu": "Поблагодарите: Bahut acchā, shukriyā!",
+        "speechEn": "Пожалуйста, проходите. Это ваш номер.",
+        "learnerHintEn": "Hint: Поблагодарите: Bahut acchā, shukriyā!"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Очень хорошо, спасибо!",
+        "speechIso": "Bahut acchā, shukriyā!",
+        "speechCyrillic": "Бахут аччхаа, шукрийа!",
+        "acceptableResponsesIso": [
+          "Shukriyā jī",
+          "Bahut acchā!"
+        ],
+        "speechEn": "Очень хорошо, спасибо!"
+      },
+      {
+        "speaker": "Портье",
+        "speechRu": "Садитесь здесь, пожалуйста. Вода вон там.",
+        "speechIso": "Yahā̃ baithiye. Pānī vahā̃ hai.",
+        "speechCyrillic": "Йахааⁿ бэтхие. Паании вахааⁿ хэ.",
+        "learnerHintRu": "Скажите 'Ṭhīk hai, dhanyavād!'",
+        "speechEn": "Садитесь здесь, пожалуйста. Вода вон там.",
+        "learnerHintEn": "Hint: Скажите 'Ṭhīk hai, dhanyavād!'"
+      },
+      {
+        "speaker": "Вы (ученица)",
+        "speechRu": "Хорошо, спасибо большое!",
+        "speechIso": "Ṭhīk hai, dhanyavād!",
+        "speechCyrillic": "Т͟хиик хэ, дханьяваад!",
+        "acceptableResponsesIso": [
+          "Ṭhīk hai jī"
+        ],
+        "speechEn": "Хорошо, спасибо большое!"
+      }
+    ],
+    "scenarioTitleEn": "Conversational Simulation: Spatial Deixis and Demonstratives",
+    "partnerRoleEn": "Indian Conversation Partner",
+    "learnerRoleEn": "Traveler / Learner"
+  },
+  "culturalPragmatics": {
+    "titleRu": "Жесты указания на предметы и людей",
+    "pointsRu": [
+      "В Индии указывать на человека одним указательным пальцем считается невежливым.",
+      "Используйте открытую ладонь или кивок подбородка при словах 'Yeh' (этот человек / предмет) или 'Voh'.",
+      "Приглашение сесть 'Baithiye' всегда произносится с теплым жестом ладони к креслу."
+    ],
+    "titleEn": "Cultural Pragmatics & Etiquette (Day 7)",
+    "pointsEn": [
+      "Always default to the formal pronoun 'Āp' with service workers, shopkeepers, and elders; it acts as a social shield ensuring respect.",
+      "Cultural insight: Используйте открытую ладонь или кивок подбородка при словах 'Yeh' (этот человек / предмет) или 'Voh'.",
+      "Cultural insight: Приглашение сесть 'Baithiye' всегда произносится с теплым жестом ладони к креслу."
+    ]
+  },
+  "themeEn": "Spatial Deixis and Demonstratives: Focus on verbal fluency, contrastive grammar, and real-life communicative interactions."
+}

@@ -1,0 +1,15 @@
+# Scratch and temporary directories
+scratch/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Web build artifacts & dependencies
+web/dist/
+web/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

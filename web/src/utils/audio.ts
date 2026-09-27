@@ -178,8 +178,9 @@ export const sfx = new SoundEffectsEngine();
 
 /**
  * Play pre-rendered studio neural MP3 file (100% Female Voice)
+ * Supports dynamic tempo / slow-motion playback (0.65x)
  */
-function playPreRecordedAudio(url: string): Promise<boolean> {
+function playPreRecordedAudio(url: string, rate: number = 1.0): Promise<boolean> {
   return new Promise((resolve) => {
     try {
       if (currentAudio) {
@@ -193,6 +194,25 @@ function playPreRecordedAudio(url: string): Promise<boolean> {
         resolvedUrl = `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}audio/${url.slice(7)}`;
       }
       currentAudio = new Audio(resolvedUrl);
+
+      // Slower voice support: apply playbackRate and preservesPitch immediately
+      currentAudio.defaultPlaybackRate = rate;
+      currentAudio.playbackRate = rate;
+      currentAudio.preservesPitch = true;
+
+      // Event listeners ensure playbackRate sticks across all browsers (including iOS Safari and Android Chrome)
+      currentAudio.addEventListener('loadedmetadata', () => {
+        if (currentAudio) {
+          currentAudio.defaultPlaybackRate = rate;
+          currentAudio.playbackRate = rate;
+        }
+      });
+      currentAudio.addEventListener('play', () => {
+        if (currentAudio) {
+          currentAudio.playbackRate = rate;
+        }
+      });
+
       currentAudio.onended = () => resolve(true);
       currentAudio.onerror = () => resolve(false);
       currentAudio.play().then(() => resolve(true)).catch(() => resolve(false));
@@ -208,9 +228,9 @@ function playPreRecordedAudio(url: string): Promise<boolean> {
 export function cleanTextForSpeech(input: string): string {
   if (!input) return '';
   // Remove parenthetical Russian commentary e.g. (зубной), (не смягчать 'т'!), (Большое спасибо!)
-  let cleaned = input.replace(/\([^)]*\)/g, '').trim();
-  // Remove quotes
-  cleaned = cleaned.replace(/['"«»]/g, '').trim();
+  let cleaned = input.replace(/[\(\[\{][^\)\]\}]*[\)\]\}]/g, '').trim();
+  // Remove quotes, brackets, and punctuation
+  cleaned = cleaned.replace(/['"«»\[\]]/g, '').trim();
   // If slash options present like "Khō gayā (m) / Khō gayī (f)", take first option
   if (cleaned.includes('/')) {
     cleaned = cleaned.split('/')[0].trim();
@@ -312,19 +332,28 @@ export async function speakHindi(textOrKey: string, rate: number = 0.85) {
 
   const raw = textOrKey.trim();
   const cleaned = cleanTextForSpeech(raw);
+  const noPunct = cleaned.replace(/[!?.,:;—\-_'"«»\[\]]/g, '').trim();
+  const rawNoPunct = raw.replace(/[!?.,:;—\-_'"«»\[\]]/g, '').trim();
 
   // Look up candidate keys in order of precision
   const candidates = [
     raw,
     cleaned,
+    noPunct,
+    rawNoPunct,
     raw.toLowerCase(),
     cleaned.toLowerCase(),
+    noPunct.toLowerCase(),
+    rawNoPunct.toLowerCase(),
     `text:${raw}`,
     `text:${cleaned}`,
+    `text:${noPunct}`,
     `text:${raw.toLowerCase()}`,
     `text:${cleaned.toLowerCase()}`,
+    `text:${noPunct.toLowerCase()}`,
     `vocab_${raw}`,
     `vocab_${cleaned}`,
+    `vocab_${noPunct}`,
     `roleplay_${raw}`,
     `phrase_${raw}`,
     `pair_${raw}`
@@ -333,7 +362,7 @@ export async function speakHindi(textOrKey: string, rate: number = 0.85) {
   for (const cand of candidates) {
     const match = audioManifest[cand];
     if (match && match.url) {
-      const success = await playPreRecordedAudio(match.url);
+      const success = await playPreRecordedAudio(match.url, rate);
       if (success) return;
     }
   }
@@ -341,11 +370,19 @@ export async function speakHindi(textOrKey: string, rate: number = 0.85) {
   // If text contains Cyrillic characters, transliterate to Devanagari
   if (/[\u0400-\u04FF]/.test(cleaned)) {
     const devanagariText = transliterateCyrillicToDevanagari(cleaned);
-    const devCandidates = [devanagariText, `text:${devanagariText}`, devanagariText.toLowerCase()];
+    const devNoPunct = transliterateCyrillicToDevanagari(noPunct);
+    const devCandidates = [
+      devanagariText,
+      devNoPunct,
+      `text:${devanagariText}`,
+      `text:${devNoPunct}`,
+      devanagariText.toLowerCase(),
+      devNoPunct.toLowerCase()
+    ];
     for (const dCand of devCandidates) {
       const match = audioManifest[dCand];
       if (match && match.url) {
-        const success = await playPreRecordedAudio(match.url);
+        const success = await playPreRecordedAudio(match.url, rate);
         if (success) return;
       }
     }

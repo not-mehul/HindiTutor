@@ -34,10 +34,53 @@ export const LessonRunner: React.FC = () => {
 
   if (!selectedDay) return null;
 
-  // Stages: 'warmup' -> 'theory' -> 'exercise' (indices 0..3) -> 'roleplay' -> 'completed'
+  // Stages: 'warmup' -> 'theory' -> 'exercise' (indices 0..4) -> 'roleplay' -> 'completed'
   type StageType = 'warmup' | 'theory' | 'exercise' | 'roleplay' | 'completed';
-  const [stage, setStage] = useState<StageType>('warmup');
-  const [exerciseIndex, setExerciseIndex] = useState<number>(0);
+  const [stage, setStage] = useState<StageType>(() => {
+    try {
+      const saved = localStorage.getItem('ht_lesson_progress');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.day === selectedDay.day && parsed.stage && parsed.stage !== 'completed') {
+          return parsed.stage;
+        }
+      }
+    } catch {}
+    return 'warmup';
+  });
+
+  const [exerciseIndex, setExerciseIndex] = useState<number>(() => {
+    try {
+      const saved = localStorage.getItem('ht_lesson_progress');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.day === selectedDay.day && typeof parsed.exerciseIndex === 'number') {
+          return Math.max(0, Math.min(selectedDay.exercises.length - 1, parsed.exerciseIndex));
+        }
+      }
+    } catch {}
+    return 0;
+  });
+
+  // Persist lesson progress in local cache
+  useEffect(() => {
+    if (stage !== 'completed') {
+      try {
+        localStorage.setItem(
+          'ht_lesson_progress',
+          JSON.stringify({
+            day: selectedDay.day,
+            stage,
+            exerciseIndex,
+          })
+        );
+      } catch {}
+    } else {
+      try {
+        localStorage.removeItem('ht_lesson_progress');
+      } catch {}
+    }
+  }, [selectedDay.day, stage, exerciseIndex]);
 
   // Exercise interaction state
   const currentExercise: Exercise | undefined = selectedDay.exercises[exerciseIndex];

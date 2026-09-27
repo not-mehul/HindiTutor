@@ -164,7 +164,8 @@
       "transliterationIsoTarget": "Kyā pās mẽ ATM hai?",
       "explanationRu": "Pās mẽ = поблизости.",
       "instructionEn": "Exercise instruction: Спросите: 'Есть ли поблизости банкомат?'",
-      "explanationEn": "Pās mẽ = поблизости."
+      "explanationEn": "Pās mẽ = поблизости.",
+      "devanagariTarget": "क्या पास में एटीएम है?"
     },
     {
       "id": "d12_ex03",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Ticket counter kahā̃ hai?",
       "explanationRu": "Kahā̃ = где.",
       "instructionEn": "Exercise instruction: Уточните, где билетная касса",
-      "explanationEn": "Kahā̃ = где."
+      "explanationEn": "Kahā̃ = где.",
+      "devanagariTarget": "टिकट काउंटर कहाँ है?"
     },
     {
       "id": "d12_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Шаучалай / Тойлет!",
       "transliterationIsoTarget": "Shaucālay / Toilet!",
       "explanationRu": "Правильный и уверенный устный ответ: Shaucālay / Toilet!",
-      "explanationEn": "Correct and confident verbal response: Shaucālay / Toilet!"
+      "explanationEn": "Correct and confident verbal response: Shaucālay / Toilet!",
+      "devanagariTarget": "शौचालय / टॉयलेट!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Мааф кииджие джии! Тойлет кахааⁿ хэ?",
         "learnerHintRu": "Задайте вежливый вопрос о туалете",
         "speechEn": "Извините, пожалуйста! Где здесь туалет?",
-        "learnerHintEn": "Hint: Задайте вежливый вопрос о туалете"
+        "learnerHintEn": "Hint: Задайте вежливый вопрос о туалете",
+        "speechDevanagari": "माफ़ कीजिए जी! टॉयलेट कहाँ है?"
       },
       {
         "speaker": "Сотрудник",
@@ -238,7 +242,8 @@
         "speechCyrillic": "Тойлет вахааⁿ хэ, сиидхэ аур дааеⁿ.",
         "learnerHintRu": "Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)",
         "speechEn": "Туалет вон там, прямо и направо.",
-        "learnerHintEn": "Hint: Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)"
+        "learnerHintEn": "Hint: Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)",
+        "speechDevanagari": "टॉयलेट वहाँ है, सीधे और दायें।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -248,7 +253,11 @@
         "acceptableResponsesIso": [
           "Kyā pās mẽ ATM hai?"
         ],
-        "speechEn": "А поблизости есть банкомат?"
+        "speechEn": "А поблизости есть банкомат?",
+        "speechDevanagari": "और क्या पास में एटीएम है?",
+        "acceptableResponsesDevanagari": [
+          "क्या पास में एटीएम है?"
+        ]
       },
       {
         "speaker": "Сотрудник",
@@ -257,7 +266,8 @@
         "speechCyrillic": "Хааⁿ, гейт намбар 1 ке паас Эй-Тии-Эм хэ.",
         "learnerHintRu": "Поблагодарите: Bahut dhanyavād jī!",
         "speechEn": "Да, банкомат прямо возле выхода номер 1.",
-        "learnerHintEn": "Hint: Поблагодарите: Bahut dhanyavād jī!"
+        "learnerHintEn": "Hint: Поблагодарите: Bahut dhanyavād jī!",
+        "speechDevanagari": "हाँ, गेट नंबर 1 के पास एटीएम है।"
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Inquiring About Urban Infrastructure and Facilities",

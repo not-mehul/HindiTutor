@@ -182,7 +182,8 @@
       "transliterationIsoTarget": "Main āj jāūṅgī.",
       "explanationRu": "Āj = сегодня.",
       "instructionEn": "Exercise instruction: Скажите, что вы уезжаете сегодня, а не завтра",
-      "explanationEn": "Āj = сегодня."
+      "explanationEn": "Āj = сегодня.",
+      "devanagariTarget": "मैं आज जाऊँगी।"
     },
     {
       "id": "d36_ex04",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "Shām ko milēṅgē!",
       "explanationRu": "Milēṅgē = встретимся.",
       "instructionEn": "Exercise instruction: Назначьте встречу вечером: 'Встретимся вечером'",
-      "explanationEn": "Milēṅgē = встретимся."
+      "explanationEn": "Milēṅgē = встретимся.",
+      "devanagariTarget": "शाम को मिलेंगे!"
     },
     {
       "id": "d36_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Кал!",
       "transliterationIsoTarget": "Kal!",
       "explanationRu": "Правильный и уверенный устный ответ: Kal!",
-      "explanationEn": "Correct and confident verbal response: Kal!"
+      "explanationEn": "Correct and confident verbal response: Kal!",
+      "devanagariTarget": "कल!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Мадам, такси аа гайии. Аап аадж джаа рахии хэⁿ?",
         "learnerHintRu": "Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)",
         "speechEn": "Сестра, такси уже ждет. Вы сегодня едете в аэропорт?",
-        "learnerHintEn": "Hint: Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)"
+        "learnerHintEn": "Hint: Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)",
+        "speechDevanagari": "मैडम, टैक्सी आ गयी। आप आज जा रही हैं?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -241,7 +245,11 @@
         "acceptableResponsesIso": [
           "Main āj jāūṅgī. Bahut shukriyā!"
         ],
-        "speechEn": "Да, я сегодня уезжаю в Дели. Большое спасибо за теплый прием!"
+        "speechEn": "Да, я сегодня уезжаю в Дели. Большое спасибо за теплый прием!",
+        "speechDevanagari": "हाँ, मैं आज दिल्ली जाऊँगी। बहुत धन्यवाद जी!",
+        "acceptableResponsesDevanagari": [
+          "मैं आज जाऊँगी। बहुत शुक्रिया!"
+        ]
       },
       {
         "speaker": "Хозяин",
@@ -250,7 +258,8 @@
         "speechCyrillic": "Пхир ааие хамааре паас! Шубх йаатраа!",
         "learnerHintRu": "Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)",
         "speechEn": "Приезжайте к нам снова! Счастливого пути!",
-        "learnerHintEn": "Hint: Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)"
+        "learnerHintEn": "Hint: Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)",
+        "speechDevanagari": "फिर आइए हमारे पास! शुभ यात्रा!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -260,7 +269,11 @@
         "acceptableResponsesIso": [
           "Hum phir milēṅgē!"
         ],
-        "speechEn": "До свидания! Мы обязательно снова встретимся."
+        "speechEn": "До свидания! Мы обязательно снова встретимся.",
+        "speechDevanagari": "नमस्ते जी, हम फिर मिलेंगे!",
+        "acceptableResponsesDevanagari": [
+          "हम फिर मिलेंगे!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Future Intentions and Temporal Sequencing",

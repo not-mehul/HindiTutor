@@ -208,7 +208,8 @@
       "transliterationIsoTarget": "Shubh yātrā!",
       "explanationRu": "Shubh yātrā = Счастливого пути!",
       "instructionEn": "Exercise instruction: Пожелайте друзьям счастливого пути!",
-      "explanationEn": "Shubh yātrā = Счастливого пути!"
+      "explanationEn": "Shubh yātrā = Счастливого пути!",
+      "devanagariTarget": "शुभ यात्रा!"
     },
     {
       "id": "d40_ex05",
@@ -225,7 +226,8 @@
       "phoneticCyrillicTarget": "Йаатраа!",
       "transliterationIsoTarget": "Yātrā!",
       "explanationRu": "Правильный и уверенный устный ответ: Yātrā!",
-      "explanationEn": "Correct and confident verbal response: Yātrā!"
+      "explanationEn": "Correct and confident verbal response: Yātrā!",
+      "devanagariTarget": "यात्रा!"
     }
   ],
   "simulationRoleplay": {
@@ -241,7 +243,8 @@
         "speechCyrillic": "Кахааⁿ джаанаа хэ мадам?",
         "learnerHintRu": "Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)",
         "speechEn": "Куда ехать, мадам?",
-        "learnerHintEn": "Hint: Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)"
+        "learnerHintEn": "Hint: Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)",
+        "speechDevanagari": "कहाँ जाना है मैडम?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -251,7 +254,11 @@
         "acceptableResponsesIso": [
           "Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo."
         ],
-        "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик, пожалуйста."
+        "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик, пожалуйста.",
+        "speechDevanagari": "भैया, ताज होटल जाना है। मीटर चलाओ, प्लीज।",
+        "acceptableResponsesDevanagari": [
+          "भैया, ताज होटल जाना है। मीटर चलाओ।"
+        ]
       },
       {
         "speaker": "Сцена 2: Отель",
@@ -260,7 +267,8 @@
         "speechCyrillic": "Намастэ! Мераа наам Радж хэ. Аапкаа наам кйаа хэ?",
         "learnerHintRu": "Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
         "speechEn": "Здравствуйте! Меня зовут Радж. Как ваше имя?",
-        "learnerHintEn": "Hint: Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃."
+        "learnerHintEn": "Hint: Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
+        "speechDevanagari": "नमस्ते! मेरा नाम राज है। आपका नाम क्या है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -270,7 +278,11 @@
         "acceptableResponsesIso": [
           "Mērā nām Anna hai. Main Russia sē hū̃."
         ],
-        "speechEn": "Здравствуйте! Меня зовут Анна, я приехала из России."
+        "speechEn": "Здравствуйте! Меня зовут Анна, я приехала из России.",
+        "speechDevanagari": "नमस्ते जी! मेरा नाम अन्ना है। मैं रूस से हूँ।",
+        "acceptableResponsesDevanagari": [
+          "मेरा नाम अन्ना है। मैं रूस से हूँ।"
+        ]
       },
       {
         "speaker": "Сцена 3: Дхаба",
@@ -279,7 +291,8 @@
         "speechCyrillic": "Кхаанее мэⁿ кйаа чаахийе мадам?",
         "learnerHintRu": "Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!",
         "speechEn": "Что будете кушать?",
-        "learnerHintEn": "Hint: Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!"
+        "learnerHintEn": "Hint: Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!",
+        "speechDevanagari": "खाने में क्या चाहिए मैडम?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -289,7 +302,11 @@
         "acceptableResponsesIso": [
           "Dāl chāval dījiye, binā mirch kē. Pānī chāhiye."
         ],
-        "speechEn": "Дайте дал и рис, пожалуйста, совсем без перца! И бутылку воды Bisleri."
+        "speechEn": "Дайте дал и рис, пожалуйста, совсем без перца! И бутылку воды Bisleri.",
+        "speechDevanagari": "दाल और चावल दीजिए, बिना मिर्च के। और एक बिसलेरी पानी!",
+        "acceptableResponsesDevanagari": [
+          "दाल चावल दीजिए, बिना मिर्च के। पानी चाहिए।"
+        ]
       },
       {
         "speaker": "Сцена 4: Базар",
@@ -298,7 +315,8 @@
         "speechCyrillic": "800 рупае мадам, бэст прайс!",
         "learnerHintRu": "Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!",
         "speechEn": "Красивый сувенир, мадам! Всего восемьсот рупий.",
-        "learnerHintEn": "Hint: Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!"
+        "learnerHintEn": "Hint: Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!",
+        "speechDevanagari": "800 रुपये मैडम, बेस्ट प्राइस!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -308,7 +326,11 @@
         "acceptableResponsesIso": [
           "Bahut zyādā hai! Chār sau rupayē dījiye!"
         ],
-        "speechEn": "Слишком много! Назовите честную цену. Отдайте за четыреста рупий!"
+        "speechEn": "Слишком много! Назовите честную цену. Отдайте за четыреста рупий!",
+        "speechDevanagari": "बहुत ज़्यादा है! सही दाम लगाइए। चार सौ रुपये दीजिए!",
+        "acceptableResponsesDevanagari": [
+          "बहुत ज़्यादा है! चार सौ रुपये दीजिए!"
+        ]
       },
       {
         "speaker": "Сцена 5: Прощание",
@@ -317,7 +339,8 @@
         "speechCyrillic": "Лииджие мадам! Аап бахут аччхии Хиндии болтии хэⁿ. Шубх йаатраа!",
         "learnerHintRu": "Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!",
         "speechEn": "Договорились, забирайте! Вы потрясающе говорите на хинди. Счастливого пути!",
-        "learnerHintEn": "Hint: Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!"
+        "learnerHintEn": "Hint: Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!",
+        "speechDevanagari": "लीजिए मैडम! आप बहुत अच्छी हिन्दी बोलती हैं। शुभ यात्रा!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -327,7 +350,11 @@
         "acceptableResponsesIso": [
           "Bahut dhanyavād jī! Hum phir milēṅgē!"
         ],
-        "speechEn": "Большое спасибо от всего сердца! До свидания, мы обязательно снова встретимся!"
+        "speechEn": "Большое спасибо от всего сердца! До свидания, мы обязательно снова встретимся!",
+        "speechDevanagari": "बहुत धन्यवाद जी! मुझे भारत बहुत पसंद है। हम फिर मिलेंगे!",
+        "acceptableResponsesDevanagari": [
+          "बहुत धन्यवाद जी! हम फिर मिलेंगे!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Integrated Travel Immersion Capstone",

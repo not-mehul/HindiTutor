@@ -188,7 +188,8 @@
       "transliterationIsoTarget": "Māf kījiye, station kahā̃ hai?",
       "explanationRu": "Māf kījiye используется для привлечения внимания или извинения.",
       "instructionEn": "Exercise instruction: Вставьте форму вежливого извинения",
-      "explanationEn": "Māf kījiye используется для привлечения внимания или извинения."
+      "explanationEn": "Māf kījiye используется для привлечения внимания или извинения.",
+      "devanagariTarget": "माफ़ कीजिए, स्टेशन कहाँ है?"
     },
     {
       "id": "d04_ex03",
@@ -200,7 +201,8 @@
       "correctAnswer": "Kōī bāt nahī̃",
       "explanationRu": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость.",
       "instructionEn": "Exercise instruction: Произнесите фразу успокоения собеседника 'Ничего страшного'",
-      "explanationEn": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость."
+      "explanationEn": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость.",
+      "devanagariTarget": "कोई बात नहीं"
     },
     {
       "id": "d04_ex04",
@@ -216,7 +218,8 @@
       "transliterationIsoTarget": "Hā̃, ṭhīk hai!",
       "explanationRu": "Hā̃ (да) + ṭhīk hai (ладно / хорошо).",
       "instructionEn": "Exercise instruction: Подтвердите согласие с собеседником",
-      "explanationEn": "Hā̃ (да) + ṭhīk hai (ладно / хорошо)."
+      "explanationEn": "Hā̃ (да) + ṭhīk hai (ладно / хорошо).",
+      "devanagariTarget": "हाँ, ठीक है!"
     }
   ],
   "simulationRoleplay": {
@@ -232,7 +235,8 @@
         "speechCyrillic": "Ох, мааф кииджие джии!",
         "learnerHintRu": "Успокойте его: Ничего страшного, все в порядке!",
         "speechEn": "Ой, извините пожалуйста! Я задел ваш багаж.",
-        "learnerHintEn": "Hint: Успокойте его: Ничего страшного, все в порядке!"
+        "learnerHintEn": "Hint: Успокойте его: Ничего страшного, все в порядке!",
+        "speechDevanagari": "ओह, माफ़ कीजिए जी!"
       },
       {
         "speaker": "Вы (ученик)",
@@ -243,7 +247,12 @@
           "Kōī bāt nahī̃",
           "Ṭhīk hai jī, kōī bāt nahī̃"
         ],
-        "speechEn": "Ничего страшного, все хорошо!"
+        "speechEn": "Ничего страшного, все хорошо!",
+        "speechDevanagari": "कोई बात नहीं, ठीक है!",
+        "acceptableResponsesDevanagari": [
+          "कोई बात नहीं",
+          "ठीक है जी, कोई बात नहीं"
+        ]
       },
       {
         "speaker": "Попутчик",
@@ -252,7 +261,8 @@
         "speechCyrillic": "Бахут шукрийа!",
         "learnerHintRu": "Ответьте вежливым кивком 'Shukriyā jī'",
         "speechEn": "Большое спасибо за понимание!",
-        "learnerHintEn": "Hint: Ответьте вежливым кивком 'Shukriyā jī'"
+        "learnerHintEn": "Hint: Ответьте вежливым кивком 'Shukriyā jī'",
+        "speechDevanagari": "बहुत शुक्रिया!"
       },
       {
         "speaker": "Вы (ученик)",
@@ -262,7 +272,11 @@
         "acceptableResponsesIso": [
           "Dhanyavād jī"
         ],
-        "speechEn": "Пожалуйста!"
+        "speechEn": "Пожалуйста!",
+        "speechDevanagari": "शुक्रिया जी!",
+        "acceptableResponsesDevanagari": [
+          "धन्यवाद जी"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Core Politeness, Affirmation, and Negation",

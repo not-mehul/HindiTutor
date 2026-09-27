@@ -180,7 +180,8 @@
       "transliterationIsoTarget": "Binā mirch kē banāiye.",
       "explanationRu": "Binā [X] kē = без [X].",
       "instructionEn": "Exercise instruction: Попросите приготовить блюдо без перца",
-      "explanationEn": "Binā [X] kē = без [X]."
+      "explanationEn": "Binā [X] kē = без [X].",
+      "devanagariTarget": "बिना मिर्च के बनाइए।"
     },
     {
       "id": "d20_ex04",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Kam mirch, please!",
       "explanationRu": "Kam = мало / слабый.",
       "instructionEn": "Exercise instruction: Попросите положить совсем мало перца",
-      "explanationEn": "Kam = мало / слабый."
+      "explanationEn": "Kam = мало / слабый.",
+      "devanagariTarget": "कम मिर्च, प्लीज!"
     },
     {
       "id": "d20_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Шаакаахаарии!",
       "transliterationIsoTarget": "Shākāhārī!",
       "explanationRu": "Правильный и уверенный устный ответ: Shākāhārī!",
-      "explanationEn": "Correct and confident verbal response: Shākāhārī!"
+      "explanationEn": "Correct and confident verbal response: Shākāhārī!",
+      "devanagariTarget": "शाकाहारी!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Намастэ мадам! Чикен тикка йа Панир?",
         "learnerHintRu": "Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)",
         "speechEn": "Добрый вечер, мадам! Курицу тикка или панир будете заказывать?",
-        "learnerHintEn": "Hint: Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)"
+        "learnerHintEn": "Hint: Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)",
+        "speechDevanagari": "नमस्ते मैडम! चिकन टिक्का या पनीर?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -239,7 +243,11 @@
         "acceptableResponsesIso": [
           "Main shākāhārī hū̃. Binā mirch kē."
         ],
-        "speechEn": "Я вегетарианка. Панир, пожалуйста. И совсем без перца!"
+        "speechEn": "Я вегетарианка. Панир, пожалуйста. И совсем без перца!",
+        "speechDevanagari": "मैं शाकाहारी हूँ। पनीर दीजिए, बिना मिर्च के।",
+        "acceptableResponsesDevanagari": [
+          "मैं शाकाहारी हूँ। बिना मिर्च के।"
+        ]
       },
       {
         "speaker": "Официант",
@@ -248,7 +256,8 @@
         "speechCyrillic": "Тхоор͟ии мирч д͟аал дууⁿ?",
         "learnerHintRu": "Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)",
         "speechEn": "Немножко перца чили добавить для вкуса?",
-        "learnerHintEn": "Hint: Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)"
+        "learnerHintEn": "Hint: Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)",
+        "speechDevanagari": "थोड़ी मिर्च डाल दूँ?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -258,7 +267,11 @@
         "acceptableResponsesIso": [
           "Tīkhā mat banāiye!"
         ],
-        "speechEn": "Нет, перца совсем не надо! Остро не делайте."
+        "speechEn": "Нет, перца совсем не надо! Остро не делайте.",
+        "speechDevanagari": "नहीं, तीखा बिल्कुल मत बनाइए!",
+        "acceptableResponsesDevanagari": [
+          "तीखा मत बनाइए!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Dietary Restrictions, Spice Management, and Allergies",

@@ -206,7 +206,8 @@
       "transliterationIsoTarget": "Ṭhīk hai, pack kar dījiye!",
       "explanationRu": "Pack kar dījiye = Упакуйте.",
       "instructionEn": "Exercise instruction: Завершите сделку: 'Хорошо, заворачивайте в пакет!'",
-      "explanationEn": "Pack kar dījiye = Упакуйте."
+      "explanationEn": "Pack kar dījiye = Упакуйте.",
+      "devanagariTarget": "ठीक है, पैक्ड कर दीजिए!"
     },
     {
       "id": "d32_ex05",
@@ -223,7 +224,8 @@
       "phoneticCyrillicTarget": "Баазаар!",
       "transliterationIsoTarget": "Bāzār!",
       "explanationRu": "Правильный и уверенный устный ответ: Bāzār!",
-      "explanationEn": "Correct and confident verbal response: Bāzār!"
+      "explanationEn": "Correct and confident verbal response: Bāzār!",
+      "devanagariTarget": "बाज़ार!"
     }
   ],
   "simulationRoleplay": {
@@ -239,7 +241,8 @@
         "speechCyrillic": "Намастэ мадам! Хэндмейд вуден бокс! Сирф эк хазаар рупае.",
         "learnerHintRu": "Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)",
         "speechEn": "Намастэ, мадам! Посмотрите на этот резной деревянный сундук. Ручная работа! Всего одна тысяча рупий.",
-        "learnerHintEn": "Hint: Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)"
+        "learnerHintEn": "Hint: Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)",
+        "speechDevanagari": "नमस्ते मैडम! हैंडमेड लकड़ी बॉक्स! सिर्फ़ एक हज़ार रुपये।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -249,7 +252,11 @@
         "acceptableResponsesIso": [
           "Bahut zyādā hai! Pāñch sau rupayē dījiye!"
         ],
-        "speechEn": "Нет, брат! Тысяча рупий — это слишком дорого. Назовите честную цену. Пятьсот рупий!"
+        "speechEn": "Нет, брат! Тысяча рупий — это слишком дорого. Назовите честную цену. Пятьсот рупий!",
+        "speechDevanagari": "नहीं भैया! एक हज़ार बहुत ज़्यादा है। सही दाम लगाइए। पाँच सौ रुपये दीजिए!",
+        "acceptableResponsesDevanagari": [
+          "बहुत ज़्यादा है! पाँच सौ रुपये दीजिए!"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -258,7 +265,8 @@
         "speechCyrillic": "Паанч сау?! Нахииⁿ мадам, 700 рупае ласт прайс!",
         "learnerHintRu": "Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)",
         "speechEn": "Пятьсот?! Мадам, вы меня разорите! Семьсот рупий — последняя цена.",
-        "learnerHintEn": "Hint: Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)"
+        "learnerHintEn": "Hint: Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)",
+        "speechDevanagari": "पाँच सौ?! नहीं मैडम, 700 रुपये लास्ट प्राइस!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -268,7 +276,11 @@
         "acceptableResponsesIso": [
           "Chhah sau rupayē final! Pack kar dījiye!"
         ],
-        "speechEn": "Шестьсот рупий — окончательная цена. Договорились? Упакуйте!"
+        "speechEn": "Шестьсот рупий — окончательная цена. Договорились? Упакуйте!",
+        "speechDevanagari": "छह सौ रुपये फ़ाइनल। ठीक है? पैक्ड कर दीजिए!",
+        "acceptableResponsesDevanagari": [
+          "छह सौ रुपये फ़ाइनल! पैक्ड कर दीजिए!"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -277,7 +289,8 @@
         "speechCyrillic": "Аччхаа мадам, аап джиит гайииⁿ! Лииджие пэкт бокс.",
         "learnerHintRu": "Отдайте оплату: Paisē lījiye, bahut shukriyā!",
         "speechEn": "Хорошо, мадам, вы победили! Заворачиваю. С вас шестьсот рупий.",
-        "learnerHintEn": "Hint: Отдайте оплату: Paisē lījiye, bahut shukriyā!"
+        "learnerHintEn": "Hint: Отдайте оплату: Paisē lījiye, bahut shukriyā!",
+        "speechDevanagari": "अच्छा मैडम, आप जीत गयीं! लीजिए पैक्ड बॉक्स।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -287,7 +300,11 @@
         "acceptableResponsesIso": [
           "Paisē lījiye, shukriyā!"
         ],
-        "speechEn": "Возьмите шестьсот рупий. Большое спасибо!"
+        "speechEn": "Возьмите шестьсот рупий. Большое спасибо!",
+        "speechDevanagari": "छह सौ रुपये लीजिए। बहुत शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "पैसे लीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Phase 4 Synthesis and Street Market Simulation",

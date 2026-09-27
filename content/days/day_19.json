@@ -164,7 +164,8 @@
       "transliterationIsoTarget": "Ṭhaṇḍā pānī dījiye.",
       "explanationRu": "Ṭhaṇḍā = холодный.",
       "instructionEn": "Exercise instruction: Попросите холодную воду",
-      "explanationEn": "Ṭhaṇḍā = холодный."
+      "explanationEn": "Ṭhaṇḍā = холодный.",
+      "devanagariTarget": "ठंडा पानी दीजिए।"
     },
     {
       "id": "d19_ex03",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Kyā khānā garam hai?",
       "explanationRu": "Garam = горячий.",
       "instructionEn": "Exercise instruction: Уточните: 'Еда горячая?'",
-      "explanationEn": "Garam = горячий."
+      "explanationEn": "Garam = горячий.",
+      "devanagariTarget": "क्या खाना गर्म है?"
     },
     {
       "id": "d19_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Гарам!",
       "transliterationIsoTarget": "Garam!",
       "explanationRu": "Правильный и уверенный устный ответ: Garam!",
-      "explanationEn": "Correct and confident verbal response: Garam!"
+      "explanationEn": "Correct and confident verbal response: Garam!",
+      "devanagariTarget": "गर्म!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Намастэ мадам, кйаа пииенгии?",
         "learnerHintRu": "Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye",
         "speechEn": "Здравствуйте, что будете пить?",
-        "learnerHintEn": "Hint: Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye"
+        "learnerHintEn": "Hint: Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye",
+        "speechDevanagari": "नमस्ते मैडम, क्या पियेंगी?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -240,7 +244,12 @@
           "Bisleri bottle dījiye",
           "Bottled pānī dījiye"
         ],
-        "speechEn": "Здравствуйте! Дайте одну закрытую бутылку воды Bisleri, пожалуйста."
+        "speechEn": "Здравствуйте! Дайте одну закрытую бутылку воды Bisleri, пожалуйста.",
+        "speechDevanagari": "नमस्ते! एक बिसलेरी पानी बोतल दीजिए।",
+        "acceptableResponsesDevanagari": [
+          "बिसलेरी बोतल दीजिए",
+          "बोतलबंद पानी दीजिए"
+        ]
       },
       {
         "speaker": "Официант",
@@ -249,7 +258,8 @@
         "speechCyrillic": "Лииджие пэкиджд паании. Кхаанее мэⁿ кйаа чаахийе?",
         "learnerHintRu": "Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)",
         "speechEn": "Хорошо, вот вода. А из еды что принести?",
-        "learnerHintEn": "Hint: Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)"
+        "learnerHintEn": "Hint: Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)",
+        "speechDevanagari": "लीजिए पैक्ड पानी। खाने में क्या चाहिए?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -259,7 +269,11 @@
         "acceptableResponsesIso": [
           "Garam khānā dījiye"
         ],
-        "speechEn": "Еда должна быть свежей и горячей, пожалуйста."
+        "speechEn": "Еда должна быть свежей и горячей, пожалуйста.",
+        "speechDevanagari": "खाना गर्म होना चाहिए।",
+        "acceptableResponsesDevanagari": [
+          "गर्म खाना दीजिए"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Culinary Ordering: Temperatures, Water Safety, and Staples",

@@ -186,7 +186,8 @@
       "transliterationIsoTarget": "Yeh bahut sundar hai.",
       "explanationRu": "Sundar = красивый.",
       "instructionEn": "Exercise instruction: Сделайте комплимент храму или дворцу: 'Это здание очень красивое'",
-      "explanationEn": "Sundar = красивый."
+      "explanationEn": "Sundar = красивый.",
+      "devanagariTarget": "यह बहुत सुंदर है।"
     },
     {
       "id": "d38_ex04",
@@ -202,7 +203,8 @@
       "transliterationIsoTarget": "Āp bahut acchē haiñ.",
       "explanationRu": "Āp bahut acchē haiñ = Вы очень добрый/хороший.",
       "instructionEn": "Exercise instruction: Сделайте комплимент доброму собеседнику: 'Вы очень хороший человек'",
-      "explanationEn": "Āp bahut acchē haiñ = Вы очень добрый/хороший."
+      "explanationEn": "Āp bahut acchē haiñ = Вы очень добрый/хороший.",
+      "devanagariTarget": "आप बहुत अच्छे हैं।"
     },
     {
       "id": "d38_ex05",
@@ -219,7 +221,8 @@
       "phoneticCyrillicTarget": "Бхаарат!",
       "transliterationIsoTarget": "Bhārat!",
       "explanationRu": "Правильный и уверенный устный ответ: Bhārat!",
-      "explanationEn": "Correct and confident verbal response: Bhārat!"
+      "explanationEn": "Correct and confident verbal response: Bhārat!",
+      "devanagariTarget": "भारत!"
     }
   ],
   "simulationRoleplay": {
@@ -235,7 +238,8 @@
         "speechCyrillic": "Намастэ мадам! Хамаараа шахар аур дэш кэсаа лагаа?",
         "learnerHintRu": "Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)",
         "speechEn": "Добрый вечер, сестра! Как вам наш город и наша страна?",
-        "learnerHintEn": "Hint: Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)"
+        "learnerHintEn": "Hint: Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)",
+        "speechDevanagari": "नमस्ते मैडम! हमारा शहर और देश कैसा लगा?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -245,7 +249,11 @@
         "acceptableResponsesIso": [
           "Mujhē Bhārat bahut pasand hai!"
         ],
-        "speechEn": "Мне очень нравится Индия! Страна необычайно красивая."
+        "speechEn": "Мне очень нравится Индия! Страна необычайно красивая.",
+        "speechDevanagari": "मुझे भारत बहुत पसंद है! बहुत सुंदर देश है।",
+        "acceptableResponsesDevanagari": [
+          "मुझे भारत बहुत पसंद है!"
+        ]
       },
       {
         "speaker": "Глава семьи",
@@ -254,7 +262,8 @@
         "speechCyrillic": "Аур йахааⁿ ке лог кэсе хэⁿ?",
         "learnerHintRu": "Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)",
         "speechEn": "А как вам наши люди? Никто вас не обижает?",
-        "learnerHintEn": "Hint: Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)"
+        "learnerHintEn": "Hint: Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)",
+        "speechDevanagari": "और यहाँ के लोग कैसे हैं?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -264,7 +273,11 @@
         "acceptableResponsesIso": [
           "Yahā̃ kē log bahut acchē haiñ!"
         ],
-        "speechEn": "Люди здесь очень добрые и душевные! Вы все очень хорошие."
+        "speechEn": "Люди здесь очень добрые и душевные! Вы все очень хорошие.",
+        "speechDevanagari": "यहाँ के लोग बहुत अच्छे हैं! आप सब बहुत अच्छे हैं।",
+        "acceptableResponsesDevanagari": [
+          "यहाँ के लोग बहुत अच्छे हैं!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Social Etiquette, Compliments, and Small Talk",

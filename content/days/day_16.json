@@ -186,7 +186,8 @@
       "transliterationIsoTarget": "Mīṭar sē kitnā huā?",
       "explanationRu": "Mīṭar sē = по счетчику (инструментальный sē).",
       "instructionEn": "Exercise instruction: Спросите о стоимости по счетчику",
-      "explanationEn": "Mīṭar sē = по счетчику (инструментальный sē)."
+      "explanationEn": "Mīṭar sē = по счетчику (инструментальный sē).",
+      "devanagariTarget": "मीटर से कितना हुआ?"
     },
     {
       "id": "d16_ex04",
@@ -219,7 +220,8 @@
       "phoneticCyrillicTarget": "Драйвер / Бхаййаа!",
       "transliterationIsoTarget": "Driver / Bhaiyā!",
       "explanationRu": "Правильный и уверенный устный ответ: Driver / Bhaiyā!",
-      "explanationEn": "Correct and confident verbal response: Driver / Bhaiyā!"
+      "explanationEn": "Correct and confident verbal response: Driver / Bhaiyā!",
+      "devanagariTarget": "ड्राइवर / भैया!"
     }
   ],
   "simulationRoleplay": {
@@ -235,7 +237,8 @@
         "speechCyrillic": "Мадам! 300 рупиис хотел ке лие!",
         "learnerHintRu": "Скажите: Нет, брат! Включи счетчик. Поехали по счетчику.",
         "speechEn": "Эй, мадам! Садись, 300 рупий до отеля!",
-        "learnerHintEn": "Hint: Скажите: Нет, брат! Включи счетчик. Поехали по счетчику."
+        "learnerHintEn": "Hint: Скажите: Нет, брат! Включи счетчик. Поехали по счетчику.",
+        "speechDevanagari": "मैडम! 300 रुपये होटल के लिए!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -246,7 +249,12 @@
           "Nahī̃ bhaiyā! Mīṭar chalāo.",
           "Mīṭar sē chaliye."
         ],
-        "speechEn": "Нет, брат! Включи счетчик. Поедем по счетчику."
+        "speechEn": "Нет, брат! Включи счетчик. Поедем по счетчику.",
+        "speechDevanagari": "नहीं भैया! मीटर चलाओ। मीटर से चलिए।",
+        "acceptableResponsesDevanagari": [
+          "नहीं भैया! मीटर चलाओ।",
+          "मीटर से चलिए।"
+        ]
       },
       {
         "speaker": "Водитель",
@@ -255,7 +263,8 @@
         "speechCyrillic": "Аччхаа, бэтхие! Маркет ке паас кахааⁿ джаанаа хэ?",
         "learnerHintRu": "Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)",
         "speechEn": "Ладно, садись! Куда поворачивать у рынка?",
-        "learnerHintEn": "Hint: Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)"
+        "learnerHintEn": "Hint: Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)",
+        "speechDevanagari": "अच्छा, बैठिए! मार्केट के पास कहाँ जाना है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -265,7 +274,11 @@
         "acceptableResponsesIso": [
           "Sīdhē jāiye, phir bāē̃ jāiye."
         ],
-        "speechEn": "Сначала поезжайте прямо, потом поверните налево."
+        "speechEn": "Сначала поезжайте прямо, потом поверните налево.",
+        "speechDevanagari": "पहले सीधे जाइए, फिर बायें जाइए।",
+        "acceptableResponsesDevanagari": [
+          "सीधे जाइए, फिर बायें जाइए।"
+        ]
       },
       {
         "speaker": "Водитель",
@@ -274,7 +287,8 @@
         "speechCyrillic": "Йе хотел хэ мадам?",
         "learnerHintRu": "Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!",
         "speechEn": "Вот этот отель?",
-        "learnerHintEn": "Hint: Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!"
+        "learnerHintEn": "Hint: Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!",
+        "speechDevanagari": "यह होटल है मैडम?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -284,7 +298,11 @@
         "acceptableResponsesIso": [
           "Yahā̃ par rukiye! Paisē lījiye, shukriyā!"
         ],
-        "speechEn": "Да! Остановитесь прямо здесь. Возьмите деньги, большое спасибо!"
+        "speechEn": "Да! Остановитесь прямо здесь. Возьмите деньги, большое спасибо!",
+        "speechDevanagari": "हाँ - जी! यहाँ पर रुकिए। पैसे लीजिए, बहुत शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "यहाँ पर रुकिए! पैसे लीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Phase 2 Synthesis and Urban Navigation Simulation",

@@ -180,7 +180,8 @@
       "transliterationIsoTarget": "Isē badal dījiye.",
       "explanationRu": "Badal dījiye = обменяйте.",
       "instructionEn": "Exercise instruction: Попросите обменять эту вещь (Эту вещь + обменяйте)",
-      "explanationEn": "Badal dījiye = обменяйте."
+      "explanationEn": "Badal dījiye = обменяйте.",
+      "devanagariTarget": "इसे बदल दीजिए।"
     },
     {
       "id": "d30_ex04",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Kyā dūsrā raṅg hai?",
       "explanationRu": "Raṅg = цвет.",
       "instructionEn": "Exercise instruction: Спросите: 'Есть ли другой цвет?'",
-      "explanationEn": "Raṅg = цвет."
+      "explanationEn": "Raṅg = цвет.",
+      "devanagariTarget": "क्या दूसरा रंग है?"
     },
     {
       "id": "d30_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Дуусраа / Дуусрии!",
       "transliterationIsoTarget": "Dūsrā (m) / Dūsrī (f)!",
       "explanationRu": "Правильный и уверенный устный ответ: Dūsrā (m) / Dūsrī (f)!",
-      "explanationEn": "Correct and confident verbal response: Dūsrā (m) / Dūsrī (f)!"
+      "explanationEn": "Correct and confident verbal response: Dūsrā (m) / Dūsrī (f)!",
+      "devanagariTarget": "दूसरा () / दूसरी ()!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Йе лаал ранг шол дэкхие мадам! Бахут сундар хэ.",
         "learnerHintRu": "Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)",
         "speechEn": "Посмотрите этот красный платок! Очень красивый цвет.",
-        "learnerHintEn": "Hint: Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)"
+        "learnerHintEn": "Hint: Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)",
+        "speechDevanagari": "यह लाल रंग शॉल देखिए मैडम! बहुत सुंदर है।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -240,7 +244,12 @@
           "Dūsrā raṅg dikhāiye",
           "Dūsrā dikhāiye"
         ],
-        "speechEn": "Мне не нравится красный цвет. Пожалуйста, покажите другой цвет."
+        "speechEn": "Мне не нравится красный цвет. Пожалуйста, покажите другой цвет.",
+        "speechDevanagari": "मुझे लाल रंग पसंद नहीं है। दूसरा रंग दिखाइए।",
+        "acceptableResponsesDevanagari": [
+          "दूसरा रंग दिखाइए",
+          "दूसरा दिखाइए"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -249,7 +258,8 @@
         "speechCyrillic": "Блю ранг пасанд хэ? Йе блю аур гриин дэкхие.",
         "learnerHintRu": "Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?",
         "speechEn": "Синий цвет нравится? Вот синий и зеленый варианты.",
-        "learnerHintEn": "Hint: Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?"
+        "learnerHintEn": "Hint: Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?",
+        "speechDevanagari": "ब्लू रंग पसंद है? यह ब्लू और ग्रीन देखिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -259,7 +269,11 @@
         "acceptableResponsesIso": [
           "Yeh kitnē kā hai?"
         ],
-        "speechEn": "Да, синий мне очень нравится! Почём этот платок?"
+        "speechEn": "Да, синий мне очень нравится! Почём этот платок?",
+        "speechDevanagari": "हाँ! ब्लू मुझे बहुत पसंद है। यह कितने का है?",
+        "acceptableResponsesDevanagari": [
+          "यह कितने का है?"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Requesting Alternatives, Variations, and Exchanges",

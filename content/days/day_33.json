@@ -166,7 +166,8 @@
       "transliterationIsoTarget": "Main Moscow mẽ rahtī hū̃.",
       "explanationRu": "Rahtī hū̃ = я живу (ж.р.).",
       "instructionEn": "Exercise instruction: Скажите, что вы живете в Москве (женский род)",
-      "explanationEn": "Rahtī hū̃ = я живу (ж.р.)."
+      "explanationEn": "Rahtī hū̃ = я живу (ж.р.).",
+      "devanagariTarget": "मैं मॉस्को में रहती हूँ।"
     },
     {
       "id": "d33_ex03",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "Main roz masālā chāi peetī hū̃.",
       "explanationRu": "Peetī hū̃ = я пью.",
       "instructionEn": "Exercise instruction: Скажите: 'Я каждый день пью чай масала' (женский род)",
-      "explanationEn": "Peetī hū̃ = я пью."
+      "explanationEn": "Peetī hū̃ = я пью.",
+      "devanagariTarget": "मैं रोज़ मसाला चाय पीती हूँ।"
     },
     {
       "id": "d33_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Болтии хууⁿ / Болтаа хууⁿ!",
       "transliterationIsoTarget": "Boltī hū̃ (f) / Boltā hū̃ (m)!",
       "explanationRu": "Правильный и уверенный устный ответ: Boltī hū̃ (f) / Boltā hū̃ (m)!",
-      "explanationEn": "Correct and confident verbal response: Boltī hū̃ (f) / Boltā hū̃ (m)!"
+      "explanationEn": "Correct and confident verbal response: Boltī hū̃ (f) / Boltā hū̃ (m)!",
+      "devanagariTarget": "बोलती हूँ () / बोलता हूँ ()!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Намастэ! Аап бахут аччхии Хиндии болтии хэⁿ. Кйаа аап Индиа мэⁿ рэхтии хэⁿ?",
         "learnerHintRu": "Скажите: Нет, я живу в России. Я немного говорю на хинди. (Nahī̃, main Russia mẽ rahtī hū̃)",
         "speechEn": "Намастэ! Вы прекрасно говорите. Вы живете в Индии?",
-        "learnerHintEn": "Hint: Скажите: Нет, я живу в России. Я немного говорю на хинди. (Nahī̃, main Russia mẽ rahtī hū̃)"
+        "learnerHintEn": "Hint: Скажите: Нет, я живу в России. Я немного говорю на хинди. (Nahī̃, main Russia mẽ rahtī hū̃)",
+        "speechDevanagari": "नमस्ते! आप बहुत अच्छी हिन्दी बोलती हैं। क्या आप इंडिया में रहती हैं?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -241,7 +245,11 @@
         "acceptableResponsesIso": [
           "Main Russia mẽ rahtī hū̃. Thōṛī Hindī boltī hū̃."
         ],
-        "speechEn": "Нет, я живу в России. Я только немного говорю на хинди."
+        "speechEn": "Нет, я живу в России. Я только немного говорю на хинди.",
+        "speechDevanagari": "नहीं, मैं रूस में रहती हूँ। मैं थोड़ी हिन्दी बोलती हूँ।",
+        "acceptableResponsesDevanagari": [
+          "मैं रूस में रहती हूँ। थोड़ी हिन्दी बोलती हूँ।"
+        ]
       },
       {
         "speaker": "Попутчик",
@@ -250,7 +258,8 @@
         "speechCyrillic": "Бахут аччхаа! Чаай пииенгии?",
         "learnerHintRu": "Скажите: Да, я пью чай каждый день, спасибо! (Hā̃, main roz chāi peetī hū̃)",
         "speechEn": "Замечательно! Чай будете пить?",
-        "learnerHintEn": "Hint: Скажите: Да, я пью чай каждый день, спасибо! (Hā̃, main roz chāi peetī hū̃)"
+        "learnerHintEn": "Hint: Скажите: Да, я пью чай каждый день, спасибо! (Hā̃, main roz chāi peetī hū̃)",
+        "speechDevanagari": "बहुत अच्छा! चाय पियेंगी?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -260,7 +269,11 @@
         "acceptableResponsesIso": [
           "Hā̃-jī, main roz chāi peetī hū̃!"
         ],
-        "speechEn": "Да, я каждый день пью чай масала! Спасибо."
+        "speechEn": "Да, я каждый день пью чай масала! Спасибо.",
+        "speechDevanagari": "हाँ - जी! मैं रोज़ मसाला चाय पीती हूँ। शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "हाँ - जी, मैं रोज़ चाय पीती हूँ!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Habitual Aspect: Daily Routines and Personal Habits",

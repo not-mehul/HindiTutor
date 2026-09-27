@@ -177,7 +177,8 @@
       "transliterationIsoTarget": "Mērā nām Anna hai",
       "explanationRu": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'.",
       "instructionEn": "Exercise instruction: Вставьте глагол-связку в фразу 'Меня зовут Анна'",
-      "explanationEn": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'."
+      "explanationEn": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'.",
+      "devanagariTarget": "मेरा नाम अन्ना है"
     },
     {
       "id": "d02_ex03",
@@ -189,7 +190,8 @@
       "correctAnswer": "Main tourist hū̃",
       "explanationRu": "Никогда не забывайте связку hū̃ на конце!",
       "instructionEn": "Exercise instruction: Произнесите фразу 'Я турист/туристка', следя за носовым 'hū̃'",
-      "explanationEn": "Никогда не забывайте связку hū̃ на конце!"
+      "explanationEn": "Никогда не забывайте связку hū̃ на конце!",
+      "devanagariTarget": "मैं टूरिस्ट हूँ"
     },
     {
       "id": "d02_ex04",
@@ -205,7 +207,8 @@
       "transliterationIsoTarget": "Main Moscow sē hū̃",
       "explanationRu": "Sē передает значение происхождения (из Москвы).",
       "instructionEn": "Exercise instruction: Выберите правильный послелог 'из'",
-      "explanationEn": "Sē передает значение происхождения (из Москвы)."
+      "explanationEn": "Sē передает значение происхождения (из Москвы).",
+      "devanagariTarget": "मैं मॉस्को से हूँ"
     },
     {
       "id": "d02_ex05",
@@ -222,7 +225,8 @@
       "phoneticCyrillicTarget": "Мэⁿ!",
       "transliterationIsoTarget": "Main!",
       "explanationRu": "Правильный и уверенный устный ответ: Main!",
-      "explanationEn": "Correct and confident verbal response: Main!"
+      "explanationEn": "Correct and confident verbal response: Main!",
+      "devanagariTarget": "मैं!"
     }
   ],
   "simulationRoleplay": {
@@ -238,7 +242,8 @@
         "speechCyrillic": "Намастэ джии! Аапкаа наам кйаа хэ?",
         "learnerHintRu": "Назовите свое имя: Mērā nām [Имя] hai",
         "speechEn": "Здравствуйте! Как ваше имя?",
-        "learnerHintEn": "Hint: Назовите свое имя: Mērā nām [Имя] hai"
+        "learnerHintEn": "Hint: Назовите свое имя: Mērā nām [Имя] hai",
+        "speechDevanagari": "नमस्ते जी! आपका नाम क्या है?"
       },
       {
         "speaker": "Вы (ученик)",
@@ -249,7 +254,12 @@
           "Mērā nām Anna hai",
           "Main Anna hū̃"
         ],
-        "speechEn": "Здравствуйте! Меня зовут Анна."
+        "speechEn": "Здравствуйте! Меня зовут Анна.",
+        "speechDevanagari": "नमस्ते जी! मेरा नाम अन्ना है।",
+        "acceptableResponsesDevanagari": [
+          "मेरा नाम अन्ना है",
+          "मैं अन्ना हूँ"
+        ]
       },
       {
         "speaker": "Хозяин",
@@ -258,7 +268,8 @@
         "speechCyrillic": "Аап кахааⁿ сэ хэⁿ?",
         "learnerHintRu": "Скажите: Я из России (Main Russia sē hū̃)",
         "speechEn": "Очень приятно! Откуда вы приехали?",
-        "learnerHintEn": "Hint: Скажите: Я из России (Main Russia sē hū̃)"
+        "learnerHintEn": "Hint: Скажите: Я из России (Main Russia sē hū̃)",
+        "speechDevanagari": "आप कहाँ से हैं?"
       },
       {
         "speaker": "Вы (ученик)",
@@ -268,7 +279,11 @@
         "acceptableResponsesIso": [
           "Main Russia sē hū̃"
         ],
-        "speechEn": "Я из России. Я турист."
+        "speechEn": "Я из России. Я турист.",
+        "speechDevanagari": "मैं रूस से हूँ। मैं टूरिस्ट हूँ।",
+        "acceptableResponsesDevanagari": [
+          "मैं रूस से हूँ"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Personal Identity and State of Being (Copula Honā)",

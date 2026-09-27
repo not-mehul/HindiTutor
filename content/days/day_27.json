@@ -184,7 +184,8 @@
       "transliterationIsoTarget": "Kyā dām hai?",
       "explanationRu": "Kyā dām hai? = Какая цена?",
       "instructionEn": "Exercise instruction: Спросите: 'Какая цена?'",
-      "explanationEn": "Kyā dām hai? = Какая цена?"
+      "explanationEn": "Kyā dām hai? = Какая цена?",
+      "devanagariTarget": "क्या दाम है?"
     },
     {
       "id": "d27_ex04",
@@ -200,7 +201,8 @@
       "transliterationIsoTarget": "Voh kitnē kā hai?",
       "explanationRu": "Voh = тот (вдали).",
       "instructionEn": "Exercise instruction: Спросите о цене вон того дальнего предмета",
-      "explanationEn": "Voh = тот (вдали)."
+      "explanationEn": "Voh = тот (вдали).",
+      "devanagariTarget": "वह कितने का है?"
     },
     {
       "id": "d27_ex05",
@@ -217,7 +219,8 @@
       "phoneticCyrillicTarget": "Китнее каа!",
       "transliterationIsoTarget": "Kitnē kā!",
       "explanationRu": "Правильный и уверенный устный ответ: Kitnē kā!",
-      "explanationEn": "Correct and confident verbal response: Kitnē kā!"
+      "explanationEn": "Correct and confident verbal response: Kitnē kā!",
+      "devanagariTarget": "कितने का!"
     }
   ],
   "simulationRoleplay": {
@@ -233,7 +236,8 @@
         "speechCyrillic": "Намастэ мадам! Хэндмейд элефант дэкхие.",
         "learnerHintRu": "Спросите цену: Bhaiyā, yeh kitnē kā hai?",
         "speechEn": "Здравствуйте, мадам! Посмотрите, деревянный слоник ручной работы!",
-        "learnerHintEn": "Hint: Спросите цену: Bhaiyā, yeh kitnē kā hai?"
+        "learnerHintEn": "Hint: Спросите цену: Bhaiyā, yeh kitnē kā hai?",
+        "speechDevanagari": "नमस्ते मैडम! हैंडमेड हाथी देखिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -244,7 +248,12 @@
           "Yeh kitnē kā hai?",
           "Kyā dām hai?"
         ],
-        "speechEn": "Здравствуйте! Брат, почём этот слоник?"
+        "speechEn": "Здравствуйте! Брат, почём этот слоник?",
+        "speechDevanagari": "नमस्ते! भैया, यह कितने का है?",
+        "acceptableResponsesDevanagari": [
+          "यह कितने का है?",
+          "क्या दाम है?"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -253,7 +262,8 @@
         "speechCyrillic": "Аапке лие спэшл прайс — 800 рупае!",
         "learnerHintRu": "Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)",
         "speechEn": "Для вас особая цена — восемьсот рупий!",
-        "learnerHintEn": "Hint: Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)"
+        "learnerHintEn": "Hint: Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)",
+        "speechDevanagari": "आपके लिए स्पेशल प्राइस — 800 रुपये!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -263,7 +273,11 @@
         "acceptableResponsesIso": [
           "Bahut mahangā hai!"
         ],
-        "speechEn": "Ого! Восемьсот рупий?! Это очень дорого!"
+        "speechEn": "Ого! Восемьсот рупий?! Это очень дорого!",
+        "speechDevanagari": "आठ सौ रुपये?! बहुत महंगा है!",
+        "acceptableResponsesDevanagari": [
+          "बहुत महंगा है!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Inquiring About Prices and Merchandise",

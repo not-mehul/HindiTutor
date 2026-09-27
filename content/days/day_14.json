@@ -182,7 +182,8 @@
       "transliterationIsoTarget": "Station jānā hai.",
       "explanationRu": "Jānā hai = нужно ехать.",
       "instructionEn": "Exercise instruction: Скажите, что вам нужно ехать на вокзал",
-      "explanationEn": "Jānā hai = нужно ехать."
+      "explanationEn": "Jānā hai = нужно ехать.",
+      "devanagariTarget": "स्टेशन जाना है।"
     },
     {
       "id": "d14_ex04",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "Ṭhīk hai bhaiyā, chaliye!",
       "explanationRu": "Chaliye = поехали / пойдемте.",
       "instructionEn": "Exercise instruction: Скомандуйте водителю отправляться: 'Поехали!'",
-      "explanationEn": "Chaliye = поехали / пойдемте."
+      "explanationEn": "Chaliye = поехали / пойдемте.",
+      "devanagariTarget": "ठीक है भैया, चलिए!"
     },
     {
       "id": "d14_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Бхаййаа!",
       "transliterationIsoTarget": "Bhaiyā!",
       "explanationRu": "Правильный и уверенный устный ответ: Bhaiyā!",
-      "explanationEn": "Correct and confident verbal response: Bhaiyā!"
+      "explanationEn": "Correct and confident verbal response: Bhaiyā!",
+      "devanagariTarget": "भैया!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Мадам! Кахааⁿ джаанаа хэ?",
         "learnerHintRu": "Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)",
         "speechEn": "Такси, рикша! Куда вам нужно ехать?",
-        "learnerHintEn": "Hint: Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)"
+        "learnerHintEn": "Hint: Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)",
+        "speechDevanagari": "मैडम! कहाँ जाना है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -242,7 +246,12 @@
           "Bhaiyā, Taj Hotel jānā hai.",
           "Mīṭar chalāo."
         ],
-        "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик!"
+        "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик!",
+        "speechDevanagari": "भैया, ताज होटल जाना है। मीटर चलाओ।",
+        "acceptableResponsesDevanagari": [
+          "भैया, ताज होटल जाना है।",
+          "मीटर चलाओ।"
+        ]
       },
       {
         "speaker": "Водитель",
@@ -251,7 +260,8 @@
         "speechCyrillic": "Т͟хиик хэ мадам, бэтхие! Миитар͟ сэ чалэнгээ.",
         "learnerHintRu": "Скажите: Отлично, поехали! (Bahut acchā, chaliye!)",
         "speechEn": "Ладно, мадам, садитесь! Поехали по счетчику.",
-        "learnerHintEn": "Hint: Скажите: Отлично, поехали! (Bahut acchā, chaliye!)"
+        "learnerHintEn": "Hint: Скажите: Отлично, поехали! (Bahut acchā, chaliye!)",
+        "speechDevanagari": "ठीक है मैडम, बैठिए! मीटर से चलेंगे।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -261,7 +271,11 @@
         "acceptableResponsesIso": [
           "Chaliye!"
         ],
-        "speechEn": "Очень хорошо, поехали!"
+        "speechEn": "Очень хорошо, поехали!",
+        "speechDevanagari": "बहुत अच्छा, चलिए!",
+        "acceptableResponsesDevanagari": [
+          "चलिए!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Transit Negotiations: Auto-Rickshaws and Cabs",

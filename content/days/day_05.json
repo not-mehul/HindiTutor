@@ -175,7 +175,8 @@
       "transliterationIsoTarget": "Kyā yeh hotel hai?",
       "explanationRu": "Kyā в начале предложения делает из него общий вопрос (да/нет).",
       "instructionEn": "Exercise instruction: Превратите утверждение 'Yeh hotel hai' (Это отель) в вопрос 'Это отель?'",
-      "explanationEn": "Kyā в начале предложения делает из него общий вопрос (да/нет)."
+      "explanationEn": "Kyā в начале предложения делает из него общий вопрос (да/нет).",
+      "devanagariTarget": "क्या यह होटल है?"
     },
     {
       "id": "d05_ex03",
@@ -207,7 +208,8 @@
       "transliterationIsoTarget": "Train kab hai?",
       "explanationRu": "Kab означает 'когда'.",
       "instructionEn": "Exercise instruction: Спросите 'Когда прибудет поезд?' (Поезд + когда + есть?)",
-      "explanationEn": "Kab означает 'когда'."
+      "explanationEn": "Kab означает 'когда'.",
+      "devanagariTarget": "ट्रेन कब है?"
     },
     {
       "id": "d05_ex05",
@@ -224,7 +226,8 @@
       "phoneticCyrillicTarget": "Кйаа!",
       "transliterationIsoTarget": "Kyā!",
       "explanationRu": "Правильный и уверенный устный ответ: Kyā!",
-      "explanationEn": "Correct and confident verbal response: Kyā!"
+      "explanationEn": "Correct and confident verbal response: Kyā!",
+      "devanagariTarget": "क्या!"
     }
   ],
   "simulationRoleplay": {
@@ -240,7 +243,8 @@
         "speechCyrillic": "Мааф кииджие джии! Информэйшн каунтер кахааⁿ хэ?",
         "learnerHintRu": "Задайте вопрос с вежливым Māf kījiye",
         "speechEn": "Извините, пожалуйста! Где стойка информации?",
-        "learnerHintEn": "Hint: Задайте вопрос с вежливым Māf kījiye"
+        "learnerHintEn": "Hint: Задайте вопрос с вежливым Māf kījiye",
+        "speechDevanagari": "माफ़ कीजिए जी! इन्फ़ॉर्मेशन काउंटर कहाँ है?"
       },
       {
         "speaker": "Дежурный",
@@ -249,7 +253,8 @@
         "speechCyrillic": "Информэйшн каунтер вахааⁿ хэ, сиидхэ.",
         "learnerHintRu": "Уточните: Это рядом? (Kyā pās hai?)",
         "speechEn": "Стойка информации там, прямо.",
-        "learnerHintEn": "Hint: Уточните: Это рядом? (Kyā pās hai?)"
+        "learnerHintEn": "Hint: Уточните: Это рядом? (Kyā pās hai?)",
+        "speechDevanagari": "इन्फ़ॉर्मेशन काउंटर वहाँ है, सीधे।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -259,7 +264,11 @@
         "acceptableResponsesIso": [
           "Kyā yeh pās hai?"
         ],
-        "speechEn": "Это рядом?"
+        "speechEn": "Это рядом?",
+        "speechDevanagari": "क्या पास है?",
+        "acceptableResponsesDevanagari": [
+          "क्या यह पास है?"
+        ]
       },
       {
         "speaker": "Дежурный",
@@ -268,7 +277,8 @@
         "speechCyrillic": "Хааⁿ-джии, билкул паас хэ.",
         "learnerHintRu": "Поблагодарите: Shukriyā jī!",
         "speechEn": "Да, совсем рядом. Большое спасибо!",
-        "learnerHintEn": "Hint: Поблагодарите: Shukriyā jī!"
+        "learnerHintEn": "Hint: Поблагодарите: Shukriyā jī!",
+        "speechDevanagari": "हाँ - जी, बिल्कुल पास है।"
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Interrogative Formulations and the Question Particle",

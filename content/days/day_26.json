@@ -180,7 +180,8 @@
       "transliterationIsoTarget": "Ek hazār rupayē",
       "explanationRu": "Hazār = тысяча.",
       "instructionEn": "Exercise instruction: Назовите сумму 'Одна тысяча рупий'",
-      "explanationEn": "Hazār = тысяча."
+      "explanationEn": "Hazār = тысяча.",
+      "devanagariTarget": "एक हज़ार रुपये"
     },
     {
       "id": "d26_ex04",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Do sau",
       "explanationRu": "Do sau = 200 (двести).",
       "instructionEn": "Exercise instruction: Назовите число 200 (Двести)",
-      "explanationEn": "Do sau = 200 (двести)."
+      "explanationEn": "Do sau = 200 (двести).",
+      "devanagariTarget": "दो सौ"
     },
     {
       "id": "d26_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Сау!",
       "transliterationIsoTarget": "Sau!",
       "explanationRu": "Правильный и уверенный устный ответ: Sau!",
-      "explanationEn": "Correct and confident verbal response: Sau!"
+      "explanationEn": "Correct and confident verbal response: Sau!",
+      "devanagariTarget": "सौ!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Дэкхие мадам, пьюр пашмина шол! Бахут аччхаа прайс.",
         "learnerHintRu": "Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)",
         "speechEn": "Посмотрите, мадам, настоящий пашминовый платок! Отличная цена.",
-        "learnerHintEn": "Hint: Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)"
+        "learnerHintEn": "Hint: Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)",
+        "speechDevanagari": "देखिए मैडम, प्योर पश्मीना शॉल! बहुत अच्छा प्राइस।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -239,7 +243,11 @@
         "acceptableResponsesIso": [
           "Yeh kitnē kā hai?"
         ],
-        "speechEn": "Сколько стоит этот платок?"
+        "speechEn": "Сколько стоит этот платок?",
+        "speechDevanagari": "यह कितने का है? कितने रुपये?",
+        "acceptableResponsesDevanagari": [
+          "यह कितने का है?"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -248,7 +256,8 @@
         "speechCyrillic": "Сирф эк хазаар паанч сау рупае, мадам.",
         "learnerHintRu": "Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)",
         "speechEn": "Всего одна тысяча пятьсот рупий, мадам.",
-        "learnerHintEn": "Hint: Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)"
+        "learnerHintEn": "Hint: Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)",
+        "speechDevanagari": "सिर्फ़ एक हज़ार पाँच सौ रुपये, मैडम।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -258,7 +267,11 @@
         "acceptableResponsesIso": [
           "Ek hazār pāñch sau rupayē?!"
         ],
-        "speechEn": "Одна тысяча пятьсот рупий?! Это слишком дорого!"
+        "speechEn": "Одна тысяча пятьсот рупий?! Это слишком дорого!",
+        "speechDevanagari": "एक हज़ार पाँच सौ रुपये?! बहुत महंगा है!",
+        "acceptableResponsesDevanagari": [
+          "एक हज़ार पाँच सौ रुपये?!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Numerical Scaling: Tens, Hundreds, and Thousands",

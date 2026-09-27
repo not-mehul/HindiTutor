@@ -186,7 +186,8 @@
       "transliterationIsoTarget": "Doctor ko bulāiye!",
       "explanationRu": "Bulāiye = позовите.",
       "instructionEn": "Exercise instruction: Попросите срочно позвать доктора",
-      "explanationEn": "Bulāiye = позовите."
+      "explanationEn": "Bulāiye = позовите.",
+      "devanagariTarget": "डॉक्टर को बुलाइए!"
     },
     {
       "id": "d37_ex04",
@@ -202,7 +203,8 @@
       "transliterationIsoTarget": "Kyā dard kī davā hai?",
       "explanationRu": "Davā = лекарство.",
       "instructionEn": "Exercise instruction: Спросите: 'Есть ли здесь лекарство от боли?'",
-      "explanationEn": "Davā = лекарство."
+      "explanationEn": "Davā = лекарство.",
+      "devanagariTarget": "क्या दर्द की दवा है?"
     },
     {
       "id": "d37_ex05",
@@ -219,7 +221,8 @@
       "phoneticCyrillicTarget": "Табиийат харааб хэ!",
       "transliterationIsoTarget": "Tabīyat kharāb hai!",
       "explanationRu": "Правильный и уверенный устный ответ: Tabīyat kharāb hai!",
-      "explanationEn": "Correct and confident verbal response: Tabīyat kharāb hai!"
+      "explanationEn": "Correct and confident verbal response: Tabīyat kharāb hai!",
+      "devanagariTarget": "तबीयत ख़राब है!"
     }
   ],
   "simulationRoleplay": {
@@ -235,7 +238,8 @@
         "speechCyrillic": "Бхаййаа, мадад кииджие! Мерии табиийат бахут харааб хэ.",
         "learnerHintRu": "Сообщите о болезни: Mērī tabīyat bahut kharāb hai",
         "speechEn": "Брат, помогите пожалуйста! Мне очень нездоровится.",
-        "learnerHintEn": "Hint: Сообщите о болезни: Mērī tabīyat bahut kharāb hai"
+        "learnerHintEn": "Hint: Сообщите о болезни: Mērī tabīyat bahut kharāb hai",
+        "speechDevanagari": "भैया, मदद कीजिए! मेरी तबीयत बहुत ख़राब है।"
       },
       {
         "speaker": "Портье",
@@ -244,7 +248,8 @@
         "speechCyrillic": "Ох! Кйаа хуаа мадам? Пеет͟ дард хэ?",
         "learnerHintRu": "Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)",
         "speechEn": "О господи! Что болит, мадам? Температура или живот?",
-        "learnerHintEn": "Hint: Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)"
+        "learnerHintEn": "Hint: Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)",
+        "speechDevanagari": "ओह! क्या हुआ मैडम? पेट दर्द है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -255,7 +260,12 @@
           "Doctor ko bulāiye!",
           "Pēṭ dard hai, davā chāhiye."
         ],
-        "speechEn": "Да, сильно болит живот. Пожалуйста, вызовите доктора или аптекаря."
+        "speechEn": "Да, сильно болит живот. Пожалуйста, вызовите доктора или аптекаря.",
+        "speechDevanagari": "हाँ, बहुत पेट दर्द है। डॉक्टर को बुलाइए, प्लीज!",
+        "acceptableResponsesDevanagari": [
+          "डॉक्टर को बुलाइए!",
+          "पेट दर्द है, दवा चाहिए।"
+        ]
       },
       {
         "speaker": "Портье",
@@ -264,7 +274,8 @@
         "speechCyrillic": "Абхии доктор ко булаатаа хууⁿ. Йахааⁿ бэтхие, паании лииджие.",
         "learnerHintRu": "Поблагодарите: Bahut shukriyā bhaiyā!",
         "speechEn": "Сейчас же вызываю врача из соседней клиники! Присядьте здесь, выпейте воды.",
-        "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā bhaiyā!"
+        "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā bhaiyā!",
+        "speechDevanagari": "अभी डॉक्टर को बुलाता हूँ। यहाँ बैठिए, पानी लीजिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -274,7 +285,11 @@
         "acceptableResponsesIso": [
           "Shukriyā jī!"
         ],
-        "speechEn": "Спасибо огромное, брат!"
+        "speechEn": "Спасибо огромное, брат!",
+        "speechDevanagari": "बहुत शुक्रिया भैया!",
+        "acceptableResponsesDevanagari": [
+          "शुक्रिया जी!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Health, Safety, and Medical Emergencies",

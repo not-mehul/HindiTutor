@@ -162,7 +162,8 @@
       "transliterationIsoTarget": "Bāē̃ jāiye!",
       "explanationRu": "Bāē̃ = налево.",
       "instructionEn": "Exercise instruction: Скажите водителю повернуть налево",
-      "explanationEn": "Bāē̃ = налево."
+      "explanationEn": "Bāē̃ = налево.",
+      "devanagariTarget": "बायें जाइए!"
     },
     {
       "id": "d09_ex03",
@@ -194,7 +195,8 @@
       "transliterationIsoTarget": "Dāē̃ jāiye!",
       "explanationRu": "Dāē̃ jāiye = поезжайте направо.",
       "instructionEn": "Exercise instruction: Вставьте глагол 'поезжайте / идите' в приказ 'Направо, пожалуйста'",
-      "explanationEn": "Dāē̃ jāiye = поезжайте направо."
+      "explanationEn": "Dāē̃ jāiye = поезжайте направо.",
+      "devanagariTarget": "दायें जाइए!"
     },
     {
       "id": "d09_ex05",
@@ -211,7 +213,8 @@
       "phoneticCyrillicTarget": "Бааеⁿ!",
       "transliterationIsoTarget": "Bāē̃!",
       "explanationRu": "Правильный и уверенный устный ответ: Bāē̃!",
-      "explanationEn": "Correct and confident verbal response: Bāē̃!"
+      "explanationEn": "Correct and confident verbal response: Bāē̃!",
+      "devanagariTarget": "बायें!"
     }
   ],
   "simulationRoleplay": {
@@ -227,7 +230,8 @@
         "speechCyrillic": "Мадам, бааеⁿ йа дааеⁿ?",
         "learnerHintRu": "Скажите: Прямо поезжайте (Sīdhē jāiye)",
         "speechEn": "Сестра, куда поворачивать? Налево или направо?",
-        "learnerHintEn": "Hint: Скажите: Прямо поезжайте (Sīdhē jāiye)"
+        "learnerHintEn": "Hint: Скажите: Прямо поезжайте (Sīdhē jāiye)",
+        "speechDevanagari": "मैडम, बायें या दायें?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -237,7 +241,11 @@
         "acceptableResponsesIso": [
           "Sīdhē jāiye"
         ],
-        "speechEn": "Езжайте прямо."
+        "speechEn": "Езжайте прямо.",
+        "speechDevanagari": "सीधे जाइए।",
+        "acceptableResponsesDevanagari": [
+          "सीधे जाइए"
+        ]
       },
       {
         "speaker": "Водитель",
@@ -246,7 +254,8 @@
         "speechCyrillic": "Аччхаа джии. Аб кахааⁿ?",
         "learnerHintRu": "Скажите: Налево, а затем остановитесь здесь!",
         "speechEn": "Понял, едем прямо. А теперь куда?",
-        "learnerHintEn": "Hint: Скажите: Налево, а затем остановитесь здесь!"
+        "learnerHintEn": "Hint: Скажите: Налево, а затем остановитесь здесь!",
+        "speechDevanagari": "अच्छा जी। अब कहाँ?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -256,7 +265,11 @@
         "acceptableResponsesIso": [
           "Bāē̃ jāiye, yahā̃ rukiye!"
         ],
-        "speechEn": "Поверните налево. Остановитесь прямо здесь!"
+        "speechEn": "Поверните налево. Остановитесь прямо здесь!",
+        "speechDevanagari": "बायें जाइए। यहाँ रुकिए!",
+        "acceptableResponsesDevanagari": [
+          "बायें जाइए, यहाँ रुकिए!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Syntactic Realignment: Establishing Fixed SOV Order",

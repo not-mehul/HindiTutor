@@ -186,7 +186,8 @@
       "transliterationIsoTarget": "Tīn sau rupayē dījiye!",
       "explanationRu": "Tīn sau rupayē dījiye = Отдайте за 300 рупий.",
       "instructionEn": "Exercise instruction: Предложите забрать товар за 300 рупий (300 рупий + дайте)",
-      "explanationEn": "Tīn sau rupayē dījiye = Отдайте за 300 рупий."
+      "explanationEn": "Tīn sau rupayē dījiye = Отдайте за 300 рупий.",
+      "devanagariTarget": "तीन सौ रुपये दीजिए!"
     },
     {
       "id": "d28_ex04",
@@ -202,7 +203,8 @@
       "transliterationIsoTarget": "Mujhē sastā chāhiye.",
       "explanationRu": "Sastā = дешевый.",
       "instructionEn": "Exercise instruction: Скажите, что вам нужен товар подешевле",
-      "explanationEn": "Sastā = дешевый."
+      "explanationEn": "Sastā = дешевый.",
+      "devanagariTarget": "मुझे सस्ता चाहिए।"
     },
     {
       "id": "d28_ex05",
@@ -219,7 +221,8 @@
       "phoneticCyrillicTarget": "Кам кииджие!",
       "transliterationIsoTarget": "Kam kījiye!",
       "explanationRu": "Правильный и уверенный устный ответ: Kam kījiye!",
-      "explanationEn": "Correct and confident verbal response: Kam kījiye!"
+      "explanationEn": "Correct and confident verbal response: Kam kījiye!",
+      "devanagariTarget": "कम कीजिए!"
     }
   ],
   "simulationRoleplay": {
@@ -235,7 +238,8 @@
         "speechCyrillic": "Чхэх сау рупае мадам, бэст прайс!",
         "learnerHintRu": "Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)",
         "speechEn": "Мадам, прекрасный платок! Шестьсот рупий.",
-        "learnerHintEn": "Hint: Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)"
+        "learnerHintEn": "Hint: Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)",
+        "speechDevanagari": "छह सौ रुपये मैडम, बेस्ट प्राइस!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -245,7 +249,11 @@
         "acceptableResponsesIso": [
           "Bahut zyādā hai! Tīn sau rupayē dījiye!"
         ],
-        "speechEn": "Нет, брат! Это слишком дорого. Назовите честную цену. Триста рупий!"
+        "speechEn": "Нет, брат! Это слишком дорого. Назовите честную цену. Триста рупий!",
+        "speechDevanagari": "नहीं भैया! बहुत ज़्यादा है। सही दाम लगाइए। तीन सौ रुपये दीजिए!",
+        "acceptableResponsesDevanagari": [
+          "बहुत ज़्यादा है! तीन सौ रुपये दीजिए!"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -254,7 +262,8 @@
         "speechCyrillic": "Тиин сау нахииⁿ мадам! Чаар сау рупае файнал.",
         "learnerHintRu": "Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!",
         "speechEn": "Триста?! Нет, так нельзя. Давайте четыреста рупий?",
-        "learnerHintEn": "Hint: Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!"
+        "learnerHintEn": "Hint: Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!",
+        "speechDevanagari": "तीन सौ नहीं मैडम! चार सौ रुपये फ़ाइनल।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -264,7 +273,11 @@
         "acceptableResponsesIso": [
           "Ṭhīk hai, pack kījiye!"
         ],
-        "speechEn": "Триста пятьдесят рупий, договорились? Заворачивайте!"
+        "speechEn": "Триста пятьдесят рупий, договорились? Заворачивайте!",
+        "speechDevanagari": "350 रुपये, ठीक है? पैक्ड कर दीजिए!",
+        "acceptableResponsesDevanagari": [
+          "ठीक है, पैक्ड कीजिए!"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -273,7 +286,8 @@
         "speechCyrillic": "Т͟хиик хэ мадам, лииджие!",
         "learnerHintRu": "Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!",
         "speechEn": "Ладно, мадам, вы умеете торговаться! Забирайте.",
-        "learnerHintEn": "Hint: Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!"
+        "learnerHintEn": "Hint: Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!",
+        "speechDevanagari": "ठीक है मैडम, लीजिए!"
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Bargaining Strategies and Price Negotiation",

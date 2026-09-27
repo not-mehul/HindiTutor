@@ -200,7 +200,8 @@
       "transliterationIsoTarget": "Kitnā huā? Card chalēgā?",
       "explanationRu": "Card chalēgā? = Карта пройдет?",
       "instructionEn": "Exercise instruction: Спросите о возможности оплаты наличными или картой",
-      "explanationEn": "Card chalēgā? = Карта пройдет?"
+      "explanationEn": "Card chalēgā? = Карта пройдет?",
+      "devanagariTarget": "कितना हुआ? कार्ड चलेगा?"
     },
     {
       "id": "d24_ex05",
@@ -217,7 +218,8 @@
       "phoneticCyrillicTarget": "Дхаабаа!",
       "transliterationIsoTarget": "Dhābā!",
       "explanationRu": "Правильный и уверенный устный ответ: Dhābā!",
-      "explanationEn": "Correct and confident verbal response: Dhābā!"
+      "explanationEn": "Correct and confident verbal response: Dhābā!",
+      "devanagariTarget": "ढाबा!"
     }
   ],
   "simulationRoleplay": {
@@ -233,7 +235,8 @@
         "speechCyrillic": "Намастэ мадам! Ааие бэтхие! Кйаа чаахийе?",
         "learnerHintRu": "Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē",
         "speechEn": "Добро пожаловать, сестра! Проходите, садитесь! Что вам принести?",
-        "learnerHintEn": "Hint: Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē"
+        "learnerHintEn": "Hint: Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē",
+        "speechDevanagari": "नमस्ते मैडम! आइए बैठिए! क्या चाहिए?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -243,7 +246,11 @@
         "acceptableResponsesIso": [
           "Bisleri pānī aur dāl chāval chāhiye, binā mirch kē"
         ],
-        "speechEn": "Здравствуйте! Мне нужна бутылка воды Bisleri, дал и рис. Пожалуйста, совсем без перца!"
+        "speechEn": "Здравствуйте! Мне нужна бутылка воды Bisleri, дал и рис. Пожалуйста, совсем без перца!",
+        "speechDevanagari": "नमस्ते! एक बिसलेरी पानी, दाल और चावल चाहिए। बिना मिर्च के!",
+        "acceptableResponsesDevanagari": [
+          "बिसलेरी पानी और दाल चावल चाहिए, बिना मिर्च के"
+        ]
       },
       {
         "speaker": "Хозяин",
@@ -252,7 +259,8 @@
         "speechCyrillic": "Билкул тиикхаа нахииⁿ банаайаа. Лииджие гарам кхаанаа!",
         "learnerHintRu": "Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет.",
         "speechEn": "Понял! Готовим совсем не остро. Вот горячая еда!",
-        "learnerHintEn": "Hint: Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет."
+        "learnerHintEn": "Hint: Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет.",
+        "speechDevanagari": "बिल्कुल तीखा नहीं बनाया। लीजिए गर्म खाना!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -262,7 +270,11 @@
         "acceptableResponsesIso": [
           "Bahut svādishṭ hai! Bill lē āiye."
         ],
-        "speechEn": "Очень вкусно! Большое спасибо. Брат, принесите счет."
+        "speechEn": "Очень вкусно! Большое спасибо. Брат, принесите счет.",
+        "speechDevanagari": "बहुत स्वादिष्ट है! शुक्रिया। भैया, बिल ले आइए।",
+        "acceptableResponsesDevanagari": [
+          "बहुत स्वादिष्ट है! बिल ले आइए।"
+        ]
       },
       {
         "speaker": "Хозяин",
@@ -271,7 +283,8 @@
         "speechCyrillic": "Сирф 250 рупае мадам.",
         "learnerHintRu": "Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!",
         "speechEn": "Всего двести пятьдесят рупий, сестра.",
-        "learnerHintEn": "Hint: Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!"
+        "learnerHintEn": "Hint: Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!",
+        "speechDevanagari": "सिर्फ़ 250 रुपये मैडम।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -281,7 +294,11 @@
         "acceptableResponsesIso": [
           "Paisē lījiye, shukriyā!"
         ],
-        "speechEn": "Возьмите деньги, спасибо большое!"
+        "speechEn": "Возьмите деньги, спасибо большое!",
+        "speechDevanagari": "पैसे लीजिए, बहुत धन्यवाद!",
+        "acceptableResponsesDevanagari": [
+          "पैसे लीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Phase 3 Synthesis and Authentic Dhābā Dining Simulation",

@@ -195,7 +195,8 @@
       "transliterationIsoTarget": "Das rupayē",
       "explanationRu": "Das = 10.",
       "instructionEn": "Exercise instruction: Назовите число 10 (когнат с русским 'десять')",
-      "explanationEn": "Das = 10."
+      "explanationEn": "Das = 10.",
+      "devanagariTarget": "दस रुपये"
     },
     {
       "id": "d25_ex04",
@@ -211,7 +212,8 @@
       "transliterationIsoTarget": "Bīs rupayē",
       "explanationRu": "Bīs = 20.",
       "instructionEn": "Exercise instruction: Вставьте число 20 в фразу '20 рупий'",
-      "explanationEn": "Bīs = 20."
+      "explanationEn": "Bīs = 20.",
+      "devanagariTarget": "बीस रुपये"
     },
     {
       "id": "d25_ex05",
@@ -228,7 +230,8 @@
       "phoneticCyrillicTarget": "Эк, До, Тиин, Чаар, Паанч!",
       "transliterationIsoTarget": "Ek, Do, Tīn, Chār, Pāñch!",
       "explanationRu": "Правильный и уверенный устный ответ: Ek, Do, Tīn, Chār, Pāñch!",
-      "explanationEn": "Correct and confident verbal response: Ek, Do, Tīn, Chār, Pāñch!"
+      "explanationEn": "Correct and confident verbal response: Ek, Do, Tīn, Chār, Pāñch!",
+      "devanagariTarget": "एक, दो, तीन, चार, पाँच!"
     }
   ],
   "simulationRoleplay": {
@@ -244,7 +247,8 @@
         "speechCyrillic": "Намастэ мадам! Фрэш бананас! Китнее чаахийе?",
         "learnerHintRu": "Скажите: Дайте четыре банана (Chār banana dījiye)",
         "speechEn": "Здравствуйте! Свежие бананы и апельсины. Сколько вам дать?",
-        "learnerHintEn": "Hint: Скажите: Дайте четыре банана (Chār banana dījiye)"
+        "learnerHintEn": "Hint: Скажите: Дайте четыре банана (Chār banana dījiye)",
+        "speechDevanagari": "नमस्ते मैडम! फ्रेश केले! कितने चाहिए?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -255,7 +259,12 @@
           "Chār banana dījiye",
           "Do orange dījiye"
         ],
-        "speechEn": "Здравствуйте! Дайте четыре банана и два апельсина."
+        "speechEn": "Здравствуйте! Дайте четыре банана и два апельсина.",
+        "speechDevanagari": "नमस्ते! चार केले और दो संतरे दीजिए।",
+        "acceptableResponsesDevanagari": [
+          "चार केला दीजिए",
+          "दो संतरा दीजिए"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -264,7 +273,8 @@
         "speechCyrillic": "Лииджие мадам. Тотал биис рупае.",
         "learnerHintRu": "Отдайте оплату: Bīs rupayē lījiye, shukriyā!",
         "speechEn": "Вот, пожалуйста, держите. Всего двадцать рупий.",
-        "learnerHintEn": "Hint: Отдайте оплату: Bīs rupayē lījiye, shukriyā!"
+        "learnerHintEn": "Hint: Отдайте оплату: Bīs rupayē lījiye, shukriyā!",
+        "speechDevanagari": "लीजिए मैडम। टोटल बीस रुपये।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -274,7 +284,11 @@
         "acceptableResponsesIso": [
           "Lījiye, shukriyā!"
         ],
-        "speechEn": "Возьмите двадцать рупий, спасибо!"
+        "speechEn": "Возьмите двадцать рупий, спасибо!",
+        "speechDevanagari": "बीस रुपये लीजिए, शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "लीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Numerical Framework 1–20",

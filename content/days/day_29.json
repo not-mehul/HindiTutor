@@ -166,7 +166,8 @@
       "transliterationIsoTarget": "Mujhē baṛā size chāhiye.",
       "explanationRu": "Baṛā size = большой размер.",
       "instructionEn": "Exercise instruction: Попросите размер побольше (Мне нужен большой размер)",
-      "explanationEn": "Baṛā size = большой размер."
+      "explanationEn": "Baṛā size = большой размер.",
+      "devanagariTarget": "मुझे बड़ा साइज़ चाहिए।"
     },
     {
       "id": "d29_ex03",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "Mujhē nayā piece dījiye.",
       "explanationRu": "Nayā piece = новая вещь.",
       "instructionEn": "Exercise instruction: Попросите абсолютно новую вещь со склада",
-      "explanationEn": "Nayā piece = новая вещь."
+      "explanationEn": "Nayā piece = новая вещь.",
+      "devanagariTarget": "मुझे नया पीस दीजिए।"
     },
     {
       "id": "d29_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Бар͟аа / Бар͟ии!",
       "transliterationIsoTarget": "Baṛā (m) / Baṛī (f)!",
       "explanationRu": "Правильный и уверенный устный ответ: Baṛā (m) / Baṛī (f)!",
-      "explanationEn": "Correct and confident verbal response: Baṛā (m) / Baṛī (f)!"
+      "explanationEn": "Correct and confident verbal response: Baṛā (m) / Baṛī (f)!",
+      "devanagariTarget": "बड़ा () / बड़ी ()!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Мадам, кэсаа хэ? Фиттинг т͟хиик хэ?",
         "learnerHintRu": "Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)",
         "speechEn": "Как сидит туника курта, мадам? Все в порядке?",
-        "learnerHintEn": "Hint: Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)"
+        "learnerHintEn": "Hint: Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)",
+        "speechDevanagari": "मैडम, कैसा है? फ़िटिंग ठीक है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -241,7 +245,11 @@
         "acceptableResponsesIso": [
           "Yeh bahut chhōṭā hai. Baṛā size chāhiye."
         ],
-        "speechEn": "Нет, это очень мало. Мне нужен большой размер."
+        "speechEn": "Нет, это очень мало. Мне нужен большой размер.",
+        "speechDevanagari": "नहीं भैया, यह बहुत छोटा है। बड़ा साइज़ चाहिए।",
+        "acceptableResponsesDevanagari": [
+          "यह बहुत छोटा है। बड़ा साइज़ चाहिए।"
+        ]
       },
       {
         "speaker": "Продавец",
@@ -250,7 +258,8 @@
         "speechCyrillic": "Коии баат нахииⁿ мадам! Лииджие бар͟аа сайз.",
         "learnerHintRu": "Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)",
         "speechEn": "Без проблем! Вот размер L. Посмотрите, пожалуйста.",
-        "learnerHintEn": "Hint: Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)"
+        "learnerHintEn": "Hint: Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)",
+        "speechDevanagari": "कोई बात नहीं मैडम! लीजिए बड़ा साइज़।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -260,7 +269,11 @@
         "acceptableResponsesIso": [
           "Yeh kharāb hai, nayā piece dījiye."
         ],
-        "speechEn": "Подождите, здесь пятно, эта вещь бракованная. Дайте новую!"
+        "speechEn": "Подождите, здесь пятно, эта вещь бракованная. Дайте новую!",
+        "speechDevanagari": "रुकिए, यह ख़राब है। नया पीस दीजिए।",
+        "acceptableResponsesDevanagari": [
+          "यह ख़राब है, नया पीस दीजिए।"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Adjectival Modifiers: Dimensions and Condition",

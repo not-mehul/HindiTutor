@@ -175,7 +175,8 @@
       "transliterationIsoTarget": "Yahā̃ baithiye",
       "explanationRu": "Yahā̃ означает 'здесь / сюда'.",
       "instructionEn": "Exercise instruction: Предложите гостю: 'Садитесь сюда, пожалуйста'",
-      "explanationEn": "Yahā̃ означает 'здесь / сюда'."
+      "explanationEn": "Yahā̃ означает 'здесь / сюда'.",
+      "devanagariTarget": "यहाँ बैठिए"
     },
     {
       "id": "d07_ex03",
@@ -191,7 +192,8 @@
       "transliterationIsoTarget": "Station vahā̃ hai",
       "explanationRu": "Vahā̃ означает 'там / вон там'.",
       "instructionEn": "Exercise instruction: Укажите на дальний объект (Вон там)",
-      "explanationEn": "Vahā̃ означает 'там / вон там'."
+      "explanationEn": "Vahā̃ означает 'там / вон там'.",
+      "devanagariTarget": "स्टेशन वहाँ है"
     },
     {
       "id": "d07_ex04",
@@ -224,7 +226,8 @@
       "phoneticCyrillicTarget": "Йе!",
       "transliterationIsoTarget": "Yeh!",
       "explanationRu": "Правильный и уверенный устный ответ: Yeh!",
-      "explanationEn": "Correct and confident verbal response: Yeh!"
+      "explanationEn": "Correct and confident verbal response: Yeh!",
+      "devanagariTarget": "यह!"
     }
   ],
   "simulationRoleplay": {
@@ -240,7 +243,8 @@
         "speechCyrillic": "Ааие джии, йе аапкаа руум хэ.",
         "learnerHintRu": "Поблагодарите: Bahut acchā, shukriyā!",
         "speechEn": "Пожалуйста, проходите. Это ваш номер.",
-        "learnerHintEn": "Hint: Поблагодарите: Bahut acchā, shukriyā!"
+        "learnerHintEn": "Hint: Поблагодарите: Bahut acchā, shukriyā!",
+        "speechDevanagari": "आइए जी, यह आपका रूम है।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -251,7 +255,12 @@
           "Shukriyā jī",
           "Bahut acchā!"
         ],
-        "speechEn": "Очень хорошо, спасибо!"
+        "speechEn": "Очень хорошо, спасибо!",
+        "speechDevanagari": "बहुत अच्छा, शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "शुक्रिया जी",
+          "बहुत अच्छा!"
+        ]
       },
       {
         "speaker": "Портье",
@@ -260,7 +269,8 @@
         "speechCyrillic": "Йахааⁿ бэтхие. Паании вахааⁿ хэ.",
         "learnerHintRu": "Скажите 'Ṭhīk hai, dhanyavād!'",
         "speechEn": "Садитесь здесь, пожалуйста. Вода вон там.",
-        "learnerHintEn": "Hint: Скажите 'Ṭhīk hai, dhanyavād!'"
+        "learnerHintEn": "Hint: Скажите 'Ṭhīk hai, dhanyavād!'",
+        "speechDevanagari": "यहाँ बैठिए। पानी वहाँ है।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -270,7 +280,11 @@
         "acceptableResponsesIso": [
           "Ṭhīk hai jī"
         ],
-        "speechEn": "Хорошо, спасибо большое!"
+        "speechEn": "Хорошо, спасибо большое!",
+        "speechDevanagari": "ठीक है, धन्यवाद!",
+        "acceptableResponsesDevanagari": [
+          "ठीक है जी"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Spatial Deixis and Demonstratives",

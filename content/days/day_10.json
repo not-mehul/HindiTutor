@@ -166,7 +166,8 @@
       "transliterationIsoTarget": "Passport mēz par hai",
       "explanationRu": "Для нахождения на поверхности используется послелог par (на столе = mēz par).",
       "instructionEn": "Exercise instruction: Скажите, что паспорт лежит на столе",
-      "explanationEn": "Для нахождения на поверхности используется послелог par (на столе = mēz par)."
+      "explanationEn": "Для нахождения на поверхности используется послелог par (на столе = mēz par).",
+      "devanagariTarget": "पासपोर्ट मेज़ पर है"
     },
     {
       "id": "d10_ex03",
@@ -182,7 +183,8 @@
       "transliterationIsoTarget": "Kyā driver gāṛī mẽ hai?",
       "explanationRu": "Внутри машины — gāṛī mẽ.",
       "instructionEn": "Exercise instruction: Спросите: 'Водитель в машине?'",
-      "explanationEn": "Внутри машины — gāṛī mẽ."
+      "explanationEn": "Внутри машины — gāṛī mẽ.",
+      "devanagariTarget": "क्या ड्राइवर गाड़ी में है?"
     },
     {
       "id": "d10_ex04",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Мэⁿ!",
       "transliterationIsoTarget": "Mẽ!",
       "explanationRu": "Правильный и уверенный устный ответ: Mẽ!",
-      "explanationEn": "Correct and confident verbal response: Mẽ!"
+      "explanationEn": "Correct and confident verbal response: Mẽ!",
+      "devanagariTarget": "में!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Бхаййаа, рукие! Мераа фон гаар͟ии мэⁿ хэ.",
         "learnerHintRu": "Скажите водителю притормозить и укажите на телефон в машине",
         "speechEn": "Брат, подождите пожалуйста! Мой телефон в машине.",
-        "learnerHintEn": "Hint: Скажите водителю притормозить и укажите на телефон в машине"
+        "learnerHintEn": "Hint: Скажите водителю притормозить и укажите на телефон в машине",
+        "speechDevanagari": "भैया, रुकिए! मेरा फ़ोन गाड़ी में है।"
       },
       {
         "speaker": "Водитель",
@@ -240,7 +244,8 @@
         "speechCyrillic": "Фон гаар͟ии мэⁿ хэ? Кахааⁿ хэ?",
         "learnerHintRu": "Скажите: На сиденье! (Seat par hai)",
         "speechEn": "Телефон в машине? Где он лежит?",
-        "learnerHintEn": "Hint: Скажите: На сиденье! (Seat par hai)"
+        "learnerHintEn": "Hint: Скажите: На сиденье! (Seat par hai)",
+        "speechDevanagari": "फ़ोन गाड़ी में है? कहाँ है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -251,7 +256,12 @@
           "Seat par hai",
           "Vahā̃ seat par hai"
         ],
-        "speechEn": "Он на сиденье."
+        "speechEn": "Он на сиденье.",
+        "speechDevanagari": "सीट पर है।",
+        "acceptableResponsesDevanagari": [
+          "सीट पर है",
+          "वहाँ सीट पर है"
+        ]
       },
       {
         "speaker": "Водитель",
@@ -260,7 +270,8 @@
         "speechCyrillic": "Хааⁿ-джии, мил гайаа! Лиджие.",
         "learnerHintRu": "Поблагодарите от души: Bahut shukriyā jī!",
         "speechEn": "Да, вот он! Пожалуйста, возьмите.",
-        "learnerHintEn": "Hint: Поблагодарите от души: Bahut shukriyā jī!"
+        "learnerHintEn": "Hint: Поблагодарите от души: Bahut shukriyā jī!",
+        "speechDevanagari": "हाँ - जी, मिल गया! लीजिए।"
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Inessive and Adessive Postpositions (Mẽ and Par)",

@@ -188,7 +188,8 @@
       "correctAnswer": "Namastē jī",
       "explanationRu": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость.",
       "instructionEn": "Exercise instruction: Повторите фразу с уважительной частицей, удерживая долгие гласные",
-      "explanationEn": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость."
+      "explanationEn": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость.",
+      "devanagariTarget": "नमस्ते जी"
     },
     {
       "id": "d01_ex03",
@@ -204,7 +205,8 @@
       "transliterationIsoTarget": "Bahut shukriyā",
       "explanationRu": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо.",
       "instructionEn": "Exercise instruction: Вставьте подходящее разговорное слово 'спасибо'",
-      "explanationEn": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо."
+      "explanationEn": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо.",
+      "devanagariTarget": "बहुत शुक्रिया"
     },
     {
       "id": "d01_ex04",
@@ -236,7 +238,8 @@
         "speechCyrillic": "Намастэ джии! Вэлкам!",
         "learnerHintRu": "Ответьте вежливым приветствием со словом джи",
         "speechEn": "Здравствуйте! Добро пожаловать!",
-        "learnerHintEn": "Hint: Ответьте вежливым приветствием со словом джи"
+        "learnerHintEn": "Hint: Ответьте вежливым приветствием со словом джи",
+        "speechDevanagari": "नमस्ते जी! वेलकम!"
       },
       {
         "speaker": "Вы (ученик)",
@@ -247,7 +250,12 @@
           "Namastē jī",
           "Namastē jī, shukriyā"
         ],
-        "speechEn": "Здравствуйте, спасибо большое!"
+        "speechEn": "Здравствуйте, спасибо большое!",
+        "speechDevanagari": "नमस्ते जी, बहुत शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "नमस्ते जी",
+          "नमस्ते जी, शुक्रिया"
+        ]
       },
       {
         "speaker": "Менеджер",
@@ -256,7 +264,8 @@
         "speechCyrillic": "Ааие джии, йахааⁿ ааие.",
         "learnerHintRu": "Поблагодарите уважительным словом Dhanyavād jī",
         "speechEn": "Пожалуйста, проходите сюда.",
-        "learnerHintEn": "Hint: Поблагодарите уважительным словом Dhanyavād jī"
+        "learnerHintEn": "Hint: Поблагодарите уважительным словом Dhanyavād jī",
+        "speechDevanagari": "आइए जी, यहाँ आइए।"
       },
       {
         "speaker": "Вы (ученик)",
@@ -267,7 +276,12 @@
           "Dhanyavād jī",
           "Bahut shukriyā jī"
         ],
-        "speechEn": "Большое спасибо!"
+        "speechEn": "Большое спасибо!",
+        "speechDevanagari": "धन्यवाद जी!",
+        "acceptableResponsesDevanagari": [
+          "धन्यवाद जी",
+          "बहुत शुक्रिया जी"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Articulatory Architecture, Greetings, and Respectful Interaction",

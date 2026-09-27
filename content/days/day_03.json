@@ -155,7 +155,8 @@
       "transliterationIsoTarget": "Āp kaisī haiñ?",
       "explanationRu": "Для женского рода согласовательное окончание всегда -ī (kaisī).",
       "instructionEn": "Exercise instruction: Обратитесь к женщине с вопросом 'Как ваши дела?'",
-      "explanationEn": "Для женского рода согласовательное окончание всегда -ī (kaisī)."
+      "explanationEn": "Для женского рода согласовательное окончание всегда -ī (kaisī).",
+      "devanagariTarget": "आप कैसी हैं?"
     },
     {
       "id": "d03_ex02",
@@ -207,7 +208,8 @@
       "transliterationIsoTarget": "Aur āp?",
       "explanationRu": "Aur означает 'и / а'.",
       "instructionEn": "Exercise instruction: Вставьте союз 'А вы?'",
-      "explanationEn": "Aur означает 'и / а'."
+      "explanationEn": "Aur означает 'и / а'.",
+      "devanagariTarget": "और आप?"
     },
     {
       "id": "d03_ex05",
@@ -224,7 +226,8 @@
       "phoneticCyrillicTarget": "Кэсии!",
       "transliterationIsoTarget": "Kaisī!",
       "explanationRu": "Правильный и уверенный устный ответ: Kaisī!",
-      "explanationEn": "Correct and confident verbal response: Kaisī!"
+      "explanationEn": "Correct and confident verbal response: Kaisī!",
+      "devanagariTarget": "कैसी!"
     }
   ],
   "simulationRoleplay": {
@@ -240,7 +243,8 @@
         "speechCyrillic": "Намастэ джии! Аап кэсии хэⁿ?",
         "learnerHintRu": "Ответьте: Я в порядке, спасибо! А вы?",
         "speechEn": "Доброе утро! Как вы поживаете?",
-        "learnerHintEn": "Hint: Ответьте: Я в порядке, спасибо! А вы?"
+        "learnerHintEn": "Hint: Ответьте: Я в порядке, спасибо! А вы?",
+        "speechDevanagari": "नमस्ते जी! आप कैसी हैं?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -250,7 +254,11 @@
         "acceptableResponsesIso": [
           "Main ṭhīk hū̃, shukriyā! Aur āp?"
         ],
-        "speechEn": "Я в порядке, спасибо! А вы как?"
+        "speechEn": "Я в порядке, спасибо! А вы как?",
+        "speechDevanagari": "मैं ठीक हूँ, धन्यवाद! और आप?",
+        "acceptableResponsesDevanagari": [
+          "मैं ठीक हूँ, शुक्रिया! और आप?"
+        ]
       },
       {
         "speaker": "Администратор",
@@ -259,7 +267,8 @@
         "speechCyrillic": "Мэⁿ бхии т͟хиик хууⁿ. Бахут аччхаа!",
         "learnerHintRu": "Улыбнитесь и скажите 'Acchā jī, shukriyā'",
         "speechEn": "Я тоже в полном порядке. Очень хорошо!",
-        "learnerHintEn": "Hint: Улыбнитесь и скажите 'Acchā jī, shukriyā'"
+        "learnerHintEn": "Hint: Улыбнитесь и скажите 'Acchā jī, shukriyā'",
+        "speechDevanagari": "मैं भी ठीक हूँ। बहुत अच्छा!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -269,7 +278,11 @@
         "acceptableResponsesIso": [
           "Bahut acchā, shukriyā!"
         ],
-        "speechEn": "Прекрасно, спасибо!"
+        "speechEn": "Прекрасно, спасибо!",
+        "speechDevanagari": "अच्छा जी, शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "बहुत अच्छा, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Inquiring Wellbeing and Adjectival Gender Agreement",

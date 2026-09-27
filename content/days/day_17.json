@@ -164,7 +164,8 @@
       "transliterationIsoTarget": "Mujhē bill chāhiye.",
       "explanationRu": "Mujhē bill chāhiye = Мне нужен счет.",
       "instructionEn": "Exercise instruction: Скажите официанту, что вам нужен счет",
-      "explanationEn": "Mujhē bill chāhiye = Мне нужен счет."
+      "explanationEn": "Mujhē bill chāhiye = Мне нужен счет.",
+      "devanagariTarget": "मुझे बिल चाहिए।"
     },
     {
       "id": "d17_ex03",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Mujhē chāi chāhiye.",
       "explanationRu": "С глаголом chāhiye всегда используется датив Mujhē.",
       "instructionEn": "Exercise instruction: Вставьте дативное местоимение 'Мне'",
-      "explanationEn": "С глаголом chāhiye всегда используется датив Mujhē."
+      "explanationEn": "С глаголом chāhiye всегда используется датив Mujhē.",
+      "devanagariTarget": "मुझे चाय चाहिए।"
     },
     {
       "id": "d17_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Чаахийе!",
       "transliterationIsoTarget": "Chāhiye!",
       "explanationRu": "Правильный и уверенный устный ответ: Chāhiye!",
-      "explanationEn": "Correct and confident verbal response: Chāhiye!"
+      "explanationEn": "Correct and confident verbal response: Chāhiye!",
+      "devanagariTarget": "चाहिए!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Намастэ мадам! Кйаа чаахийе?",
         "learnerHintRu": "Скажите: Мне нужен чай и вода (Mujhē chāi aur pānī chāhiye)",
         "speechEn": "Здравствуйте, сестра! Что вам нужно?",
-        "learnerHintEn": "Hint: Скажите: Мне нужен чай и вода (Mujhē chāi aur pānī chāhiye)"
+        "learnerHintEn": "Hint: Скажите: Мне нужен чай и вода (Mujhē chāi aur pānī chāhiye)",
+        "speechDevanagari": "नमस्ते मैडम! क्या चाहिए?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -239,7 +243,11 @@
         "acceptableResponsesIso": [
           "Mujhē chāi aur pānī chāhiye"
         ],
-        "speechEn": "Здравствуйте! Мне нужен чай и бутылка воды."
+        "speechEn": "Здравствуйте! Мне нужен чай и бутылка воды.",
+        "speechDevanagari": "नमस्ते! मुझे एक चाय और पानी चाहिए।",
+        "acceptableResponsesDevanagari": [
+          "मुझे चाय और पानी चाहिए"
+        ]
       },
       {
         "speaker": "Официант",
@@ -248,7 +256,8 @@
         "speechCyrillic": "Абхии лаайаа, до минат.",
         "learnerHintRu": "Поблагодарите: Shukriyā!",
         "speechEn": "Сейчас принесу, две минуты.",
-        "learnerHintEn": "Hint: Поблагодарите: Shukriyā!"
+        "learnerHintEn": "Hint: Поблагодарите: Shukriyā!",
+        "speechDevanagari": "अभी लाया, दो मिनट।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -258,7 +267,11 @@
         "acceptableResponsesIso": [
           "Dhanyavād"
         ],
-        "speechEn": "Спасибо!"
+        "speechEn": "Спасибо!",
+        "speechDevanagari": "शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "धन्यवाद"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Dative Experiencers 1: Necessity with Chāhiye",

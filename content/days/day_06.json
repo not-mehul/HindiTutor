@@ -155,7 +155,8 @@
       "transliterationIsoTarget": "Mujhē Hindī nahī̃ ātī",
       "explanationRu": "В конструкциях владения языком используется дативный субъект Mujhē (мне).",
       "instructionEn": "Exercise instruction: Сформулируйте фразу: 'Я не говорю на хинди' (буквально: 'Мне хинди не приходит')",
-      "explanationEn": "В конструкциях владения языком используется дативный субъект Mujhē (мне)."
+      "explanationEn": "В конструкциях владения языком используется дативный субъект Mujhē (мне).",
+      "devanagariTarget": "मुझे हिन्दी नहीं आती"
     },
     {
       "id": "d06_ex02",
@@ -185,7 +186,8 @@
       "correctAnswer": "Phir sē bōliye",
       "explanationRu": "Phir sē (снова) + bōliye (скажите).",
       "instructionEn": "Exercise instruction: Произнесите просьбу повторить еще раз",
-      "explanationEn": "Phir sē (снова) + bōliye (скажите)."
+      "explanationEn": "Phir sē (снова) + bōliye (скажите).",
+      "devanagariTarget": "फिर से बोलिए"
     },
     {
       "id": "d06_ex04",
@@ -218,7 +220,8 @@
       "phoneticCyrillicTarget": "Муджхе!",
       "transliterationIsoTarget": "Mujhē!",
       "explanationRu": "Правильный и уверенный устный ответ: Mujhē!",
-      "explanationEn": "Correct and confident verbal response: Mujhē!"
+      "explanationEn": "Correct and confident verbal response: Mujhē!",
+      "devanagariTarget": "मुझे!"
     }
   ],
   "simulationRoleplay": {
@@ -234,7 +237,8 @@
         "speechCyrillic": "Кахааⁿ джаанаа хэ, мадам? Хотел йа маркет? Чало чало!",
         "learnerHintRu": "Скажите: Извините, я не знаю хинди. Говорите медленнее.",
         "speechEn": "Куда едем, мадам? В отель или на рынок? Быстро довезу!",
-        "learnerHintEn": "Hint: Скажите: Извините, я не знаю хинди. Говорите медленнее."
+        "learnerHintEn": "Hint: Скажите: Извините, я не знаю хинди. Говорите медленнее.",
+        "speechDevanagari": "कहाँ जाना है, मैडम? होटल या मार्केट? चलो चलो!"
       },
       {
         "speaker": "Вы (ученица)",
@@ -244,7 +248,11 @@
         "acceptableResponsesIso": [
           "Mujhē Hindī nahī̃ ātī. Dhīrē bōliye."
         ],
-        "speechEn": "Извините, я не говорю на хинди. Пожалуйста, говорите медленно."
+        "speechEn": "Извините, я не говорю на хинди. Пожалуйста, говорите медленно.",
+        "speechDevanagari": "माफ़ कीजिए, मुझे हिन्दी नहीं आती। धीरे बोलिए।",
+        "acceptableResponsesDevanagari": [
+          "मुझे हिन्दी नहीं आती। धीरे बोलिए।"
+        ]
       },
       {
         "speaker": "Таксист",
@@ -253,7 +261,8 @@
         "speechCyrillic": "Аччхаа, аччхаа. Кйаа аапко инглиш аатии хэ?",
         "learnerHintRu": "Ответьте: Да, я знаю английский (Hā̃-jī)",
         "speechEn": "А, хорошо, мадам. Вы говорите по-английски?",
-        "learnerHintEn": "Hint: Ответьте: Да, я знаю английский (Hā̃-jī)"
+        "learnerHintEn": "Hint: Ответьте: Да, я знаю английский (Hā̃-jī)",
+        "speechDevanagari": "अच्छा, अच्छा। क्या आपको इंग्लिश आती है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -263,7 +272,11 @@
         "acceptableResponsesIso": [
           "Hā̃-jī"
         ],
-        "speechEn": "Да, английский знаю."
+        "speechEn": "Да, английский знаю.",
+        "speechDevanagari": "हाँ - जी, इंग्लिश आती है।",
+        "acceptableResponsesDevanagari": [
+          "हाँ-जी"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Conversational Repair and Comprehension Boundaries",

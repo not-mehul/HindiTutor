@@ -168,7 +168,8 @@
       "transliterationIsoTarget": "Main aa rahī hū̃.",
       "explanationRu": "Main aa rahī hū̃ = Я иду прямо сейчас.",
       "instructionEn": "Exercise instruction: Скажите водителю по телефону: 'Я уже иду!' (женский род)",
-      "explanationEn": "Main aa rahī hū̃ = Я иду прямо сейчас."
+      "explanationEn": "Main aa rahī hū̃ = Я иду прямо сейчас.",
+      "devanagariTarget": "मैं आ रही हूँ।"
     },
     {
       "id": "d34_ex03",
@@ -200,7 +201,8 @@
       "transliterationIsoTarget": "Hum ab nikal rahē haiñ.",
       "explanationRu": "Nikal rahē haiñ = выходим / отправляемся.",
       "instructionEn": "Exercise instruction: Скажите попутчикам: 'Мы выходим прямо сейчас'",
-      "explanationEn": "Nikal rahē haiñ = выходим / отправляемся."
+      "explanationEn": "Nikal rahē haiñ = выходим / отправляемся.",
+      "devanagariTarget": "हम अब निकल रहे हैं।"
     },
     {
       "id": "d34_ex05",
@@ -217,7 +219,8 @@
       "phoneticCyrillicTarget": "Рахии хууⁿ / Рахаа хууⁿ!",
       "transliterationIsoTarget": "Rahī hū̃ (f) / Rahā hū̃ (m)!",
       "explanationRu": "Правильный и уверенный устный ответ: Rahī hū̃ (f) / Rahā hū̃ (m)!",
-      "explanationEn": "Correct and confident verbal response: Rahī hū̃ (f) / Rahā hū̃ (m)!"
+      "explanationEn": "Correct and confident verbal response: Rahī hū̃ (f) / Rahā hū̃ (m)!",
+      "devanagariTarget": "रही हूँ () / रहा हूँ ()!"
     }
   ],
   "simulationRoleplay": {
@@ -233,7 +236,8 @@
         "speechCyrillic": "Намастэ мадам! Карпетс, стэтьюс! Кйаа чаахийе аапко?",
         "learnerHintRu": "Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)",
         "speechEn": "Здравствуйте, мадам! Посмотрите сюда, старинные ковры, бронза! Что вы ищете?",
-        "learnerHintEn": "Hint: Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)"
+        "learnerHintEn": "Hint: Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)",
+        "speechDevanagari": "नमस्ते मैडम! कालीन, मूर्तियाँ! क्या चाहिए आपको?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -243,7 +247,11 @@
         "acceptableResponsesIso": [
           "Main bas dēkh rahī hū̃"
         ],
-        "speechEn": "Спасибо, я просто осматриваюсь."
+        "speechEn": "Спасибо, я просто осматриваюсь.",
+        "speechDevanagari": "शुक्रिया, मैं बस देख रही हूँ।",
+        "acceptableResponsesDevanagari": [
+          "मैं बस देख रही हूँ"
+        ]
       },
       {
         "speaker": "Консультант",
@@ -252,7 +260,8 @@
         "speechCyrillic": "Шур мадам, дэкхие аарам сэ! Булааие джаб чаахийе.",
         "learnerHintRu": "Ответьте с благодарностью: Ṭhīk hai, shukriyā!",
         "speechEn": "Пожалуйста, смотрите спокойно! Если что-то нужно, позовите меня.",
-        "learnerHintEn": "Hint: Ответьте с благодарностью: Ṭhīk hai, shukriyā!"
+        "learnerHintEn": "Hint: Ответьте с благодарностью: Ṭhīk hai, shukriyā!",
+        "speechDevanagari": "श्योर मैडम, देखिए आराम से! बुलाइए जब चाहिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -262,7 +271,11 @@
         "acceptableResponsesIso": [
           "Dhanyavād"
         ],
-        "speechEn": "Хорошо, спасибо!"
+        "speechEn": "Хорошо, спасибо!",
+        "speechDevanagari": "ठीक है, शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "धन्यवाद"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Continuous Aspect: Real-Time Actions",

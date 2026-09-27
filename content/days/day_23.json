@@ -166,7 +166,8 @@
       "transliterationIsoTarget": "Bhaiyā, kitnā huā?",
       "explanationRu": "Kitnā huā? = Сколько вышло?",
       "instructionEn": "Exercise instruction: Спросите, сколько вышло к оплате",
-      "explanationEn": "Kitnā huā? = Сколько вышло?"
+      "explanationEn": "Kitnā huā? = Сколько вышло?",
+      "devanagariTarget": "भैया, कितना हुआ?"
     },
     {
       "id": "d23_ex03",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "UPI / G-Pay chalēgā?",
       "explanationRu": "Chalēgā означает 'сработает / принимается'.",
       "instructionEn": "Exercise instruction: Уточните, принимают ли оплату через UPI (Google Pay)",
-      "explanationEn": "Chalēgā означает 'сработает / принимается'."
+      "explanationEn": "Chalēgā означает 'сработает / принимается'.",
+      "devanagariTarget": "यूपीआई / जी - पे चलेगा?"
     },
     {
       "id": "d23_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Лее ааие!",
       "transliterationIsoTarget": "Lē āiye!",
       "explanationRu": "Правильный и уверенный устный ответ: Lē āiye!",
-      "explanationEn": "Correct and confident verbal response: Lē āiye!"
+      "explanationEn": "Correct and confident verbal response: Lē āiye!",
+      "devanagariTarget": "ले आइए!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Бхаййаа, билл лее ааие!",
         "learnerHintRu": "Попросите счет: Bhaiyā, bill lē āiye!",
         "speechEn": "Брат, принесите счет, пожалуйста!",
-        "learnerHintEn": "Hint: Попросите счет: Bhaiyā, bill lē āiye!"
+        "learnerHintEn": "Hint: Попросите счет: Bhaiyā, bill lē āiye!",
+        "speechDevanagari": "भैया, बिल ले आइए!"
       },
       {
         "speaker": "Официант",
@@ -240,7 +244,8 @@
         "speechCyrillic": "Лииджие билл мадам. 750 рупае.",
         "learnerHintRu": "Спросите: Карта пойдет? (Card chalēgā?)",
         "speechEn": "Вот ваш счет, мадам. Семьсот пятьдесят рупий.",
-        "learnerHintEn": "Hint: Спросите: Карта пойдет? (Card chalēgā?)"
+        "learnerHintEn": "Hint: Спросите: Карта пойдет? (Card chalēgā?)",
+        "speechDevanagari": "लीजिए बिल मैडम। 750 रुपये।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -250,7 +255,11 @@
         "acceptableResponsesIso": [
           "Card chalēgā?"
         ],
-        "speechEn": "Сколько вышло? Банковская карта пройдет?"
+        "speechEn": "Сколько вышло? Банковская карта пройдет?",
+        "speechDevanagari": "कितना हुआ? कार्ड चलेगा?",
+        "acceptableResponsesDevanagari": [
+          "कार्ड चलेगा?"
+        ]
       },
       {
         "speaker": "Официант",
@@ -259,7 +268,8 @@
         "speechCyrillic": "Хааⁿ-джии билкул, кард чалээгаа.",
         "learnerHintRu": "Передайте карту: Lījiye, shukriyā!",
         "speechEn": "Да, конечно, карточный терминал работает!",
-        "learnerHintEn": "Hint: Передайте карту: Lījiye, shukriyā!"
+        "learnerHintEn": "Hint: Передайте карту: Lījiye, shukriyā!",
+        "speechDevanagari": "हाँ - जी बिल्कुल, कार्ड चलेगा।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -269,7 +279,11 @@
         "acceptableResponsesIso": [
           "Lījiye, shukriyā!"
         ],
-        "speechEn": "Возьмите, пожалуйста! Большое спасибо."
+        "speechEn": "Возьмите, пожалуйста! Большое спасибо.",
+        "speechDevanagari": "लीजिए कार्ड। बहुत शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "लीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Billing Inquiries and Payment Settlement",

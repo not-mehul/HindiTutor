@@ -182,7 +182,8 @@
       "transliterationIsoTarget": "Ek bag dījiye.",
       "explanationRu": "Ek bag dījiye = Дайте пакет.",
       "instructionEn": "Exercise instruction: Попросите пакет (Пакет + дайте)",
-      "explanationEn": "Ek bag dījiye = Дайте пакет."
+      "explanationEn": "Ek bag dījiye = Дайте пакет.",
+      "devanagariTarget": "एक बैग दीजिए।"
     },
     {
       "id": "d31_ex04",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "Pāñch sau kā note lījiye!",
       "explanationRu": "Lījiye = возьмите.",
       "instructionEn": "Exercise instruction: Отдайте купюру в 500 рупий",
-      "explanationEn": "Lījiye = возьмите."
+      "explanationEn": "Lījiye = возьмите.",
+      "devanagariTarget": "पाँच सौ का नोट लीजिए!"
     },
     {
       "id": "d31_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Кхуллэ пэсе!",
       "transliterationIsoTarget": "Khullē paisē!",
       "explanationRu": "Правильный и уверенный устный ответ: Khullē paisē!",
-      "explanationEn": "Correct and confident verbal response: Khullē paisē!"
+      "explanationEn": "Correct and confident verbal response: Khullē paisē!",
+      "devanagariTarget": "खुले पैसे!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "450 рупае мадам. Кйаа 50 кхуллэ хэⁿ?",
         "learnerHintRu": "Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)",
         "speechEn": "Всего четыреста пятьдесят рупий, мадам. У вас есть мелочь 50 рупий?",
-        "learnerHintEn": "Hint: Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)"
+        "learnerHintEn": "Hint: Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)",
+        "speechDevanagari": "450 रुपये मैडम। क्या 50 खुले हैं?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -241,7 +245,11 @@
         "acceptableResponsesIso": [
           "Khullē nahī̃ haiñ. Pāñch sau kā note lījiye."
         ],
-        "speechEn": "Нет, мелочи нет. Возьмите пятьсот рупий."
+        "speechEn": "Нет, мелочи нет. Возьмите пятьсот рупий.",
+        "speechDevanagari": "नहीं, खुले नहीं हैं। पाँच सौ का नोट लीजिए।",
+        "acceptableResponsesDevanagari": [
+          "खुले नहीं हैं। पाँच सौ का नोट लीजिए।"
+        ]
       },
       {
         "speaker": "Кассир",
@@ -250,7 +258,8 @@
         "speechCyrillic": "Т͟хиик хэ, 50 рупае чейндж лииджие. Пэк кар дууⁿ?",
         "learnerHintRu": "Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)",
         "speechEn": "Хорошо, вот ваши пятьдесят рупий сдачи. Упаковать в пакет?",
-        "learnerHintEn": "Hint: Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)"
+        "learnerHintEn": "Hint: Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)",
+        "speechDevanagari": "ठीक है, 50 रुपये चेंज लीजिए। पैक्ड कर दूँ?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -260,7 +269,11 @@
         "acceptableResponsesIso": [
           "Pack kar dījiye, shukriyā!"
         ],
-        "speechEn": "Да, пожалуйста, упакуйте. Большое спасибо!"
+        "speechEn": "Да, пожалуйста, упакуйте. Большое спасибо!",
+        "speechDevanagari": "हाँ, पैक्ड कर दीजिए। बहुत शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "पैक्ड कर दीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Finalizing Purchases, Exact Change, and Packaging",

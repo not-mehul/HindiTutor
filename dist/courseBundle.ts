@@ -936,7 +936,8 @@ export const HINDI_COURSE_BUNDLE = {
           "correctAnswer": "Namastē jī",
           "explanationRu": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость.",
           "instructionEn": "Exercise instruction: Повторите фразу с уважительной частицей, удерживая долгие гласные",
-          "explanationEn": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость."
+          "explanationEn": "Добавление 'jī' придает приветствию максимальную теплоту и вежливость.",
+          "devanagariTarget": "नमस्ते जी"
         },
         {
           "id": "d01_ex03",
@@ -952,7 +953,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Bahut shukriyā",
           "explanationRu": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо.",
           "instructionEn": "Exercise instruction: Вставьте подходящее разговорное слово 'спасибо'",
-          "explanationEn": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо."
+          "explanationEn": "Bahut (очень) + shukriyā (спасибо) = Большое спасибо.",
+          "devanagariTarget": "बहुत शुक्रिया"
         },
         {
           "id": "d01_ex04",
@@ -984,7 +986,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ джии! Вэлкам!",
             "learnerHintRu": "Ответьте вежливым приветствием со словом джи",
             "speechEn": "Здравствуйте! Добро пожаловать!",
-            "learnerHintEn": "Hint: Ответьте вежливым приветствием со словом джи"
+            "learnerHintEn": "Hint: Ответьте вежливым приветствием со словом джи",
+            "speechDevanagari": "नमस्ते जी! वेलकम!"
           },
           {
             "speaker": "Вы (ученик)",
@@ -995,7 +998,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Namastē jī",
               "Namastē jī, shukriyā"
             ],
-            "speechEn": "Здравствуйте, спасибо большое!"
+            "speechEn": "Здравствуйте, спасибо большое!",
+            "speechDevanagari": "नमस्ते जी, बहुत शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "नमस्ते जी",
+              "नमस्ते जी, शुक्रिया"
+            ]
           },
           {
             "speaker": "Менеджер",
@@ -1004,7 +1012,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Ааие джии, йахааⁿ ааие.",
             "learnerHintRu": "Поблагодарите уважительным словом Dhanyavād jī",
             "speechEn": "Пожалуйста, проходите сюда.",
-            "learnerHintEn": "Hint: Поблагодарите уважительным словом Dhanyavād jī"
+            "learnerHintEn": "Hint: Поблагодарите уважительным словом Dhanyavād jī",
+            "speechDevanagari": "आइए जी, यहाँ आइए।"
           },
           {
             "speaker": "Вы (ученик)",
@@ -1015,7 +1024,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Dhanyavād jī",
               "Bahut shukriyā jī"
             ],
-            "speechEn": "Большое спасибо!"
+            "speechEn": "Большое спасибо!",
+            "speechDevanagari": "धन्यवाद जी!",
+            "acceptableResponsesDevanagari": [
+              "धन्यवाद जी",
+              "बहुत शुक्रिया जी"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Articulatory Architecture, Greetings, and Respectful Interaction",
@@ -1217,7 +1231,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mērā nām Anna hai",
           "explanationRu": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'.",
           "instructionEn": "Exercise instruction: Вставьте глагол-связку в фразу 'Меня зовут Анна'",
-          "explanationEn": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'."
+          "explanationEn": "Субъект здесь 'nām' (имя — оно), поэтому связка для 3-го лица: 'hai'.",
+          "devanagariTarget": "मेरा नाम अन्ना है"
         },
         {
           "id": "d02_ex03",
@@ -1229,7 +1244,8 @@ export const HINDI_COURSE_BUNDLE = {
           "correctAnswer": "Main tourist hū̃",
           "explanationRu": "Никогда не забывайте связку hū̃ на конце!",
           "instructionEn": "Exercise instruction: Произнесите фразу 'Я турист/туристка', следя за носовым 'hū̃'",
-          "explanationEn": "Никогда не забывайте связку hū̃ на конце!"
+          "explanationEn": "Никогда не забывайте связку hū̃ на конце!",
+          "devanagariTarget": "मैं टूरिस्ट हूँ"
         },
         {
           "id": "d02_ex04",
@@ -1245,7 +1261,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Main Moscow sē hū̃",
           "explanationRu": "Sē передает значение происхождения (из Москвы).",
           "instructionEn": "Exercise instruction: Выберите правильный послелог 'из'",
-          "explanationEn": "Sē передает значение происхождения (из Москвы)."
+          "explanationEn": "Sē передает значение происхождения (из Москвы).",
+          "devanagariTarget": "मैं मॉस्को से हूँ"
         },
         {
           "id": "d02_ex05",
@@ -1262,7 +1279,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Мэⁿ!",
           "transliterationIsoTarget": "Main!",
           "explanationRu": "Правильный и уверенный устный ответ: Main!",
-          "explanationEn": "Correct and confident verbal response: Main!"
+          "explanationEn": "Correct and confident verbal response: Main!",
+          "devanagariTarget": "मैं!"
         }
       ],
       "simulationRoleplay": {
@@ -1278,7 +1296,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ джии! Аапкаа наам кйаа хэ?",
             "learnerHintRu": "Назовите свое имя: Mērā nām [Имя] hai",
             "speechEn": "Здравствуйте! Как ваше имя?",
-            "learnerHintEn": "Hint: Назовите свое имя: Mērā nām [Имя] hai"
+            "learnerHintEn": "Hint: Назовите свое имя: Mērā nām [Имя] hai",
+            "speechDevanagari": "नमस्ते जी! आपका नाम क्या है?"
           },
           {
             "speaker": "Вы (ученик)",
@@ -1289,7 +1308,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Mērā nām Anna hai",
               "Main Anna hū̃"
             ],
-            "speechEn": "Здравствуйте! Меня зовут Анна."
+            "speechEn": "Здравствуйте! Меня зовут Анна.",
+            "speechDevanagari": "नमस्ते जी! मेरा नाम अन्ना है।",
+            "acceptableResponsesDevanagari": [
+              "मेरा नाम अन्ना है",
+              "मैं अन्ना हूँ"
+            ]
           },
           {
             "speaker": "Хозяин",
@@ -1298,7 +1322,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аап кахааⁿ сэ хэⁿ?",
             "learnerHintRu": "Скажите: Я из России (Main Russia sē hū̃)",
             "speechEn": "Очень приятно! Откуда вы приехали?",
-            "learnerHintEn": "Hint: Скажите: Я из России (Main Russia sē hū̃)"
+            "learnerHintEn": "Hint: Скажите: Я из России (Main Russia sē hū̃)",
+            "speechDevanagari": "आप कहाँ से हैं?"
           },
           {
             "speaker": "Вы (ученик)",
@@ -1308,7 +1333,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main Russia sē hū̃"
             ],
-            "speechEn": "Я из России. Я турист."
+            "speechEn": "Я из России. Я турист.",
+            "speechDevanagari": "मैं रूस से हूँ। मैं टूरिस्ट हूँ।",
+            "acceptableResponsesDevanagari": [
+              "मैं रूस से हूँ"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Personal Identity and State of Being (Copula Honā)",
@@ -1488,7 +1517,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Āp kaisī haiñ?",
           "explanationRu": "Для женского рода согласовательное окончание всегда -ī (kaisī).",
           "instructionEn": "Exercise instruction: Обратитесь к женщине с вопросом 'Как ваши дела?'",
-          "explanationEn": "Для женского рода согласовательное окончание всегда -ī (kaisī)."
+          "explanationEn": "Для женского рода согласовательное окончание всегда -ī (kaisī).",
+          "devanagariTarget": "आप कैसी हैं?"
         },
         {
           "id": "d03_ex02",
@@ -1540,7 +1570,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Aur āp?",
           "explanationRu": "Aur означает 'и / а'.",
           "instructionEn": "Exercise instruction: Вставьте союз 'А вы?'",
-          "explanationEn": "Aur означает 'и / а'."
+          "explanationEn": "Aur означает 'и / а'.",
+          "devanagariTarget": "और आप?"
         },
         {
           "id": "d03_ex05",
@@ -1557,7 +1588,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Кэсии!",
           "transliterationIsoTarget": "Kaisī!",
           "explanationRu": "Правильный и уверенный устный ответ: Kaisī!",
-          "explanationEn": "Correct and confident verbal response: Kaisī!"
+          "explanationEn": "Correct and confident verbal response: Kaisī!",
+          "devanagariTarget": "कैसी!"
         }
       ],
       "simulationRoleplay": {
@@ -1573,7 +1605,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ джии! Аап кэсии хэⁿ?",
             "learnerHintRu": "Ответьте: Я в порядке, спасибо! А вы?",
             "speechEn": "Доброе утро! Как вы поживаете?",
-            "learnerHintEn": "Hint: Ответьте: Я в порядке, спасибо! А вы?"
+            "learnerHintEn": "Hint: Ответьте: Я в порядке, спасибо! А вы?",
+            "speechDevanagari": "नमस्ते जी! आप कैसी हैं?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -1583,7 +1616,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main ṭhīk hū̃, shukriyā! Aur āp?"
             ],
-            "speechEn": "Я в порядке, спасибо! А вы как?"
+            "speechEn": "Я в порядке, спасибо! А вы как?",
+            "speechDevanagari": "मैं ठीक हूँ, धन्यवाद! और आप?",
+            "acceptableResponsesDevanagari": [
+              "मैं ठीक हूँ, शुक्रिया! और आप?"
+            ]
           },
           {
             "speaker": "Администратор",
@@ -1592,7 +1629,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мэⁿ бхии т͟хиик хууⁿ. Бахут аччхаа!",
             "learnerHintRu": "Улыбнитесь и скажите 'Acchā jī, shukriyā'",
             "speechEn": "Я тоже в полном порядке. Очень хорошо!",
-            "learnerHintEn": "Hint: Улыбнитесь и скажите 'Acchā jī, shukriyā'"
+            "learnerHintEn": "Hint: Улыбнитесь и скажите 'Acchā jī, shukriyā'",
+            "speechDevanagari": "मैं भी ठीक हूँ। बहुत अच्छा!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -1602,7 +1640,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut acchā, shukriyā!"
             ],
-            "speechEn": "Прекрасно, спасибо!"
+            "speechEn": "Прекрасно, спасибо!",
+            "speechDevanagari": "अच्छा जी, शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "बहुत अच्छा, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Inquiring Wellbeing and Adjectival Gender Agreement",
@@ -1815,7 +1857,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Māf kījiye, station kahā̃ hai?",
           "explanationRu": "Māf kījiye используется для привлечения внимания или извинения.",
           "instructionEn": "Exercise instruction: Вставьте форму вежливого извинения",
-          "explanationEn": "Māf kījiye используется для привлечения внимания или извинения."
+          "explanationEn": "Māf kījiye используется для привлечения внимания или извинения.",
+          "devanagariTarget": "माफ़ कीजिए, स्टेशन कहाँ है?"
         },
         {
           "id": "d04_ex03",
@@ -1827,7 +1870,8 @@ export const HINDI_COURSE_BUNDLE = {
           "correctAnswer": "Kōī bāt nahī̃",
           "explanationRu": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость.",
           "instructionEn": "Exercise instruction: Произнесите фразу успокоения собеседника 'Ничего страшного'",
-          "explanationEn": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость."
+          "explanationEn": "Фраза Kōī bāt nahī̃ мгновенно разряжает любую неловкость.",
+          "devanagariTarget": "कोई बात नहीं"
         },
         {
           "id": "d04_ex04",
@@ -1843,7 +1887,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Hā̃, ṭhīk hai!",
           "explanationRu": "Hā̃ (да) + ṭhīk hai (ладно / хорошо).",
           "instructionEn": "Exercise instruction: Подтвердите согласие с собеседником",
-          "explanationEn": "Hā̃ (да) + ṭhīk hai (ладно / хорошо)."
+          "explanationEn": "Hā̃ (да) + ṭhīk hai (ладно / хорошо).",
+          "devanagariTarget": "हाँ, ठीक है!"
         }
       ],
       "simulationRoleplay": {
@@ -1859,7 +1904,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Ох, мааф кииджие джии!",
             "learnerHintRu": "Успокойте его: Ничего страшного, все в порядке!",
             "speechEn": "Ой, извините пожалуйста! Я задел ваш багаж.",
-            "learnerHintEn": "Hint: Успокойте его: Ничего страшного, все в порядке!"
+            "learnerHintEn": "Hint: Успокойте его: Ничего страшного, все в порядке!",
+            "speechDevanagari": "ओह, माफ़ कीजिए जी!"
           },
           {
             "speaker": "Вы (ученик)",
@@ -1870,7 +1916,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Kōī bāt nahī̃",
               "Ṭhīk hai jī, kōī bāt nahī̃"
             ],
-            "speechEn": "Ничего страшного, все хорошо!"
+            "speechEn": "Ничего страшного, все хорошо!",
+            "speechDevanagari": "कोई बात नहीं, ठीक है!",
+            "acceptableResponsesDevanagari": [
+              "कोई बात नहीं",
+              "ठीक है जी, कोई बात नहीं"
+            ]
           },
           {
             "speaker": "Попутчик",
@@ -1879,7 +1930,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бахут шукрийа!",
             "learnerHintRu": "Ответьте вежливым кивком 'Shukriyā jī'",
             "speechEn": "Большое спасибо за понимание!",
-            "learnerHintEn": "Hint: Ответьте вежливым кивком 'Shukriyā jī'"
+            "learnerHintEn": "Hint: Ответьте вежливым кивком 'Shukriyā jī'",
+            "speechDevanagari": "बहुत शुक्रिया!"
           },
           {
             "speaker": "Вы (ученик)",
@@ -1889,7 +1941,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Dhanyavād jī"
             ],
-            "speechEn": "Пожалуйста!"
+            "speechEn": "Пожалуйста!",
+            "speechDevanagari": "शुक्रिया जी!",
+            "acceptableResponsesDevanagari": [
+              "धन्यवाद जी"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Core Politeness, Affirmation, and Negation",
@@ -2089,7 +2145,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā yeh hotel hai?",
           "explanationRu": "Kyā в начале предложения делает из него общий вопрос (да/нет).",
           "instructionEn": "Exercise instruction: Превратите утверждение 'Yeh hotel hai' (Это отель) в вопрос 'Это отель?'",
-          "explanationEn": "Kyā в начале предложения делает из него общий вопрос (да/нет)."
+          "explanationEn": "Kyā в начале предложения делает из него общий вопрос (да/нет).",
+          "devanagariTarget": "क्या यह होटल है?"
         },
         {
           "id": "d05_ex03",
@@ -2121,7 +2178,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Train kab hai?",
           "explanationRu": "Kab означает 'когда'.",
           "instructionEn": "Exercise instruction: Спросите 'Когда прибудет поезд?' (Поезд + когда + есть?)",
-          "explanationEn": "Kab означает 'когда'."
+          "explanationEn": "Kab означает 'когда'.",
+          "devanagariTarget": "ट्रेन कब है?"
         },
         {
           "id": "d05_ex05",
@@ -2138,7 +2196,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Кйаа!",
           "transliterationIsoTarget": "Kyā!",
           "explanationRu": "Правильный и уверенный устный ответ: Kyā!",
-          "explanationEn": "Correct and confident verbal response: Kyā!"
+          "explanationEn": "Correct and confident verbal response: Kyā!",
+          "devanagariTarget": "क्या!"
         }
       ],
       "simulationRoleplay": {
@@ -2154,7 +2213,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мааф кииджие джии! Информэйшн каунтер кахааⁿ хэ?",
             "learnerHintRu": "Задайте вопрос с вежливым Māf kījiye",
             "speechEn": "Извините, пожалуйста! Где стойка информации?",
-            "learnerHintEn": "Hint: Задайте вопрос с вежливым Māf kījiye"
+            "learnerHintEn": "Hint: Задайте вопрос с вежливым Māf kījiye",
+            "speechDevanagari": "माफ़ कीजिए जी! इन्फ़ॉर्मेशन काउंटर कहाँ है?"
           },
           {
             "speaker": "Дежурный",
@@ -2163,7 +2223,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Информэйшн каунтер вахааⁿ хэ, сиидхэ.",
             "learnerHintRu": "Уточните: Это рядом? (Kyā pās hai?)",
             "speechEn": "Стойка информации там, прямо.",
-            "learnerHintEn": "Hint: Уточните: Это рядом? (Kyā pās hai?)"
+            "learnerHintEn": "Hint: Уточните: Это рядом? (Kyā pās hai?)",
+            "speechDevanagari": "इन्फ़ॉर्मेशन काउंटर वहाँ है, सीधे।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -2173,7 +2234,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Kyā yeh pās hai?"
             ],
-            "speechEn": "Это рядом?"
+            "speechEn": "Это рядом?",
+            "speechDevanagari": "क्या पास है?",
+            "acceptableResponsesDevanagari": [
+              "क्या यह पास है?"
+            ]
           },
           {
             "speaker": "Дежурный",
@@ -2182,7 +2247,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Хааⁿ-джии, билкул паас хэ.",
             "learnerHintRu": "Поблагодарите: Shukriyā jī!",
             "speechEn": "Да, совсем рядом. Большое спасибо!",
-            "learnerHintEn": "Hint: Поблагодарите: Shukriyā jī!"
+            "learnerHintEn": "Hint: Поблагодарите: Shukriyā jī!",
+            "speechDevanagari": "हाँ - जी, बिल्कुल पास है।"
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Interrogative Formulations and the Question Particle",
@@ -2362,7 +2428,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē Hindī nahī̃ ātī",
           "explanationRu": "В конструкциях владения языком используется дативный субъект Mujhē (мне).",
           "instructionEn": "Exercise instruction: Сформулируйте фразу: 'Я не говорю на хинди' (буквально: 'Мне хинди не приходит')",
-          "explanationEn": "В конструкциях владения языком используется дативный субъект Mujhē (мне)."
+          "explanationEn": "В конструкциях владения языком используется дативный субъект Mujhē (мне).",
+          "devanagariTarget": "मुझे हिन्दी नहीं आती"
         },
         {
           "id": "d06_ex02",
@@ -2392,7 +2459,8 @@ export const HINDI_COURSE_BUNDLE = {
           "correctAnswer": "Phir sē bōliye",
           "explanationRu": "Phir sē (снова) + bōliye (скажите).",
           "instructionEn": "Exercise instruction: Произнесите просьбу повторить еще раз",
-          "explanationEn": "Phir sē (снова) + bōliye (скажите)."
+          "explanationEn": "Phir sē (снова) + bōliye (скажите).",
+          "devanagariTarget": "फिर से बोलिए"
         },
         {
           "id": "d06_ex04",
@@ -2425,7 +2493,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Муджхе!",
           "transliterationIsoTarget": "Mujhē!",
           "explanationRu": "Правильный и уверенный устный ответ: Mujhē!",
-          "explanationEn": "Correct and confident verbal response: Mujhē!"
+          "explanationEn": "Correct and confident verbal response: Mujhē!",
+          "devanagariTarget": "मुझे!"
         }
       ],
       "simulationRoleplay": {
@@ -2441,7 +2510,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Кахааⁿ джаанаа хэ, мадам? Хотел йа маркет? Чало чало!",
             "learnerHintRu": "Скажите: Извините, я не знаю хинди. Говорите медленнее.",
             "speechEn": "Куда едем, мадам? В отель или на рынок? Быстро довезу!",
-            "learnerHintEn": "Hint: Скажите: Извините, я не знаю хинди. Говорите медленнее."
+            "learnerHintEn": "Hint: Скажите: Извините, я не знаю хинди. Говорите медленнее.",
+            "speechDevanagari": "कहाँ जाना है, मैडम? होटल या मार्केट? चलो चलो!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -2451,7 +2521,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Mujhē Hindī nahī̃ ātī. Dhīrē bōliye."
             ],
-            "speechEn": "Извините, я не говорю на хинди. Пожалуйста, говорите медленно."
+            "speechEn": "Извините, я не говорю на хинди. Пожалуйста, говорите медленно.",
+            "speechDevanagari": "माफ़ कीजिए, मुझे हिन्दी नहीं आती। धीरे बोलिए।",
+            "acceptableResponsesDevanagari": [
+              "मुझे हिन्दी नहीं आती। धीरे बोलिए।"
+            ]
           },
           {
             "speaker": "Таксист",
@@ -2460,7 +2534,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аччхаа, аччхаа. Кйаа аапко инглиш аатии хэ?",
             "learnerHintRu": "Ответьте: Да, я знаю английский (Hā̃-jī)",
             "speechEn": "А, хорошо, мадам. Вы говорите по-английски?",
-            "learnerHintEn": "Hint: Ответьте: Да, я знаю английский (Hā̃-jī)"
+            "learnerHintEn": "Hint: Ответьте: Да, я знаю английский (Hā̃-jī)",
+            "speechDevanagari": "अच्छा, अच्छा। क्या आपको इंग्लिश आती है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -2470,7 +2545,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Hā̃-jī"
             ],
-            "speechEn": "Да, английский знаю."
+            "speechEn": "Да, английский знаю.",
+            "speechDevanagari": "हाँ - जी, इंग्लिश आती है।",
+            "acceptableResponsesDevanagari": [
+              "हाँ-जी"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Conversational Repair and Comprehension Boundaries",
@@ -2670,7 +2749,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Yahā̃ baithiye",
           "explanationRu": "Yahā̃ означает 'здесь / сюда'.",
           "instructionEn": "Exercise instruction: Предложите гостю: 'Садитесь сюда, пожалуйста'",
-          "explanationEn": "Yahā̃ означает 'здесь / сюда'."
+          "explanationEn": "Yahā̃ означает 'здесь / сюда'.",
+          "devanagariTarget": "यहाँ बैठिए"
         },
         {
           "id": "d07_ex03",
@@ -2686,7 +2766,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Station vahā̃ hai",
           "explanationRu": "Vahā̃ означает 'там / вон там'.",
           "instructionEn": "Exercise instruction: Укажите на дальний объект (Вон там)",
-          "explanationEn": "Vahā̃ означает 'там / вон там'."
+          "explanationEn": "Vahā̃ означает 'там / вон там'.",
+          "devanagariTarget": "स्टेशन वहाँ है"
         },
         {
           "id": "d07_ex04",
@@ -2719,7 +2800,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Йе!",
           "transliterationIsoTarget": "Yeh!",
           "explanationRu": "Правильный и уверенный устный ответ: Yeh!",
-          "explanationEn": "Correct and confident verbal response: Yeh!"
+          "explanationEn": "Correct and confident verbal response: Yeh!",
+          "devanagariTarget": "यह!"
         }
       ],
       "simulationRoleplay": {
@@ -2735,7 +2817,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Ааие джии, йе аапкаа руум хэ.",
             "learnerHintRu": "Поблагодарите: Bahut acchā, shukriyā!",
             "speechEn": "Пожалуйста, проходите. Это ваш номер.",
-            "learnerHintEn": "Hint: Поблагодарите: Bahut acchā, shukriyā!"
+            "learnerHintEn": "Hint: Поблагодарите: Bahut acchā, shukriyā!",
+            "speechDevanagari": "आइए जी, यह आपका रूम है।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -2746,7 +2829,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Shukriyā jī",
               "Bahut acchā!"
             ],
-            "speechEn": "Очень хорошо, спасибо!"
+            "speechEn": "Очень хорошо, спасибо!",
+            "speechDevanagari": "बहुत अच्छा, शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "शुक्रिया जी",
+              "बहुत अच्छा!"
+            ]
           },
           {
             "speaker": "Портье",
@@ -2755,7 +2843,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Йахааⁿ бэтхие. Паании вахааⁿ хэ.",
             "learnerHintRu": "Скажите 'Ṭhīk hai, dhanyavād!'",
             "speechEn": "Садитесь здесь, пожалуйста. Вода вон там.",
-            "learnerHintEn": "Hint: Скажите 'Ṭhīk hai, dhanyavād!'"
+            "learnerHintEn": "Hint: Скажите 'Ṭhīk hai, dhanyavād!'",
+            "speechDevanagari": "यहाँ बैठिए। पानी वहाँ है।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -2765,7 +2854,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Ṭhīk hai jī"
             ],
-            "speechEn": "Хорошо, спасибо большое!"
+            "speechEn": "Хорошо, спасибо большое!",
+            "speechDevanagari": "ठीक है, धन्यवाद!",
+            "acceptableResponsesDevanagari": [
+              "ठीक है जी"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Spatial Deixis and Demonstratives",
@@ -2990,7 +3083,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Hā̃-jī, ṭhīk hai",
           "explanationRu": "Ṭhīk hai = все хорошо / в порядке.",
           "instructionEn": "Exercise instruction: Завершите фразу согласия: 'Да, все хорошо!'",
-          "explanationEn": "Ṭhīk hai = все хорошо / в порядке."
+          "explanationEn": "Ṭhīk hai = все хорошо / в порядке.",
+          "devanagariTarget": "हाँ - जी, ठीक है"
         },
         {
           "id": "d08_ex05",
@@ -3007,7 +3101,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Намастэ джии!",
           "transliterationIsoTarget": "Namastē jī!",
           "explanationRu": "Правильный и уверенный устный ответ: Namastē jī!",
-          "explanationEn": "Correct and confident verbal response: Namastē jī!"
+          "explanationEn": "Correct and confident verbal response: Namastē jī!",
+          "devanagariTarget": "नमस्ते जी!"
         }
       ],
       "simulationRoleplay": {
@@ -3023,7 +3118,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ джии! Вэлкам! Аапкаа наам кйаа хэ?",
             "learnerHintRu": "Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai.",
             "speechEn": "Намастэ! Добро пожаловать! Как вас зовут?",
-            "learnerHintEn": "Hint: Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai."
+            "learnerHintEn": "Hint: Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai.",
+            "speechDevanagari": "नमस्ते जी! वेलकम! आपका नाम क्या है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3034,7 +3130,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Namastē jī! Mērā nām Anna hai.",
               "Main Russia sē hū̃."
             ],
-            "speechEn": "Здравствуйте! Меня зовут Анна. Я из России."
+            "speechEn": "Здравствуйте! Меня зовут Анна. Я из России.",
+            "speechDevanagari": "नमस्ते जी! मेरा नाम अन्ना है। मैं रूस से हूँ।",
+            "acceptableResponsesDevanagari": [
+              "नमस्ते जी! मेरा नाम अन्ना है।",
+              "मैं रूस से हूँ।"
+            ]
           },
           {
             "speaker": "Владелец",
@@ -3043,7 +3144,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бахут аччхаа! Аап кэсии хэⁿ? Саб т͟хиик?",
             "learnerHintRu": "Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?",
             "speechEn": "Очень приятно! Как ваши дела? Все в порядке?",
-            "learnerHintEn": "Hint: Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?"
+            "learnerHintEn": "Hint: Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?",
+            "speechDevanagari": "बहुत अच्छा! आप कैसी हैं? सब ठीक?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3053,7 +3155,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main ṭhīk hū̃, shukriyā!"
             ],
-            "speechEn": "Я в порядке, спасибо! А как ваши дела?"
+            "speechEn": "Я в порядке, спасибо! А как ваши дела?",
+            "speechDevanagari": "मैं ठीक हूँ, धन्यवाद! और आप?",
+            "acceptableResponsesDevanagari": [
+              "मैं ठीक हूँ, शुक्रिया!"
+            ]
           },
           {
             "speaker": "Владелец",
@@ -3062,7 +3168,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мэⁿ бхии т͟хиик хууⁿ! Ааие джии, руум намбар 3 вахааⁿ хэ.",
             "learnerHintRu": "Поблагодарите: Bahut shukriyā jī!",
             "speechEn": "Все отлично! Проходите, комната номер 3 направо.",
-            "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā jī!"
+            "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā jī!",
+            "speechDevanagari": "मैं भी ठीक हूँ! आइए जी, रूम नंबर 3 वहाँ है।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3072,7 +3179,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Dhanyavād jī!"
             ],
-            "speechEn": "Большое спасибо!"
+            "speechEn": "Большое спасибо!",
+            "speechDevanagari": "बहुत शुक्रिया जी!",
+            "acceptableResponsesDevanagari": [
+              "धन्यवाद जी!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Phase 1 Synthesis, Articulatory Review, and Introductory Simulation",
@@ -3259,7 +3370,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Bāē̃ jāiye!",
           "explanationRu": "Bāē̃ = налево.",
           "instructionEn": "Exercise instruction: Скажите водителю повернуть налево",
-          "explanationEn": "Bāē̃ = налево."
+          "explanationEn": "Bāē̃ = налево.",
+          "devanagariTarget": "बायें जाइए!"
         },
         {
           "id": "d09_ex03",
@@ -3291,7 +3403,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Dāē̃ jāiye!",
           "explanationRu": "Dāē̃ jāiye = поезжайте направо.",
           "instructionEn": "Exercise instruction: Вставьте глагол 'поезжайте / идите' в приказ 'Направо, пожалуйста'",
-          "explanationEn": "Dāē̃ jāiye = поезжайте направо."
+          "explanationEn": "Dāē̃ jāiye = поезжайте направо.",
+          "devanagariTarget": "दायें जाइए!"
         },
         {
           "id": "d09_ex05",
@@ -3308,7 +3421,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Бааеⁿ!",
           "transliterationIsoTarget": "Bāē̃!",
           "explanationRu": "Правильный и уверенный устный ответ: Bāē̃!",
-          "explanationEn": "Correct and confident verbal response: Bāē̃!"
+          "explanationEn": "Correct and confident verbal response: Bāē̃!",
+          "devanagariTarget": "बायें!"
         }
       ],
       "simulationRoleplay": {
@@ -3324,7 +3438,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мадам, бааеⁿ йа дааеⁿ?",
             "learnerHintRu": "Скажите: Прямо поезжайте (Sīdhē jāiye)",
             "speechEn": "Сестра, куда поворачивать? Налево или направо?",
-            "learnerHintEn": "Hint: Скажите: Прямо поезжайте (Sīdhē jāiye)"
+            "learnerHintEn": "Hint: Скажите: Прямо поезжайте (Sīdhē jāiye)",
+            "speechDevanagari": "मैडम, बायें या दायें?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3334,7 +3449,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Sīdhē jāiye"
             ],
-            "speechEn": "Езжайте прямо."
+            "speechEn": "Езжайте прямо.",
+            "speechDevanagari": "सीधे जाइए।",
+            "acceptableResponsesDevanagari": [
+              "सीधे जाइए"
+            ]
           },
           {
             "speaker": "Водитель",
@@ -3343,7 +3462,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аччхаа джии. Аб кахааⁿ?",
             "learnerHintRu": "Скажите: Налево, а затем остановитесь здесь!",
             "speechEn": "Понял, едем прямо. А теперь куда?",
-            "learnerHintEn": "Hint: Скажите: Налево, а затем остановитесь здесь!"
+            "learnerHintEn": "Hint: Скажите: Налево, а затем остановитесь здесь!",
+            "speechDevanagari": "अच्छा जी। अब कहाँ?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3353,7 +3473,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bāē̃ jāiye, yahā̃ rukiye!"
             ],
-            "speechEn": "Поверните налево. Остановитесь прямо здесь!"
+            "speechEn": "Поверните налево. Остановитесь прямо здесь!",
+            "speechDevanagari": "बायें जाइए। यहाँ रुकिए!",
+            "acceptableResponsesDevanagari": [
+              "बायें जाइए, यहाँ रुकिए!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Syntactic Realignment: Establishing Fixed SOV Order",
@@ -3544,7 +3668,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Passport mēz par hai",
           "explanationRu": "Для нахождения на поверхности используется послелог par (на столе = mēz par).",
           "instructionEn": "Exercise instruction: Скажите, что паспорт лежит на столе",
-          "explanationEn": "Для нахождения на поверхности используется послелог par (на столе = mēz par)."
+          "explanationEn": "Для нахождения на поверхности используется послелог par (на столе = mēz par).",
+          "devanagariTarget": "पासपोर्ट मेज़ पर है"
         },
         {
           "id": "d10_ex03",
@@ -3560,7 +3685,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā driver gāṛī mẽ hai?",
           "explanationRu": "Внутри машины — gāṛī mẽ.",
           "instructionEn": "Exercise instruction: Спросите: 'Водитель в машине?'",
-          "explanationEn": "Внутри машины — gāṛī mẽ."
+          "explanationEn": "Внутри машины — gāṛī mẽ.",
+          "devanagariTarget": "क्या ड्राइवर गाड़ी में है?"
         },
         {
           "id": "d10_ex04",
@@ -3593,7 +3719,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Мэⁿ!",
           "transliterationIsoTarget": "Mẽ!",
           "explanationRu": "Правильный и уверенный устный ответ: Mẽ!",
-          "explanationEn": "Correct and confident verbal response: Mẽ!"
+          "explanationEn": "Correct and confident verbal response: Mẽ!",
+          "devanagariTarget": "में!"
         }
       ],
       "simulationRoleplay": {
@@ -3609,7 +3736,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бхаййаа, рукие! Мераа фон гаар͟ии мэⁿ хэ.",
             "learnerHintRu": "Скажите водителю притормозить и укажите на телефон в машине",
             "speechEn": "Брат, подождите пожалуйста! Мой телефон в машине.",
-            "learnerHintEn": "Hint: Скажите водителю притормозить и укажите на телефон в машине"
+            "learnerHintEn": "Hint: Скажите водителю притормозить и укажите на телефон в машине",
+            "speechDevanagari": "भैया, रुकिए! मेरा फ़ोन गाड़ी में है।"
           },
           {
             "speaker": "Водитель",
@@ -3618,7 +3746,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Фон гаар͟ии мэⁿ хэ? Кахааⁿ хэ?",
             "learnerHintRu": "Скажите: На сиденье! (Seat par hai)",
             "speechEn": "Телефон в машине? Где он лежит?",
-            "learnerHintEn": "Hint: Скажите: На сиденье! (Seat par hai)"
+            "learnerHintEn": "Hint: Скажите: На сиденье! (Seat par hai)",
+            "speechDevanagari": "फ़ोन गाड़ी में है? कहाँ है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3629,7 +3758,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Seat par hai",
               "Vahā̃ seat par hai"
             ],
-            "speechEn": "Он на сиденье."
+            "speechEn": "Он на сиденье.",
+            "speechDevanagari": "सीट पर है।",
+            "acceptableResponsesDevanagari": [
+              "सीट पर है",
+              "वहाँ सीट पर है"
+            ]
           },
           {
             "speaker": "Водитель",
@@ -3638,7 +3772,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Хааⁿ-джии, мил гайаа! Лиджие.",
             "learnerHintRu": "Поблагодарите от души: Bahut shukriyā jī!",
             "speechEn": "Да, вот он! Пожалуйста, возьмите.",
-            "learnerHintEn": "Hint: Поблагодарите от души: Bahut shukriyā jī!"
+            "learnerHintEn": "Hint: Поблагодарите от души: Bahut shukriyā jī!",
+            "speechDevanagari": "हाँ - जी, मिल गया! लीजिए।"
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Inessive and Adessive Postpositions (Mẽ and Par)",
@@ -3831,7 +3966,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Metro sē jāiye!",
           "explanationRu": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро).",
           "instructionEn": "Exercise instruction: Посоветуйте поехать на метро (На метро + поезжайте)",
-          "explanationEn": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро)."
+          "explanationEn": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро).",
+          "devanagariTarget": "मेट्रो से जाइए!"
         },
         {
           "id": "d11_ex03",
@@ -3847,7 +3983,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Dūr nahī̃ hai, pās hai.",
           "explanationRu": "Pās = близко / рядом.",
           "instructionEn": "Exercise instruction: Ответьте, что объект находится рядом, а не далеко",
-          "explanationEn": "Pās = близко / рядом."
+          "explanationEn": "Pās = близко / рядом.",
+          "devanagariTarget": "दूर नहीं है, पास है।"
         },
         {
           "id": "d11_ex04",
@@ -3880,7 +4017,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Дуур!",
           "transliterationIsoTarget": "Dūr!",
           "explanationRu": "Правильный и уверенный устный ответ: Dūr!",
-          "explanationEn": "Correct and confident verbal response: Dūr!"
+          "explanationEn": "Correct and confident verbal response: Dūr!",
+          "devanagariTarget": "दूर!"
         }
       ],
       "simulationRoleplay": {
@@ -3896,7 +4034,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ джии! Коннот Плейс йахааⁿ сэ китнии дуур хэ?",
             "learnerHintRu": "Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?",
             "speechEn": "Здравствуйте! Скажите пожалуйста, рынок Connaught Place отсюда далеко?",
-            "learnerHintEn": "Hint: Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?"
+            "learnerHintEn": "Hint: Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?",
+            "speechDevanagari": "नमस्ते जी! कनॉट प्लेस यहाँ से कितनी दूर है?"
           },
           {
             "speaker": "Консьерж",
@@ -3905,7 +4044,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Нахииⁿ джии, дуур нахииⁿ хэ. Паас хэ.",
             "learnerHintRu": "Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)",
             "speechEn": "Нет, сестра, не далеко. Близко!",
-            "learnerHintEn": "Hint: Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)"
+            "learnerHintEn": "Hint: Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)",
+            "speechDevanagari": "नहीं जी, दूर नहीं है। पास है।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -3915,7 +4055,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Metro sē jāiye ya auto sē?"
             ],
-            "speechEn": "На метро поехать или на авторикше?"
+            "speechEn": "На метро поехать или на авторикше?",
+            "speechDevanagari": "मेट्रो से या ऑटो से?",
+            "acceptableResponsesDevanagari": [
+              "मेट्रो से जाइए या ऑटो से?"
+            ]
           },
           {
             "speaker": "Консьерж",
@@ -3924,7 +4068,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мэтро сэ джааие, бахут аччхаа хэ.",
             "learnerHintRu": "Поблагодарите: Dhanyavād jī!",
             "speechEn": "Поезжайте на метро, так быстрее и удобнее.",
-            "learnerHintEn": "Hint: Поблагодарите: Dhanyavād jī!"
+            "learnerHintEn": "Hint: Поблагодарите: Dhanyavād jī!",
+            "speechDevanagari": "मेट्रो से जाइए, बहुत अच्छा है।"
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: The Multi-Functional Postposition Sē (Ablative and Instrumental)",
@@ -4113,7 +4258,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā pās mẽ ATM hai?",
           "explanationRu": "Pās mẽ = поблизости.",
           "instructionEn": "Exercise instruction: Спросите: 'Есть ли поблизости банкомат?'",
-          "explanationEn": "Pās mẽ = поблизости."
+          "explanationEn": "Pās mẽ = поблизости.",
+          "devanagariTarget": "क्या पास में एटीएम है?"
         },
         {
           "id": "d12_ex03",
@@ -4145,7 +4291,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ticket counter kahā̃ hai?",
           "explanationRu": "Kahā̃ = где.",
           "instructionEn": "Exercise instruction: Уточните, где билетная касса",
-          "explanationEn": "Kahā̃ = где."
+          "explanationEn": "Kahā̃ = где.",
+          "devanagariTarget": "टिकट काउंटर कहाँ है?"
         },
         {
           "id": "d12_ex05",
@@ -4162,7 +4309,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Шаучалай / Тойлет!",
           "transliterationIsoTarget": "Shaucālay / Toilet!",
           "explanationRu": "Правильный и уверенный устный ответ: Shaucālay / Toilet!",
-          "explanationEn": "Correct and confident verbal response: Shaucālay / Toilet!"
+          "explanationEn": "Correct and confident verbal response: Shaucālay / Toilet!",
+          "devanagariTarget": "शौचालय / टॉयलेट!"
         }
       ],
       "simulationRoleplay": {
@@ -4178,7 +4326,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мааф кииджие джии! Тойлет кахааⁿ хэ?",
             "learnerHintRu": "Задайте вежливый вопрос о туалете",
             "speechEn": "Извините, пожалуйста! Где здесь туалет?",
-            "learnerHintEn": "Hint: Задайте вежливый вопрос о туалете"
+            "learnerHintEn": "Hint: Задайте вежливый вопрос о туалете",
+            "speechDevanagari": "माफ़ कीजिए जी! टॉयलेट कहाँ है?"
           },
           {
             "speaker": "Сотрудник",
@@ -4187,7 +4336,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Тойлет вахааⁿ хэ, сиидхэ аур дааеⁿ.",
             "learnerHintRu": "Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)",
             "speechEn": "Туалет вон там, прямо и направо.",
-            "learnerHintEn": "Hint: Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)"
+            "learnerHintEn": "Hint: Спросите: А банкомат поблизости есть? (Kyā pās mẽ ATM hai?)",
+            "speechDevanagari": "टॉयलेट वहाँ है, सीधे और दायें।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -4197,7 +4347,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Kyā pās mẽ ATM hai?"
             ],
-            "speechEn": "А поблизости есть банкомат?"
+            "speechEn": "А поблизости есть банкомат?",
+            "speechDevanagari": "और क्या पास में एटीएम है?",
+            "acceptableResponsesDevanagari": [
+              "क्या पास में एटीएम है?"
+            ]
           },
           {
             "speaker": "Сотрудник",
@@ -4206,7 +4360,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Хааⁿ, гейт намбар 1 ке паас Эй-Тии-Эм хэ.",
             "learnerHintRu": "Поблагодарите: Bahut dhanyavād jī!",
             "speechEn": "Да, банкомат прямо возле выхода номер 1.",
-            "learnerHintEn": "Hint: Поблагодарите: Bahut dhanyavād jī!"
+            "learnerHintEn": "Hint: Поблагодарите: Bahut dhanyavād jī!",
+            "speechDevanagari": "हाँ, गेट नंबर 1 के पास एटीएम है।"
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Inquiring About Urban Infrastructure and Facilities",
@@ -4393,7 +4548,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Paisē lījiye!",
           "explanationRu": "Lījiye означает 'возьмите'.",
           "instructionEn": "Exercise instruction: Передайте деньги и скажите: 'Возьмите, пожалуйста'",
-          "explanationEn": "Lījiye означает 'возьмите'."
+          "explanationEn": "Lījiye означает 'возьмите'.",
+          "devanagariTarget": "पैसे लीजिए!"
         },
         {
           "id": "d13_ex03",
@@ -4425,7 +4581,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Andar āiye!",
           "explanationRu": "Āiye означает 'проходите / входите'.",
           "instructionEn": "Exercise instruction: Пригласите гостя войти: 'Проходите, пожалуйста!'",
-          "explanationEn": "Āiye означает 'проходите / входите'."
+          "explanationEn": "Āiye означает 'проходите / входите'.",
+          "devanagariTarget": "अंदर आइए!"
         },
         {
           "id": "d13_ex05",
@@ -4442,7 +4599,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Дииджие!",
           "transliterationIsoTarget": "Dījiye!",
           "explanationRu": "Правильный и уверенный устный ответ: Dījiye!",
-          "explanationEn": "Correct and confident verbal response: Dījiye!"
+          "explanationEn": "Correct and confident verbal response: Dījiye!",
+          "devanagariTarget": "दीजिए!"
         }
       ],
       "simulationRoleplay": {
@@ -4458,7 +4616,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Ааие, йахааⁿ бэтхие.",
             "learnerHintRu": "Попросите воду: Pānī dījiye, пожалуйста",
             "speechEn": "Добро пожаловать, сестра! Проходите, присаживайтесь.",
-            "learnerHintEn": "Hint: Попросите воду: Pānī dījiye, пожалуйста"
+            "learnerHintEn": "Hint: Попросите воду: Pānī dījiye, пожалуйста",
+            "speechDevanagari": "नमस्ते मैडम! आइए, यहाँ बैठिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -4469,7 +4628,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Pānī dījiye",
               "Ek bottle pānī dījiye"
             ],
-            "speechEn": "Здравствуйте! Дайте бутылку воды, пожалуйста."
+            "speechEn": "Здравствуйте! Дайте бутылку воды, пожалуйста.",
+            "speechDevanagari": "नमस्ते जी! एक बोतल पानी दीजिए।",
+            "acceptableResponsesDevanagari": [
+              "पानी दीजिए",
+              "एक बोतल पानी दीजिए"
+            ]
           },
           {
             "speaker": "Хозяин",
@@ -4478,7 +4642,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Лииджие, тхандаа паании. Биис рупае.",
             "learnerHintRu": "Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)",
             "speechEn": "Вот, пожалуйста, холодная вода. Двадцать рупий.",
-            "learnerHintEn": "Hint: Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)"
+            "learnerHintEn": "Hint: Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)",
+            "speechDevanagari": "लीजिए, ठंडा पानी। बीस रुपये।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -4488,7 +4653,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Lījiye, shukriyā!"
             ],
-            "speechEn": "Возьмите, пожалуйста. Большое спасибо!"
+            "speechEn": "Возьмите, пожалуйста. Большое спасибо!",
+            "speechDevanagari": "पैसे लीजिए। बहुत शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "लीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Formal Imperatives and Social Directives (-iye)",
@@ -4695,7 +4864,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Station jānā hai.",
           "explanationRu": "Jānā hai = нужно ехать.",
           "instructionEn": "Exercise instruction: Скажите, что вам нужно ехать на вокзал",
-          "explanationEn": "Jānā hai = нужно ехать."
+          "explanationEn": "Jānā hai = нужно ехать.",
+          "devanagariTarget": "स्टेशन जाना है।"
         },
         {
           "id": "d14_ex04",
@@ -4711,7 +4881,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ṭhīk hai bhaiyā, chaliye!",
           "explanationRu": "Chaliye = поехали / пойдемте.",
           "instructionEn": "Exercise instruction: Скомандуйте водителю отправляться: 'Поехали!'",
-          "explanationEn": "Chaliye = поехали / пойдемте."
+          "explanationEn": "Chaliye = поехали / пойдемте.",
+          "devanagariTarget": "ठीक है भैया, चलिए!"
         },
         {
           "id": "d14_ex05",
@@ -4728,7 +4899,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Бхаййаа!",
           "transliterationIsoTarget": "Bhaiyā!",
           "explanationRu": "Правильный и уверенный устный ответ: Bhaiyā!",
-          "explanationEn": "Correct and confident verbal response: Bhaiyā!"
+          "explanationEn": "Correct and confident verbal response: Bhaiyā!",
+          "devanagariTarget": "भैया!"
         }
       ],
       "simulationRoleplay": {
@@ -4744,7 +4916,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мадам! Кахааⁿ джаанаа хэ?",
             "learnerHintRu": "Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)",
             "speechEn": "Такси, рикша! Куда вам нужно ехать?",
-            "learnerHintEn": "Hint: Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)"
+            "learnerHintEn": "Hint: Скажите: Брат, нужно ехать в отель Taj (Bhaiyā, Taj Hotel jānā hai)",
+            "speechDevanagari": "मैडम! कहाँ जाना है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -4755,7 +4928,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Bhaiyā, Taj Hotel jānā hai.",
               "Mīṭar chalāo."
             ],
-            "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик!"
+            "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик!",
+            "speechDevanagari": "भैया, ताज होटल जाना है। मीटर चलाओ।",
+            "acceptableResponsesDevanagari": [
+              "भैया, ताज होटल जाना है।",
+              "मीटर चलाओ।"
+            ]
           },
           {
             "speaker": "Водитель",
@@ -4764,7 +4942,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Т͟хиик хэ мадам, бэтхие! Миитар͟ сэ чалэнгээ.",
             "learnerHintRu": "Скажите: Отлично, поехали! (Bahut acchā, chaliye!)",
             "speechEn": "Ладно, мадам, садитесь! Поехали по счетчику.",
-            "learnerHintEn": "Hint: Скажите: Отлично, поехали! (Bahut acchā, chaliye!)"
+            "learnerHintEn": "Hint: Скажите: Отлично, поехали! (Bahut acchā, chaliye!)",
+            "speechDevanagari": "ठीक है मैडम, बैठिए! मीटर से चलेंगे।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -4774,7 +4953,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Chaliye!"
             ],
-            "speechEn": "Очень хорошо, поехали!"
+            "speechEn": "Очень хорошо, поехали!",
+            "speechDevanagari": "बहुत अच्छा, चलिए!",
+            "acceptableResponsesDevanagari": [
+              "चलिए!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Transit Negotiations: Auto-Rickshaws and Cabs",
@@ -4963,7 +5146,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Das minute lagēgā.",
           "explanationRu": "Das minute lagēgā = Уйдет десять минут.",
           "instructionEn": "Exercise instruction: Ответьте: 'Потребуется 10 минут'",
-          "explanationEn": "Das minute lagēgā = Уйдет десять минут."
+          "explanationEn": "Das minute lagēgā = Уйдет десять минут.",
+          "devanagariTarget": "दस मिनट लगेगा।"
         },
         {
           "id": "d15_ex03",
@@ -4995,7 +5179,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Aglā stop airport hai?",
           "explanationRu": "Aglā = следующий.",
           "instructionEn": "Exercise instruction: Уточните: 'Следующая остановка — аэропорт?'",
-          "explanationEn": "Aglā = следующий."
+          "explanationEn": "Aglā = следующий.",
+          "devanagariTarget": "अगला स्टॉप एयरपोर्ट है?"
         },
         {
           "id": "d15_ex05",
@@ -5012,7 +5197,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Китнаа!",
           "transliterationIsoTarget": "Kitnā!",
           "explanationRu": "Правильный и уверенный устный ответ: Kitnā!",
-          "explanationEn": "Correct and confident verbal response: Kitnā!"
+          "explanationEn": "Correct and confident verbal response: Kitnā!",
+          "devanagariTarget": "कितना!"
         }
       ],
       "simulationRoleplay": {
@@ -5028,7 +5214,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бхаййаа, трафик хэ. Эрпорт китнаа тайм лагээгаа?",
             "learnerHintRu": "Задайте вопрос: Airport kitnā time lagēgā?",
             "speechEn": "Брат, здесь сильная пробка. Сколько времени потребуется до аэропорта?",
-            "learnerHintEn": "Hint: Задайте вопрос: Airport kitnā time lagēgā?"
+            "learnerHintEn": "Hint: Задайте вопрос: Airport kitnā time lagēgā?",
+            "speechDevanagari": "भैया, ट्रैफ़िक है। एयरपोर्ट कितना टाइम लगेगा?"
           },
           {
             "speaker": "Водитель",
@@ -5037,7 +5224,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Чинтаа мат кииджие мадам. Дас-панндрах минат лагээгаа.",
             "learnerHintRu": "Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)",
             "speechEn": "Не волнуйтесь, мадам. Всего десять-пятнадцать минут потребуется.",
-            "learnerHintEn": "Hint: Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)"
+            "learnerHintEn": "Hint: Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)",
+            "speechDevanagari": "चिंता मत कीजिए मैडम। दस-पंद्रह मिनट लगेगा।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5047,7 +5235,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Aglā stop airport hai?"
             ],
-            "speechEn": "Следующая остановка аэропорт?"
+            "speechEn": "Следующая остановка аэропорт?",
+            "speechDevanagari": "अगला स्टॉप एयरपोर्ट है?",
+            "acceptableResponsesDevanagari": [
+              "अगला स्टॉप एयरपोर्ट है?"
+            ]
           },
           {
             "speaker": "Водитель",
@@ -5056,7 +5248,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Хааⁿ-джии, аглаа стоп эрпорт хэ.",
             "learnerHintRu": "Скажите с облегчением: Ṭhīk hai, shukriyā!",
             "speechEn": "Да, именно так! Скоро приедем.",
-            "learnerHintEn": "Hint: Скажите с облегчением: Ṭhīk hai, shukriyā!"
+            "learnerHintEn": "Hint: Скажите с облегчением: Ṭhīk hai, shukriyā!",
+            "speechDevanagari": "हाँ-जी, अगला स्टॉप एयरपोर्ट है।"
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Time Calculations and Transit Duration",
@@ -5267,7 +5460,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mīṭar sē kitnā huā?",
           "explanationRu": "Mīṭar sē = по счетчику (инструментальный sē).",
           "instructionEn": "Exercise instruction: Спросите о стоимости по счетчику",
-          "explanationEn": "Mīṭar sē = по счетчику (инструментальный sē)."
+          "explanationEn": "Mīṭar sē = по счетчику (инструментальный sē).",
+          "devanagariTarget": "मीटर से कितना हुआ?"
         },
         {
           "id": "d16_ex04",
@@ -5300,7 +5494,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Драйвер / Бхаййаа!",
           "transliterationIsoTarget": "Driver / Bhaiyā!",
           "explanationRu": "Правильный и уверенный устный ответ: Driver / Bhaiyā!",
-          "explanationEn": "Correct and confident verbal response: Driver / Bhaiyā!"
+          "explanationEn": "Correct and confident verbal response: Driver / Bhaiyā!",
+          "devanagariTarget": "ड्राइवर / भैया!"
         }
       ],
       "simulationRoleplay": {
@@ -5316,7 +5511,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мадам! 300 рупиис хотел ке лие!",
             "learnerHintRu": "Скажите: Нет, брат! Включи счетчик. Поехали по счетчику.",
             "speechEn": "Эй, мадам! Садись, 300 рупий до отеля!",
-            "learnerHintEn": "Hint: Скажите: Нет, брат! Включи счетчик. Поехали по счетчику."
+            "learnerHintEn": "Hint: Скажите: Нет, брат! Включи счетчик. Поехали по счетчику.",
+            "speechDevanagari": "मैडम! 300 रुपये होटल के लिए!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5327,7 +5523,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Nahī̃ bhaiyā! Mīṭar chalāo.",
               "Mīṭar sē chaliye."
             ],
-            "speechEn": "Нет, брат! Включи счетчик. Поедем по счетчику."
+            "speechEn": "Нет, брат! Включи счетчик. Поедем по счетчику.",
+            "speechDevanagari": "नहीं भैया! मीटर चलाओ। मीटर से चलिए।",
+            "acceptableResponsesDevanagari": [
+              "नहीं भैया! मीटर चलाओ।",
+              "मीटर से चलिए।"
+            ]
           },
           {
             "speaker": "Водитель",
@@ -5336,7 +5537,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аччхаа, бэтхие! Маркет ке паас кахааⁿ джаанаа хэ?",
             "learnerHintRu": "Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)",
             "speechEn": "Ладно, садись! Куда поворачивать у рынка?",
-            "learnerHintEn": "Hint: Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)"
+            "learnerHintEn": "Hint: Скомандуйте: Сначала прямо, потом налево. (Pahlē sīdhē, phir bāē̃ jāiye)",
+            "speechDevanagari": "अच्छा, बैठिए! मार्केट के पास कहाँ जाना है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5346,7 +5548,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Sīdhē jāiye, phir bāē̃ jāiye."
             ],
-            "speechEn": "Сначала поезжайте прямо, потом поверните налево."
+            "speechEn": "Сначала поезжайте прямо, потом поверните налево.",
+            "speechDevanagari": "पहले सीधे जाइए, फिर बायें जाइए।",
+            "acceptableResponsesDevanagari": [
+              "सीधे जाइए, फिर बायें जाइए।"
+            ]
           },
           {
             "speaker": "Водитель",
@@ -5355,7 +5561,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Йе хотел хэ мадам?",
             "learnerHintRu": "Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!",
             "speechEn": "Вот этот отель?",
-            "learnerHintEn": "Hint: Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!"
+            "learnerHintEn": "Hint: Подтвердите: Да! Остановитесь прямо здесь. Возьмите деньги, спасибо!",
+            "speechDevanagari": "यह होटल है मैडम?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5365,7 +5572,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Yahā̃ par rukiye! Paisē lījiye, shukriyā!"
             ],
-            "speechEn": "Да! Остановитесь прямо здесь. Возьмите деньги, большое спасибо!"
+            "speechEn": "Да! Остановитесь прямо здесь. Возьмите деньги, большое спасибо!",
+            "speechDevanagari": "हाँ - जी! यहाँ पर रुकिए। पैसे लीजिए, बहुत शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "यहाँ पर रुकिए! पैसे लीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Phase 2 Synthesis and Urban Navigation Simulation",
@@ -5554,7 +5765,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē bill chāhiye.",
           "explanationRu": "Mujhē bill chāhiye = Мне нужен счет.",
           "instructionEn": "Exercise instruction: Скажите официанту, что вам нужен счет",
-          "explanationEn": "Mujhē bill chāhiye = Мне нужен счет."
+          "explanationEn": "Mujhē bill chāhiye = Мне нужен счет.",
+          "devanagariTarget": "मुझे बिल चाहिए।"
         },
         {
           "id": "d17_ex03",
@@ -5586,7 +5798,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē chāi chāhiye.",
           "explanationRu": "С глаголом chāhiye всегда используется датив Mujhē.",
           "instructionEn": "Exercise instruction: Вставьте дативное местоимение 'Мне'",
-          "explanationEn": "С глаголом chāhiye всегда используется датив Mujhē."
+          "explanationEn": "С глаголом chāhiye всегда используется датив Mujhē.",
+          "devanagariTarget": "मुझे चाय चाहिए।"
         },
         {
           "id": "d17_ex05",
@@ -5603,7 +5816,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Чаахийе!",
           "transliterationIsoTarget": "Chāhiye!",
           "explanationRu": "Правильный и уверенный устный ответ: Chāhiye!",
-          "explanationEn": "Correct and confident verbal response: Chāhiye!"
+          "explanationEn": "Correct and confident verbal response: Chāhiye!",
+          "devanagariTarget": "चाहिए!"
         }
       ],
       "simulationRoleplay": {
@@ -5619,7 +5833,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Кйаа чаахийе?",
             "learnerHintRu": "Скажите: Мне нужен чай и вода (Mujhē chāi aur pānī chāhiye)",
             "speechEn": "Здравствуйте, сестра! Что вам нужно?",
-            "learnerHintEn": "Hint: Скажите: Мне нужен чай и вода (Mujhē chāi aur pānī chāhiye)"
+            "learnerHintEn": "Hint: Скажите: Мне нужен чай и вода (Mujhē chāi aur pānī chāhiye)",
+            "speechDevanagari": "नमस्ते मैडम! क्या चाहिए?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5629,7 +5844,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Mujhē chāi aur pānī chāhiye"
             ],
-            "speechEn": "Здравствуйте! Мне нужен чай и бутылка воды."
+            "speechEn": "Здравствуйте! Мне нужен чай и бутылка воды.",
+            "speechDevanagari": "नमस्ते! मुझे एक चाय और पानी चाहिए।",
+            "acceptableResponsesDevanagari": [
+              "मुझे चाय और पानी चाहिए"
+            ]
           },
           {
             "speaker": "Официант",
@@ -5638,7 +5857,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Абхии лаайаа, до минат.",
             "learnerHintRu": "Поблагодарите: Shukriyā!",
             "speechEn": "Сейчас принесу, две минуты.",
-            "learnerHintEn": "Hint: Поблагодарите: Shukriyā!"
+            "learnerHintEn": "Hint: Поблагодарите: Shukriyā!",
+            "speechDevanagari": "अभी लाया, दो मिनट।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5648,7 +5868,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Dhanyavād"
             ],
-            "speechEn": "Спасибо!"
+            "speechEn": "Спасибо!",
+            "speechDevanagari": "शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "धन्यवाद"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Dative Experiencers 1: Necessity with Chāhiye",
@@ -5855,7 +6079,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ek aur chāi dījiye.",
           "explanationRu": "Ek aur = еще один / еще одну.",
           "instructionEn": "Exercise instruction: Попросите еще один чай (Еще один + чай + дайте)",
-          "explanationEn": "Ek aur = еще один / еще одну."
+          "explanationEn": "Ek aur = еще один / еще одну.",
+          "devanagariTarget": "एक और चाय दीजिए।"
         },
         {
           "id": "d18_ex04",
@@ -5871,7 +6096,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Thōṛā pānī dījiye.",
           "explanationRu": "Thōṛā pānī = немного воды.",
           "instructionEn": "Exercise instruction: Попросите немного воды",
-          "explanationEn": "Thōṛā pānī = немного воды."
+          "explanationEn": "Thōṛā pānī = немного воды.",
+          "devanagariTarget": "थोड़ा पानी दीजिए।"
         },
         {
           "id": "d18_ex05",
@@ -5888,7 +6114,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Тхоор͟аа!",
           "transliterationIsoTarget": "Thōṛā!",
           "explanationRu": "Правильный и уверенный устный ответ: Thōṛā!",
-          "explanationEn": "Correct and confident verbal response: Thōṛā!"
+          "explanationEn": "Correct and confident verbal response: Thōṛā!",
+          "devanagariTarget": "थोड़ा!"
         }
       ],
       "simulationRoleplay": {
@@ -5904,7 +6131,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мадам, аур даал дууⁿ?",
             "learnerHintRu": "Скажите: Только чуть-чуть, спасибо! (Bas thōṛā, shukriyā!)",
             "speechEn": "Мадам, добавить еще соуса дала?",
-            "learnerHintEn": "Hint: Скажите: Только чуть-чуть, спасибо! (Bas thōṛā, shukriyā!)"
+            "learnerHintEn": "Hint: Скажите: Только чуть-чуть, спасибо! (Bas thōṛā, shukriyā!)",
+            "speechDevanagari": "मैडम, और दाल दूँ?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5915,7 +6143,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Bas thōṛā, bas!",
               "Thōṛā dījiye, bas!"
             ],
-            "speechEn": "Только немного, пожалуйста, хватит!"
+            "speechEn": "Только немного, пожалуйста, хватит!",
+            "speechDevanagari": "बस थोड़ा जी, बस! शुक्रिया।",
+            "acceptableResponsesDevanagari": [
+              "बस थोड़ा, बस!",
+              "थोड़ा दीजिए, बस!"
+            ]
           },
           {
             "speaker": "Официант",
@@ -5924,7 +6157,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Т͟хиик хэ. Эк аур роти лее ааууⁿ?",
             "learnerHintRu": "Откажитесь: Нет, мне это не нужно, спасибо! (Nahī̃, mujhē nahī̃ chāhiye)",
             "speechEn": "Хорошо. Еще одну лепешку роти принести?",
-            "learnerHintEn": "Hint: Откажитесь: Нет, мне это не нужно, спасибо! (Nahī̃, mujhē nahī̃ chāhiye)"
+            "learnerHintEn": "Hint: Откажитесь: Нет, мне это не нужно, спасибо! (Nahī̃, mujhē nahī̃ chāhiye)",
+            "speechDevanagari": "ठीक है। एक और रोटी ले आऊँ?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -5934,7 +6168,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Nahī̃ chāhiye, shukriyā"
             ],
-            "speechEn": "Нет, спасибо, мне больше не нужно."
+            "speechEn": "Нет, спасибо, мне больше не нужно.",
+            "speechDevanagari": "नहीं, मुझे नहीं चाहिए, शुक्रिया।",
+            "acceptableResponsesDevanagari": [
+              "नहीं चाहिए, शुक्रिया"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Dative Experiencers 2: Quantifiers and Polite Negation",
@@ -6123,7 +6361,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ṭhaṇḍā pānī dījiye.",
           "explanationRu": "Ṭhaṇḍā = холодный.",
           "instructionEn": "Exercise instruction: Попросите холодную воду",
-          "explanationEn": "Ṭhaṇḍā = холодный."
+          "explanationEn": "Ṭhaṇḍā = холодный.",
+          "devanagariTarget": "ठंडा पानी दीजिए।"
         },
         {
           "id": "d19_ex03",
@@ -6155,7 +6394,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā khānā garam hai?",
           "explanationRu": "Garam = горячий.",
           "instructionEn": "Exercise instruction: Уточните: 'Еда горячая?'",
-          "explanationEn": "Garam = горячий."
+          "explanationEn": "Garam = горячий.",
+          "devanagariTarget": "क्या खाना गर्म है?"
         },
         {
           "id": "d19_ex05",
@@ -6172,7 +6412,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Гарам!",
           "transliterationIsoTarget": "Garam!",
           "explanationRu": "Правильный и уверенный устный ответ: Garam!",
-          "explanationEn": "Correct and confident verbal response: Garam!"
+          "explanationEn": "Correct and confident verbal response: Garam!",
+          "devanagariTarget": "गर्म!"
         }
       ],
       "simulationRoleplay": {
@@ -6188,7 +6429,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам, кйаа пииенгии?",
             "learnerHintRu": "Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye",
             "speechEn": "Здравствуйте, что будете пить?",
-            "learnerHintEn": "Hint: Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye"
+            "learnerHintEn": "Hint: Попросите запечатанную бутылку воды: Ek Bisleri pānī bottle dījiye",
+            "speechDevanagari": "नमस्ते मैडम, क्या पियेंगी?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -6199,7 +6441,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Bisleri bottle dījiye",
               "Bottled pānī dījiye"
             ],
-            "speechEn": "Здравствуйте! Дайте одну закрытую бутылку воды Bisleri, пожалуйста."
+            "speechEn": "Здравствуйте! Дайте одну закрытую бутылку воды Bisleri, пожалуйста.",
+            "speechDevanagari": "नमस्ते! एक बिसलेरी पानी बोतल दीजिए।",
+            "acceptableResponsesDevanagari": [
+              "बिसलेरी बोतल दीजिए",
+              "बोतलबंद पानी दीजिए"
+            ]
           },
           {
             "speaker": "Официант",
@@ -6208,7 +6455,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Лииджие пэкиджд паании. Кхаанее мэⁿ кйаа чаахийе?",
             "learnerHintRu": "Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)",
             "speechEn": "Хорошо, вот вода. А из еды что принести?",
-            "learnerHintEn": "Hint: Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)"
+            "learnerHintEn": "Hint: Скажите: Еда должна быть очень горячей! (Khānā garam honā chāhiye)",
+            "speechDevanagari": "लीजिए पैक्ड पानी। खाने में क्या चाहिए?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -6218,7 +6466,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Garam khānā dījiye"
             ],
-            "speechEn": "Еда должна быть свежей и горячей, пожалуйста."
+            "speechEn": "Еда должна быть свежей и горячей, пожалуйста.",
+            "speechDevanagari": "खाना गर्म होना चाहिए।",
+            "acceptableResponsesDevanagari": [
+              "गर्म खाना दीजिए"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Culinary Ordering: Temperatures, Water Safety, and Staples",
@@ -6423,7 +6675,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Binā mirch kē banāiye.",
           "explanationRu": "Binā [X] kē = без [X].",
           "instructionEn": "Exercise instruction: Попросите приготовить блюдо без перца",
-          "explanationEn": "Binā [X] kē = без [X]."
+          "explanationEn": "Binā [X] kē = без [X].",
+          "devanagariTarget": "बिना मिर्च के बनाइए।"
         },
         {
           "id": "d20_ex04",
@@ -6439,7 +6692,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kam mirch, please!",
           "explanationRu": "Kam = мало / слабый.",
           "instructionEn": "Exercise instruction: Попросите положить совсем мало перца",
-          "explanationEn": "Kam = мало / слабый."
+          "explanationEn": "Kam = мало / слабый.",
+          "devanagariTarget": "कम मिर्च, प्लीज!"
         },
         {
           "id": "d20_ex05",
@@ -6456,7 +6710,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Шаакаахаарии!",
           "transliterationIsoTarget": "Shākāhārī!",
           "explanationRu": "Правильный и уверенный устный ответ: Shākāhārī!",
-          "explanationEn": "Correct and confident verbal response: Shākāhārī!"
+          "explanationEn": "Correct and confident verbal response: Shākāhārī!",
+          "devanagariTarget": "शाकाहारी!"
         }
       ],
       "simulationRoleplay": {
@@ -6472,7 +6727,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Чикен тикка йа Панир?",
             "learnerHintRu": "Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)",
             "speechEn": "Добрый вечер, мадам! Курицу тикка или панир будете заказывать?",
-            "learnerHintEn": "Hint: Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)"
+            "learnerHintEn": "Hint: Скажите: Я вегетарианка. Принесите панир. (Main shākāhārī hū̃)",
+            "speechDevanagari": "नमस्ते मैडम! चिकन टिक्का या पनीर?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -6482,7 +6738,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main shākāhārī hū̃. Binā mirch kē."
             ],
-            "speechEn": "Я вегетарианка. Панир, пожалуйста. И совсем без перца!"
+            "speechEn": "Я вегетарианка. Панир, пожалуйста. И совсем без перца!",
+            "speechDevanagari": "मैं शाकाहारी हूँ। पनीर दीजिए, बिना मिर्च के।",
+            "acceptableResponsesDevanagari": [
+              "मैं शाकाहारी हूँ। बिना मिर्च के।"
+            ]
           },
           {
             "speaker": "Официант",
@@ -6491,7 +6751,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Тхоор͟ии мирч д͟аал дууⁿ?",
             "learnerHintRu": "Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)",
             "speechEn": "Немножко перца чили добавить для вкуса?",
-            "learnerHintEn": "Hint: Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)"
+            "learnerHintEn": "Hint: Ответьте твердо: Нет! Остро совсем не делайте. (Nahī̃! Tīkhā bilkul mat banāiye!)",
+            "speechDevanagari": "थोड़ी मिर्च डाल दूँ?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -6501,7 +6762,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Tīkhā mat banāiye!"
             ],
-            "speechEn": "Нет, перца совсем не надо! Остро не делайте."
+            "speechEn": "Нет, перца совсем не надо! Остро не делайте.",
+            "speechDevanagari": "नहीं, तीखा बिल्कुल मत बनाइए!",
+            "acceptableResponsesDevanagari": [
+              "तीखा मत बनाइए!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Dietary Restrictions, Spice Management, and Allergies",
@@ -6692,7 +6957,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Thōṛā namak dījiye.",
           "explanationRu": "Namak = соль.",
           "instructionEn": "Exercise instruction: Попросите принести немного соли к столу",
-          "explanationEn": "Namak = соль."
+          "explanationEn": "Namak = соль.",
+          "devanagariTarget": "थोड़ा नमक दीजिए।"
         },
         {
           "id": "d21_ex03",
@@ -6724,7 +6990,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Chāi bahut mīṭhī hai.",
           "explanationRu": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī.",
           "instructionEn": "Exercise instruction: Скажите, что чай слишком сладкий",
-          "explanationEn": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī."
+          "explanationEn": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī.",
+          "devanagariTarget": "चाय बहुत मीठी है।"
         },
         {
           "id": "d21_ex05",
@@ -6741,7 +7008,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Сваадишт!",
           "transliterationIsoTarget": "Svādishṭ!",
           "explanationRu": "Правильный и уверенный устный ответ: Svādishṭ!",
-          "explanationEn": "Correct and confident verbal response: Svādishṭ!"
+          "explanationEn": "Correct and confident verbal response: Svādishṭ!",
+          "devanagariTarget": "स्वादिष्ट!"
         }
       ],
       "simulationRoleplay": {
@@ -6757,7 +7025,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Кхаанаа кэсаа лагаа?",
             "learnerHintRu": "Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса.",
             "speechEn": "Намастэ, сестра! Как вам наше карри? Понравилось?",
-            "learnerHintEn": "Hint: Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса."
+            "learnerHintEn": "Hint: Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса.",
+            "speechDevanagari": "नमस्ते मैडम! खाना कैसा लगा?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -6767,7 +7036,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut svādishṭ hai!"
             ],
-            "speechEn": "Еда очень вкусная! Спасибо большое."
+            "speechEn": "Еда очень вкусная! Спасибо большое.",
+            "speechDevanagari": "खाना बहुत स्वादिष्ट है! बहुत शुक्रिया।",
+            "acceptableResponsesDevanagari": [
+              "बहुत स्वादिष्ट है!"
+            ]
           },
           {
             "speaker": "Хозяин",
@@ -6776,7 +7049,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Дханьяваад мадам! Аур кучх чаахийе?",
             "learnerHintRu": "Попросите немного соли: Thōṛā namak dījiye",
             "speechEn": "Большое спасибо! Еще что-нибудь нужно?",
-            "learnerHintEn": "Hint: Попросите немного соли: Thōṛā namak dījiye"
+            "learnerHintEn": "Hint: Попросите немного соли: Thōṛā namak dījiye",
+            "speechDevanagari": "धन्यवाद मैडम! और कुछ चाहिए?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -6786,7 +7060,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Thōṛā namak dījiye"
             ],
-            "speechEn": "Да, дайте еще немного соли, пожалуйста."
+            "speechEn": "Да, дайте еще немного соли, пожалуйста.",
+            "speechDevanagari": "हाँ - जी, थोड़ा नमक दीजिए।",
+            "acceptableResponsesDevanagari": [
+              "थोड़ा नमक दीजिए"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Expressing Culinary Evaluation and Quality",
@@ -6977,7 +7255,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē yeh pasand nahī̃ hai.",
           "explanationRu": "Mujhē yeh pasand nahī̃ hai = Мне это не нравится.",
           "instructionEn": "Exercise instruction: Скажите, что вам не нравится это блюдо",
-          "explanationEn": "Mujhē yeh pasand nahī̃ hai = Мне это не нравится."
+          "explanationEn": "Mujhē yeh pasand nahī̃ hai = Мне это не нравится.",
+          "devanagariTarget": "मुझे यह पसंद नहीं है।"
         },
         {
           "id": "d22_ex03",
@@ -7009,7 +7288,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā āpkō Delhi pasand hai?",
           "explanationRu": "Āpkō (вам) + Delhi + pasand hai (нравится)?",
           "instructionEn": "Exercise instruction: Задайте вопрос: 'Вам нравится Дели?'",
-          "explanationEn": "Āpkō (вам) + Delhi + pasand hai (нравится)?"
+          "explanationEn": "Āpkō (вам) + Delhi + pasand hai (нравится)?",
+          "devanagariTarget": "क्या आपको दिल्ली पसंद है?"
         },
         {
           "id": "d22_ex05",
@@ -7026,7 +7306,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Пасанд!",
           "transliterationIsoTarget": "Pasand!",
           "explanationRu": "Правильный и уверенный устный ответ: Pasand!",
-          "explanationEn": "Correct and confident verbal response: Pasand!"
+          "explanationEn": "Correct and confident verbal response: Pasand!",
+          "devanagariTarget": "पसंद!"
         }
       ],
       "simulationRoleplay": {
@@ -7042,7 +7323,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ! Кйаа аапко индиан брэкфаст пасанд хэ?",
             "learnerHintRu": "Скажите: Да, мне очень нравится индийская еда! (Hā̃, mujhē Indian khānā bahut pasand hai)",
             "speechEn": "Доброе утро! Вам понравился индийский завтрак?",
-            "learnerHintEn": "Hint: Скажите: Да, мне очень нравится индийская еда! (Hā̃, mujhē Indian khānā bahut pasand hai)"
+            "learnerHintEn": "Hint: Скажите: Да, мне очень нравится индийская еда! (Hā̃, mujhē Indian khānā bahut pasand hai)",
+            "speechDevanagari": "नमस्ते! क्या आपको इंडियन नाश्ता पसंद है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7052,7 +7334,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Mujhē Indian khānā bahut pasand hai!"
             ],
-            "speechEn": "Да, мне очень нравится индийская кухня! Все очень вкусно."
+            "speechEn": "Да, мне очень нравится индийская кухня! Все очень вкусно.",
+            "speechDevanagari": "हाँ - जी! मुझे इंडियन खाना बहुत पसंद है। बहुत स्वादिष्ट है!",
+            "acceptableResponsesDevanagari": [
+              "मुझे इंडियन खाना बहुत पसंद है!"
+            ]
           },
           {
             "speaker": "Хозяйка",
@@ -7061,7 +7347,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бахут аччхаа! Эк аур масаалаа чаай дууⁿ?",
             "learnerHintRu": "Согласитесь с радостью: Hā̃-jī, shukriyā!",
             "speechEn": "Как приятно слышать! Еще чашечку масала чая налить?",
-            "learnerHintEn": "Hint: Согласитесь с радостью: Hā̃-jī, shukriyā!"
+            "learnerHintEn": "Hint: Согласитесь с радостью: Hā̃-jī, shukriyā!",
+            "speechDevanagari": "बहुत अच्छा! एक और मसाला चाय दूँ?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7071,7 +7358,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Hā̃-jī, shukriyā!"
             ],
-            "speechEn": "Да, пожалуйста! Большое спасибо."
+            "speechEn": "Да, пожалуйста! Большое спасибо.",
+            "speechDevanagari": "हाँ - जी, एक और चाय दीजिए। शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "हाँ - जी, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Dative Experiencers 3: Preferences with Pasand",
@@ -7262,7 +7553,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Bhaiyā, kitnā huā?",
           "explanationRu": "Kitnā huā? = Сколько вышло?",
           "instructionEn": "Exercise instruction: Спросите, сколько вышло к оплате",
-          "explanationEn": "Kitnā huā? = Сколько вышло?"
+          "explanationEn": "Kitnā huā? = Сколько вышло?",
+          "devanagariTarget": "भैया, कितना हुआ?"
         },
         {
           "id": "d23_ex03",
@@ -7294,7 +7586,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "UPI / G-Pay chalēgā?",
           "explanationRu": "Chalēgā означает 'сработает / принимается'.",
           "instructionEn": "Exercise instruction: Уточните, принимают ли оплату через UPI (Google Pay)",
-          "explanationEn": "Chalēgā означает 'сработает / принимается'."
+          "explanationEn": "Chalēgā означает 'сработает / принимается'.",
+          "devanagariTarget": "यूपीआई / जी - पे चलेगा?"
         },
         {
           "id": "d23_ex05",
@@ -7311,7 +7604,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Лее ааие!",
           "transliterationIsoTarget": "Lē āiye!",
           "explanationRu": "Правильный и уверенный устный ответ: Lē āiye!",
-          "explanationEn": "Correct and confident verbal response: Lē āiye!"
+          "explanationEn": "Correct and confident verbal response: Lē āiye!",
+          "devanagariTarget": "ले आइए!"
         }
       ],
       "simulationRoleplay": {
@@ -7327,7 +7621,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бхаййаа, билл лее ааие!",
             "learnerHintRu": "Попросите счет: Bhaiyā, bill lē āiye!",
             "speechEn": "Брат, принесите счет, пожалуйста!",
-            "learnerHintEn": "Hint: Попросите счет: Bhaiyā, bill lē āiye!"
+            "learnerHintEn": "Hint: Попросите счет: Bhaiyā, bill lē āiye!",
+            "speechDevanagari": "भैया, बिल ले आइए!"
           },
           {
             "speaker": "Официант",
@@ -7336,7 +7631,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Лииджие билл мадам. 750 рупае.",
             "learnerHintRu": "Спросите: Карта пойдет? (Card chalēgā?)",
             "speechEn": "Вот ваш счет, мадам. Семьсот пятьдесят рупий.",
-            "learnerHintEn": "Hint: Спросите: Карта пойдет? (Card chalēgā?)"
+            "learnerHintEn": "Hint: Спросите: Карта пойдет? (Card chalēgā?)",
+            "speechDevanagari": "लीजिए बिल मैडम। 750 रुपये।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7346,7 +7642,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Card chalēgā?"
             ],
-            "speechEn": "Сколько вышло? Банковская карта пройдет?"
+            "speechEn": "Сколько вышло? Банковская карта пройдет?",
+            "speechDevanagari": "कितना हुआ? कार्ड चलेगा?",
+            "acceptableResponsesDevanagari": [
+              "कार्ड चलेगा?"
+            ]
           },
           {
             "speaker": "Официант",
@@ -7355,7 +7655,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Хааⁿ-джии билкул, кард чалээгаа.",
             "learnerHintRu": "Передайте карту: Lījiye, shukriyā!",
             "speechEn": "Да, конечно, карточный терминал работает!",
-            "learnerHintEn": "Hint: Передайте карту: Lījiye, shukriyā!"
+            "learnerHintEn": "Hint: Передайте карту: Lījiye, shukriyā!",
+            "speechDevanagari": "हाँ - जी बिल्कुल, कार्ड चलेगा।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7365,7 +7666,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Lījiye, shukriyā!"
             ],
-            "speechEn": "Возьмите, пожалуйста! Большое спасибо."
+            "speechEn": "Возьмите, пожалуйста! Большое спасибо.",
+            "speechDevanagari": "लीजिए कार्ड। बहुत शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "लीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Billing Inquiries and Payment Settlement",
@@ -7590,7 +7895,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kitnā huā? Card chalēgā?",
           "explanationRu": "Card chalēgā? = Карта пройдет?",
           "instructionEn": "Exercise instruction: Спросите о возможности оплаты наличными или картой",
-          "explanationEn": "Card chalēgā? = Карта пройдет?"
+          "explanationEn": "Card chalēgā? = Карта пройдет?",
+          "devanagariTarget": "कितना हुआ? कार्ड चलेगा?"
         },
         {
           "id": "d24_ex05",
@@ -7607,7 +7913,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Дхаабаа!",
           "transliterationIsoTarget": "Dhābā!",
           "explanationRu": "Правильный и уверенный устный ответ: Dhābā!",
-          "explanationEn": "Correct and confident verbal response: Dhābā!"
+          "explanationEn": "Correct and confident verbal response: Dhābā!",
+          "devanagariTarget": "ढाबा!"
         }
       ],
       "simulationRoleplay": {
@@ -7623,7 +7930,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Ааие бэтхие! Кйаа чаахийе?",
             "learnerHintRu": "Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē",
             "speechEn": "Добро пожаловать, сестра! Проходите, садитесь! Что вам принести?",
-            "learnerHintEn": "Hint: Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē"
+            "learnerHintEn": "Hint: Закажите запечатанную воду и дал с рисом без перца: Bisleri pānī aur dāl chāval, binā mirch kē",
+            "speechDevanagari": "नमस्ते मैडम! आइए बैठिए! क्या चाहिए?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7633,7 +7941,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bisleri pānī aur dāl chāval chāhiye, binā mirch kē"
             ],
-            "speechEn": "Здравствуйте! Мне нужна бутылка воды Bisleri, дал и рис. Пожалуйста, совсем без перца!"
+            "speechEn": "Здравствуйте! Мне нужна бутылка воды Bisleri, дал и рис. Пожалуйста, совсем без перца!",
+            "speechDevanagari": "नमस्ते! एक बिसलेरी पानी, दाल और चावल चाहिए। बिना मिर्च के!",
+            "acceptableResponsesDevanagari": [
+              "बिसलेरी पानी और दाल चावल चाहिए, बिना मिर्च के"
+            ]
           },
           {
             "speaker": "Хозяин",
@@ -7642,7 +7954,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Билкул тиикхаа нахииⁿ банаайаа. Лииджие гарам кхаанаа!",
             "learnerHintRu": "Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет.",
             "speechEn": "Понял! Готовим совсем не остро. Вот горячая еда!",
-            "learnerHintEn": "Hint: Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет."
+            "learnerHintEn": "Hint: Попробуйте и похвалите: Bahut svādishṭ hai! Принесите счет.",
+            "speechDevanagari": "बिल्कुल तीखा नहीं बनाया। लीजिए गर्म खाना!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7652,7 +7965,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut svādishṭ hai! Bill lē āiye."
             ],
-            "speechEn": "Очень вкусно! Большое спасибо. Брат, принесите счет."
+            "speechEn": "Очень вкусно! Большое спасибо. Брат, принесите счет.",
+            "speechDevanagari": "बहुत स्वादिष्ट है! शुक्रिया। भैया, बिल ले आइए।",
+            "acceptableResponsesDevanagari": [
+              "बहुत स्वादिष्ट है! बिल ले आइए।"
+            ]
           },
           {
             "speaker": "Хозяин",
@@ -7661,7 +7978,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Сирф 250 рупае мадам.",
             "learnerHintRu": "Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!",
             "speechEn": "Всего двести пятьдесят рупий, сестра.",
-            "learnerHintEn": "Hint: Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!"
+            "learnerHintEn": "Hint: Отдайте оплату со словами: Paisē lījiye, bahut dhanyavād!",
+            "speechDevanagari": "सिर्फ़ 250 रुपये मैडम।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7671,7 +7989,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Paisē lījiye, shukriyā!"
             ],
-            "speechEn": "Возьмите деньги, спасибо большое!"
+            "speechEn": "Возьмите деньги, спасибо большое!",
+            "speechDevanagari": "पैसे लीजिए, बहुत धन्यवाद!",
+            "acceptableResponsesDevanagari": [
+              "पैसे लीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Phase 3 Synthesis and Authentic Dhābā Dining Simulation",
@@ -7891,7 +8213,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Das rupayē",
           "explanationRu": "Das = 10.",
           "instructionEn": "Exercise instruction: Назовите число 10 (когнат с русским 'десять')",
-          "explanationEn": "Das = 10."
+          "explanationEn": "Das = 10.",
+          "devanagariTarget": "दस रुपये"
         },
         {
           "id": "d25_ex04",
@@ -7907,7 +8230,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Bīs rupayē",
           "explanationRu": "Bīs = 20.",
           "instructionEn": "Exercise instruction: Вставьте число 20 в фразу '20 рупий'",
-          "explanationEn": "Bīs = 20."
+          "explanationEn": "Bīs = 20.",
+          "devanagariTarget": "बीस रुपये"
         },
         {
           "id": "d25_ex05",
@@ -7924,7 +8248,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Эк, До, Тиин, Чаар, Паанч!",
           "transliterationIsoTarget": "Ek, Do, Tīn, Chār, Pāñch!",
           "explanationRu": "Правильный и уверенный устный ответ: Ek, Do, Tīn, Chār, Pāñch!",
-          "explanationEn": "Correct and confident verbal response: Ek, Do, Tīn, Chār, Pāñch!"
+          "explanationEn": "Correct and confident verbal response: Ek, Do, Tīn, Chār, Pāñch!",
+          "devanagariTarget": "एक, दो, तीन, चार, पाँच!"
         }
       ],
       "simulationRoleplay": {
@@ -7940,7 +8265,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Фрэш бананас! Китнее чаахийе?",
             "learnerHintRu": "Скажите: Дайте четыре банана (Chār banana dījiye)",
             "speechEn": "Здравствуйте! Свежие бананы и апельсины. Сколько вам дать?",
-            "learnerHintEn": "Hint: Скажите: Дайте четыре банана (Chār banana dījiye)"
+            "learnerHintEn": "Hint: Скажите: Дайте четыре банана (Chār banana dījiye)",
+            "speechDevanagari": "नमस्ते मैडम! फ्रेश केले! कितने चाहिए?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7951,7 +8277,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Chār banana dījiye",
               "Do orange dījiye"
             ],
-            "speechEn": "Здравствуйте! Дайте четыре банана и два апельсина."
+            "speechEn": "Здравствуйте! Дайте четыре банана и два апельсина.",
+            "speechDevanagari": "नमस्ते! चार केले और दो संतरे दीजिए।",
+            "acceptableResponsesDevanagari": [
+              "चार केला दीजिए",
+              "दो संतरा दीजिए"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -7960,7 +8291,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Лииджие мадам. Тотал биис рупае.",
             "learnerHintRu": "Отдайте оплату: Bīs rupayē lījiye, shukriyā!",
             "speechEn": "Вот, пожалуйста, держите. Всего двадцать рупий.",
-            "learnerHintEn": "Hint: Отдайте оплату: Bīs rupayē lījiye, shukriyā!"
+            "learnerHintEn": "Hint: Отдайте оплату: Bīs rupayē lījiye, shukriyā!",
+            "speechDevanagari": "लीजिए मैडम। टोटल बीस रुपये।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -7970,7 +8302,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Lījiye, shukriyā!"
             ],
-            "speechEn": "Возьмите двадцать рупий, спасибо!"
+            "speechEn": "Возьмите двадцать рупий, спасибо!",
+            "speechDevanagari": "बीस रुपये लीजिए, शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "लीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Numerical Framework 1–20",
@@ -8175,7 +8511,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ek hazār rupayē",
           "explanationRu": "Hazār = тысяча.",
           "instructionEn": "Exercise instruction: Назовите сумму 'Одна тысяча рупий'",
-          "explanationEn": "Hazār = тысяча."
+          "explanationEn": "Hazār = тысяча.",
+          "devanagariTarget": "एक हज़ार रुपये"
         },
         {
           "id": "d26_ex04",
@@ -8191,7 +8528,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Do sau",
           "explanationRu": "Do sau = 200 (двести).",
           "instructionEn": "Exercise instruction: Назовите число 200 (Двести)",
-          "explanationEn": "Do sau = 200 (двести)."
+          "explanationEn": "Do sau = 200 (двести).",
+          "devanagariTarget": "दो सौ"
         },
         {
           "id": "d26_ex05",
@@ -8208,7 +8546,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Сау!",
           "transliterationIsoTarget": "Sau!",
           "explanationRu": "Правильный и уверенный устный ответ: Sau!",
-          "explanationEn": "Correct and confident verbal response: Sau!"
+          "explanationEn": "Correct and confident verbal response: Sau!",
+          "devanagariTarget": "सौ!"
         }
       ],
       "simulationRoleplay": {
@@ -8224,7 +8563,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Дэкхие мадам, пьюр пашмина шол! Бахут аччхаа прайс.",
             "learnerHintRu": "Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)",
             "speechEn": "Посмотрите, мадам, настоящий пашминовый платок! Отличная цена.",
-            "learnerHintEn": "Hint: Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)"
+            "learnerHintEn": "Hint: Спросите: Сколько сотен рупий это стоит? (Kitnē rupayē?)",
+            "speechDevanagari": "देखिए मैडम, प्योर पश्मीना शॉल! बहुत अच्छा प्राइस।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -8234,7 +8574,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Yeh kitnē kā hai?"
             ],
-            "speechEn": "Сколько стоит этот платок?"
+            "speechEn": "Сколько стоит этот платок?",
+            "speechDevanagari": "यह कितने का है? कितने रुपये?",
+            "acceptableResponsesDevanagari": [
+              "यह कितने का है?"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -8243,7 +8587,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Сирф эк хазаар паанч сау рупае, мадам.",
             "learnerHintRu": "Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)",
             "speechEn": "Всего одна тысяча пятьсот рупий, мадам.",
-            "learnerHintEn": "Hint: Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)"
+            "learnerHintEn": "Hint: Повторите цену с удивлением: Ek hazār pāñch sau?! (1500 рупий?!)",
+            "speechDevanagari": "सिर्फ़ एक हज़ार पाँच सौ रुपये, मैडम।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -8253,7 +8598,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Ek hazār pāñch sau rupayē?!"
             ],
-            "speechEn": "Одна тысяча пятьсот рупий?! Это слишком дорого!"
+            "speechEn": "Одна тысяча пятьсот рупий?! Это слишком дорого!",
+            "speechDevanagari": "एक हज़ार पाँच सौ रुपये?! बहुत महंगा है!",
+            "acceptableResponsesDevanagari": [
+              "एक हज़ार पाँच सौ रुपये?!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Numerical Scaling: Tens, Hundreds, and Thousands",
@@ -8462,7 +8811,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā dām hai?",
           "explanationRu": "Kyā dām hai? = Какая цена?",
           "instructionEn": "Exercise instruction: Спросите: 'Какая цена?'",
-          "explanationEn": "Kyā dām hai? = Какая цена?"
+          "explanationEn": "Kyā dām hai? = Какая цена?",
+          "devanagariTarget": "क्या दाम है?"
         },
         {
           "id": "d27_ex04",
@@ -8478,7 +8828,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Voh kitnē kā hai?",
           "explanationRu": "Voh = тот (вдали).",
           "instructionEn": "Exercise instruction: Спросите о цене вон того дальнего предмета",
-          "explanationEn": "Voh = тот (вдали)."
+          "explanationEn": "Voh = тот (вдали).",
+          "devanagariTarget": "वह कितने का है?"
         },
         {
           "id": "d27_ex05",
@@ -8495,7 +8846,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Китнее каа!",
           "transliterationIsoTarget": "Kitnē kā!",
           "explanationRu": "Правильный и уверенный устный ответ: Kitnē kā!",
-          "explanationEn": "Correct and confident verbal response: Kitnē kā!"
+          "explanationEn": "Correct and confident verbal response: Kitnē kā!",
+          "devanagariTarget": "कितने का!"
         }
       ],
       "simulationRoleplay": {
@@ -8511,7 +8863,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Хэндмейд элефант дэкхие.",
             "learnerHintRu": "Спросите цену: Bhaiyā, yeh kitnē kā hai?",
             "speechEn": "Здравствуйте, мадам! Посмотрите, деревянный слоник ручной работы!",
-            "learnerHintEn": "Hint: Спросите цену: Bhaiyā, yeh kitnē kā hai?"
+            "learnerHintEn": "Hint: Спросите цену: Bhaiyā, yeh kitnē kā hai?",
+            "speechDevanagari": "नमस्ते मैडम! हैंडमेड हाथी देखिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -8522,7 +8875,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Yeh kitnē kā hai?",
               "Kyā dām hai?"
             ],
-            "speechEn": "Здравствуйте! Брат, почём этот слоник?"
+            "speechEn": "Здравствуйте! Брат, почём этот слоник?",
+            "speechDevanagari": "नमस्ते! भैया, यह कितने का है?",
+            "acceptableResponsesDevanagari": [
+              "यह कितने का है?",
+              "क्या दाम है?"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -8531,7 +8889,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аапке лие спэшл прайс — 800 рупае!",
             "learnerHintRu": "Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)",
             "speechEn": "Для вас особая цена — восемьсот рупий!",
-            "learnerHintEn": "Hint: Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)"
+            "learnerHintEn": "Hint: Отреагируйте с улыбкой: Ого! Это слишком дорого! (Bahut mahangā hai!)",
+            "speechDevanagari": "आपके लिए स्पेशल प्राइस — 800 रुपये!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -8541,7 +8900,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut mahangā hai!"
             ],
-            "speechEn": "Ого! Восемьсот рупий?! Это очень дорого!"
+            "speechEn": "Ого! Восемьсот рупий?! Это очень дорого!",
+            "speechDevanagari": "आठ सौ रुपये?! बहुत महंगा है!",
+            "acceptableResponsesDevanagari": [
+              "बहुत महंगा है!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Inquiring About Prices and Merchandise",
@@ -8752,7 +9115,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Tīn sau rupayē dījiye!",
           "explanationRu": "Tīn sau rupayē dījiye = Отдайте за 300 рупий.",
           "instructionEn": "Exercise instruction: Предложите забрать товар за 300 рупий (300 рупий + дайте)",
-          "explanationEn": "Tīn sau rupayē dījiye = Отдайте за 300 рупий."
+          "explanationEn": "Tīn sau rupayē dījiye = Отдайте за 300 рупий.",
+          "devanagariTarget": "तीन सौ रुपये दीजिए!"
         },
         {
           "id": "d28_ex04",
@@ -8768,7 +9132,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē sastā chāhiye.",
           "explanationRu": "Sastā = дешевый.",
           "instructionEn": "Exercise instruction: Скажите, что вам нужен товар подешевле",
-          "explanationEn": "Sastā = дешевый."
+          "explanationEn": "Sastā = дешевый.",
+          "devanagariTarget": "मुझे सस्ता चाहिए।"
         },
         {
           "id": "d28_ex05",
@@ -8785,7 +9150,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Кам кииджие!",
           "transliterationIsoTarget": "Kam kījiye!",
           "explanationRu": "Правильный и уверенный устный ответ: Kam kījiye!",
-          "explanationEn": "Correct and confident verbal response: Kam kījiye!"
+          "explanationEn": "Correct and confident verbal response: Kam kījiye!",
+          "devanagariTarget": "कम कीजिए!"
         }
       ],
       "simulationRoleplay": {
@@ -8801,7 +9167,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Чхэх сау рупае мадам, бэст прайс!",
             "learnerHintRu": "Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)",
             "speechEn": "Мадам, прекрасный платок! Шестьсот рупий.",
-            "learnerHintEn": "Hint: Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)"
+            "learnerHintEn": "Hint: Возмутитесь: Слишком много! Скиньте, отдайте за 300! (Bahut zyādā hai! Tīn sau dījiye)",
+            "speechDevanagari": "छह सौ रुपये मैडम, बेस्ट प्राइस!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -8811,7 +9178,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut zyādā hai! Tīn sau rupayē dījiye!"
             ],
-            "speechEn": "Нет, брат! Это слишком дорого. Назовите честную цену. Триста рупий!"
+            "speechEn": "Нет, брат! Это слишком дорого. Назовите честную цену. Триста рупий!",
+            "speechDevanagari": "नहीं भैया! बहुत ज़्यादा है। सही दाम लगाइए। तीन सौ रुपये दीजिए!",
+            "acceptableResponsesDevanagari": [
+              "बहुत ज़्यादा है! तीन सौ रुपये दीजिए!"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -8820,7 +9191,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Тиин сау нахииⁿ мадам! Чаар сау рупае файнал.",
             "learnerHintRu": "Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!",
             "speechEn": "Триста?! Нет, так нельзя. Давайте четыреста рупий?",
-            "learnerHintEn": "Hint: Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!"
+            "learnerHintEn": "Hint: Согласитесь на 350: Sāṛhē tīn sau (350) ṭhīk hai? Chaliye pack kījiye!",
+            "speechDevanagari": "तीन सौ नहीं मैडम! चार सौ रुपये फ़ाइनल।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -8830,7 +9202,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Ṭhīk hai, pack kījiye!"
             ],
-            "speechEn": "Триста пятьдесят рупий, договорились? Заворачивайте!"
+            "speechEn": "Триста пятьдесят рупий, договорились? Заворачивайте!",
+            "speechDevanagari": "350 रुपये, ठीक है? पैक्ड कर दीजिए!",
+            "acceptableResponsesDevanagari": [
+              "ठीक है, पैक्ड कीजिए!"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -8839,7 +9215,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Т͟хиик хэ мадам, лииджие!",
             "learnerHintRu": "Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!",
             "speechEn": "Ладно, мадам, вы умеете торговаться! Забирайте.",
-            "learnerHintEn": "Hint: Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!"
+            "learnerHintEn": "Hint: Поблагодарите с улыбкой: Bahut shukriyā bhaiyā!",
+            "speechDevanagari": "ठीक है मैडम, लीजिए!"
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Bargaining Strategies and Price Negotiation",
@@ -9030,7 +9407,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē baṛā size chāhiye.",
           "explanationRu": "Baṛā size = большой размер.",
           "instructionEn": "Exercise instruction: Попросите размер побольше (Мне нужен большой размер)",
-          "explanationEn": "Baṛā size = большой размер."
+          "explanationEn": "Baṛā size = большой размер.",
+          "devanagariTarget": "मुझे बड़ा साइज़ चाहिए।"
         },
         {
           "id": "d29_ex03",
@@ -9062,7 +9440,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mujhē nayā piece dījiye.",
           "explanationRu": "Nayā piece = новая вещь.",
           "instructionEn": "Exercise instruction: Попросите абсолютно новую вещь со склада",
-          "explanationEn": "Nayā piece = новая вещь."
+          "explanationEn": "Nayā piece = новая вещь.",
+          "devanagariTarget": "मुझे नया पीस दीजिए।"
         },
         {
           "id": "d29_ex05",
@@ -9079,7 +9458,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Бар͟аа / Бар͟ии!",
           "transliterationIsoTarget": "Baṛā (m) / Baṛī (f)!",
           "explanationRu": "Правильный и уверенный устный ответ: Baṛā (m) / Baṛī (f)!",
-          "explanationEn": "Correct and confident verbal response: Baṛā (m) / Baṛī (f)!"
+          "explanationEn": "Correct and confident verbal response: Baṛā (m) / Baṛī (f)!",
+          "devanagariTarget": "बड़ा () / बड़ी ()!"
         }
       ],
       "simulationRoleplay": {
@@ -9095,7 +9475,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мадам, кэсаа хэ? Фиттинг т͟хиик хэ?",
             "learnerHintRu": "Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)",
             "speechEn": "Как сидит туника курта, мадам? Все в порядке?",
-            "learnerHintEn": "Hint: Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)"
+            "learnerHintEn": "Hint: Скажите: Нет, это слишком мало. Мне нужен большой размер. (Yeh bahut chhōṭā hai. Baṛā size chāhiye)",
+            "speechDevanagari": "मैडम, कैसा है? फ़िटिंग ठीक है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9105,7 +9486,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Yeh bahut chhōṭā hai. Baṛā size chāhiye."
             ],
-            "speechEn": "Нет, это очень мало. Мне нужен большой размер."
+            "speechEn": "Нет, это очень мало. Мне нужен большой размер.",
+            "speechDevanagari": "नहीं भैया, यह बहुत छोटा है। बड़ा साइज़ चाहिए।",
+            "acceptableResponsesDevanagari": [
+              "यह बहुत छोटा है। बड़ा साइज़ चाहिए।"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -9114,7 +9499,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Коии баат нахииⁿ мадам! Лииджие бар͟аа сайз.",
             "learnerHintRu": "Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)",
             "speechEn": "Без проблем! Вот размер L. Посмотрите, пожалуйста.",
-            "learnerHintEn": "Hint: Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)"
+            "learnerHintEn": "Hint: Осмотрите и заметьте пятно: Ой, эта вещь испорчена! Дайте другую новую. (Yeh piece kharāb hai)",
+            "speechDevanagari": "कोई बात नहीं मैडम! लीजिए बड़ा साइज़।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9124,7 +9510,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Yeh kharāb hai, nayā piece dījiye."
             ],
-            "speechEn": "Подождите, здесь пятно, эта вещь бракованная. Дайте новую!"
+            "speechEn": "Подождите, здесь пятно, эта вещь бракованная. Дайте новую!",
+            "speechDevanagari": "रुकिए, यह ख़राब है। नया पीस दीजिए।",
+            "acceptableResponsesDevanagari": [
+              "यह ख़राब है, नया पीस दीजिए।"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Adjectival Modifiers: Dimensions and Condition",
@@ -9329,7 +9719,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Isē badal dījiye.",
           "explanationRu": "Badal dījiye = обменяйте.",
           "instructionEn": "Exercise instruction: Попросите обменять эту вещь (Эту вещь + обменяйте)",
-          "explanationEn": "Badal dījiye = обменяйте."
+          "explanationEn": "Badal dījiye = обменяйте.",
+          "devanagariTarget": "इसे बदल दीजिए।"
         },
         {
           "id": "d30_ex04",
@@ -9345,7 +9736,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā dūsrā raṅg hai?",
           "explanationRu": "Raṅg = цвет.",
           "instructionEn": "Exercise instruction: Спросите: 'Есть ли другой цвет?'",
-          "explanationEn": "Raṅg = цвет."
+          "explanationEn": "Raṅg = цвет.",
+          "devanagariTarget": "क्या दूसरा रंग है?"
         },
         {
           "id": "d30_ex05",
@@ -9362,7 +9754,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Дуусраа / Дуусрии!",
           "transliterationIsoTarget": "Dūsrā (m) / Dūsrī (f)!",
           "explanationRu": "Правильный и уверенный устный ответ: Dūsrā (m) / Dūsrī (f)!",
-          "explanationEn": "Correct and confident verbal response: Dūsrā (m) / Dūsrī (f)!"
+          "explanationEn": "Correct and confident verbal response: Dūsrā (m) / Dūsrī (f)!",
+          "devanagariTarget": "दूसरा () / दूसरी ()!"
         }
       ],
       "simulationRoleplay": {
@@ -9378,7 +9771,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Йе лаал ранг шол дэкхие мадам! Бахут сундар хэ.",
             "learnerHintRu": "Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)",
             "speechEn": "Посмотрите этот красный платок! Очень красивый цвет.",
-            "learnerHintEn": "Hint: Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)"
+            "learnerHintEn": "Hint: Скажите: Мне не нравится красный. Покажите другой цвет! (Dūsrā raṅg dikhāiye)",
+            "speechDevanagari": "यह लाल रंग शॉल देखिए मैडम! बहुत सुंदर है।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9389,7 +9783,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Dūsrā raṅg dikhāiye",
               "Dūsrā dikhāiye"
             ],
-            "speechEn": "Мне не нравится красный цвет. Пожалуйста, покажите другой цвет."
+            "speechEn": "Мне не нравится красный цвет. Пожалуйста, покажите другой цвет.",
+            "speechDevanagari": "मुझे लाल रंग पसंद नहीं है। दूसरा रंग दिखाइए।",
+            "acceptableResponsesDevanagari": [
+              "दूसरा रंग दिखाइए",
+              "दूसरा दिखाइए"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -9398,7 +9797,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Блю ранг пасанд хэ? Йе блю аур гриин дэкхие.",
             "learnerHintRu": "Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?",
             "speechEn": "Синий цвет нравится? Вот синий и зеленый варианты.",
-            "learnerHintEn": "Hint: Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?"
+            "learnerHintEn": "Hint: Одобрите синий: Hā̃, yeh bahut acchā hai! Сколько это стоит?",
+            "speechDevanagari": "ब्लू रंग पसंद है? यह ब्लू और ग्रीन देखिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9408,7 +9808,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Yeh kitnē kā hai?"
             ],
-            "speechEn": "Да, синий мне очень нравится! Почём этот платок?"
+            "speechEn": "Да, синий мне очень нравится! Почём этот платок?",
+            "speechDevanagari": "हाँ! ब्लू मुझे बहुत पसंद है। यह कितने का है?",
+            "acceptableResponsesDevanagari": [
+              "यह कितने का है?"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Requesting Alternatives, Variations, and Exchanges",
@@ -9615,7 +10019,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ek bag dījiye.",
           "explanationRu": "Ek bag dījiye = Дайте пакет.",
           "instructionEn": "Exercise instruction: Попросите пакет (Пакет + дайте)",
-          "explanationEn": "Ek bag dījiye = Дайте пакет."
+          "explanationEn": "Ek bag dījiye = Дайте пакет.",
+          "devanagariTarget": "एक बैग दीजिए।"
         },
         {
           "id": "d31_ex04",
@@ -9631,7 +10036,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Pāñch sau kā note lījiye!",
           "explanationRu": "Lījiye = возьмите.",
           "instructionEn": "Exercise instruction: Отдайте купюру в 500 рупий",
-          "explanationEn": "Lījiye = возьмите."
+          "explanationEn": "Lījiye = возьмите.",
+          "devanagariTarget": "पाँच सौ का नोट लीजिए!"
         },
         {
           "id": "d31_ex05",
@@ -9648,7 +10054,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Кхуллэ пэсе!",
           "transliterationIsoTarget": "Khullē paisē!",
           "explanationRu": "Правильный и уверенный устный ответ: Khullē paisē!",
-          "explanationEn": "Correct and confident verbal response: Khullē paisē!"
+          "explanationEn": "Correct and confident verbal response: Khullē paisē!",
+          "devanagariTarget": "खुले पैसे!"
         }
       ],
       "simulationRoleplay": {
@@ -9664,7 +10071,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "450 рупае мадам. Кйаа 50 кхуллэ хэⁿ?",
             "learnerHintRu": "Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)",
             "speechEn": "Всего четыреста пятьдесят рупий, мадам. У вас есть мелочь 50 рупий?",
-            "learnerHintEn": "Hint: Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)"
+            "learnerHintEn": "Hint: Скажите: Нет, мелочи нет. Возьмите купюру в 500 рупий. (Khullē nahī̃ haiñ. 500 kā note lījiye)",
+            "speechDevanagari": "450 रुपये मैडम। क्या 50 खुले हैं?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9674,7 +10082,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Khullē nahī̃ haiñ. Pāñch sau kā note lījiye."
             ],
-            "speechEn": "Нет, мелочи нет. Возьмите пятьсот рупий."
+            "speechEn": "Нет, мелочи нет. Возьмите пятьсот рупий.",
+            "speechDevanagari": "नहीं, खुले नहीं हैं। पाँच सौ का नोट लीजिए।",
+            "acceptableResponsesDevanagari": [
+              "खुले नहीं हैं। पाँच सौ का नोट लीजिए।"
+            ]
           },
           {
             "speaker": "Кассир",
@@ -9683,7 +10095,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Т͟хиик хэ, 50 рупае чейндж лииджие. Пэк кар дууⁿ?",
             "learnerHintRu": "Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)",
             "speechEn": "Хорошо, вот ваши пятьдесят рупий сдачи. Упаковать в пакет?",
-            "learnerHintEn": "Hint: Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)"
+            "learnerHintEn": "Hint: Попросите: Да, пожалуйста, заверните в пакет. Спасибо! (Hā̃, pack kar dījiye, shukriyā!)",
+            "speechDevanagari": "ठीक है, 50 रुपये चेंज लीजिए। पैक्ड कर दूँ?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9693,7 +10106,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Pack kar dījiye, shukriyā!"
             ],
-            "speechEn": "Да, пожалуйста, упакуйте. Большое спасибо!"
+            "speechEn": "Да, пожалуйста, упакуйте. Большое спасибо!",
+            "speechDevanagari": "हाँ, पैक्ड कर दीजिए। बहुत शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "पैक्ड कर दीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Finalizing Purchases, Exact Change, and Packaging",
@@ -9924,7 +10341,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Ṭhīk hai, pack kar dījiye!",
           "explanationRu": "Pack kar dījiye = Упакуйте.",
           "instructionEn": "Exercise instruction: Завершите сделку: 'Хорошо, заворачивайте в пакет!'",
-          "explanationEn": "Pack kar dījiye = Упакуйте."
+          "explanationEn": "Pack kar dījiye = Упакуйте.",
+          "devanagariTarget": "ठीक है, पैक्ड कर दीजिए!"
         },
         {
           "id": "d32_ex05",
@@ -9941,7 +10359,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Баазаар!",
           "transliterationIsoTarget": "Bāzār!",
           "explanationRu": "Правильный и уверенный устный ответ: Bāzār!",
-          "explanationEn": "Correct and confident verbal response: Bāzār!"
+          "explanationEn": "Correct and confident verbal response: Bāzār!",
+          "devanagariTarget": "बाज़ार!"
         }
       ],
       "simulationRoleplay": {
@@ -9957,7 +10376,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Хэндмейд вуден бокс! Сирф эк хазаар рупае.",
             "learnerHintRu": "Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)",
             "speechEn": "Намастэ, мадам! Посмотрите на этот резной деревянный сундук. Ручная работа! Всего одна тысяча рупий.",
-            "learnerHintEn": "Hint: Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)"
+            "learnerHintEn": "Hint: Скажите: Слишком много! Скиньте, назовите честную цену. Пятьсот рупий! (Bahut zyādā hai! Sahī dām lagāiye)",
+            "speechDevanagari": "नमस्ते मैडम! हैंडमेड लकड़ी बॉक्स! सिर्फ़ एक हज़ार रुपये।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9967,7 +10387,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut zyādā hai! Pāñch sau rupayē dījiye!"
             ],
-            "speechEn": "Нет, брат! Тысяча рупий — это слишком дорого. Назовите честную цену. Пятьсот рупий!"
+            "speechEn": "Нет, брат! Тысяча рупий — это слишком дорого. Назовите честную цену. Пятьсот рупий!",
+            "speechDevanagari": "नहीं भैया! एक हज़ार बहुत ज़्यादा है। सही दाम लगाइए। पाँच सौ रुपये दीजिए!",
+            "acceptableResponsesDevanagari": [
+              "बहुत ज़्यादा है! पाँच सौ रुपये दीजिए!"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -9976,7 +10400,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Паанч сау?! Нахииⁿ мадам, 700 рупае ласт прайс!",
             "learnerHintRu": "Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)",
             "speechEn": "Пятьсот?! Мадам, вы меня разорите! Семьсот рупий — последняя цена.",
-            "learnerHintEn": "Hint: Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)"
+            "learnerHintEn": "Hint: Сделайте вид, что уходите: Нет, шестьсот рупий, или я ухожу. (Nahī̃, 600 rupayē final)",
+            "speechDevanagari": "पाँच सौ?! नहीं मैडम, 700 रुपये लास्ट प्राइस!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -9986,7 +10411,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Chhah sau rupayē final! Pack kar dījiye!"
             ],
-            "speechEn": "Шестьсот рупий — окончательная цена. Договорились? Упакуйте!"
+            "speechEn": "Шестьсот рупий — окончательная цена. Договорились? Упакуйте!",
+            "speechDevanagari": "छह सौ रुपये फ़ाइनल। ठीक है? पैक्ड कर दीजिए!",
+            "acceptableResponsesDevanagari": [
+              "छह सौ रुपये फ़ाइनल! पैक्ड कर दीजिए!"
+            ]
           },
           {
             "speaker": "Продавец",
@@ -9995,7 +10424,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аччхаа мадам, аап джиит гайииⁿ! Лииджие пэкт бокс.",
             "learnerHintRu": "Отдайте оплату: Paisē lījiye, bahut shukriyā!",
             "speechEn": "Хорошо, мадам, вы победили! Заворачиваю. С вас шестьсот рупий.",
-            "learnerHintEn": "Hint: Отдайте оплату: Paisē lījiye, bahut shukriyā!"
+            "learnerHintEn": "Hint: Отдайте оплату: Paisē lījiye, bahut shukriyā!",
+            "speechDevanagari": "अच्छा मैडम, आप जीत गयीं! लीजिए पैक्ड बॉक्स।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10005,7 +10435,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Paisē lījiye, shukriyā!"
             ],
-            "speechEn": "Возьмите шестьсот рупий. Большое спасибо!"
+            "speechEn": "Возьмите шестьсот рупий. Большое спасибо!",
+            "speechDevanagari": "छह सौ रुपये लीजिए। बहुत शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "पैसे लीजिए, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Phase 4 Synthesis and Street Market Simulation",
@@ -10196,7 +10630,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Main Moscow mẽ rahtī hū̃.",
           "explanationRu": "Rahtī hū̃ = я живу (ж.р.).",
           "instructionEn": "Exercise instruction: Скажите, что вы живете в Москве (женский род)",
-          "explanationEn": "Rahtī hū̃ = я живу (ж.р.)."
+          "explanationEn": "Rahtī hū̃ = я живу (ж.р.).",
+          "devanagariTarget": "मैं मॉस्को में रहती हूँ।"
         },
         {
           "id": "d33_ex03",
@@ -10228,7 +10663,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Main roz masālā chāi peetī hū̃.",
           "explanationRu": "Peetī hū̃ = я пью.",
           "instructionEn": "Exercise instruction: Скажите: 'Я каждый день пью чай масала' (женский род)",
-          "explanationEn": "Peetī hū̃ = я пью."
+          "explanationEn": "Peetī hū̃ = я пью.",
+          "devanagariTarget": "मैं रोज़ मसाला चाय पीती हूँ।"
         },
         {
           "id": "d33_ex05",
@@ -10245,7 +10681,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Болтии хууⁿ / Болтаа хууⁿ!",
           "transliterationIsoTarget": "Boltī hū̃ (f) / Boltā hū̃ (m)!",
           "explanationRu": "Правильный и уверенный устный ответ: Boltī hū̃ (f) / Boltā hū̃ (m)!",
-          "explanationEn": "Correct and confident verbal response: Boltī hū̃ (f) / Boltā hū̃ (m)!"
+          "explanationEn": "Correct and confident verbal response: Boltī hū̃ (f) / Boltā hū̃ (m)!",
+          "devanagariTarget": "बोलती हूँ () / बोलता हूँ ()!"
         }
       ],
       "simulationRoleplay": {
@@ -10261,7 +10698,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ! Аап бахут аччхии Хиндии болтии хэⁿ. Кйаа аап Индиа мэⁿ рэхтии хэⁿ?",
             "learnerHintRu": "Скажите: Нет, я живу в России. Я немного говорю на хинди. (Nahī̃, main Russia mẽ rahtī hū̃)",
             "speechEn": "Намастэ! Вы прекрасно говорите. Вы живете в Индии?",
-            "learnerHintEn": "Hint: Скажите: Нет, я живу в России. Я немного говорю на хинди. (Nahī̃, main Russia mẽ rahtī hū̃)"
+            "learnerHintEn": "Hint: Скажите: Нет, я живу в России. Я немного говорю на хинди. (Nahī̃, main Russia mẽ rahtī hū̃)",
+            "speechDevanagari": "नमस्ते! आप बहुत अच्छी हिन्दी बोलती हैं। क्या आप इंडिया में रहती हैं?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10271,7 +10709,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main Russia mẽ rahtī hū̃. Thōṛī Hindī boltī hū̃."
             ],
-            "speechEn": "Нет, я живу в России. Я только немного говорю на хинди."
+            "speechEn": "Нет, я живу в России. Я только немного говорю на хинди.",
+            "speechDevanagari": "नहीं, मैं रूस में रहती हूँ। मैं थोड़ी हिन्दी बोलती हूँ।",
+            "acceptableResponsesDevanagari": [
+              "मैं रूस में रहती हूँ। थोड़ी हिन्दी बोलती हूँ।"
+            ]
           },
           {
             "speaker": "Попутчик",
@@ -10280,7 +10722,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бахут аччхаа! Чаай пииенгии?",
             "learnerHintRu": "Скажите: Да, я пью чай каждый день, спасибо! (Hā̃, main roz chāi peetī hū̃)",
             "speechEn": "Замечательно! Чай будете пить?",
-            "learnerHintEn": "Hint: Скажите: Да, я пью чай каждый день, спасибо! (Hā̃, main roz chāi peetī hū̃)"
+            "learnerHintEn": "Hint: Скажите: Да, я пью чай каждый день, спасибо! (Hā̃, main roz chāi peetī hū̃)",
+            "speechDevanagari": "बहुत अच्छा! चाय पियेंगी?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10290,7 +10733,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Hā̃-jī, main roz chāi peetī hū̃!"
             ],
-            "speechEn": "Да, я каждый день пью чай масала! Спасибо."
+            "speechEn": "Да, я каждый день пью чай масала! Спасибо.",
+            "speechDevanagari": "हाँ - जी! मैं रोज़ मसाला चाय पीती हूँ। शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "हाँ - जी, मैं रोज़ चाय पीती हूँ!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Habitual Aspect: Daily Routines and Personal Habits",
@@ -10483,7 +10930,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Main aa rahī hū̃.",
           "explanationRu": "Main aa rahī hū̃ = Я иду прямо сейчас.",
           "instructionEn": "Exercise instruction: Скажите водителю по телефону: 'Я уже иду!' (женский род)",
-          "explanationEn": "Main aa rahī hū̃ = Я иду прямо сейчас."
+          "explanationEn": "Main aa rahī hū̃ = Я иду прямо сейчас.",
+          "devanagariTarget": "मैं आ रही हूँ।"
         },
         {
           "id": "d34_ex03",
@@ -10515,7 +10963,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Hum ab nikal rahē haiñ.",
           "explanationRu": "Nikal rahē haiñ = выходим / отправляемся.",
           "instructionEn": "Exercise instruction: Скажите попутчикам: 'Мы выходим прямо сейчас'",
-          "explanationEn": "Nikal rahē haiñ = выходим / отправляемся."
+          "explanationEn": "Nikal rahē haiñ = выходим / отправляемся.",
+          "devanagariTarget": "हम अब निकल रहे हैं।"
         },
         {
           "id": "d34_ex05",
@@ -10532,7 +10981,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Рахии хууⁿ / Рахаа хууⁿ!",
           "transliterationIsoTarget": "Rahī hū̃ (f) / Rahā hū̃ (m)!",
           "explanationRu": "Правильный и уверенный устный ответ: Rahī hū̃ (f) / Rahā hū̃ (m)!",
-          "explanationEn": "Correct and confident verbal response: Rahī hū̃ (f) / Rahā hū̃ (m)!"
+          "explanationEn": "Correct and confident verbal response: Rahī hū̃ (f) / Rahā hū̃ (m)!",
+          "devanagariTarget": "रही हूँ () / रहा हूँ ()!"
         }
       ],
       "simulationRoleplay": {
@@ -10548,7 +10998,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Карпетс, стэтьюс! Кйаа чаахийе аапко?",
             "learnerHintRu": "Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)",
             "speechEn": "Здравствуйте, мадам! Посмотрите сюда, старинные ковры, бронза! Что вы ищете?",
-            "learnerHintEn": "Hint: Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)"
+            "learnerHintEn": "Hint: Улыбнитесь и скажите: Спасибо, я просто смотрю! (Shukriyā, main bas dēkh rahī hū̃)",
+            "speechDevanagari": "नमस्ते मैडम! कालीन, मूर्तियाँ! क्या चाहिए आपको?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10558,7 +11009,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main bas dēkh rahī hū̃"
             ],
-            "speechEn": "Спасибо, я просто осматриваюсь."
+            "speechEn": "Спасибо, я просто осматриваюсь.",
+            "speechDevanagari": "शुक्रिया, मैं बस देख रही हूँ।",
+            "acceptableResponsesDevanagari": [
+              "मैं बस देख रही हूँ"
+            ]
           },
           {
             "speaker": "Консультант",
@@ -10567,7 +11022,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Шур мадам, дэкхие аарам сэ! Булааие джаб чаахийе.",
             "learnerHintRu": "Ответьте с благодарностью: Ṭhīk hai, shukriyā!",
             "speechEn": "Пожалуйста, смотрите спокойно! Если что-то нужно, позовите меня.",
-            "learnerHintEn": "Hint: Ответьте с благодарностью: Ṭhīk hai, shukriyā!"
+            "learnerHintEn": "Hint: Ответьте с благодарностью: Ṭhīk hai, shukriyā!",
+            "speechDevanagari": "श्योर मैडम, देखिए आराम से! बुलाइए जब चाहिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10577,7 +11033,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Dhanyavād"
             ],
-            "speechEn": "Хорошо, спасибо!"
+            "speechEn": "Хорошо, спасибо!",
+            "speechDevanagari": "ठीक है, शुक्रिया!",
+            "acceptableResponsesDevanagari": [
+              "धन्यवाद"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Continuous Aspect: Real-Time Actions",
@@ -10770,7 +11230,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā main yahā̃ baith saktī hū̃?",
           "explanationRu": "Baithnā (сидеть) -> основа baith.",
           "instructionEn": "Exercise instruction: Спросите вежливо: 'Можно я здесь сяду?'",
-          "explanationEn": "Baithnā (сидеть) -> основа baith."
+          "explanationEn": "Baithnā (сидеть) -> основа baith.",
+          "devanagariTarget": "क्या मैं यहाँ बैठ सकती हूँ?"
         },
         {
           "id": "d35_ex03",
@@ -10802,7 +11263,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā hum andar aa saktē haiñ?",
           "explanationRu": "Для местоимения hum (мы) или вежливости используется форма saktē.",
           "instructionEn": "Exercise instruction: Спросите разрешения войти в храм: 'Можно войти внутрь?'",
-          "explanationEn": "Для местоимения hum (мы) или вежливости используется форма saktē."
+          "explanationEn": "Для местоимения hum (мы) или вежливости используется форма saktē.",
+          "devanagariTarget": "क्या हम अंदर आ सकते हैं?"
         },
         {
           "id": "d35_ex05",
@@ -10819,7 +11281,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Сактии хууⁿ / Сактаа хууⁿ!",
           "transliterationIsoTarget": "Saktī hū̃ (f) / Saktā hū̃ (m)!",
           "explanationRu": "Правильный и уверенный устный ответ: Saktī hū̃ (f) / Saktā hū̃ (m)!",
-          "explanationEn": "Correct and confident verbal response: Saktī hū̃ (f) / Saktā hū̃ (m)!"
+          "explanationEn": "Correct and confident verbal response: Saktī hū̃ (f) / Saktā hū̃ (m)!",
+          "devanagariTarget": "सकती हूँ () / सकता हूँ ()!"
         }
       ],
       "simulationRoleplay": {
@@ -10835,7 +11298,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ джии! Кйаа мэⁿ андар аа сактии хууⁿ?",
             "learnerHintRu": "Спросите разрешения войти: Kyā main andar aa saktī hū̃?",
             "speechEn": "Здравствуйте, уважаемый! Можно войти внутрь?",
-            "learnerHintEn": "Hint: Спросите разрешения войти: Kyā main andar aa saktī hū̃?"
+            "learnerHintEn": "Hint: Спросите разрешения войти: Kyā main andar aa saktī hū̃?",
+            "speechDevanagari": "नमस्ते जी! क्या मैं अंदर आ सकती हूँ?"
           },
           {
             "speaker": "Служитель",
@@ -10844,7 +11308,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ! Хааⁿ, андар ааие, шууз йахааⁿ утаарие.",
             "learnerHintRu": "Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)",
             "speechEn": "Здравствуйте! Да, проходите, только снимите обувь здесь.",
-            "learnerHintEn": "Hint: Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)"
+            "learnerHintEn": "Hint: Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)",
+            "speechDevanagari": "नमस्ते! हाँ, अंदर आइए, जूते यहाँ उतारिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10854,7 +11319,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Kyā main photo lē saktī hū̃?"
             ],
-            "speechEn": "Хорошо. А здесь можно сфотографировать?"
+            "speechEn": "Хорошо. А здесь можно сфотографировать?",
+            "speechDevanagari": "ठीक है। क्या मैं फ़ोटो ले सकती हूँ?",
+            "acceptableResponsesDevanagari": [
+              "क्या मैं फ़ोटो ले सकती हूँ?"
+            ]
           },
           {
             "speaker": "Служитель",
@@ -10863,7 +11332,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Баахар фото лее сактии хэⁿ, андар нахииⁿ.",
             "learnerHintRu": "Ответьте с почтением: Main samjhī, dhanyavād jī!",
             "speechEn": "Снаружи можно, а внутри алтаря фото делать нельзя.",
-            "learnerHintEn": "Hint: Ответьте с почтением: Main samjhī, dhanyavād jī!"
+            "learnerHintEn": "Hint: Ответьте с почтением: Main samjhī, dhanyavād jī!",
+            "speechDevanagari": "बाहर फ़ोटो ले सकती हैं, अंदर नहीं।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -10873,7 +11343,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main samjhī, shukriyā!"
             ],
-            "speechEn": "Я поняла, спасибо большое!"
+            "speechEn": "Я поняла, спасибо большое!",
+            "speechDevanagari": "मैं समझी, बहुत धन्यवाद जी!",
+            "acceptableResponsesDevanagari": [
+              "मैं समझी, शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Modal Capacity and Permission with Saknā",
@@ -11080,7 +11554,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Main āj jāūṅgī.",
           "explanationRu": "Āj = сегодня.",
           "instructionEn": "Exercise instruction: Скажите, что вы уезжаете сегодня, а не завтра",
-          "explanationEn": "Āj = сегодня."
+          "explanationEn": "Āj = сегодня.",
+          "devanagariTarget": "मैं आज जाऊँगी।"
         },
         {
           "id": "d36_ex04",
@@ -11096,7 +11571,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Shām ko milēṅgē!",
           "explanationRu": "Milēṅgē = встретимся.",
           "instructionEn": "Exercise instruction: Назначьте встречу вечером: 'Встретимся вечером'",
-          "explanationEn": "Milēṅgē = встретимся."
+          "explanationEn": "Milēṅgē = встретимся.",
+          "devanagariTarget": "शाम को मिलेंगे!"
         },
         {
           "id": "d36_ex05",
@@ -11113,7 +11589,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Кал!",
           "transliterationIsoTarget": "Kal!",
           "explanationRu": "Правильный и уверенный устный ответ: Kal!",
-          "explanationEn": "Correct and confident verbal response: Kal!"
+          "explanationEn": "Correct and confident verbal response: Kal!",
+          "devanagariTarget": "कल!"
         }
       ],
       "simulationRoleplay": {
@@ -11129,7 +11606,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мадам, такси аа гайии. Аап аадж джаа рахии хэⁿ?",
             "learnerHintRu": "Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)",
             "speechEn": "Сестра, такси уже ждет. Вы сегодня едете в аэропорт?",
-            "learnerHintEn": "Hint: Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)"
+            "learnerHintEn": "Hint: Скажите: Да, я сегодня еду в Дели. Большое спасибо за все! (Hā̃, main āj jāūṅgī)",
+            "speechDevanagari": "मैडम, टैक्सी आ गयी। आप आज जा रही हैं?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -11139,7 +11617,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Main āj jāūṅgī. Bahut shukriyā!"
             ],
-            "speechEn": "Да, я сегодня уезжаю в Дели. Большое спасибо за теплый прием!"
+            "speechEn": "Да, я сегодня уезжаю в Дели. Большое спасибо за теплый прием!",
+            "speechDevanagari": "हाँ, मैं आज दिल्ली जाऊँगी। बहुत धन्यवाद जी!",
+            "acceptableResponsesDevanagari": [
+              "मैं आज जाऊँगी। बहुत शुक्रिया!"
+            ]
           },
           {
             "speaker": "Хозяин",
@@ -11148,7 +11630,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Пхир ааие хамааре паас! Шубх йаатраа!",
             "learnerHintRu": "Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)",
             "speechEn": "Приезжайте к нам снова! Счастливого пути!",
-            "learnerHintEn": "Hint: Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)"
+            "learnerHintEn": "Hint: Тепло попрощайтесь: До свидания, мы снова встретимся! (Namastē, hum phir milēṅgē!)",
+            "speechDevanagari": "फिर आइए हमारे पास! शुभ यात्रा!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -11158,7 +11641,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Hum phir milēṅgē!"
             ],
-            "speechEn": "До свидания! Мы обязательно снова встретимся."
+            "speechEn": "До свидания! Мы обязательно снова встретимся.",
+            "speechDevanagari": "नमस्ते जी, हम फिर मिलेंगे!",
+            "acceptableResponsesDevanagari": [
+              "हम फिर मिलेंगे!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Future Intentions and Temporal Sequencing",
@@ -11369,7 +11856,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Doctor ko bulāiye!",
           "explanationRu": "Bulāiye = позовите.",
           "instructionEn": "Exercise instruction: Попросите срочно позвать доктора",
-          "explanationEn": "Bulāiye = позовите."
+          "explanationEn": "Bulāiye = позовите.",
+          "devanagariTarget": "डॉक्टर को बुलाइए!"
         },
         {
           "id": "d37_ex04",
@@ -11385,7 +11873,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kyā dard kī davā hai?",
           "explanationRu": "Davā = лекарство.",
           "instructionEn": "Exercise instruction: Спросите: 'Есть ли здесь лекарство от боли?'",
-          "explanationEn": "Davā = лекарство."
+          "explanationEn": "Davā = лекарство.",
+          "devanagariTarget": "क्या दर्द की दवा है?"
         },
         {
           "id": "d37_ex05",
@@ -11402,7 +11891,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Табиийат харааб хэ!",
           "transliterationIsoTarget": "Tabīyat kharāb hai!",
           "explanationRu": "Правильный и уверенный устный ответ: Tabīyat kharāb hai!",
-          "explanationEn": "Correct and confident verbal response: Tabīyat kharāb hai!"
+          "explanationEn": "Correct and confident verbal response: Tabīyat kharāb hai!",
+          "devanagariTarget": "तबीयत ख़राब है!"
         }
       ],
       "simulationRoleplay": {
@@ -11418,7 +11908,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Бхаййаа, мадад кииджие! Мерии табиийат бахут харааб хэ.",
             "learnerHintRu": "Сообщите о болезни: Mērī tabīyat bahut kharāb hai",
             "speechEn": "Брат, помогите пожалуйста! Мне очень нездоровится.",
-            "learnerHintEn": "Hint: Сообщите о болезни: Mērī tabīyat bahut kharāb hai"
+            "learnerHintEn": "Hint: Сообщите о болезни: Mērī tabīyat bahut kharāb hai",
+            "speechDevanagari": "भैया, मदद कीजिए! मेरी तबीयत बहुत ख़राब है।"
           },
           {
             "speaker": "Портье",
@@ -11427,7 +11918,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Ох! Кйаа хуаа мадам? Пеет͟ дард хэ?",
             "learnerHintRu": "Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)",
             "speechEn": "О господи! Что болит, мадам? Температура или живот?",
-            "learnerHintEn": "Hint: Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)"
+            "learnerHintEn": "Hint: Скажите: Да, сильная боль в животе. Позовите врача или дайте лекарство! (Pēṭ dard hai. Doctor ko bulāiye)",
+            "speechDevanagari": "ओह! क्या हुआ मैडम? पेट दर्द है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -11438,7 +11930,12 @@ export const HINDI_COURSE_BUNDLE = {
               "Doctor ko bulāiye!",
               "Pēṭ dard hai, davā chāhiye."
             ],
-            "speechEn": "Да, сильно болит живот. Пожалуйста, вызовите доктора или аптекаря."
+            "speechEn": "Да, сильно болит живот. Пожалуйста, вызовите доктора или аптекаря.",
+            "speechDevanagari": "हाँ, बहुत पेट दर्द है। डॉक्टर को बुलाइए, प्लीज!",
+            "acceptableResponsesDevanagari": [
+              "डॉक्टर को बुलाइए!",
+              "पेट दर्द है, दवा चाहिए।"
+            ]
           },
           {
             "speaker": "Портье",
@@ -11447,7 +11944,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Абхии доктор ко булаатаа хууⁿ. Йахааⁿ бэтхие, паании лииджие.",
             "learnerHintRu": "Поблагодарите: Bahut shukriyā bhaiyā!",
             "speechEn": "Сейчас же вызываю врача из соседней клиники! Присядьте здесь, выпейте воды.",
-            "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā bhaiyā!"
+            "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā bhaiyā!",
+            "speechDevanagari": "अभी डॉक्टर को बुलाता हूँ। यहाँ बैठिए, पानी लीजिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -11457,7 +11955,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Shukriyā jī!"
             ],
-            "speechEn": "Спасибо огромное, брат!"
+            "speechEn": "Спасибо огромное, брат!",
+            "speechDevanagari": "बहुत शुक्रिया भैया!",
+            "acceptableResponsesDevanagari": [
+              "शुक्रिया जी!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Health, Safety, and Medical Emergencies",
@@ -11668,7 +12170,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Yeh bahut sundar hai.",
           "explanationRu": "Sundar = красивый.",
           "instructionEn": "Exercise instruction: Сделайте комплимент храму или дворцу: 'Это здание очень красивое'",
-          "explanationEn": "Sundar = красивый."
+          "explanationEn": "Sundar = красивый.",
+          "devanagariTarget": "यह बहुत सुंदर है।"
         },
         {
           "id": "d38_ex04",
@@ -11684,7 +12187,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Āp bahut acchē haiñ.",
           "explanationRu": "Āp bahut acchē haiñ = Вы очень добрый/хороший.",
           "instructionEn": "Exercise instruction: Сделайте комплимент доброму собеседнику: 'Вы очень хороший человек'",
-          "explanationEn": "Āp bahut acchē haiñ = Вы очень добрый/хороший."
+          "explanationEn": "Āp bahut acchē haiñ = Вы очень добрый/хороший.",
+          "devanagariTarget": "आप बहुत अच्छे हैं।"
         },
         {
           "id": "d38_ex05",
@@ -11701,7 +12205,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Бхаарат!",
           "transliterationIsoTarget": "Bhārat!",
           "explanationRu": "Правильный и уверенный устный ответ: Bhārat!",
-          "explanationEn": "Correct and confident verbal response: Bhārat!"
+          "explanationEn": "Correct and confident verbal response: Bhārat!",
+          "devanagariTarget": "भारत!"
         }
       ],
       "simulationRoleplay": {
@@ -11717,7 +12222,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ мадам! Хамаараа шахар аур дэш кэсаа лагаа?",
             "learnerHintRu": "Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)",
             "speechEn": "Добрый вечер, сестра! Как вам наш город и наша страна?",
-            "learnerHintEn": "Hint: Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)"
+            "learnerHintEn": "Hint: Скажите: Мне очень нравится Индия. Здесь очень красиво! (Mujhē Bhārat bahut pasand hai)",
+            "speechDevanagari": "नमस्ते मैडम! हमारा शहर और देश कैसा लगा?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -11727,7 +12233,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Mujhē Bhārat bahut pasand hai!"
             ],
-            "speechEn": "Мне очень нравится Индия! Страна необычайно красивая."
+            "speechEn": "Мне очень нравится Индия! Страна необычайно красивая.",
+            "speechDevanagari": "मुझे भारत बहुत पसंद है! बहुत सुंदर देश है।",
+            "acceptableResponsesDevanagari": [
+              "मुझे भारत बहुत पसंद है!"
+            ]
           },
           {
             "speaker": "Глава семьи",
@@ -11736,7 +12246,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Аур йахааⁿ ке лог кэсе хэⁿ?",
             "learnerHintRu": "Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)",
             "speechEn": "А как вам наши люди? Никто вас не обижает?",
-            "learnerHintEn": "Hint: Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)"
+            "learnerHintEn": "Hint: Ответьте с теплотой: Люди здесь очень добрые и гостеприимные! (Yahā̃ kē log bahut acchē haiñ)",
+            "speechDevanagari": "और यहाँ के लोग कैसे हैं?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -11746,7 +12257,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Yahā̃ kē log bahut acchē haiñ!"
             ],
-            "speechEn": "Люди здесь очень добрые и душевные! Вы все очень хорошие."
+            "speechEn": "Люди здесь очень добрые и душевные! Вы все очень хорошие.",
+            "speechDevanagari": "यहाँ के लोग बहुत अच्छे हैं! आप सब बहुत अच्छे हैं।",
+            "acceptableResponsesDevanagari": [
+              "यहाँ के लोग बहुत अच्छे हैं!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Social Etiquette, Compliments, and Small Talk",
@@ -11959,7 +12474,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Mērā passport khō gayā hai.",
           "explanationRu": "Passport мужского рода, поэтому khō gayā.",
           "instructionEn": "Exercise instruction: Сообщите, что потерялся паспорт (мужской род)",
-          "explanationEn": "Passport мужского рода, поэтому khō gayā."
+          "explanationEn": "Passport мужского рода, поэтому khō gayā.",
+          "devanagariTarget": "मेरा पासपोर्ट खो गया है।"
         },
         {
           "id": "d39_ex04",
@@ -11975,7 +12491,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Kitnī dērī hai?",
           "explanationRu": "Dērī = задержка / опоздание.",
           "instructionEn": "Exercise instruction: Спросите о причине задержки рейса",
-          "explanationEn": "Dērī = задержка / опоздание."
+          "explanationEn": "Dērī = задержка / опоздание.",
+          "devanagariTarget": "कितनी देरी है?"
         },
         {
           "id": "d39_ex05",
@@ -11992,7 +12509,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Кхоо гайаа / Кхоо гайии!",
           "transliterationIsoTarget": "Khō gayā (m) / Khō gayī (f)!",
           "explanationRu": "Правильный и уверенный устный ответ: Khō gayā (m) / Khō gayī (f)!",
-          "explanationEn": "Correct and confident verbal response: Khō gayā (m) / Khō gayī (f)!"
+          "explanationEn": "Correct and confident verbal response: Khō gayā (m) / Khō gayī (f)!",
+          "devanagariTarget": "खो गया () / खो गयी ()!"
         }
       ],
       "simulationRoleplay": {
@@ -12008,7 +12526,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ сэр! Мадад кииджие, мераа бэг коуч мэⁿ кхоо гайаа хэ.",
             "learnerHintRu": "Заявите о пропаже: Mērā bag khō gayā hai",
             "speechEn": "Здравствуйте, сэр! Помогите пожалуйста, мой рюкзак потерялся в вагоне.",
-            "learnerHintEn": "Hint: Заявите о пропаже: Mērā bag khō gayā hai"
+            "learnerHintEn": "Hint: Заявите о пропаже: Mērā bag khō gayā hai",
+            "speechDevanagari": "नमस्ते सर! मदद कीजिए, मेरा बैग कोच में खो गया है।"
           },
           {
             "speaker": "Офицер",
@@ -12017,7 +12536,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Чинтаа мат кииджие мадам! Трэйн намбар аур коуч кйаа хэ?",
             "learnerHintRu": "Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)",
             "speechEn": "Спокойно, мадам! Какой номер поезда и какой вагон?",
-            "learnerHintEn": "Hint: Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)"
+            "learnerHintEn": "Hint: Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)",
+            "speechDevanagari": "चिंता मत कीजिए मैडम! ट्रेन नंबर और कोच क्या है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12027,7 +12547,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Blue bag khō gayā hai. Madad kījiye!"
             ],
-            "speechEn": "Поезд Shatabdi, синий рюкзак. Там паспорт и билеты. Помогите!"
+            "speechEn": "Поезд Shatabdi, синий рюкзак. Там паспорт и билеты. Помогите!",
+            "speechDevanagari": "ट्रेन शताब्दी, ब्लू बैग है। पासपोर्ट वहाँ है। मदद कीजिए!",
+            "acceptableResponsesDevanagari": [
+              "ब्लू बैग खो गया है। मदद कीजिए!"
+            ]
           },
           {
             "speaker": "Офицер",
@@ -12036,7 +12560,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Мэⁿ абхии Ти-Ти-Ии ко кол картаа хууⁿ. Йахааⁿ бэтхие.",
             "learnerHintRu": "Поблагодарите с облегчением: Bahut dhanyavād sir!",
             "speechEn": "Я прямо сейчас звоню проводнику поезда! Садитесь здесь.",
-            "learnerHintEn": "Hint: Поблагодарите с облегчением: Bahut dhanyavād sir!"
+            "learnerHintEn": "Hint: Поблагодарите с облегчением: Bahut dhanyavād sir!",
+            "speechDevanagari": "मैं अभी टीटीई को कॉल करता हूँ। यहाँ बैठिए।"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12046,7 +12571,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut shukriyā!"
             ],
-            "speechEn": "Большое спасибо, сэр!"
+            "speechEn": "Большое спасибо, сэр!",
+            "speechDevanagari": "बहुत धन्यवाद सर!",
+            "acceptableResponsesDevanagari": [
+              "बहुत शुक्रिया!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Travel Disruptions: Delays and Lost Property",
@@ -12279,7 +12808,8 @@ export const HINDI_COURSE_BUNDLE = {
           "transliterationIsoTarget": "Shubh yātrā!",
           "explanationRu": "Shubh yātrā = Счастливого пути!",
           "instructionEn": "Exercise instruction: Пожелайте друзьям счастливого пути!",
-          "explanationEn": "Shubh yātrā = Счастливого пути!"
+          "explanationEn": "Shubh yātrā = Счастливого пути!",
+          "devanagariTarget": "शुभ यात्रा!"
         },
         {
           "id": "d40_ex05",
@@ -12296,7 +12826,8 @@ export const HINDI_COURSE_BUNDLE = {
           "phoneticCyrillicTarget": "Йаатраа!",
           "transliterationIsoTarget": "Yātrā!",
           "explanationRu": "Правильный и уверенный устный ответ: Yātrā!",
-          "explanationEn": "Correct and confident verbal response: Yātrā!"
+          "explanationEn": "Correct and confident verbal response: Yātrā!",
+          "devanagariTarget": "यात्रा!"
         }
       ],
       "simulationRoleplay": {
@@ -12312,7 +12843,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Кахааⁿ джаанаа хэ мадам?",
             "learnerHintRu": "Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)",
             "speechEn": "Куда ехать, мадам?",
-            "learnerHintEn": "Hint: Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)"
+            "learnerHintEn": "Hint: Скажите: Брат, нужно в отель Тадж. Включите счетчик! (Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo)",
+            "speechDevanagari": "कहाँ जाना है मैडम?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12322,7 +12854,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bhaiyā, Taj Hotel jānā hai. Mīṭar chalāo."
             ],
-            "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик, пожалуйста."
+            "speechEn": "Брат, мне нужно в отель Тадж. Включите счетчик, пожалуйста.",
+            "speechDevanagari": "भैया, ताज होटल जाना है। मीटर चलाओ, प्लीज।",
+            "acceptableResponsesDevanagari": [
+              "भैया, ताज होटल जाना है। मीटर चलाओ।"
+            ]
           },
           {
             "speaker": "Сцена 2: Отель",
@@ -12331,7 +12867,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Намастэ! Мераа наам Радж хэ. Аапкаа наам кйаа хэ?",
             "learnerHintRu": "Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
             "speechEn": "Здравствуйте! Меня зовут Радж. Как ваше имя?",
-            "learnerHintEn": "Hint: Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃."
+            "learnerHintEn": "Hint: Представьтесь: Namastē jī! Mērā nām Anna hai. Main Russia sē hū̃.",
+            "speechDevanagari": "नमस्ते! मेरा नाम राज है। आपका नाम क्या है?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12341,7 +12878,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Mērā nām Anna hai. Main Russia sē hū̃."
             ],
-            "speechEn": "Здравствуйте! Меня зовут Анна, я приехала из России."
+            "speechEn": "Здравствуйте! Меня зовут Анна, я приехала из России.",
+            "speechDevanagari": "नमस्ते जी! मेरा नाम अन्ना है। मैं रूस से हूँ।",
+            "acceptableResponsesDevanagari": [
+              "मेरा नाम अन्ना है। मैं रूस से हूँ।"
+            ]
           },
           {
             "speaker": "Сцена 3: Дхаба",
@@ -12350,7 +12891,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Кхаанее мэⁿ кйаа чаахийе мадам?",
             "learnerHintRu": "Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!",
             "speechEn": "Что будете кушать?",
-            "learnerHintEn": "Hint: Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!"
+            "learnerHintEn": "Hint: Закажите: Dal chāval dījiye, binā mirch kē. Aur packaged pānī!",
+            "speechDevanagari": "खाने में क्या चाहिए मैडम?"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12360,7 +12902,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Dāl chāval dījiye, binā mirch kē. Pānī chāhiye."
             ],
-            "speechEn": "Дайте дал и рис, пожалуйста, совсем без перца! И бутылку воды Bisleri."
+            "speechEn": "Дайте дал и рис, пожалуйста, совсем без перца! И бутылку воды Bisleri.",
+            "speechDevanagari": "दाल और चावल दीजिए, बिना मिर्च के। और एक बिसलेरी पानी!",
+            "acceptableResponsesDevanagari": [
+              "दाल चावल दीजिए, बिना मिर्च के। पानी चाहिए।"
+            ]
           },
           {
             "speaker": "Сцена 4: Базар",
@@ -12369,7 +12915,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "800 рупае мадам, бэст прайс!",
             "learnerHintRu": "Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!",
             "speechEn": "Красивый сувенир, мадам! Всего восемьсот рупий.",
-            "learnerHintEn": "Hint: Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!"
+            "learnerHintEn": "Hint: Сбейте цену: Bahut zyādā hai! Sahī dām lagāiye. Chār sau rupayē dījiye!",
+            "speechDevanagari": "800 रुपये मैडम, बेस्ट प्राइस!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12379,7 +12926,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut zyādā hai! Chār sau rupayē dījiye!"
             ],
-            "speechEn": "Слишком много! Назовите честную цену. Отдайте за четыреста рупий!"
+            "speechEn": "Слишком много! Назовите честную цену. Отдайте за четыреста рупий!",
+            "speechDevanagari": "बहुत ज़्यादा है! सही दाम लगाइए। चार सौ रुपये दीजिए!",
+            "acceptableResponsesDevanagari": [
+              "बहुत ज़्यादा है! चार सौ रुपये दीजिए!"
+            ]
           },
           {
             "speaker": "Сцена 5: Прощание",
@@ -12388,7 +12939,8 @@ export const HINDI_COURSE_BUNDLE = {
             "speechCyrillic": "Лииджие мадам! Аап бахут аччхии Хиндии болтии хэⁿ. Шубх йаатраа!",
             "learnerHintRu": "Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!",
             "speechEn": "Договорились, забирайте! Вы потрясающе говорите на хинди. Счастливого пути!",
-            "learnerHintEn": "Hint: Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!"
+            "learnerHintEn": "Hint: Поблагодарите от всего сердца: Bahut dhanyavād jī! Hum phir milēṅgē!",
+            "speechDevanagari": "लीजिए मैडम! आप बहुत अच्छी हिन्दी बोलती हैं। शुभ यात्रा!"
           },
           {
             "speaker": "Вы (ученица)",
@@ -12398,7 +12950,11 @@ export const HINDI_COURSE_BUNDLE = {
             "acceptableResponsesIso": [
               "Bahut dhanyavād jī! Hum phir milēṅgē!"
             ],
-            "speechEn": "Большое спасибо от всего сердца! До свидания, мы обязательно снова встретимся!"
+            "speechEn": "Большое спасибо от всего сердца! До свидания, мы обязательно снова встретимся!",
+            "speechDevanagari": "बहुत धन्यवाद जी! मुझे भारत बहुत पसंद है। हम फिर मिलेंगे!",
+            "acceptableResponsesDevanagari": [
+              "बहुत धन्यवाद जी! हम फिर मिलेंगे!"
+            ]
           }
         ],
         "scenarioTitleEn": "Conversational Simulation: Integrated Travel Immersion Capstone",

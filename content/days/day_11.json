@@ -168,7 +168,8 @@
       "transliterationIsoTarget": "Metro sē jāiye!",
       "explanationRu": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро).",
       "instructionEn": "Exercise instruction: Посоветуйте поехать на метро (На метро + поезжайте)",
-      "explanationEn": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро)."
+      "explanationEn": "Транспорт как средство передвижения оформляется послелогом sē (metro sē = на метро).",
+      "devanagariTarget": "मेट्रो से जाइए!"
     },
     {
       "id": "d11_ex03",
@@ -184,7 +185,8 @@
       "transliterationIsoTarget": "Dūr nahī̃ hai, pās hai.",
       "explanationRu": "Pās = близко / рядом.",
       "instructionEn": "Exercise instruction: Ответьте, что объект находится рядом, а не далеко",
-      "explanationEn": "Pās = близко / рядом."
+      "explanationEn": "Pās = близко / рядом.",
+      "devanagariTarget": "दूर नहीं है, पास है।"
     },
     {
       "id": "d11_ex04",
@@ -217,7 +219,8 @@
       "phoneticCyrillicTarget": "Дуур!",
       "transliterationIsoTarget": "Dūr!",
       "explanationRu": "Правильный и уверенный устный ответ: Dūr!",
-      "explanationEn": "Correct and confident verbal response: Dūr!"
+      "explanationEn": "Correct and confident verbal response: Dūr!",
+      "devanagariTarget": "दूर!"
     }
   ],
   "simulationRoleplay": {
@@ -233,7 +236,8 @@
         "speechCyrillic": "Намастэ джии! Коннот Плейс йахааⁿ сэ китнии дуур хэ?",
         "learnerHintRu": "Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?",
         "speechEn": "Здравствуйте! Скажите пожалуйста, рынок Connaught Place отсюда далеко?",
-        "learnerHintEn": "Hint: Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?"
+        "learnerHintEn": "Hint: Задайте вопрос с конструкцией Yahā̃ sē kitnī dūr hai?",
+        "speechDevanagari": "नमस्ते जी! कनॉट प्लेस यहाँ से कितनी दूर है?"
       },
       {
         "speaker": "Консьерж",
@@ -242,7 +246,8 @@
         "speechCyrillic": "Нахииⁿ джии, дуур нахииⁿ хэ. Паас хэ.",
         "learnerHintRu": "Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)",
         "speechEn": "Нет, сестра, не далеко. Близко!",
-        "learnerHintEn": "Hint: Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)"
+        "learnerHintEn": "Hint: Спросите: Поехать на метро или на авторикше? (Metro sē ya auto sē?)",
+        "speechDevanagari": "नहीं जी, दूर नहीं है। पास है।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -252,7 +257,11 @@
         "acceptableResponsesIso": [
           "Metro sē jāiye ya auto sē?"
         ],
-        "speechEn": "На метро поехать или на авторикше?"
+        "speechEn": "На метро поехать или на авторикше?",
+        "speechDevanagari": "मेट्रो से या ऑटो से?",
+        "acceptableResponsesDevanagari": [
+          "मेट्रो से जाइए या ऑटो से?"
+        ]
       },
       {
         "speaker": "Консьерж",
@@ -261,7 +270,8 @@
         "speechCyrillic": "Мэтро сэ джааие, бахут аччхаа хэ.",
         "learnerHintRu": "Поблагодарите: Dhanyavād jī!",
         "speechEn": "Поезжайте на метро, так быстрее и удобнее.",
-        "learnerHintEn": "Hint: Поблагодарите: Dhanyavād jī!"
+        "learnerHintEn": "Hint: Поблагодарите: Dhanyavād jī!",
+        "speechDevanagari": "मेट्रो से जाइए, बहुत अच्छा है।"
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: The Multi-Functional Postposition Sē (Ablative and Instrumental)",

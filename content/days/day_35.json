@@ -168,7 +168,8 @@
       "transliterationIsoTarget": "Kyā main yahā̃ baith saktī hū̃?",
       "explanationRu": "Baithnā (сидеть) -> основа baith.",
       "instructionEn": "Exercise instruction: Спросите вежливо: 'Можно я здесь сяду?'",
-      "explanationEn": "Baithnā (сидеть) -> основа baith."
+      "explanationEn": "Baithnā (сидеть) -> основа baith.",
+      "devanagariTarget": "क्या मैं यहाँ बैठ सकती हूँ?"
     },
     {
       "id": "d35_ex03",
@@ -200,7 +201,8 @@
       "transliterationIsoTarget": "Kyā hum andar aa saktē haiñ?",
       "explanationRu": "Для местоимения hum (мы) или вежливости используется форма saktē.",
       "instructionEn": "Exercise instruction: Спросите разрешения войти в храм: 'Можно войти внутрь?'",
-      "explanationEn": "Для местоимения hum (мы) или вежливости используется форма saktē."
+      "explanationEn": "Для местоимения hum (мы) или вежливости используется форма saktē.",
+      "devanagariTarget": "क्या हम अंदर आ सकते हैं?"
     },
     {
       "id": "d35_ex05",
@@ -217,7 +219,8 @@
       "phoneticCyrillicTarget": "Сактии хууⁿ / Сактаа хууⁿ!",
       "transliterationIsoTarget": "Saktī hū̃ (f) / Saktā hū̃ (m)!",
       "explanationRu": "Правильный и уверенный устный ответ: Saktī hū̃ (f) / Saktā hū̃ (m)!",
-      "explanationEn": "Correct and confident verbal response: Saktī hū̃ (f) / Saktā hū̃ (m)!"
+      "explanationEn": "Correct and confident verbal response: Saktī hū̃ (f) / Saktā hū̃ (m)!",
+      "devanagariTarget": "सकती हूँ () / सकता हूँ ()!"
     }
   ],
   "simulationRoleplay": {
@@ -233,7 +236,8 @@
         "speechCyrillic": "Намастэ джии! Кйаа мэⁿ андар аа сактии хууⁿ?",
         "learnerHintRu": "Спросите разрешения войти: Kyā main andar aa saktī hū̃?",
         "speechEn": "Здравствуйте, уважаемый! Можно войти внутрь?",
-        "learnerHintEn": "Hint: Спросите разрешения войти: Kyā main andar aa saktī hū̃?"
+        "learnerHintEn": "Hint: Спросите разрешения войти: Kyā main andar aa saktī hū̃?",
+        "speechDevanagari": "नमस्ते जी! क्या मैं अंदर आ सकती हूँ?"
       },
       {
         "speaker": "Служитель",
@@ -242,7 +246,8 @@
         "speechCyrillic": "Намастэ! Хааⁿ, андар ааие, шууз йахааⁿ утаарие.",
         "learnerHintRu": "Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)",
         "speechEn": "Здравствуйте! Да, проходите, только снимите обувь здесь.",
-        "learnerHintEn": "Hint: Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)"
+        "learnerHintEn": "Hint: Спросите о фото: А можно сделать фото? (Kyā main photo lē saktī hū̃?)",
+        "speechDevanagari": "नमस्ते! हाँ, अंदर आइए, जूते यहाँ उतारिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -252,7 +257,11 @@
         "acceptableResponsesIso": [
           "Kyā main photo lē saktī hū̃?"
         ],
-        "speechEn": "Хорошо. А здесь можно сфотографировать?"
+        "speechEn": "Хорошо. А здесь можно сфотографировать?",
+        "speechDevanagari": "ठीक है। क्या मैं फ़ोटो ले सकती हूँ?",
+        "acceptableResponsesDevanagari": [
+          "क्या मैं फ़ोटो ले सकती हूँ?"
+        ]
       },
       {
         "speaker": "Служитель",
@@ -261,7 +270,8 @@
         "speechCyrillic": "Баахар фото лее сактии хэⁿ, андар нахииⁿ.",
         "learnerHintRu": "Ответьте с почтением: Main samjhī, dhanyavād jī!",
         "speechEn": "Снаружи можно, а внутри алтаря фото делать нельзя.",
-        "learnerHintEn": "Hint: Ответьте с почтением: Main samjhī, dhanyavād jī!"
+        "learnerHintEn": "Hint: Ответьте с почтением: Main samjhī, dhanyavād jī!",
+        "speechDevanagari": "बाहर फ़ोटो ले सकती हैं, अंदर नहीं।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -271,7 +281,11 @@
         "acceptableResponsesIso": [
           "Main samjhī, shukriyā!"
         ],
-        "speechEn": "Я поняла, спасибо большое!"
+        "speechEn": "Я поняла, спасибо большое!",
+        "speechDevanagari": "मैं समझी, बहुत धन्यवाद जी!",
+        "acceptableResponsesDevanagari": [
+          "मैं समझी, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Modal Capacity and Permission with Saknā",

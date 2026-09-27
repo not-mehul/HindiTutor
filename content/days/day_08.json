@@ -200,7 +200,8 @@
       "transliterationIsoTarget": "Hā̃-jī, ṭhīk hai",
       "explanationRu": "Ṭhīk hai = все хорошо / в порядке.",
       "instructionEn": "Exercise instruction: Завершите фразу согласия: 'Да, все хорошо!'",
-      "explanationEn": "Ṭhīk hai = все хорошо / в порядке."
+      "explanationEn": "Ṭhīk hai = все хорошо / в порядке.",
+      "devanagariTarget": "हाँ - जी, ठीक है"
     },
     {
       "id": "d08_ex05",
@@ -217,7 +218,8 @@
       "phoneticCyrillicTarget": "Намастэ джии!",
       "transliterationIsoTarget": "Namastē jī!",
       "explanationRu": "Правильный и уверенный устный ответ: Namastē jī!",
-      "explanationEn": "Correct and confident verbal response: Namastē jī!"
+      "explanationEn": "Correct and confident verbal response: Namastē jī!",
+      "devanagariTarget": "नमस्ते जी!"
     }
   ],
   "simulationRoleplay": {
@@ -233,7 +235,8 @@
         "speechCyrillic": "Намастэ джии! Вэлкам! Аапкаа наам кйаа хэ?",
         "learnerHintRu": "Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai.",
         "speechEn": "Намастэ! Добро пожаловать! Как вас зовут?",
-        "learnerHintEn": "Hint: Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai."
+        "learnerHintEn": "Hint: Поприветствуйте и назовите имя: Namastē jī! Mērā nām [Имя] hai.",
+        "speechDevanagari": "नमस्ते जी! वेलकम! आपका नाम क्या है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -244,7 +247,12 @@
           "Namastē jī! Mērā nām Anna hai.",
           "Main Russia sē hū̃."
         ],
-        "speechEn": "Здравствуйте! Меня зовут Анна. Я из России."
+        "speechEn": "Здравствуйте! Меня зовут Анна. Я из России.",
+        "speechDevanagari": "नमस्ते जी! मेरा नाम अन्ना है। मैं रूस से हूँ।",
+        "acceptableResponsesDevanagari": [
+          "नमस्ते जी! मेरा नाम अन्ना है।",
+          "मैं रूस से हूँ।"
+        ]
       },
       {
         "speaker": "Владелец",
@@ -253,7 +261,8 @@
         "speechCyrillic": "Бахут аччхаа! Аап кэсии хэⁿ? Саб т͟хиик?",
         "learnerHintRu": "Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?",
         "speechEn": "Очень приятно! Как ваши дела? Все в порядке?",
-        "learnerHintEn": "Hint: Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?"
+        "learnerHintEn": "Hint: Ответьте: Main ṭhīk hū̃, dhanyavād! Aur āp?",
+        "speechDevanagari": "बहुत अच्छा! आप कैसी हैं? सब ठीक?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -263,7 +272,11 @@
         "acceptableResponsesIso": [
           "Main ṭhīk hū̃, shukriyā!"
         ],
-        "speechEn": "Я в порядке, спасибо! А как ваши дела?"
+        "speechEn": "Я в порядке, спасибо! А как ваши дела?",
+        "speechDevanagari": "मैं ठीक हूँ, धन्यवाद! और आप?",
+        "acceptableResponsesDevanagari": [
+          "मैं ठीक हूँ, शुक्रिया!"
+        ]
       },
       {
         "speaker": "Владелец",
@@ -272,7 +285,8 @@
         "speechCyrillic": "Мэⁿ бхии т͟хиик хууⁿ! Ааие джии, руум намбар 3 вахааⁿ хэ.",
         "learnerHintRu": "Поблагодарите: Bahut shukriyā jī!",
         "speechEn": "Все отлично! Проходите, комната номер 3 направо.",
-        "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā jī!"
+        "learnerHintEn": "Hint: Поблагодарите: Bahut shukriyā jī!",
+        "speechDevanagari": "मैं भी ठीक हूँ! आइए जी, रूम नंबर 3 वहाँ है।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -282,7 +296,11 @@
         "acceptableResponsesIso": [
           "Dhanyavād jī!"
         ],
-        "speechEn": "Большое спасибо!"
+        "speechEn": "Большое спасибо!",
+        "speechDevanagari": "बहुत शुक्रिया जी!",
+        "acceptableResponsesDevanagari": [
+          "धन्यवाद जी!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Phase 1 Synthesis, Articulatory Review, and Introductory Simulation",

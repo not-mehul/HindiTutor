@@ -162,7 +162,8 @@
       "transliterationIsoTarget": "Paisē lījiye!",
       "explanationRu": "Lījiye означает 'возьмите'.",
       "instructionEn": "Exercise instruction: Передайте деньги и скажите: 'Возьмите, пожалуйста'",
-      "explanationEn": "Lījiye означает 'возьмите'."
+      "explanationEn": "Lījiye означает 'возьмите'.",
+      "devanagariTarget": "पैसे लीजिए!"
     },
     {
       "id": "d13_ex03",
@@ -194,7 +195,8 @@
       "transliterationIsoTarget": "Andar āiye!",
       "explanationRu": "Āiye означает 'проходите / входите'.",
       "instructionEn": "Exercise instruction: Пригласите гостя войти: 'Проходите, пожалуйста!'",
-      "explanationEn": "Āiye означает 'проходите / входите'."
+      "explanationEn": "Āiye означает 'проходите / входите'.",
+      "devanagariTarget": "अंदर आइए!"
     },
     {
       "id": "d13_ex05",
@@ -211,7 +213,8 @@
       "phoneticCyrillicTarget": "Дииджие!",
       "transliterationIsoTarget": "Dījiye!",
       "explanationRu": "Правильный и уверенный устный ответ: Dījiye!",
-      "explanationEn": "Correct and confident verbal response: Dījiye!"
+      "explanationEn": "Correct and confident verbal response: Dījiye!",
+      "devanagariTarget": "दीजिए!"
     }
   ],
   "simulationRoleplay": {
@@ -227,7 +230,8 @@
         "speechCyrillic": "Намастэ мадам! Ааие, йахааⁿ бэтхие.",
         "learnerHintRu": "Попросите воду: Pānī dījiye, пожалуйста",
         "speechEn": "Добро пожаловать, сестра! Проходите, присаживайтесь.",
-        "learnerHintEn": "Hint: Попросите воду: Pānī dījiye, пожалуйста"
+        "learnerHintEn": "Hint: Попросите воду: Pānī dījiye, пожалуйста",
+        "speechDevanagari": "नमस्ते मैडम! आइए, यहाँ बैठिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -238,7 +242,12 @@
           "Pānī dījiye",
           "Ek bottle pānī dījiye"
         ],
-        "speechEn": "Здравствуйте! Дайте бутылку воды, пожалуйста."
+        "speechEn": "Здравствуйте! Дайте бутылку воды, пожалуйста.",
+        "speechDevanagari": "नमस्ते जी! एक बोतल पानी दीजिए।",
+        "acceptableResponsesDevanagari": [
+          "पानी दीजिए",
+          "एक बोतल पानी दीजिए"
+        ]
       },
       {
         "speaker": "Хозяин",
@@ -247,7 +256,8 @@
         "speechCyrillic": "Лииджие, тхандаа паании. Биис рупае.",
         "learnerHintRu": "Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)",
         "speechEn": "Вот, пожалуйста, холодная вода. Двадцать рупий.",
-        "learnerHintEn": "Hint: Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)"
+        "learnerHintEn": "Hint: Протяните деньги со словами: Возьмите деньги, спасибо! (Paisē lījiye, shukriyā!)",
+        "speechDevanagari": "लीजिए, ठंडा पानी। बीस रुपये।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -257,7 +267,11 @@
         "acceptableResponsesIso": [
           "Lījiye, shukriyā!"
         ],
-        "speechEn": "Возьмите, пожалуйста. Большое спасибо!"
+        "speechEn": "Возьмите, пожалуйста. Большое спасибо!",
+        "speechDevanagari": "पैसे लीजिए। बहुत शुक्रिया!",
+        "acceptableResponsesDevanagari": [
+          "लीजिए, शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Formal Imperatives and Social Directives (-iye)",

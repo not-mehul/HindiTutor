@@ -188,7 +188,8 @@
       "transliterationIsoTarget": "Mērā passport khō gayā hai.",
       "explanationRu": "Passport мужского рода, поэтому khō gayā.",
       "instructionEn": "Exercise instruction: Сообщите, что потерялся паспорт (мужской род)",
-      "explanationEn": "Passport мужского рода, поэтому khō gayā."
+      "explanationEn": "Passport мужского рода, поэтому khō gayā.",
+      "devanagariTarget": "मेरा पासपोर्ट खो गया है।"
     },
     {
       "id": "d39_ex04",
@@ -204,7 +205,8 @@
       "transliterationIsoTarget": "Kitnī dērī hai?",
       "explanationRu": "Dērī = задержка / опоздание.",
       "instructionEn": "Exercise instruction: Спросите о причине задержки рейса",
-      "explanationEn": "Dērī = задержка / опоздание."
+      "explanationEn": "Dērī = задержка / опоздание.",
+      "devanagariTarget": "कितनी देरी है?"
     },
     {
       "id": "d39_ex05",
@@ -221,7 +223,8 @@
       "phoneticCyrillicTarget": "Кхоо гайаа / Кхоо гайии!",
       "transliterationIsoTarget": "Khō gayā (m) / Khō gayī (f)!",
       "explanationRu": "Правильный и уверенный устный ответ: Khō gayā (m) / Khō gayī (f)!",
-      "explanationEn": "Correct and confident verbal response: Khō gayā (m) / Khō gayī (f)!"
+      "explanationEn": "Correct and confident verbal response: Khō gayā (m) / Khō gayī (f)!",
+      "devanagariTarget": "खो गया () / खो गयी ()!"
     }
   ],
   "simulationRoleplay": {
@@ -237,7 +240,8 @@
         "speechCyrillic": "Намастэ сэр! Мадад кииджие, мераа бэг коуч мэⁿ кхоо гайаа хэ.",
         "learnerHintRu": "Заявите о пропаже: Mērā bag khō gayā hai",
         "speechEn": "Здравствуйте, сэр! Помогите пожалуйста, мой рюкзак потерялся в вагоне.",
-        "learnerHintEn": "Hint: Заявите о пропаже: Mērā bag khō gayā hai"
+        "learnerHintEn": "Hint: Заявите о пропаже: Mērā bag khō gayā hai",
+        "speechDevanagari": "नमस्ते सर! मदद कीजिए, मेरा बैग कोच में खो गया है।"
       },
       {
         "speaker": "Офицер",
@@ -246,7 +250,8 @@
         "speechCyrillic": "Чинтаа мат кииджие мадам! Трэйн намбар аур коуч кйаа хэ?",
         "learnerHintRu": "Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)",
         "speechEn": "Спокойно, мадам! Какой номер поезда и какой вагон?",
-        "learnerHintEn": "Hint: Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)"
+        "learnerHintEn": "Hint: Назовите номер и цвет: Train 12002, blue bag hai. Помогите найти! (Madad kījiye)",
+        "speechDevanagari": "चिंता मत कीजिए मैडम! ट्रेन नंबर और कोच क्या है?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -256,7 +261,11 @@
         "acceptableResponsesIso": [
           "Blue bag khō gayā hai. Madad kījiye!"
         ],
-        "speechEn": "Поезд Shatabdi, синий рюкзак. Там паспорт и билеты. Помогите!"
+        "speechEn": "Поезд Shatabdi, синий рюкзак. Там паспорт и билеты. Помогите!",
+        "speechDevanagari": "ट्रेन शताब्दी, ब्लू बैग है। पासपोर्ट वहाँ है। मदद कीजिए!",
+        "acceptableResponsesDevanagari": [
+          "ब्लू बैग खो गया है। मदद कीजिए!"
+        ]
       },
       {
         "speaker": "Офицер",
@@ -265,7 +274,8 @@
         "speechCyrillic": "Мэⁿ абхии Ти-Ти-Ии ко кол картаа хууⁿ. Йахааⁿ бэтхие.",
         "learnerHintRu": "Поблагодарите с облегчением: Bahut dhanyavād sir!",
         "speechEn": "Я прямо сейчас звоню проводнику поезда! Садитесь здесь.",
-        "learnerHintEn": "Hint: Поблагодарите с облегчением: Bahut dhanyavād sir!"
+        "learnerHintEn": "Hint: Поблагодарите с облегчением: Bahut dhanyavād sir!",
+        "speechDevanagari": "मैं अभी टीटीई को कॉल करता हूँ। यहाँ बैठिए।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -275,7 +285,11 @@
         "acceptableResponsesIso": [
           "Bahut shukriyā!"
         ],
-        "speechEn": "Большое спасибо, сэр!"
+        "speechEn": "Большое спасибо, сэр!",
+        "speechDevanagari": "बहुत धन्यवाद सर!",
+        "acceptableResponsesDevanagari": [
+          "बहुत शुक्रिया!"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Travel Disruptions: Delays and Lost Property",

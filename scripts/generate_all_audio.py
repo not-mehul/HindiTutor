@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """
 scripts/generate_all_audio.py
-Exhaustive Neural Audio Generator for HindiTutor (100% Female Voice: hi-IN-SwaraNeural)
-Collects EVERY conceivable audio interaction in the app:
-- Every vocabulary item and individual word
-- Every exercise word chip, option, and answer
-- Every roleplay turn and acceptable response chip
-- Every phonetic drill and minimal pair
-- Every PIE cognate and setting test phrase
-Synthesizes with edge-tts using Azure SwaraNeural (female voice) and builds an airtight manifest.
+Exhaustive Pure Devanagari Neural Audio Generator for HindiTutor (Voice: hi-IN-SwaraNeural)
+Synthesizes 100% authentic native Hindi speech by converting all course inputs into canonical
+Devanagari script before synthesis, eliminating any English/Hinglish phonetic degradation.
 """
 
 import asyncio
@@ -17,11 +12,17 @@ import hashlib
 import json
 import re
 import sys
+import shutil
 from pathlib import Path
+
+# Add project root to sys.path so we can import scripts.devanagari_master
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from scripts.devanagari_master import iso_to_devanagari
 
 VOICE_FEMALE = "hi-IN-SwaraNeural"
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "web" / "public" / "audio"
 DIST_AUDIO_DIR = PROJECT_ROOT / "web" / "dist" / "audio"
 MANIFEST_FILE = PROJECT_ROOT / "web" / "src" / "data" / "audioManifest.json"
@@ -35,40 +36,20 @@ except ImportError:
     print("Error: edge-tts is not installed. Please run: pip install edge-tts")
     sys.exit(1)
 
-# Cyrillic to Devanagari transliteration table for speech synthesis
-CYR_TO_DEV_TABLE = [
-    ('т͟х', 'ठ'), ('д͟х', 'ढ'), ('кх', 'ख'), ('гх', 'घ'), ('чх', 'छ'), ('джх', 'झ'),
-    ('тх', 'थ'), ('дх', 'ध'), ('пх', 'फ'), ('бх', 'भ'), ('дж', 'ज'),
-    ('т͟', 'ट'), ('д͟', 'ड'), ('р͟', 'ड़'),
-    ('к', 'क'), ('г', 'ग'), ('ч', 'च'), ('т', 'त'), ('д', 'द'), ('п', 'प'), ('б', 'ब'),
-    ('м', 'म'), ('н', 'न'), ('й', 'य'), ('р', 'र'), ('л', 'ल'), ('в', 'व'),
-    ('ш', 'श'), ('с', 'स'), ('х', 'ह'), ('ф', 'फ़'), ('з', 'ज़'),
-    ('аа', 'ा'), ('ии', 'ी'), ('уу', 'ू'), ('э', 'े'), ('оо', 'ो'), ('о', 'ो'),
-    ('а', ''), ('и', 'ि'), ('у', 'ु'),
-    ('ⁿ', 'ँ')
-]
-
-def transliterate_cyr_to_dev(text: str) -> str:
-    if not re.search(r'[\u0400-\u04FF]', text):
-        return text
-    result = text.lower()
-    for cyr, dev in CYR_TO_DEV_TABLE:
-        result = result.replace(cyr, dev)
-    # Strip any remaining unmapped Cyrillic
-    result = re.sub(r'[\u0400-\u04FF]', '', result)
-    return result.strip()
-
 def has_cyrillic(text: str) -> bool:
     return bool(re.search(r'[\u0400-\u04FF]', text))
+
+def has_devanagari(text: str) -> bool:
+    return bool(re.search(r'[\u0900-\u097F]', text))
 
 def clean_text_for_speech(text: str) -> str:
     if not text:
         return ""
-    # Strip parentheticals e.g. (зубной), (не смягчать!)
+    # Strip parentheticals e.g. (m), (f), (зубной)
     cleaned = re.sub(r'[\(\[\{][^\)\]\}]*[\)\]\}]', '', text)
     # Strip quotes and brackets
     cleaned = re.sub(r'["\'«»\[\]]', '', cleaned)
-    # If slash options present e.g. "Khō gayā (m) / Khō gayī (f)", take first option
+    # If slash options present e.g. "Khō gayā / Khō gayī", take first option
     if '/' in cleaned:
         cleaned = cleaned.split('/')[0]
     # Strip trailing/leading punctuation
@@ -77,23 +58,26 @@ def clean_text_for_speech(text: str) -> str:
 
 def sanitize_filename(prefix: str, text: str) -> str:
     h = hashlib.md5(text.strip().encode('utf-8')).hexdigest()[:10]
-    clean = re.sub(r'[^a-zA-Z0-9]', '_', text.strip().lower())[:15].strip('_')
-    clean_prefix = re.sub(r'[^a-zA-Z0-9]', '_', prefix)[:12].strip('_')
-    return f"{clean_prefix}_{clean}_{h}" if clean else f"{clean_prefix}_{h}"
+    clean_prefix = re.sub(r'[^a-zA-Z0-9]', '_', prefix)[:10].strip('_')
+    return f"{clean_prefix}_{h}"
 
 async def synthesize_item(sem: asyncio.Semaphore, text: str, filename: str):
-    if has_cyrillic(text):
-        return None
-
     output_path = OUTPUT_DIR / f"{filename}.mp3"
+    dist_path = DIST_AUDIO_DIR / f"{filename}.mp3"
+
+    # Reuse if already synthesized and valid
     if output_path.exists() and output_path.stat().st_size > 500:
+        if not dist_path.exists():
+            shutil.copy2(output_path, dist_path)
         return f"/audio/{filename}.mp3"
 
     async with sem:
         try:
-            communicate = edge_tts.Communicate(text, VOICE_FEMALE, rate="-6%")
+            # Azure SwaraNeural with -4% rate for natural, articulate diction
+            communicate = edge_tts.Communicate(text, VOICE_FEMALE, rate="-4%")
             await communicate.save(str(output_path))
-            print(f"  ✓ Synthesized [FEMALE]: '{text[:30]}' -> {filename}.mp3")
+            shutil.copy2(output_path, dist_path)
+            print(f"  ✓ Synthesized [Devanagari]: '{text[:30]}' -> {filename}.mp3")
             return f"/audio/{filename}.mp3"
         except Exception as e:
             print(f"  ✗ Failed '{text[:30]}': {e}")
@@ -101,10 +85,10 @@ async def synthesize_item(sem: asyncio.Semaphore, text: str, filename: str):
 
 async def main():
     print("=" * 70)
-    print("Exhaustive Neural Audio Generator for Spoken Hindi (hi-IN-SwaraNeural FEMALE)")
+    print("Exhaustive Pure Devanagari Audio Generator (Azure hi-IN-SwaraNeural FEMALE)")
     print("=" * 70)
 
-    # text_to_synthesize -> set of lookup keys
+    # dev_speech_text -> set of lookup keys
     speech_registry = {}
 
     def register(text_to_speak: str, *keys):
@@ -114,17 +98,21 @@ async def main():
         if not clean_speech:
             return
 
-        # If it has Cyrillic, transliterate to Devanagari for speech
-        if has_cyrillic(clean_speech):
-            clean_speech = transliterate_cyr_to_dev(clean_speech)
+        # 1. Obtain pure Devanagari text for speech synthesis
+        if has_devanagari(clean_speech):
+            dev_speech = clean_speech
+        else:
+            dev_speech = iso_to_devanagari(clean_speech)
 
-        if not clean_speech or has_cyrillic(clean_speech):
-            return
+        if not dev_speech or not dev_speech.strip():
+            dev_speech = clean_speech
 
-        if clean_speech not in speech_registry:
-            speech_registry[clean_speech] = set()
+        if dev_speech not in speech_registry:
+            speech_registry[dev_speech] = set()
 
-        for k in keys:
+        # 2. Register all conceivable lookup keys
+        all_raw_keys = list(keys) + [clean_speech, dev_speech]
+        for k in all_raw_keys:
             if not k:
                 continue
             k_str = str(k).strip()
@@ -151,16 +139,12 @@ async def main():
                 f"text:{k_clean.lower()}",
                 f"text:{k_no_punct.lower()}"
             }
-            speech_registry[clean_speech].update(variants)
-
-        # Also register speech text itself
-        speech_registry[clean_speech].add(clean_speech)
-        speech_registry[clean_speech].add(clean_speech.lower())
-        speech_registry[clean_speech].add(f"text:{clean_speech}")
-        speech_registry[clean_speech].add(f"text:{clean_speech.lower()}")
+            speech_registry[dev_speech].update(variants)
 
     # 1. Crawl all 40 Days
     days_files = sorted(glob.glob(str(PROJECT_ROOT / "content" / "days" / "day_*.json")))
+    print(f"Crawling {len(days_files)} curriculum day files...")
+
     for df in days_files:
         with open(df, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -173,7 +157,7 @@ async def main():
                 iso = v.get("transliterationIso", "").strip()
                 cyr = v.get("phoneticCyrillic", "").strip()
 
-                target_speech = dev if dev and not has_cyrillic(dev) else iso
+                target_speech = dev if dev else iso
                 register(target_speech, dev, iso, cyr, vid, f"vocab_{vid}", f"vocab_{iso}", f"vocab_{dev}")
 
                 # Register each individual word in multi-word vocabulary
@@ -205,9 +189,11 @@ async def main():
                         register(clean_ans, ans, clean_ans)
                 # Targets
                 iso_t = ex.get("transliterationIsoTarget")
+                dev_t = ex.get("devanagariTarget")
                 cyr_t = ex.get("phoneticCyrillicTarget")
-                if iso_t:
-                    register(iso_t, iso_t, cyr_t)
+                target_ex = dev_t if dev_t else iso_t
+                if target_ex:
+                    register(target_ex, iso_t, dev_t, cyr_t)
 
             # C. Simulation Roleplay turns
             turns = data.get("simulationRoleplay", {}).get("turns", [])
@@ -217,12 +203,14 @@ async def main():
                 s_cyr = turn.get("speechCyrillic", "").strip()
                 t_key = f"roleplay_d{day_num}_t{t_idx}"
 
-                target_turn = s_dev if s_dev and not has_cyrillic(s_dev) else s_iso
+                target_turn = s_dev if s_dev else s_iso
                 register(target_turn, t_key, s_iso, s_dev, s_cyr)
 
                 # Acceptable response chips
                 for resp in turn.get("acceptableResponsesIso", []):
                     register(resp, resp, f"resp_{resp}")
+                for resp_dev in turn.get("acceptableResponsesDevanagari", []):
+                    register(resp_dev, resp_dev)
 
             # D. Phonetic Focus Drills
             drills = data.get("phoneticFocus", {}).get("drills", [])
@@ -259,7 +247,7 @@ async def main():
                     if p_clean and not has_cyrillic(p_clean):
                         register(p_clean, p.strip(), p_clean)
 
-                target_c = dev if dev and not has_cyrillic(dev) else iso
+                target_c = dev if dev else iso
                 register(target_c, dev, iso, cyr)
 
     # 3. Phonetics Gym Consonants & Minimal Pairs
@@ -296,7 +284,7 @@ async def main():
     for tp in test_phrases:
         register(tp, tp, f"phrase_{tp}")
 
-    print(f"Total unique speech targets to evaluate: {len(speech_registry)}")
+    print(f"Total unique Devanagari speech targets: {len(speech_registry)}")
 
     # Concurrency semaphore
     sem = asyncio.Semaphore(10)
@@ -309,6 +297,7 @@ async def main():
         fname = sanitize_filename("fem", text)
         tasks.append((text, fname, synthesize_item(sem, text, fname)))
 
+    print(f"Starting neural speech synthesis for {len(tasks)} items...")
     results = await asyncio.gather(*(t[2] for t in tasks))
 
     success_count = 0
@@ -331,7 +320,7 @@ async def main():
         json.dump(manifest_entries, f, ensure_ascii=False, indent=2)
 
     print("=" * 70)
-    print(f"✓ Total synthesized/verified audio files: {success_count}")
+    print(f"✓ Total synthesized/verified Devanagari audio files: {success_count}")
     print(f"✓ Total lookup manifest keys indexed: {len(manifest_entries)}")
     print(f"✓ Manifest saved to: {MANIFEST_FILE}")
     print("=" * 70)

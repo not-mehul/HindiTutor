@@ -166,7 +166,8 @@
       "transliterationIsoTarget": "Thōṛā namak dījiye.",
       "explanationRu": "Namak = соль.",
       "instructionEn": "Exercise instruction: Попросите принести немного соли к столу",
-      "explanationEn": "Namak = соль."
+      "explanationEn": "Namak = соль.",
+      "devanagariTarget": "थोड़ा नमक दीजिए।"
     },
     {
       "id": "d21_ex03",
@@ -198,7 +199,8 @@
       "transliterationIsoTarget": "Chāi bahut mīṭhī hai.",
       "explanationRu": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī.",
       "instructionEn": "Exercise instruction: Скажите, что чай слишком сладкий",
-      "explanationEn": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī."
+      "explanationEn": "Слово chāi женского рода, поэтому прилагательное согласуется в форме mīṭhī.",
+      "devanagariTarget": "चाय बहुत मीठी है।"
     },
     {
       "id": "d21_ex05",
@@ -215,7 +217,8 @@
       "phoneticCyrillicTarget": "Сваадишт!",
       "transliterationIsoTarget": "Svādishṭ!",
       "explanationRu": "Правильный и уверенный устный ответ: Svādishṭ!",
-      "explanationEn": "Correct and confident verbal response: Svādishṭ!"
+      "explanationEn": "Correct and confident verbal response: Svādishṭ!",
+      "devanagariTarget": "स्वादिष्ट!"
     }
   ],
   "simulationRoleplay": {
@@ -231,7 +234,8 @@
         "speechCyrillic": "Намастэ мадам! Кхаанаа кэсаа лагаа?",
         "learnerHintRu": "Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса.",
         "speechEn": "Намастэ, сестра! Как вам наше карри? Понравилось?",
-        "learnerHintEn": "Hint: Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса."
+        "learnerHintEn": "Hint: Похвалите: Khānā bahut svādishṭ hai! Дайте еще немного риса.",
+        "speechDevanagari": "नमस्ते मैडम! खाना कैसा लगा?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -241,7 +245,11 @@
         "acceptableResponsesIso": [
           "Bahut svādishṭ hai!"
         ],
-        "speechEn": "Еда очень вкусная! Спасибо большое."
+        "speechEn": "Еда очень вкусная! Спасибо большое.",
+        "speechDevanagari": "खाना बहुत स्वादिष्ट है! बहुत शुक्रिया।",
+        "acceptableResponsesDevanagari": [
+          "बहुत स्वादिष्ट है!"
+        ]
       },
       {
         "speaker": "Хозяин",
@@ -250,7 +258,8 @@
         "speechCyrillic": "Дханьяваад мадам! Аур кучх чаахийе?",
         "learnerHintRu": "Попросите немного соли: Thōṛā namak dījiye",
         "speechEn": "Большое спасибо! Еще что-нибудь нужно?",
-        "learnerHintEn": "Hint: Попросите немного соли: Thōṛā namak dījiye"
+        "learnerHintEn": "Hint: Попросите немного соли: Thōṛā namak dījiye",
+        "speechDevanagari": "धन्यवाद मैडम! और कुछ चाहिए?"
       },
       {
         "speaker": "Вы (ученица)",
@@ -260,7 +269,11 @@
         "acceptableResponsesIso": [
           "Thōṛā namak dījiye"
         ],
-        "speechEn": "Да, дайте еще немного соли, пожалуйста."
+        "speechEn": "Да, дайте еще немного соли, пожалуйста.",
+        "speechDevanagari": "हाँ - जी, थोड़ा नमक दीजिए।",
+        "acceptableResponsesDevanagari": [
+          "थोड़ा नमक दीजिए"
+        ]
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Expressing Culinary Evaluation and Quality",

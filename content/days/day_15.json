@@ -164,7 +164,8 @@
       "transliterationIsoTarget": "Das minute lagēgā.",
       "explanationRu": "Das minute lagēgā = Уйдет десять минут.",
       "instructionEn": "Exercise instruction: Ответьте: 'Потребуется 10 минут'",
-      "explanationEn": "Das minute lagēgā = Уйдет десять минут."
+      "explanationEn": "Das minute lagēgā = Уйдет десять минут.",
+      "devanagariTarget": "दस मिनट लगेगा।"
     },
     {
       "id": "d15_ex03",
@@ -196,7 +197,8 @@
       "transliterationIsoTarget": "Aglā stop airport hai?",
       "explanationRu": "Aglā = следующий.",
       "instructionEn": "Exercise instruction: Уточните: 'Следующая остановка — аэропорт?'",
-      "explanationEn": "Aglā = следующий."
+      "explanationEn": "Aglā = следующий.",
+      "devanagariTarget": "अगला स्टॉप एयरपोर्ट है?"
     },
     {
       "id": "d15_ex05",
@@ -213,7 +215,8 @@
       "phoneticCyrillicTarget": "Китнаа!",
       "transliterationIsoTarget": "Kitnā!",
       "explanationRu": "Правильный и уверенный устный ответ: Kitnā!",
-      "explanationEn": "Correct and confident verbal response: Kitnā!"
+      "explanationEn": "Correct and confident verbal response: Kitnā!",
+      "devanagariTarget": "कितना!"
     }
   ],
   "simulationRoleplay": {
@@ -229,7 +232,8 @@
         "speechCyrillic": "Бхаййаа, трафик хэ. Эрпорт китнаа тайм лагээгаа?",
         "learnerHintRu": "Задайте вопрос: Airport kitnā time lagēgā?",
         "speechEn": "Брат, здесь сильная пробка. Сколько времени потребуется до аэропорта?",
-        "learnerHintEn": "Hint: Задайте вопрос: Airport kitnā time lagēgā?"
+        "learnerHintEn": "Hint: Задайте вопрос: Airport kitnā time lagēgā?",
+        "speechDevanagari": "भैया, ट्रैफ़िक है। एयरपोर्ट कितना टाइम लगेगा?"
       },
       {
         "speaker": "Водитель",
@@ -238,7 +242,8 @@
         "speechCyrillic": "Чинтаа мат кииджие мадам. Дас-панндрах минат лагээгаа.",
         "learnerHintRu": "Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)",
         "speechEn": "Не волнуйтесь, мадам. Всего десять-пятнадцать минут потребуется.",
-        "learnerHintEn": "Hint: Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)"
+        "learnerHintEn": "Hint: Уточните: Следующий съезд уже аэропорт? (Aglā stop airport hai?)",
+        "speechDevanagari": "चिंता मत कीजिए मैडम। दस-पंद्रह मिनट लगेगा।"
       },
       {
         "speaker": "Вы (ученица)",
@@ -248,7 +253,11 @@
         "acceptableResponsesIso": [
           "Aglā stop airport hai?"
         ],
-        "speechEn": "Следующая остановка аэропорт?"
+        "speechEn": "Следующая остановка аэропорт?",
+        "speechDevanagari": "अगला स्टॉप एयरपोर्ट है?",
+        "acceptableResponsesDevanagari": [
+          "अगला स्टॉप एयरपोर्ट है?"
+        ]
       },
       {
         "speaker": "Водитель",
@@ -257,7 +266,8 @@
         "speechCyrillic": "Хааⁿ-джии, аглаа стоп эрпорт хэ.",
         "learnerHintRu": "Скажите с облегчением: Ṭhīk hai, shukriyā!",
         "speechEn": "Да, именно так! Скоро приедем.",
-        "learnerHintEn": "Hint: Скажите с облегчением: Ṭhīk hai, shukriyā!"
+        "learnerHintEn": "Hint: Скажите с облегчением: Ṭhīk hai, shukriyā!",
+        "speechDevanagari": "हाँ-जी, अगला स्टॉप एयरपोर्ट है।"
       }
     ],
     "scenarioTitleEn": "Conversational Simulation: Time Calculations and Transit Duration",
